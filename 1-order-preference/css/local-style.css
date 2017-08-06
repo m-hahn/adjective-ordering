@@ -1,0 +1,38 @@
+.slider {
+  /* default is width 400 and margin 10 */
+	width: 200;
+	margin: 10px;
+}
+
+.progress {
+    position: absolute;
+    top: 10px;
+    right: 50%;
+    margin-right: -133;
+}
+
+.slide {
+    padding-top: 36px;
+    /*padding-bottom: 50px;*/
+
+}
+
+
+.long_form {
+    padding-top: 20px;
+}
+
+#pngFrame {
+    z-index:0;
+}
+
+
+#pngTarget {
+    z-index:1;
+}
+
+
+.visualStimulus td
+{
+    padding:0 15px 0 15px;
+}
