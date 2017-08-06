@@ -14,11 +14,11 @@ function make_slides(f) {
 
 var imageNames = ["images/kleibait product2394_image2_size2.png", "images/279_striped_balls_by_tigers_stock-d3l9ssp.png", "images/blue-checkered-ball.png", "images/blue_checkered_ball.png", "images/blue_glass_cup.png", "images/blue_metal_cup.png", "images/blue_plastic_cup.png", "images/blue_solid_ball.png", "images/blue_spotted_ball.png", "images/blue_spotted_ball_old.png", "images/blue_striped_ball.png", "images/blue_wooden_cup.png", "images/frame.png", "images/green_checkered_ball.png", "images/green_glass_cup.png", "images/green_metal_cup.png", "images/green_plastic_cup.png", "images/green_solid_ball.png", "images/green_spotted_ball.png", "images/green_spotted_ball_old.png", "images/green_striped_ball.png", "images/green_wooden_cup.png", "images/orange_checkered_ball.png", "images/purple_plastic_cup.png", "images/purple_spotted_ball.png", "images/purple_wooden_cup.png", "images/red-checkered-ball.png", "images/red_checkered_ball.png", "images/red_glass_cup.png", "images/red_metal_cup.png", "images/red_plastic_cup.png", "images/red_solid_ball.png", "images/red_spotted_ball.png", "images/red_spotted_ball_old.png", "images/red_striped_ball.png", "images/red_wooden_cup.png", "images/wooden_cup.png", "images/yellow_checkered_ball.png", "images/yellow_spotted_ball.png", "images/yellow_wooden_cup.png"];
 
-var imagesPreloaded = [];
+exp.imagesPreloaded = [];
 
     for (var i = 0; i < imageNames.length; i++) {
-        imagesPreloaded[i] = new Image();
-        imagesPreloaded[i].src = imageNames[i];
+        exp.imagesPreloaded[i] = new Image();
+        exp.imagesPreloaded[i].src = imageNames[i];
     }
 
 
@@ -178,6 +178,7 @@ var imagesPreloaded = [];
         age : $("#age").val(),
         gender : $("#gender").val(),
         education : $("#education").val(),
+        colorblind : $("#colorblind").val(),
         comments : $("#comments").val(),
       };
       exp.go(); //use exp.go() if and only if there is no "present" data.
