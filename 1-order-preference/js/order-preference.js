@@ -153,16 +153,18 @@ exp.imagesPreloaded = [];
         exp.data_trials.push({
           "response" : exp.sliderPost,
           "noun" : this.stim.Noun,  
-          "nounclass" : this.stim.NounClass,        
-          "predicate1" : this.stim.Predicate1,
+//          "nounclass" : this.stim.NounClass,        
+          "predicate1" : this.stim.Predicate1, // the version on the left has the order predicate1-predicate2-noun. The version on the right has the order predicate2-predicate1-noun
           "predicate2" : this.stim.Predicate2,
-          "class1" : this.stim.Class1,
-          "class2" : this.stim.Class2,                     
+//          "class1" : this.stim.Class1,
+  //        "class2" : this.stim.Class2,                     
           "slide_number" : exp.phase,
           "condition" : this.stim.condition,
-          "orderCondition" : this.stim.orderCondition,
+//          "orderOfDescriptions" : this.stim.orderCondition,
+          // this encodes the order of 
           "imgs" : this.stim.imgs,
-          "item" : this.stim.item
+          "item" : this.stim.item,
+          "distractorValues" : this.stim.distractorValues
         });
     },
   });

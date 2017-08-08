@@ -90,7 +90,32 @@ function makeStims() {
                 
                 imgs = [];
                 group = condition_index
-                if(group == 0) {// A is informative
+                // with massive informativity difference
+/*                if(group == 0) {// A is informative
+			imgs.push([value1A+"_"+value1B+"_"+noun+".png","target"]);
+			imgs.push([value1A+"_"+value2B+"_"+noun+".png","other"]);
+			imgs.push([value2A+"_"+value1B+"_"+noun+".png","other"]);
+			imgs.push([value2A+"_"+value1B+"_"+noun+".png","other"]);
+			imgs.push([value2A+"_"+value1B+"_"+noun+".png","other"]);
+			imgs.push([value2A+"_"+value1B+"_"+noun+".png","other"]);
+			imgs.push([value3A+"_"+value1B+"_"+noun+".png","other"]);
+			imgs.push([value3A+"_"+value1B+"_"+noun+".png","other"]);
+			imgs.push([value3A+"_"+value1B+"_"+noun+".png","other"]);
+			imgs.push([value3A+"_"+value3B+"_"+noun+".png","other"]);
+                } else if(group == 1) {// B is informative
+			imgs.push([value1A+"_"+value1B+"_"+noun+".png","target"]);
+			imgs.push([value2A+"_"+value1B+"_"+noun+".png","other"]);
+			imgs.push([value1A+"_"+value2B+"_"+noun+".png","other"]);
+			imgs.push([value1A+"_"+value2B+"_"+noun+".png","other"]);
+			imgs.push([value1A+"_"+value2B+"_"+noun+".png","other"]);
+			imgs.push([value1A+"_"+value2B+"_"+noun+".png","other"]);
+			imgs.push([value1A+"_"+value3B+"_"+noun+".png","other"]);
+			imgs.push([value1A+"_"+value3B+"_"+noun+".png","other"]);
+			imgs.push([value1A+"_"+value3B+"_"+noun+".png","other"]);
+			imgs.push([value3A+"_"+value3B+"_"+noun+".png","other"]);
+                } else*/
+                 // with only mild informativity difference
+                  if(group == 0) {// A is informative
 			imgs.push([value1A+"_"+value1B+"_"+noun+".png","target"]);
 			imgs.push([value1A+"_"+value2B+"_"+noun+".png","other"]);
 			imgs.push([value2A+"_"+value1B+"_"+noun+".png","other"]);
@@ -111,7 +136,7 @@ function makeStims() {
 			imgs.push([value2A+"_"+value3B+"_"+noun+".png","other"]);
 			imgs.push([value2A+"_"+value3B+"_"+noun+".png","other"]);
 			imgs.push([value3A+"_"+value3B+"_"+noun+".png","other"]);
-			imgs.push([value3A+"_"+value3B+"_"+noun+".png","other"]);
+			imgs.push([value3A+"_"+value3B+"_"+noun+".png","other"]);*/
                 } else if(group == 2) {// both equally uninformative
 			imgs.push([value1A+"_"+value1B+"_"+noun+".png","target"]);
 			imgs.push([value2A+"_"+value1B+"_"+noun+".png","other"]);
@@ -129,15 +154,16 @@ function makeStims() {
 
 				stims.push({
 					"Predicate1":[value1A, value1B][[0,1][orderCondition]],
-					"Class1":"donotuse",	
+					//"Class1":"donotuse",	
 					"Predicate2":[value1A, value1B][[1,0][orderCondition]],
-					"Class2":"donotuse",			
+					//"Class2":"donotuse",			
 					"Noun":noun,
-					"NounClass":"donotuse",
+					//"NounClass":"donotuse",
                                         "imgs" : _.shuffle(imgs),
-                                        "condition" : group,
-                                        "orderCondition" : orderCondition,
-                                        "item" : [valuesDimA, valuesDimB]
+                                        "condition" : ["first_informative", "second_informative", "filler"][group],
+//                                        "orderCondition" :   ,
+                                        "item" : [value1A, value1B],
+                                        "distractorValues" : [value2A, value2B, value3A, value3B]
 				}			
 			);
 	}
