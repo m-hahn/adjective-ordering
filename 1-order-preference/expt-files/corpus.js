@@ -136,7 +136,7 @@ function makeStims() {
 			imgs.push([value2A+"_"+value3B+"_"+noun+".png","other"]);
 			imgs.push([value2A+"_"+value3B+"_"+noun+".png","other"]);
 			imgs.push([value3A+"_"+value3B+"_"+noun+".png","other"]);
-			imgs.push([value3A+"_"+value3B+"_"+noun+".png","other"]);*/
+			imgs.push([value3A+"_"+value3B+"_"+noun+".png","other"]);
                 } else if(group == 2) {// both equally uninformative
 			imgs.push([value1A+"_"+value1B+"_"+noun+".png","target"]);
 			imgs.push([value2A+"_"+value1B+"_"+noun+".png","other"]);
