@@ -69,3 +69,64 @@ createUniqueItemIDs = function(data, columnName) {
    return (data)
 }
 
+library(tidyverse)
+source("helpers.R")
+
+
+agr = data %>%
+  group_by(condition, predicate1.Type, noun) %>%
+  summarise(Mean = mean(response), CILow = ci.low(response), CIHigh = ci.high(response))
+dodge = position_dodge(.9)
+
+pdf('plots/response-per-condition.pdf')
+ggplot(agr, aes(x=condition,y=Mean,fill=predicate1.Type)) +
+  geom_bar(stat="identity",position=dodge) +
+  geom_errorbar(aes(ymin=Mean-CILow,ymax=Mean+CIHigh),position=dodge,width=.25) +
+  facet_wrap(~noun)
+dev.off()
+
+agr = data %>%
+  group_by(condition, noun) %>%
+  summarise(Mean = mean(scoreForColorFirst), CILow = ci.low(scoreForColorFirst), CIHigh = ci.high(scoreForColorFirst))
+dodge = position_dodge(.9)
+
+pdf('plots/for-color-first-per-condition.pdf')
+ggplot(agr, aes(x=condition,y=Mean)) +
+  geom_bar(stat="identity",position=dodge) +
+  geom_errorbar(aes(ymin=Mean-CILow,ymax=Mean+CIHigh),position=dodge,width=.25) +
+  facet_wrap(~noun)
+dev.off()
+
+
+ggplot(data, aes(x=response)) +
+  geom_histogram() +
+  facet_wrap(~workerid)
+
+
+agr = data %>%
+  group_by(condition, noun, workerid) %>%
+  summarise(Mean = mean(scoreForColorFirst), CILow = ci.low(scoreForColorFirst), CIHigh = ci.high(scoreForColorFirst))
+dodge = position_dodge(.9)
+
+pdf('plots/by-participant.pdf')
+ggplot(agr, aes(x=condition,y=Mean,fill=noun)) +
+  geom_bar(stat="identity",position=dodge) +
+  geom_errorbar(aes(ymin=Mean-CILow,ymax=Mean+CIHigh),position=dodge,width=.25) +
+  facet_wrap(~workerid)
+dev.off()
+
+
+data$Quarter = ifelse(data$slide_number < 9, "first","rest")
+
+agr = data %>%
+  group_by(condition, noun, Quarter) %>%
+  summarise(Mean = mean(scoreForColorFirst), CILow = ci.low(scoreForColorFirst), CIHigh = ci.high(scoreForColorFirst))
+dodge = position_dodge(.9)
+
+pdf('plots/by-quarter.pdf')
+ggplot(agr, aes(x=condition,y=Mean,fill=Quarter)) +
+  geom_bar(stat="identity",position=dodge) +
+  geom_errorbar(aes(ymin=Mean-CILow,ymax=Mean+CIHigh),position=dodge,width=.25) +
+  facet_wrap(~noun)
+dev.off()
+
