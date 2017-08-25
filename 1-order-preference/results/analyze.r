@@ -61,6 +61,20 @@ condition.Is.Second.Informative = (data$condition == "second_informative") # i.e
 condition.Is.Filler = (data$condition == "filler") # i.e., non-color is informative
 data$condition.Renumbered = (-1 * condition.Is.First.Informative) + (0*condition.Is.Filler) + (1*condition.Is.Second.Informative)
 
+
+
 #aggregate(data["scoreForColorFirst"], by=c(data["condition"], data["noun"]), mean)
 #summary(lmer(scoreForColorFirst ~ condition.Renumbered + noun+ (1|workerid) + (1|item), data=data))
+#> source('helpers.R')
+#> aggregate(data["scoreForColorFirst"], by=c(data["predicate1"]), FUN = function(x) c(mn = mean(x), low = mean(x)-ci.low(x), up = mean(x)+ci.high(x)))
+
+
+################################
+# Differences between adjectives of texture
+data$containsCheckeredOrStriped = (data$predicate1 %in% c('checkered', 'striped') | data$predicate2 %in% c('checkered', 'striped'))
+
+data.Ball = data[data$noun == 'ball',]
+summary(lmer(scoreForColorFirst ~ condition.Renumbered * containsCheckeredOrStriped+ (1|workerid) + (1|item), data=data.Ball))
+
+
 
