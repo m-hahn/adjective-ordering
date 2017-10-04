@@ -1,0 +1,1153 @@
+workerid	adjective	quiz_response	relevant_adjective	text	enteredText	response	correct_response	slide_number	predicate2	predicate1	correct	glabOrRofkyFirst	glabOrColorFirst	rofkyOrColorFirst
+0	rofky	first	NA	NA	NA	NA	first	5	NA	NA	NA	NA	NA	NA
+0	rofky	first	NA	NA	NA	NA	first	6	NA	NA	NA	NA	NA	NA
+0	glab	second	NA	NA	NA	NA	second	7	NA	NA	NA	NA	NA	NA
+0	glab	first	NA	NA	NA	NA	first	8	NA	NA	NA	NA	NA	NA
+0	rofky	first	NA	NA	NA	NA	first	9	NA	NA	NA	NA	NA	NA
+0	glab	first	NA	NA	NA	NA	first	10	NA	NA	NA	NA	NA	NA
+0	glab	first	NA	NA	NA	NA	first	11	NA	NA	NA	NA	NA	NA
+0	rofky	second	NA	NA	NA	NA	second	12	NA	NA	NA	NA	NA	NA
+0	rofky	first	NA	NA	NA	NA	first	13	NA	NA	NA	NA	NA	NA
+0	rofky	first	NA	NA	NA	NA	first	14	NA	NA	NA	NA	NA	NA
+0	glab	second	NA	NA	NA	NA	second	15	NA	NA	NA	NA	NA	NA
+0	glab	second	NA	NA	NA	NA	second	16	NA	NA	NA	NA	NA	NA
+0	rofky	first	NA	NA	NA	NA	first	17	NA	NA	NA	NA	NA	NA
+0	rofky	first	NA	NA	NA	NA	first	18	NA	NA	NA	NA	NA	NA
+0	glab	second	NA	NA	NA	NA	second	19	NA	NA	NA	NA	NA	NA
+0	rofky	first	NA	NA	NA	NA	first	20	NA	NA	NA	NA	NA	NA
+0	glab	first	NA	NA	NA	NA	first	21	NA	NA	NA	NA	NA	NA
+0	rofky	first	NA	NA	NA	NA	first	22	NA	NA	NA	NA	NA	NA
+0	rofky	second	NA	NA	NA	NA	second	23	NA	NA	NA	NA	NA	NA
+0	glab	first	NA	NA	NA	NA	first	24	NA	NA	NA	NA	NA	NA
+0	rofky	first	NA	NA	NA	NA	first	25	NA	NA	NA	NA	NA	NA
+0	glab	first	NA	NA	NA	NA	first	26	NA	NA	NA	NA	NA	NA
+0	rofky	second	NA	NA	NA	NA	second	27	NA	NA	NA	NA	NA	NA
+0	glab	first	NA	NA	NA	NA	first	28	NA	NA	NA	NA	NA	NA
+0	glab	first	NA	NA	NA	NA	first	29	NA	NA	NA	NA	NA	NA
+0	rofky	second	NA	NA	NA	NA	second	30	NA	NA	NA	NA	NA	NA
+0	glab	second	NA	NA	NA	NA	second	31	NA	NA	NA	NA	NA	NA
+0	glab	second	NA	NA	NA	NA	second	32	NA	NA	NA	NA	NA	NA
+0	rofky	first	NA	NA	NA	NA	first	33	NA	NA	NA	NA	NA	NA
+0	glab	first	NA	NA	NA	NA	first	34	NA	NA	NA	NA	NA	NA
+0	rofky	first	NA	NA	NA	NA	first	35	NA	NA	NA	NA	NA	NA
+0	glab	first	NA	NA	NA	NA	first	36	NA	NA	NA	NA	NA	NA
+0	glab	second	NA	NA	NA	NA	second	37	NA	NA	NA	NA	NA	NA
+0	glab	first	NA	NA	NA	NA	first	38	NA	NA	NA	NA	NA	NA
+0	glab	second	NA	NA	NA	NA	second	39	NA	NA	NA	NA	NA	NA
+0	rofky	second	NA	NA	NA	NA	second	40	NA	NA	NA	NA	NA	NA
+0	rofky	first	NA	NA	NA	NA	first	41	NA	NA	NA	NA	NA	NA
+0	rofky	second	NA	NA	NA	NA	second	42	NA	NA	NA	NA	NA	NA
+0	glab	second	NA	NA	NA	NA	second	43	NA	NA	NA	NA	NA	NA
+0	rofky	first	NA	NA	NA	NA	first	44	NA	NA	NA	NA	NA	NA
+0	rofky	second	NA	NA	NA	NA	second	45	NA	NA	NA	NA	NA	NA
+0	glab	second	NA	NA	NA	NA	second	46	NA	NA	NA	NA	NA	NA
+0	rofky	first	NA	NA	NA	NA	first	47	NA	NA	NA	NA	NA	NA
+0	rofky	first	NA	NA	NA	NA	first	48	NA	NA	NA	NA	NA	NA
+0	glab	second	NA	NA	NA	NA	second	49	NA	NA	NA	NA	NA	NA
+0	glab	first	NA	NA	NA	NA	first	50	NA	NA	NA	NA	NA	NA
+0	rofky	second	NA	NA	NA	NA	second	51	NA	NA	NA	NA	NA	NA
+0	glab	second	NA	NA	NA	NA	second	52	NA	NA	NA	NA	NA	NA
+0	NA	NA	NA	NA	the red glab rofky spaceship	NA	NA	54	NA	NA	correct	Q_glab_rofky	R_COLOR_glab	S_COLOR_rofky
+0	NA	NA	NA	NA	the green rofky spaceship 	NA	NA	55	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+0	NA	NA	NA	NA	the green spaceship  	NA	NA	56	NA	NA	correct	Q_	R_COLOR	S_COLOR
+0	NA	NA	NA	NA	the blue rofky spaceship 	NA	NA	57	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+0	NA	NA	NA	NA	the blue rofky spaceship 	NA	NA	58	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+0	NA	NA	NA	NA	the red rofky spaceship 	NA	NA	59	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+0	NA	NA	NA	NA	red rofky spaceship  	NA	NA	60	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+0	NA	NA	NA	NA	blue glab spaceship  	NA	NA	61	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+0	NA	NA	NA	NA	red spaceship   	NA	NA	62	NA	NA	correct	Q_	R_COLOR	S_COLOR
+0	NA	NA	NA	NA	green glab rofky spaceship 	NA	NA	63	NA	NA	correct	Q_glab_rofky	R_COLOR_glab	S_COLOR_rofky
+0	NA	NA	NA	NA	the glab red rofky spaceship	NA	NA	64	NA	NA	correct	Q_glab_rofky	R_glab_COLOR	S_COLOR_rofky
+0	NA	NA	NA	NA	the glab blue spaceship 	NA	NA	65	NA	NA	correct	Q_glab	R_glab_COLOR	S_COLOR
+0	NA	NA	NA	NA	the green rofky spaceship 	NA	NA	66	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+0	NA	NA	NA	NA	the blue rofky spaceship 	NA	NA	67	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+0	NA	NA	NA	NA	the glab rofky spaceship 	NA	NA	68	NA	NA	correct	Q_glab_rofky	R_glab	S_rofky
+0	NA	NA	NA	NA	the glab blue spaceship 	NA	NA	69	NA	NA	correct	Q_glab	R_glab_COLOR	S_COLOR
+0	NA	NA	NA	NA	red rofky spaceship  	NA	NA	70	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+0	NA	NA	NA	NA	glab green rofky  	NA	NA	71	NA	NA	correct	Q_glab_rofky	R_glab_COLOR	S_COLOR_rofky
+0	NA	NA	NA	NA	green glab   	NA	NA	72	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+0	NA	NA	NA	NA	glab green rofky  	NA	NA	73	NA	NA	correct	Q_glab_rofky	R_glab_COLOR	S_COLOR_rofky
+0	NA	NA	NA	NA	glab green rofky spaceship 	NA	NA	74	NA	NA	correct	Q_glab_rofky	R_glab_COLOR	S_COLOR_rofky
+0	NA	NA	NA	NA	blue rofky   	NA	NA	75	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+0	NA	NA	NA	NA	red rofky   	NA	NA	76	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+0	NA	NA	NA	NA	green rofky   	NA	NA	77	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+0	NA	NA	NA	NA	glab rofky   	NA	NA	78	NA	NA	correct	Q_glab_rofky	R_glab	S_rofky
+0	NA	NA	NA	NA	glab rofky   	NA	NA	79	NA	NA	correct	Q_glab_rofky	R_glab	S_rofky
+0	NA	NA	NA	NA	blue rofky	NA	NA	81	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+0	NA	NA	NA	NA	green spaceship	NA	NA	82	NA	NA	correct	Q_	R_COLOR	S_COLOR
+0	NA	NA	NA	NA	the rofky spaceship	NA	NA	83	NA	NA	correct	Q_rofky	R_	S_rofky
+0	NA	NA	NA	NA	the red rofky	NA	NA	84	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+0	NA	NA	NA	NA	rofky	NA	NA	85	NA	NA	correct	Q_rofky	R_	S_rofky
+0	NA	NA	NA	NA	glab rofky	NA	NA	86	NA	NA	correct	Q_glab_rofky	R_glab	S_rofky
+0	NA	NA	NA	NA	glab rofky	NA	NA	87	NA	NA	correct	Q_glab_rofky	R_glab	S_rofky
+0	NA	NA	NA	NA	glab rofky	NA	NA	88	NA	NA	correct	Q_glab_rofky	R_glab	S_rofky
+0	NA	NA	NA	NA	green rofky	NA	NA	89	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+0	NA	NA	NA	NA	glab red rofky	NA	NA	90	NA	NA	correct	Q_glab_rofky	R_glab_COLOR	S_COLOR_rofky
+0	NA	NA	NA	NA	green rofky	NA	NA	91	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+0	NA	NA	NA	NA	glab blue	NA	NA	92	NA	NA	correct	Q_glab	R_glab_COLOR	S_COLOR
+0	NA	NA	NA	NA	blue rofky	NA	NA	93	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+0	NA	NA	NA	NA	glab green rofky	NA	NA	94	NA	NA	correct	Q_glab_rofky	R_glab_COLOR	S_COLOR_rofky
+0	NA	NA	NA	NA	glab blue	NA	NA	95	NA	NA	correct	Q_glab	R_glab_COLOR	S_COLOR
+0	NA	NA	NA	NA	red rofky	NA	NA	96	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+0	NA	NA	NA	NA	glab green	NA	NA	97	NA	NA	correct	Q_glab	R_glab_COLOR	S_COLOR
+0	NA	NA	NA	NA	red	NA	NA	98	NA	NA	correct	Q_	R_COLOR	S_COLOR
+0	NA	NA	NA	NA	red rofky	NA	NA	99	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+0	NA	NA	NA	NA	glab blue	NA	NA	100	NA	NA	correct	Q_glab	R_glab_COLOR	S_COLOR
+0	NA	NA	NA	NA	glab green	NA	NA	101	NA	NA	correct	Q_glab	R_glab_COLOR	S_COLOR
+0	NA	NA	NA	NA	blue rofky	NA	NA	102	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+0	NA	NA	NA	NA	glab rofky	NA	NA	103	NA	NA	correct	Q_glab_rofky	R_glab	S_rofky
+0	NA	NA	NA	NA	glab rofky	NA	NA	104	NA	NA	correct	Q_glab_rofky	R_glab	S_rofky
+0	NA	NA	NA	NA	red rofky	NA	NA	105	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+0	NA	NA	NA	NA	rofky	NA	NA	106	NA	NA	correct	Q_rofky	R_	S_rofky
+0	NA	NA	NA	NA	rofky	NA	NA	108	NA	NA	correct	Q_rofky	R_	S_rofky
+0	NA	NA	rofky	For long distances, I use saucers. The best one is this...	NA	0	NA	135	red	rofky	NA	NA	NA	NA
+0	NA	NA	rofky	My first ship had the same shape as this...	NA	1	NA	136	rofky	green	NA	NA	NA	NA
+0	NA	NA	rofky	Humans think all our ships look like saucers, like this...	NA	1	NA	137	rofky	blue	NA	NA	NA	NA
+0	NA	NA	NONE	On our planet, many aliens fly ships like this...	NA	0	NA	138	glab	green	NA	NA	NA	NA
+0	NA	NA	green	I like ships that have the same color as I have, like this...	NA	0	NA	139	green	rofky	NA	NA	NA	NA
+0	NA	NA	NONE	My friend used to fly this...	NA	1	NA	140	rofky	blue	NA	NA	NA	NA
+0	NA	NA	green	What a nice color. I like flying this...	NA	1	NA	141	green	glab	NA	NA	NA	NA
+0	NA	NA	glab	I really don&quotechart like ships with many spikes, like this...	NA	1	NA	142	rofky	glab	NA	NA	NA	NA
+0	NA	NA	glab	Ugh, too many fins &#8210; I hate flying this...	NA	0	NA	143	glab	red	NA	NA	NA	NA
+0	NA	NA	glab	Wow, so many fins &#8210; I like this...	NA	1	NA	144	green	glab	NA	NA	NA	NA
+0	NA	NA	glab	The more spikes, the better. My favorite one is this...	NA	0	NA	145	glab	rofky	NA	NA	NA	NA
+0	NA	NA	NA	NA	NA	0.02	NA	147	green	rofky	NA	NA	NA	NA
+0	NA	NA	NA	NA	NA	0.1	NA	148	glab	red	NA	NA	NA	NA
+0	NA	NA	NA	NA	NA	1	NA	149	glab	big	NA	NA	NA	NA
+0	NA	NA	NA	NA	NA	0.97	NA	150	rofky	small	NA	NA	NA	NA
+0	NA	NA	NA	NA	NA	1	NA	151	rofky	glab	NA	NA	NA	NA
+0	NA	NA	NA	NA	NA	1	NA	152	red	big	NA	NA	NA	NA
+0	NA	NA	NA	NA	NA	1	NA	153	rofky	blue	NA	NA	NA	NA
+0	NA	NA	NA	NA	NA	0.09	NA	154	small	glab	NA	NA	NA	NA
+0	NA	NA	NA	NA	NA	0	NA	155	small	blue	NA	NA	NA	NA
+0	NA	NA	NA	NA	NA	1	NA	156	rofky	red	NA	NA	NA	NA
+0	NA	NA	NA	NA	NA	1	NA	157	rofky	big	NA	NA	NA	NA
+0	NA	NA	NA	NA	NA	0.77	NA	158	blue	glab	NA	NA	NA	NA
+0	NA	NA	NA	NA	NA	1	NA	159	green	small	NA	NA	NA	NA
+0	NA	NA	NA	NA	NA	0.14	NA	160	glab	green	NA	NA	NA	NA
+1	glab	first	NA	NA	NA	NA	first	5	NA	NA	NA	NA	NA	NA
+1	glab	first	NA	NA	NA	NA	first	6	NA	NA	NA	NA	NA	NA
+1	rofky	second	NA	NA	NA	NA	second	7	NA	NA	NA	NA	NA	NA
+1	rofky	first	NA	NA	NA	NA	first	8	NA	NA	NA	NA	NA	NA
+1	glab	first	NA	NA	NA	NA	first	9	NA	NA	NA	NA	NA	NA
+1	rofky	first	NA	NA	NA	NA	first	10	NA	NA	NA	NA	NA	NA
+1	glab	first	NA	NA	NA	NA	first	11	NA	NA	NA	NA	NA	NA
+1	glab	second	NA	NA	NA	NA	second	12	NA	NA	NA	NA	NA	NA
+1	rofky	first	NA	NA	NA	NA	first	13	NA	NA	NA	NA	NA	NA
+1	rofky	second	NA	NA	NA	NA	second	14	NA	NA	NA	NA	NA	NA
+1	glab	first	NA	NA	NA	NA	first	15	NA	NA	NA	NA	NA	NA
+1	rofky	first	NA	NA	NA	NA	first	16	NA	NA	NA	NA	NA	NA
+1	glab	first	NA	NA	NA	NA	first	17	NA	NA	NA	NA	NA	NA
+1	glab	first	NA	NA	NA	NA	first	18	NA	NA	NA	NA	NA	NA
+1	glab	second	NA	NA	NA	NA	second	19	NA	NA	NA	NA	NA	NA
+1	rofky	first	NA	NA	NA	NA	first	20	NA	NA	NA	NA	NA	NA
+1	glab	first	NA	NA	NA	NA	first	21	NA	NA	NA	NA	NA	NA
+1	glab	second	NA	NA	NA	NA	second	22	NA	NA	NA	NA	NA	NA
+1	rofky	first	NA	NA	NA	NA	first	23	NA	NA	NA	NA	NA	NA
+1	rofky	first	NA	NA	NA	NA	first	24	NA	NA	NA	NA	NA	NA
+1	rofky	first	NA	NA	NA	NA	first	25	NA	NA	NA	NA	NA	NA
+1	glab	first	NA	NA	NA	NA	first	26	NA	NA	NA	NA	NA	NA
+1	rofky	first	NA	NA	NA	NA	first	27	NA	NA	NA	NA	NA	NA
+1	rofky	second	NA	NA	NA	NA	second	28	NA	NA	NA	NA	NA	NA
+1	glab	first	NA	NA	NA	NA	first	29	NA	NA	NA	NA	NA	NA
+1	glab	first	NA	NA	NA	NA	first	30	NA	NA	NA	NA	NA	NA
+1	glab	first	NA	NA	NA	NA	first	31	NA	NA	NA	NA	NA	NA
+1	glab	first	NA	NA	NA	NA	first	32	NA	NA	NA	NA	NA	NA
+1	rofky	second	NA	NA	NA	NA	second	33	NA	NA	NA	NA	NA	NA
+1	rofky	first	NA	NA	NA	NA	first	34	NA	NA	NA	NA	NA	NA
+1	rofky	second	NA	NA	NA	NA	second	35	NA	NA	NA	NA	NA	NA
+1	glab	first	NA	NA	NA	NA	first	36	NA	NA	NA	NA	NA	NA
+1	rofky	second	NA	NA	NA	NA	second	37	NA	NA	NA	NA	NA	NA
+1	rofky	first	NA	NA	NA	NA	second	38	NA	NA	NA	NA	NA	NA
+1	rofky	first	NA	NA	NA	NA	first	39	NA	NA	NA	NA	NA	NA
+1	glab	second	NA	NA	NA	NA	second	40	NA	NA	NA	NA	NA	NA
+1	glab	first	NA	NA	NA	NA	first	41	NA	NA	NA	NA	NA	NA
+1	rofky	second	NA	NA	NA	NA	second	42	NA	NA	NA	NA	NA	NA
+1	glab	second	NA	NA	NA	NA	second	43	NA	NA	NA	NA	NA	NA
+1	rofky	first	NA	NA	NA	NA	first	44	NA	NA	NA	NA	NA	NA
+1	glab	first	NA	NA	NA	NA	first	45	NA	NA	NA	NA	NA	NA
+1	rofky	second	NA	NA	NA	NA	second	46	NA	NA	NA	NA	NA	NA
+1	rofky	second	NA	NA	NA	NA	second	47	NA	NA	NA	NA	NA	NA
+1	glab	second	NA	NA	NA	NA	second	48	NA	NA	NA	NA	NA	NA
+1	glab	first	NA	NA	NA	NA	first	49	NA	NA	NA	NA	NA	NA
+1	rofky	first	NA	NA	NA	NA	first	50	NA	NA	NA	NA	NA	NA
+1	rofky	first	NA	NA	NA	NA	first	51	NA	NA	NA	NA	NA	NA
+1	glab	first	NA	NA	NA	NA	first	52	NA	NA	NA	NA	NA	NA
+1	NA	NA	NA	NA	the green rofky spaceship 	NA	NA	54	NA	NA	inconsistent	Q_rofky	R_COLOR	S_COLOR_rofky
+1	NA	NA	NA	NA	the red spaceship  	NA	NA	55	NA	NA	correct	Q_	R_COLOR	S_COLOR
+1	NA	NA	NA	NA	the red rofky spaceship 	NA	NA	56	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+1	NA	NA	NA	NA	the blue spaceship  	NA	NA	57	NA	NA	correct	Q_	R_COLOR	S_COLOR
+1	NA	NA	NA	NA	the rofky glab green spaceship	NA	NA	58	NA	NA	underspecified	Q_rofky_glab	R_glab_COLOR	S_rofky_COLOR
+1	NA	NA	NA	NA	the red glab spaceship 	NA	NA	59	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+1	NA	NA	NA	NA	the green rofky spaceship 	NA	NA	60	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+1	NA	NA	NA	NA	the red glab spaceship 	NA	NA	61	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+1	NA	NA	NA	NA	the green rofky glab spaceship	NA	NA	62	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_COLOR_rofky
+1	NA	NA	NA	NA	the green glab spaceship 	NA	NA	63	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+1	NA	NA	NA	NA	the blue glab spaceship 	NA	NA	64	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+1	NA	NA	NA	NA	the rofky green glab spaceship	NA	NA	65	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_rofky_COLOR
+1	NA	NA	NA	NA	the green spaceship  	NA	NA	66	NA	NA	correct	Q_	R_COLOR	S_COLOR
+1	NA	NA	NA	NA	the red rofky spaceship 	NA	NA	67	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+1	NA	NA	NA	NA	the green glab spaceship 	NA	NA	68	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+1	NA	NA	NA	NA	the green glab spaceship 	NA	NA	69	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+1	NA	NA	NA	NA	the blue glab spaceship 	NA	NA	70	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+1	NA	NA	NA	NA	the blue glab spaceship 	NA	NA	71	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+1	NA	NA	NA	NA	the blue rofky spaceship 	NA	NA	72	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+1	NA	NA	NA	NA	the red glab spaceship 	NA	NA	73	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+1	NA	NA	NA	NA	the blue rofky spaceship 	NA	NA	74	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+1	NA	NA	NA	NA	the red glab spaceship 	NA	NA	75	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+1	NA	NA	NA	NA	the green glab spaceship 	NA	NA	76	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+1	NA	NA	NA	NA	the blue glab spaceship 	NA	NA	77	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+1	NA	NA	NA	NA	the red glab rofky spaceship	NA	NA	78	NA	NA	correct	Q_glab_rofky	R_COLOR_glab	S_COLOR_rofky
+1	NA	NA	NA	NA	the red glab rofky spaceship	NA	NA	79	NA	NA	correct	Q_glab_rofky	R_COLOR_glab	S_COLOR_rofky
+1	NA	NA	NA	NA	The red spaceship	NA	NA	81	NA	NA	correct	Q_	R_COLOR	S_COLOR
+1	NA	NA	NA	NA	The red glab rofky spaceship	NA	NA	82	NA	NA	correct	Q_glab_rofky	R_COLOR_glab	S_COLOR_rofky
+1	NA	NA	NA	NA	green spaceship	NA	NA	83	NA	NA	correct	Q_	R_COLOR	S_COLOR
+1	NA	NA	NA	NA	blue	NA	NA	84	NA	NA	correct	Q_	R_COLOR	S_COLOR
+1	NA	NA	NA	NA	red rofky	NA	NA	85	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+1	NA	NA	NA	NA	blue glab	NA	NA	86	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+1	NA	NA	NA	NA	blue rofky	NA	NA	87	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+1	NA	NA	NA	NA	blue glab	NA	NA	88	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+1	NA	NA	NA	NA	green glab rofky	NA	NA	89	NA	NA	correct	Q_glab_rofky	R_COLOR_glab	S_COLOR_rofky
+1	NA	NA	NA	NA	green glab	NA	NA	90	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+1	NA	NA	NA	NA	green glab rofky	NA	NA	91	NA	NA	correct	Q_glab_rofky	R_COLOR_glab	S_COLOR_rofky
+1	NA	NA	NA	NA	red glab	NA	NA	92	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+1	NA	NA	NA	NA	green glab rofky	NA	NA	93	NA	NA	correct	Q_glab_rofky	R_COLOR_glab	S_COLOR_rofky
+1	NA	NA	NA	NA	red glab	NA	NA	94	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+1	NA	NA	NA	NA	blue glab	NA	NA	95	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+1	NA	NA	NA	NA	green glab	NA	NA	96	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+1	NA	NA	NA	NA	red glab	NA	NA	97	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+1	NA	NA	NA	NA	green glab	NA	NA	98	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+1	NA	NA	NA	NA	green glab	NA	NA	99	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+1	NA	NA	NA	NA	red glab rofky	NA	NA	100	NA	NA	correct	Q_glab_rofky	R_COLOR_glab	S_COLOR_rofky
+1	NA	NA	NA	NA	red glab rofky	NA	NA	101	NA	NA	correct	Q_glab_rofky	R_COLOR_glab	S_COLOR_rofky
+1	NA	NA	NA	NA	blue glab	NA	NA	102	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+1	NA	NA	NA	NA	red glab	NA	NA	103	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+1	NA	NA	NA	NA	green	NA	NA	104	NA	NA	correct	Q_	R_COLOR	S_COLOR
+1	NA	NA	NA	NA	blue rofky	NA	NA	105	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+1	NA	NA	NA	NA	green rofky	NA	NA	106	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+1	NA	NA	NA	NA	red	NA	NA	108	NA	NA	correct	Q_	R_COLOR	S_COLOR
+1	NA	NA	glab	For long distances, I use saucers. The best one is this...	NA	0	NA	135	green	glab	NA	NA	NA	NA
+1	NA	NA	rofky	Ugh, too many fins &#8210; I hate flying this...	NA	1	NA	136	rofky	red	NA	NA	NA	NA
+1	NA	NA	NONE	On our planet, many aliens fly ships like this...	NA	0	NA	137	green	rofky	NA	NA	NA	NA
+1	NA	NA	glab	Humans think all our ships look like saucers, like this...	NA	1	NA	138	glab	red	NA	NA	NA	NA
+1	NA	NA	glab	My first ship had the same shape as this...	NA	1	NA	139	glab	green	NA	NA	NA	NA
+1	NA	NA	NONE	My friend used to fly this...	NA	1	NA	140	glab	blue	NA	NA	NA	NA
+1	NA	NA	rofky	I really don&quotechart like ships with many spikes, like this...	NA	1	NA	141	glab	rofky	NA	NA	NA	NA
+1	NA	NA	rofky	The more spikes, the better. My favorite one is this...	NA	0	NA	142	rofky	glab	NA	NA	NA	NA
+1	NA	NA	green	What a nice color. I like flying this...	NA	1	NA	143	green	rofky	NA	NA	NA	NA
+1	NA	NA	rofky	Wow, so many fins &#8210; I like this...	NA	1	NA	144	green	rofky	NA	NA	NA	NA
+1	NA	NA	blue	I like ships that have the same color as I have, like this...	NA	1	NA	145	glab	blue	NA	NA	NA	NA
+1	NA	NA	NA	NA	NA	0	NA	147	big	glab	NA	NA	NA	NA
+1	NA	NA	NA	NA	NA	1	NA	148	glab	blue	NA	NA	NA	NA
+1	NA	NA	NA	NA	NA	1	NA	149	rofky	small	NA	NA	NA	NA
+1	NA	NA	NA	NA	NA	0	NA	150	glab	red	NA	NA	NA	NA
+1	NA	NA	NA	NA	NA	1	NA	151	glab	green	NA	NA	NA	NA
+1	NA	NA	NA	NA	NA	1	NA	152	red	rofky	NA	NA	NA	NA
+1	NA	NA	NA	NA	NA	0	NA	153	big	rofky	NA	NA	NA	NA
+1	NA	NA	NA	NA	NA	0	NA	154	small	green	NA	NA	NA	NA
+1	NA	NA	NA	NA	NA	0	NA	155	rofky	glab	NA	NA	NA	NA
+1	NA	NA	NA	NA	NA	0	NA	156	small	red	NA	NA	NA	NA
+1	NA	NA	NA	NA	NA	0	NA	157	big	green	NA	NA	NA	NA
+1	NA	NA	NA	NA	NA	0	NA	158	blue	rofky	NA	NA	NA	NA
+1	NA	NA	NA	NA	NA	0	NA	159	green	rofky	NA	NA	NA	NA
+1	NA	NA	NA	NA	NA	0	NA	160	small	glab	NA	NA	NA	NA
+2	glab	second	NA	NA	NA	NA	second	5	NA	NA	NA	NA	NA	NA
+2	glab	second	NA	NA	NA	NA	second	6	NA	NA	NA	NA	NA	NA
+2	glab	second	NA	NA	NA	NA	second	7	NA	NA	NA	NA	NA	NA
+2	rofky	second	NA	NA	NA	NA	second	8	NA	NA	NA	NA	NA	NA
+2	glab	second	NA	NA	NA	NA	second	9	NA	NA	NA	NA	NA	NA
+2	rofky	second	NA	NA	NA	NA	second	10	NA	NA	NA	NA	NA	NA
+2	glab	second	NA	NA	NA	NA	second	11	NA	NA	NA	NA	NA	NA
+2	rofky	first	NA	NA	NA	NA	first	12	NA	NA	NA	NA	NA	NA
+2	rofky	second	NA	NA	NA	NA	second	13	NA	NA	NA	NA	NA	NA
+2	rofky	first	NA	NA	NA	NA	first	14	NA	NA	NA	NA	NA	NA
+2	glab	second	NA	NA	NA	NA	second	15	NA	NA	NA	NA	NA	NA
+2	rofky	first	NA	NA	NA	NA	first	16	NA	NA	NA	NA	NA	NA
+2	glab	first	NA	NA	NA	NA	first	17	NA	NA	NA	NA	NA	NA
+2	glab	first	NA	NA	NA	NA	first	18	NA	NA	NA	NA	NA	NA
+2	rofky	second	NA	NA	NA	NA	second	19	NA	NA	NA	NA	NA	NA
+2	rofky	first	NA	NA	NA	NA	first	20	NA	NA	NA	NA	NA	NA
+2	rofky	first	NA	NA	NA	NA	first	21	NA	NA	NA	NA	NA	NA
+2	glab	second	NA	NA	NA	NA	second	22	NA	NA	NA	NA	NA	NA
+2	glab	second	NA	NA	NA	NA	second	23	NA	NA	NA	NA	NA	NA
+2	rofky	first	NA	NA	NA	NA	first	24	NA	NA	NA	NA	NA	NA
+2	glab	first	NA	NA	NA	NA	first	25	NA	NA	NA	NA	NA	NA
+2	rofky	second	NA	NA	NA	NA	second	26	NA	NA	NA	NA	NA	NA
+2	glab	second	NA	NA	NA	NA	second	27	NA	NA	NA	NA	NA	NA
+2	glab	second	NA	NA	NA	NA	second	28	NA	NA	NA	NA	NA	NA
+2	rofky	second	NA	NA	NA	NA	second	29	NA	NA	NA	NA	NA	NA
+2	glab	second	NA	NA	NA	NA	second	30	NA	NA	NA	NA	NA	NA
+2	glab	first	NA	NA	NA	NA	first	31	NA	NA	NA	NA	NA	NA
+2	glab	second	NA	NA	NA	NA	second	32	NA	NA	NA	NA	NA	NA
+2	rofky	second	NA	NA	NA	NA	second	33	NA	NA	NA	NA	NA	NA
+2	glab	second	NA	NA	NA	NA	second	34	NA	NA	NA	NA	NA	NA
+2	glab	second	NA	NA	NA	NA	second	35	NA	NA	NA	NA	NA	NA
+2	glab	first	NA	NA	NA	NA	first	36	NA	NA	NA	NA	NA	NA
+2	glab	first	NA	NA	NA	NA	first	37	NA	NA	NA	NA	NA	NA
+2	rofky	first	NA	NA	NA	NA	first	38	NA	NA	NA	NA	NA	NA
+2	glab	first	NA	NA	NA	NA	first	39	NA	NA	NA	NA	NA	NA
+2	rofky	second	NA	NA	NA	NA	second	40	NA	NA	NA	NA	NA	NA
+2	rofky	second	NA	NA	NA	NA	second	41	NA	NA	NA	NA	NA	NA
+2	rofky	first	NA	NA	NA	NA	first	42	NA	NA	NA	NA	NA	NA
+2	rofky	second	NA	NA	NA	NA	second	43	NA	NA	NA	NA	NA	NA
+2	glab	first	NA	NA	NA	NA	first	44	NA	NA	NA	NA	NA	NA
+2	glab	first	NA	NA	NA	NA	first	45	NA	NA	NA	NA	NA	NA
+2	glab	first	NA	NA	NA	NA	first	46	NA	NA	NA	NA	NA	NA
+2	rofky	first	NA	NA	NA	NA	first	47	NA	NA	NA	NA	NA	NA
+2	rofky	first	NA	NA	NA	NA	first	48	NA	NA	NA	NA	NA	NA
+2	rofky	first	NA	NA	NA	NA	first	49	NA	NA	NA	NA	NA	NA
+2	rofky	second	NA	NA	NA	NA	second	50	NA	NA	NA	NA	NA	NA
+2	rofky	second	NA	NA	NA	NA	second	51	NA	NA	NA	NA	NA	NA
+2	rofky	first	NA	NA	NA	NA	first	52	NA	NA	NA	NA	NA	NA
+2	NA	NA	NA	NA	the glab blue rofky spaceship	NA	NA	54	NA	NA	correct	Q_glab_rofky	R_glab_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	the glab blue spaceship 	NA	NA	55	NA	NA	correct	Q_glab	R_glab_COLOR	S_COLOR
+2	NA	NA	NA	NA	the the blue rofky spaceship	NA	NA	56	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	the green rofky spaceship 	NA	NA	57	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	the blue rofky spaceship 	NA	NA	58	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	the green rofky spaceship 	NA	NA	59	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	the glab red red rofky	NA	NA	60	NA	NA	correct	Q_glab_rofky	R_glab_COLOR_COLOR	S_COLOR_COLOR_rofky
+2	NA	NA	NA	NA	the glab red rofky spaceship	NA	NA	61	NA	NA	correct	Q_glab_rofky	R_glab_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	the glab red rofky spaceship	NA	NA	62	NA	NA	correct	Q_glab_rofky	R_glab_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	the red rofky spaceship 	NA	NA	63	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	the glab green rofky spaceship	NA	NA	64	NA	NA	correct	Q_glab_rofky	R_glab_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	the red rofky spaceship 	NA	NA	65	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	the red rofky spaceship 	NA	NA	66	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	the glab green rofky spaceship	NA	NA	67	NA	NA	correct	Q_glab_rofky	R_glab_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	the glab green spaceship 	NA	NA	68	NA	NA	correct	Q_glab	R_glab_COLOR	S_COLOR
+2	NA	NA	NA	NA	the glab blue rofky spaceship	NA	NA	69	NA	NA	correct	Q_glab_rofky	R_glab_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	the red rofky spaceship 	NA	NA	70	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	the glab blue spaceship 	NA	NA	71	NA	NA	correct	Q_glab	R_glab_COLOR	S_COLOR
+2	NA	NA	NA	NA	the glab blue rofky spaceship	NA	NA	72	NA	NA	correct	Q_glab_rofky	R_glab_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	the glab green spaceship 	NA	NA	73	NA	NA	correct	Q_glab	R_glab_COLOR	S_COLOR
+2	NA	NA	NA	NA	the glab blue rofky spaceship	NA	NA	74	NA	NA	correct	Q_glab_rofky	R_glab_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	the glab green rofky spaceship	NA	NA	75	NA	NA	correct	Q_glab_rofky	R_glab_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	the glab blue rofky spaceship	NA	NA	76	NA	NA	correct	Q_glab_rofky	R_glab_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	the green rofky spaceship 	NA	NA	77	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	the glab red spaceship 	NA	NA	78	NA	NA	correct	Q_glab	R_glab_COLOR	S_COLOR
+2	NA	NA	NA	NA	the red rofky spaceship 	NA	NA	79	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	The green rofky spaceship	NA	NA	81	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	The blue rofky spaceship	NA	NA	82	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	The glab blue rofky spaceship	NA	NA	83	NA	NA	correct	Q_glab_rofky	R_glab_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	The glab blue spaceship	NA	NA	84	NA	NA	correct	Q_glab	R_glab_COLOR	S_COLOR
+2	NA	NA	NA	NA	The red rofky spaceship	NA	NA	85	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	The glab red rofky spacecship	NA	NA	86	NA	NA	correct	Q_glab_rofky	R_glab_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	The glab green rofky spaceship	NA	NA	87	NA	NA	correct	Q_glab_rofky	R_glab_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	The glab green rofky spaceship	NA	NA	88	NA	NA	correct	Q_glab_rofky	R_glab_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	The red rofky spaceship	NA	NA	89	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	The green rofky spaceship	NA	NA	90	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	The glab blue rofky spaceship	NA	NA	91	NA	NA	correct	Q_glab_rofky	R_glab_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	The glab blue rofky spaceship	NA	NA	92	NA	NA	correct	Q_glab_rofky	R_glab_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	The glab green rofky spaceship	NA	NA	93	NA	NA	correct	Q_glab_rofky	R_glab_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	The glab blue rofky spaceship	NA	NA	94	NA	NA	correct	Q_glab_rofky	R_glab_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	The red rofky spaceship	NA	NA	95	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	The blue rofky spaceship	NA	NA	96	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	The glab green spaceship	NA	NA	97	NA	NA	correct	Q_glab	R_glab_COLOR	S_COLOR
+2	NA	NA	NA	NA	The glab red spaceship	NA	NA	98	NA	NA	correct	Q_glab	R_glab_COLOR	S_COLOR
+2	NA	NA	NA	NA	The glab red rofky spaceship	NA	NA	99	NA	NA	correct	Q_glab_rofky	R_glab_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	The glab blue spaceship	NA	NA	100	NA	NA	correct	Q_glab	R_glab_COLOR	S_COLOR
+2	NA	NA	NA	NA	The glab red rofky spaceship	NA	NA	101	NA	NA	correct	Q_glab_rofky	R_glab_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	The glab green spaceship	NA	NA	102	NA	NA	correct	Q_glab	R_glab_COLOR	S_COLOR
+2	NA	NA	NA	NA	The red rofky spaceship	NA	NA	103	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	The green rofky spaceship	NA	NA	104	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	The glab blue rofky spaceship	NA	NA	105	NA	NA	correct	Q_glab_rofky	R_glab_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	The glab red rofky spaceship	NA	NA	106	NA	NA	correct	Q_glab_rofky	R_glab_COLOR	S_COLOR_rofky
+2	NA	NA	NA	NA	The blue rofky spaceship	NA	NA	108	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+2	NA	NA	NONE	On our planet, many aliens fly ships like this...	NA	0.01	NA	135	glab	red	NA	NA	NA	NA
+2	NA	NA	glab	Ugh, too many fins &#8210; I hate flying this...	NA	0.02	NA	136	glab	red	NA	NA	NA	NA
+2	NA	NA	NONE	My friend used to fly this...	NA	0.98	NA	137	rofky	blue	NA	NA	NA	NA
+2	NA	NA	rofky	My first ship had the same shape as this...	NA	0.99	NA	138	rofky	green	NA	NA	NA	NA
+2	NA	NA	glab	The more spikes, the better. My favorite one is this...	NA	0.01	NA	139	glab	rofky	NA	NA	NA	NA
+2	NA	NA	glab	Wow, so many fins &#8210; I like this...	NA	0.99	NA	140	blue	glab	NA	NA	NA	NA
+2	NA	NA	glab	I really don&quotechart like ships with many spikes, like this...	NA	0.98	NA	141	rofky	glab	NA	NA	NA	NA
+2	NA	NA	green	I like ships that have the same color as I have, like this...	NA	0.99	NA	142	rofky	green	NA	NA	NA	NA
+2	NA	NA	rofky	Humans think all our ships look like saucers, like this...	NA	0.02	NA	143	green	rofky	NA	NA	NA	NA
+2	NA	NA	rofky	For long distances, I use saucers. The best one is this...	NA	0.99	NA	144	rofky	red	NA	NA	NA	NA
+2	NA	NA	red	What a nice color. I like flying this...	NA	0.99	NA	145	red	glab	NA	NA	NA	NA
+2	NA	NA	NA	NA	NA	0.98	NA	147	green	big	NA	NA	NA	NA
+2	NA	NA	NA	NA	NA	0.99	NA	148	rofky	glab	NA	NA	NA	NA
+2	NA	NA	NA	NA	NA	0.98	NA	149	glab	big	NA	NA	NA	NA
+2	NA	NA	NA	NA	NA	0.97	NA	150	red	big	NA	NA	NA	NA
+2	NA	NA	NA	NA	NA	0	NA	151	small	glab	NA	NA	NA	NA
+2	NA	NA	NA	NA	NA	0.01	NA	152	big	rofky	NA	NA	NA	NA
+2	NA	NA	NA	NA	NA	0.01	NA	153	green	glab	NA	NA	NA	NA
+2	NA	NA	NA	NA	NA	0.04	NA	154	blue	rofky	NA	NA	NA	NA
+2	NA	NA	NA	NA	NA	0.01	NA	155	small	red	NA	NA	NA	NA
+2	NA	NA	NA	NA	NA	0.98	NA	156	blue	glab	NA	NA	NA	NA
+2	NA	NA	NA	NA	NA	0.02	NA	157	small	rofky	NA	NA	NA	NA
+2	NA	NA	NA	NA	NA	0	NA	158	glab	red	NA	NA	NA	NA
+2	NA	NA	NA	NA	NA	0.97	NA	159	rofky	red	NA	NA	NA	NA
+2	NA	NA	NA	NA	NA	0.99	NA	160	rofky	green	NA	NA	NA	NA
+3	glab	second	NA	NA	NA	NA	second	5	NA	NA	NA	NA	NA	NA
+3	rofky	first	NA	NA	NA	NA	first	6	NA	NA	NA	NA	NA	NA
+3	glab	second	NA	NA	NA	NA	second	7	NA	NA	NA	NA	NA	NA
+3	rofky	first	NA	NA	NA	NA	first	8	NA	NA	NA	NA	NA	NA
+3	rofky	first	NA	NA	NA	NA	first	9	NA	NA	NA	NA	NA	NA
+3	rofky	first	NA	NA	NA	NA	first	10	NA	NA	NA	NA	NA	NA
+3	rofky	second	NA	NA	NA	NA	second	11	NA	NA	NA	NA	NA	NA
+3	rofky	first	NA	NA	NA	NA	first	12	NA	NA	NA	NA	NA	NA
+3	rofky	first	NA	NA	NA	NA	first	13	NA	NA	NA	NA	NA	NA
+3	glab	second	NA	NA	NA	NA	second	14	NA	NA	NA	NA	NA	NA
+3	glab	first	NA	NA	NA	NA	first	15	NA	NA	NA	NA	NA	NA
+3	rofky	first	NA	NA	NA	NA	first	16	NA	NA	NA	NA	NA	NA
+3	glab	second	NA	NA	NA	NA	second	17	NA	NA	NA	NA	NA	NA
+3	rofky	first	NA	NA	NA	NA	first	18	NA	NA	NA	NA	NA	NA
+3	glab	second	NA	NA	NA	NA	second	19	NA	NA	NA	NA	NA	NA
+3	glab	second	NA	NA	NA	NA	second	20	NA	NA	NA	NA	NA	NA
+3	rofky	first	NA	NA	NA	NA	first	21	NA	NA	NA	NA	NA	NA
+3	rofky	first	NA	NA	NA	NA	first	22	NA	NA	NA	NA	NA	NA
+3	rofky	first	NA	NA	NA	NA	first	23	NA	NA	NA	NA	NA	NA
+3	rofky	first	NA	NA	NA	NA	first	24	NA	NA	NA	NA	NA	NA
+3	glab	second	NA	NA	NA	NA	second	25	NA	NA	NA	NA	NA	NA
+3	rofky	first	NA	NA	NA	NA	first	26	NA	NA	NA	NA	NA	NA
+3	glab	second	NA	NA	NA	NA	second	27	NA	NA	NA	NA	NA	NA
+3	glab	first	NA	NA	NA	NA	first	28	NA	NA	NA	NA	NA	NA
+3	glab	second	NA	NA	NA	NA	second	29	NA	NA	NA	NA	NA	NA
+3	glab	second	NA	NA	NA	NA	second	30	NA	NA	NA	NA	NA	NA
+3	glab	second	NA	NA	NA	NA	second	31	NA	NA	NA	NA	NA	NA
+3	glab	first	NA	NA	NA	NA	first	32	NA	NA	NA	NA	NA	NA
+3	glab	first	NA	NA	NA	NA	first	33	NA	NA	NA	NA	NA	NA
+3	rofky	first	NA	NA	NA	NA	first	34	NA	NA	NA	NA	NA	NA
+3	rofky	first	NA	NA	NA	NA	first	35	NA	NA	NA	NA	NA	NA
+3	rofky	second	NA	NA	NA	NA	second	36	NA	NA	NA	NA	NA	NA
+3	glab	first	NA	NA	NA	NA	first	37	NA	NA	NA	NA	NA	NA
+3	rofky	second	NA	NA	NA	NA	second	38	NA	NA	NA	NA	NA	NA
+3	rofky	first	NA	NA	NA	NA	first	39	NA	NA	NA	NA	NA	NA
+3	rofky	first	NA	NA	NA	NA	first	40	NA	NA	NA	NA	NA	NA
+3	glab	second	NA	NA	NA	NA	second	41	NA	NA	NA	NA	NA	NA
+3	rofky	first	NA	NA	NA	NA	first	42	NA	NA	NA	NA	NA	NA
+3	rofky	first	NA	NA	NA	NA	first	43	NA	NA	NA	NA	NA	NA
+3	glab	first	NA	NA	NA	NA	first	44	NA	NA	NA	NA	NA	NA
+3	glab	second	NA	NA	NA	NA	second	45	NA	NA	NA	NA	NA	NA
+3	glab	first	NA	NA	NA	NA	first	46	NA	NA	NA	NA	NA	NA
+3	glab	first	NA	NA	NA	NA	first	47	NA	NA	NA	NA	NA	NA
+3	glab	first	NA	NA	NA	NA	first	48	NA	NA	NA	NA	NA	NA
+3	rofky	second	NA	NA	NA	NA	second	49	NA	NA	NA	NA	NA	NA
+3	glab	first	NA	NA	NA	NA	first	50	NA	NA	NA	NA	NA	NA
+3	rofky	first	NA	NA	NA	NA	first	51	NA	NA	NA	NA	NA	NA
+3	glab	second	NA	NA	NA	NA	second	52	NA	NA	NA	NA	NA	NA
+3	NA	NA	NA	NA	glab green spaceship  	NA	NA	54	NA	NA	correct	Q_glab	R_glab_COLOR	S_COLOR
+3	NA	NA	NA	NA	the spaceship rofky glab green	NA	NA	55	NA	NA	correct	Q_rofky_glab	R_glab_COLOR	S_rofky_COLOR
+3	NA	NA	NA	NA	the spaceship glab red 	NA	NA	56	NA	NA	correct	Q_glab	R_glab_COLOR	S_COLOR
+3	NA	NA	NA	NA	the spaceship rofky green 	NA	NA	57	NA	NA	correct	Q_rofky	R_COLOR	S_rofky_COLOR
+3	NA	NA	NA	NA	the spaceship red rofky 	NA	NA	58	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+3	NA	NA	NA	NA	the spaceship rofky red glab	NA	NA	59	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_rofky_COLOR
+3	NA	NA	NA	NA	the spaceship glab green 	NA	NA	60	NA	NA	correct	Q_glab	R_glab_COLOR	S_COLOR
+3	NA	NA	NA	NA	the spaceship rofky glab green	NA	NA	61	NA	NA	correct	Q_rofky_glab	R_glab_COLOR	S_rofky_COLOR
+3	NA	NA	NA	NA	the spaceship rofky blue 	NA	NA	62	NA	NA	correct	Q_rofky	R_COLOR	S_rofky_COLOR
+3	NA	NA	NA	NA	the spaceship rofky red 	NA	NA	63	NA	NA	correct	Q_rofky	R_COLOR	S_rofky_COLOR
+3	NA	NA	NA	NA	the spaceship rofky red glab	NA	NA	64	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_rofky_COLOR
+3	NA	NA	NA	NA	the spaceship rofky blue 	NA	NA	65	NA	NA	correct	Q_rofky	R_COLOR	S_rofky_COLOR
+3	NA	NA	NA	NA	the spaceship rofky glab blue	NA	NA	66	NA	NA	correct	Q_rofky_glab	R_glab_COLOR	S_rofky_COLOR
+3	NA	NA	NA	NA	the spaceship blue glab 	NA	NA	67	NA	NA	inconsistent	Q_glab	R_COLOR_glab	S_COLOR
+3	NA	NA	NA	NA	the spaceship blue glab 	NA	NA	68	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+3	NA	NA	NA	NA	the spaceship green rofky 	NA	NA	69	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+3	NA	NA	NA	NA	the spaceship rofky red 	NA	NA	70	NA	NA	correct	Q_rofky	R_COLOR	S_rofky_COLOR
+3	NA	NA	NA	NA	the spaceship red rofky glab	NA	NA	71	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_COLOR_rofky
+3	NA	NA	NA	NA	the spaceship blue rofky 	NA	NA	72	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+3	NA	NA	NA	NA	the spaceship red rofky 	NA	NA	73	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+3	NA	NA	NA	NA	the spaceship rofky  	NA	NA	74	NA	NA	correct	Q_rofky	R_	S_rofky
+3	NA	NA	NA	NA	the spaceship green rofky glab	NA	NA	75	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_COLOR_rofky
+3	NA	NA	NA	NA	spaceship blue rofky glab 	NA	NA	76	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_COLOR_rofky
+3	NA	NA	NA	NA	the spaceship blue rofky 	NA	NA	77	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+3	NA	NA	NA	NA	green rofky   	NA	NA	78	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+3	NA	NA	NA	NA	blue rofky   	NA	NA	79	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+3	NA	NA	NA	NA	spaceship green rofky	NA	NA	81	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+3	NA	NA	NA	NA	green glab	NA	NA	82	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+3	NA	NA	NA	NA	red glab	NA	NA	83	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+3	NA	NA	NA	NA	green rofky glab	NA	NA	84	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_COLOR_rofky
+3	NA	NA	NA	NA	red rofky	NA	NA	85	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+3	NA	NA	NA	NA	blue rofky glab	NA	NA	86	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_COLOR_rofky
+3	NA	NA	NA	NA	blue rofky glab	NA	NA	87	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_COLOR_rofky
+3	NA	NA	NA	NA	blue rofky	NA	NA	88	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+3	NA	NA	NA	NA	blue glab	NA	NA	89	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+3	NA	NA	NA	NA	blue rofky	NA	NA	90	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+3	NA	NA	NA	NA	blue rofky	NA	NA	91	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+3	NA	NA	NA	NA	red rofky glab	NA	NA	92	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_COLOR_rofky
+3	NA	NA	NA	NA	red rofky glab	NA	NA	93	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_COLOR_rofky
+3	NA	NA	NA	NA	blue rofky 	NA	NA	94	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+3	NA	NA	NA	NA	green glab	NA	NA	95	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+3	NA	NA	NA	NA	green rofky glab	NA	NA	96	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_COLOR_rofky
+3	NA	NA	NA	NA	blue rofky	NA	NA	97	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+3	NA	NA	NA	NA	red rofky	NA	NA	98	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+3	NA	NA	NA	NA	red rofky glab	NA	NA	99	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_COLOR_rofky
+3	NA	NA	NA	NA	red glab	NA	NA	100	NA	NA	underspecified	Q_glab	R_COLOR_glab	S_COLOR
+3	NA	NA	NA	NA	green glab	NA	NA	101	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+3	NA	NA	NA	NA	green roply glab	NA	NA	102	NA	NA	wrong	Q_glab	R_COLOR_glab	S_COLOR
+3	NA	NA	NA	NA	red glab	NA	NA	103	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+3	NA	NA	NA	NA	red glab	NA	NA	104	NA	NA	wrong	Q_glab	R_COLOR_glab	S_COLOR
+3	NA	NA	NA	NA	blue glab	NA	NA	105	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+3	NA	NA	NA	NA	green roply	NA	NA	106	NA	NA	underspecified	Q_	R_COLOR	S_COLOR
+3	NA	NA	NA	NA	green glab	NA	NA	108	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+3	NA	NA	rofky	For long distances, I use rockets. The best one is this...	NA	0.91	NA	135	rofky	green	NA	NA	NA	NA
+3	NA	NA	glab	The more spikes, the better. My favorite one is this...	NA	0.06	NA	136	rofky	glab	NA	NA	NA	NA
+3	NA	NA	blue	I like ships that have the same color as I have, like this...	NA	0.04	NA	137	blue	rofky	NA	NA	NA	NA
+3	NA	NA	blue	What a nice color. I like flying this...	NA	0.1	NA	138	blue	glab	NA	NA	NA	NA
+3	NA	NA	NONE	My friend used to fly this...	NA	0.06	NA	139	blue	rofky	NA	NA	NA	NA
+3	NA	NA	glab	I really don&quotechart like ships with many spikes, like this...	NA	0.91	NA	140	glab	rofky	NA	NA	NA	NA
+3	NA	NA	glab	Wow, so many fins &#8210; I like this...	NA	0.07	NA	141	blue	glab	NA	NA	NA	NA
+3	NA	NA	glab	Ugh, too many fins &#8210; I hate flying this...	NA	0.07	NA	142	green	glab	NA	NA	NA	NA
+3	NA	NA	rofky	Humans think all our ships look like rockets, like this...	NA	0.11	NA	143	rofky	blue	NA	NA	NA	NA
+3	NA	NA	rofky	My first ship had the same shape as this...	NA	0.1	NA	144	blue	rofky	NA	NA	NA	NA
+3	NA	NA	NONE	On our planet, many aliens fly ships like this...	NA	0.11	NA	145	blue	glab	NA	NA	NA	NA
+3	NA	NA	NA	NA	NA	0.06	NA	147	big	glab	NA	NA	NA	NA
+3	NA	NA	NA	NA	NA	0.96	NA	148	rofky	blue	NA	NA	NA	NA
+3	NA	NA	NA	NA	NA	0.93	NA	149	glab	blue	NA	NA	NA	NA
+3	NA	NA	NA	NA	NA	0.06	NA	150	green	glab	NA	NA	NA	NA
+3	NA	NA	NA	NA	NA	0.91	NA	151	blue	big	NA	NA	NA	NA
+3	NA	NA	NA	NA	NA	0.92	NA	152	glab	small	NA	NA	NA	NA
+3	NA	NA	NA	NA	NA	0.93	NA	153	glab	red	NA	NA	NA	NA
+3	NA	NA	NA	NA	NA	0.07	NA	154	small	rofky	NA	NA	NA	NA
+3	NA	NA	NA	NA	NA	0.93	NA	155	rofky	big	NA	NA	NA	NA
+3	NA	NA	NA	NA	NA	0.91	NA	156	rofky	red	NA	NA	NA	NA
+3	NA	NA	NA	NA	NA	0.05	NA	157	big	red	NA	NA	NA	NA
+3	NA	NA	NA	NA	NA	0.07	NA	158	rofky	glab	NA	NA	NA	NA
+3	NA	NA	NA	NA	NA	0.9	NA	159	rofky	green	NA	NA	NA	NA
+3	NA	NA	NA	NA	NA	0.04	NA	160	big	red	NA	NA	NA	NA
+4	rofky	first	NA	NA	NA	NA	first	5	NA	NA	NA	NA	NA	NA
+4	rofky	first	NA	NA	NA	NA	first	6	NA	NA	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	first	7	NA	NA	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	first	8	NA	NA	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	first	9	NA	NA	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	second	10	NA	NA	NA	NA	NA	NA
+4	rofky	second	NA	NA	NA	NA	second	11	NA	NA	NA	NA	NA	NA
+4	rofky	second	NA	NA	NA	NA	second	12	NA	NA	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	first	13	NA	NA	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	second	14	NA	NA	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	first	15	NA	NA	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	first	16	NA	NA	NA	NA	NA	NA
+4	rofky	first	NA	NA	NA	NA	first	17	NA	NA	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	first	18	NA	NA	NA	NA	NA	NA
+4	rofky	second	NA	NA	NA	NA	second	19	NA	NA	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	second	20	NA	NA	NA	NA	NA	NA
+4	rofky	first	NA	NA	NA	NA	first	21	NA	NA	NA	NA	NA	NA
+4	rofky	first	NA	NA	NA	NA	first	22	NA	NA	NA	NA	NA	NA
+4	rofky	second	NA	NA	NA	NA	second	23	NA	NA	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	first	24	NA	NA	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	second	25	NA	NA	NA	NA	NA	NA
+4	rofky	first	NA	NA	NA	NA	first	26	NA	NA	NA	NA	NA	NA
+4	rofky	first	NA	NA	NA	NA	first	27	NA	NA	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	second	28	NA	NA	NA	NA	NA	NA
+4	rofky	first	NA	NA	NA	NA	first	29	NA	NA	NA	NA	NA	NA
+4	rofky	first	NA	NA	NA	NA	first	30	NA	NA	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	first	31	NA	NA	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	first	32	NA	NA	NA	NA	NA	NA
+4	rofky	second	NA	NA	NA	NA	second	33	NA	NA	NA	NA	NA	NA
+4	rofky	first	NA	NA	NA	NA	first	34	NA	NA	NA	NA	NA	NA
+4	rofky	second	NA	NA	NA	NA	second	35	NA	NA	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	first	36	NA	NA	NA	NA	NA	NA
+4	rofky	first	NA	NA	NA	NA	first	37	NA	NA	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	second	38	NA	NA	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	first	39	NA	NA	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	first	40	NA	NA	NA	NA	NA	NA
+4	rofky	second	NA	NA	NA	NA	second	41	NA	NA	NA	NA	NA	NA
+4	rofky	second	NA	NA	NA	NA	second	42	NA	NA	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	second	43	NA	NA	NA	NA	NA	NA
+4	rofky	second	NA	NA	NA	NA	second	44	NA	NA	NA	NA	NA	NA
+4	rofky	first	NA	NA	NA	NA	first	45	NA	NA	NA	NA	NA	NA
+4	rofky	second	NA	NA	NA	NA	second	46	NA	NA	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	first	47	NA	NA	NA	NA	NA	NA
+4	rofky	second	NA	NA	NA	NA	second	48	NA	NA	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	first	49	NA	NA	NA	NA	NA	NA
+4	rofky	second	NA	NA	NA	NA	second	50	NA	NA	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	first	51	NA	NA	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	second	52	NA	NA	NA	NA	NA	NA
+4	NA	NA	NA	NA	rofky green   	NA	NA	54	NA	NA	correct	Q_rofky	R_COLOR	S_rofky_COLOR
+4	NA	NA	NA	NA	rofky glab blue  	NA	NA	55	NA	NA	correct	Q_rofky_glab	R_glab_COLOR	S_rofky_COLOR
+4	NA	NA	NA	NA	rofky glab red  	NA	NA	56	NA	NA	correct	Q_rofky_glab	R_glab_COLOR	S_rofky_COLOR
+4	NA	NA	NA	NA	glab blue spaceship  	NA	NA	57	NA	NA	inconsistent	Q_glab	R_glab_COLOR	S_COLOR
+4	NA	NA	NA	NA	rofky red   	NA	NA	58	NA	NA	correct	Q_rofky	R_COLOR	S_rofky_COLOR
+4	NA	NA	NA	NA	glab green   	NA	NA	59	NA	NA	correct	Q_glab	R_glab_COLOR	S_COLOR
+4	NA	NA	NA	NA	rofky red   	NA	NA	60	NA	NA	correct	Q_rofky	R_COLOR	S_rofky_COLOR
+4	NA	NA	NA	NA	rofky rofky glab green 	NA	NA	61	NA	NA	correct	Q_rofky_rofky_glab	R_glab_COLOR	S_rofky_rofky_COLOR
+4	NA	NA	NA	NA	rofky blue glab  	NA	NA	62	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_rofky_COLOR
+4	NA	NA	NA	NA	rofky green   	NA	NA	63	NA	NA	correct	Q_rofky	R_COLOR	S_rofky_COLOR
+4	NA	NA	NA	NA	red red rofky rofky glab	NA	NA	64	NA	NA	correct	Q_rofky_rofky_glab	R_COLOR_COLOR_glab	S_COLOR_COLOR_rofky_rofky
+4	NA	NA	NA	NA	rofky red   	NA	NA	65	NA	NA	correct	Q_rofky	R_COLOR	S_rofky_COLOR
+4	NA	NA	NA	NA	rofky red glab  	NA	NA	66	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_rofky_COLOR
+4	NA	NA	NA	NA	blue glab   	NA	NA	67	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+4	NA	NA	NA	NA	green green green rofky glab	NA	NA	68	NA	NA	correct	Q_rofky_glab	R_COLOR_COLOR_COLOR_glab	S_COLOR_COLOR_COLOR_rofky
+4	NA	NA	NA	NA	rofky blue glab  	NA	NA	69	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_rofky_COLOR
+4	NA	NA	NA	NA	glab rofky blue  	NA	NA	70	NA	NA	correct	Q_glab_rofky	R_glab_COLOR	S_rofky_COLOR
+4	NA	NA	NA	NA	rofky green   	NA	NA	71	NA	NA	correct	Q_rofky	R_COLOR	S_rofky_COLOR
+4	NA	NA	NA	NA	rofky    	NA	NA	72	NA	NA	correct	Q_rofky	R_	S_rofky
+4	NA	NA	NA	NA	rofky blue glab  	NA	NA	73	NA	NA	inconsistent	Q_rofky_glab	R_COLOR_glab	S_rofky_COLOR
+4	NA	NA	NA	NA	rofky glab red  	NA	NA	74	NA	NA	correct	Q_rofky_glab	R_glab_COLOR	S_rofky_COLOR
+4	NA	NA	NA	NA	rofky blue glab  	NA	NA	75	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_rofky_COLOR
+4	NA	NA	NA	NA	rofky glab   	NA	NA	76	NA	NA	correct	Q_rofky_glab	R_glab	S_rofky
+4	NA	NA	NA	NA	blue rofky glab  	NA	NA	77	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_COLOR_rofky
+4	NA	NA	NA	NA	rofky blue   	NA	NA	78	NA	NA	correct	Q_rofky	R_COLOR	S_rofky_COLOR
+4	NA	NA	NA	NA	green glab   	NA	NA	79	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+4	NA	NA	NA	NA	rofky glab blue	NA	NA	81	NA	NA	correct	Q_rofky_glab	R_glab_COLOR	S_rofky_COLOR
+4	NA	NA	NA	NA	glab blue	NA	NA	82	NA	NA	correct	Q_glab	R_glab_COLOR	S_COLOR
+4	NA	NA	NA	NA	rofki red	NA	NA	83	NA	NA	correct	Q_	R_COLOR	S_COLOR
+4	NA	NA	NA	NA	rofki green	NA	NA	84	NA	NA	correct	Q_	R_COLOR	S_COLOR
+4	NA	NA	NA	NA	rofki glab red	NA	NA	85	NA	NA	correct	Q_glab	R_glab_COLOR	S_COLOR
+4	NA	NA	NA	NA	rofki glab red NEW_LINE rofki red	NA	NA	86	NA	NA	wrong	Q_glab	R_glab_COLOR	S_COLOR
+4	NA	NA	NA	NA	glab rofki NEW_LINE 	NA	NA	87	NA	NA	wrong	Q_glab	R_glab	S_
+4	NA	NA	NA	NA	rafki  NEW_LINE glab rafki red	NA	NA	88	NA	NA	underspecified	Q_	R_	S_
+4	NA	NA	NA	NA	blue glab	NA	NA	89	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+4	NA	NA	NA	NA	blue glab rafki	NA	NA	90	NA	NA	underspecified	Q_glab	R_COLOR_glab	S_COLOR
+4	NA	NA	NA	NA	glab blue spaceship	NA	NA	91	NA	NA	underspecified	Q_glab	R_glab_COLOR	S_COLOR
+4	NA	NA	NA	NA	blue glab	NA	NA	92	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+4	NA	NA	NA	NA	rekvi blue glab	NA	NA	93	NA	NA	underspecified	Q_glab	R_COLOR_glab	S_COLOR
+4	NA	NA	NA	NA	green	NA	NA	94	NA	NA	correct	Q_	R_COLOR	S_COLOR
+4	NA	NA	NA	NA	green glab	NA	NA	95	NA	NA	underspecified	Q_glab	R_COLOR_glab	S_COLOR
+4	NA	NA	NA	NA	blue glab rakvi	NA	NA	96	NA	NA	underspecified	Q_glab	R_COLOR_glab	S_COLOR
+4	NA	NA	NA	NA	red rakvi glab	NA	NA	97	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+4	NA	NA	NA	NA	rakvi	NA	NA	98	NA	NA	underspecified	Q_	R_	S_
+4	NA	NA	NA	NA	rakvi green glab	NA	NA	99	NA	NA	underspecified	Q_glab	R_COLOR_glab	S_COLOR
+4	NA	NA	NA	NA	blue glab	NA	NA	108	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+4	NA	NA	NA	NA	rofki green	NA	NA	109	NA	NA	correct	Q_	R_COLOR	S_COLOR
+4	NA	NA	NA	NA	rofki red	NA	NA	110	NA	NA	correct	Q_	R_COLOR	S_COLOR
+4	NA	NA	NA	NA	rofki red glab	NA	NA	111	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+4	NA	NA	NA	NA	rofky blue glab	NA	NA	112	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_rofky_COLOR
+4	NA	NA	NA	NA	rofky green glab	NA	NA	113	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_rofky_COLOR
+4	NA	NA	NA	NA	rofky red	NA	NA	114	NA	NA	correct	Q_rofky	R_COLOR	S_rofky_COLOR
+4	NA	NA	NA	NA	rofky red	NA	NA	115	NA	NA	correct	Q_rofky	R_COLOR	S_rofky_COLOR
+4	NA	NA	NA	NA	rofky blue glab	NA	NA	116	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_rofky_COLOR
+4	NA	NA	NA	NA	blue glab	NA	NA	117	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+4	NA	NA	NA	NA	green glab	NA	NA	118	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+4	NA	NA	NA	NA		NA	NA	119	NA	NA	underspecified	Q_	R_	S_
+4	NA	NA	NA	NA	green	NA	NA	120	NA	NA	correct	Q_	R_COLOR	S_COLOR
+4	NA	NA	NA	NA	green rofki glab	NA	NA	121	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+4	NA	NA	NA	NA	rofki blue glab NEW_LINE rofki blue glab	NA	NA	122	NA	NA	underspecified	Q_glab	R_COLOR_glab	S_COLOR
+4	NA	NA	NA	NA	blue glab rofky	NA	NA	123	NA	NA	inconsistent	Q_glab_rofky	R_COLOR_glab	S_COLOR_rofky
+4	NA	NA	NA	NA	red glab rofky	NA	NA	124	NA	NA	correct	Q_glab_rofky	R_COLOR_glab	S_COLOR_rofky
+4	NA	NA	NA	NA	rofky green glab	NA	NA	125	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_rofky_COLOR
+4	NA	NA	NA	NA	rofky glab	NA	NA	126	NA	NA	correct	Q_rofky_glab	R_glab	S_rofky
+4	NA	NA	NA	NA	rofky glab	NA	NA	127	NA	NA	correct	Q_rofky_glab	R_glab	S_rofky
+4	NA	NA	NA	NA	rofky green	NA	NA	128	NA	NA	correct	Q_rofky	R_COLOR	S_rofky_COLOR
+4	NA	NA	NA	NA	rofky red	NA	NA	129	NA	NA	correct	Q_rofky	R_COLOR	S_rofky_COLOR
+4	NA	NA	NA	NA	rofky	NA	NA	130	NA	NA	correct	Q_rofky	R_	S_rofky
+4	NA	NA	NA	NA	rofky glab	NA	NA	131	NA	NA	correct	Q_rofky_glab	R_glab	S_rofky
+4	NA	NA	NA	NA	rofky blue glab	NA	NA	132	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_rofky_COLOR
+4	NA	NA	NA	NA	blue glab	NA	NA	133	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+4	NA	NA	glab	I really don&quotechart like ships with many spikes, like this...	NA	0.05	NA	135	glab	rofky	NA	NA	NA	NA
+4	NA	NA	red	What a nice color. I like flying this...	NA	0.05	NA	136	red	glab	NA	NA	NA	NA
+4	NA	NA	glab	The more spikes, the better. My favorite one is this...	NA	0.97	NA	137	rofky	glab	NA	NA	NA	NA
+4	NA	NA	NONE	On our planet, many aliens fly ships like this...	NA	0.37	NA	138	red	glab	NA	NA	NA	NA
+4	NA	NA	rofky	My first ship had the same shape as this...	NA	0.05	NA	139	rofky	blue	NA	NA	NA	NA
+4	NA	NA	glab	Wow, so many fins &#8210; I like this...	NA	0.05	NA	140	glab	blue	NA	NA	NA	NA
+4	NA	NA	glab	Ugh, too many fins &#8210; I hate flying this...	NA	0.92	NA	141	green	glab	NA	NA	NA	NA
+4	NA	NA	rofky	Humans think all our ships look like rockets, like this...	NA	0.11	NA	142	blue	rofky	NA	NA	NA	NA
+4	NA	NA	blue	I like ships that have the same color as I have, like this...	NA	0.94	NA	143	rofky	blue	NA	NA	NA	NA
+4	NA	NA	rofky	For long distances, I use rockets. The best one is this...	NA	0.01	NA	144	red	rofky	NA	NA	NA	NA
+4	NA	NA	NONE	My friend used to fly this...	NA	0.9	NA	145	rofky	blue	NA	NA	NA	NA
+4	NA	NA	NA	NA	NA	0	NA	147	blue	glab	NA	NA	NA	NA
+4	NA	NA	NA	NA	NA	0	NA	148	small	rofky	NA	NA	NA	NA
+4	NA	NA	NA	NA	NA	1	NA	149	green	big	NA	NA	NA	NA
+4	NA	NA	NA	NA	NA	0.05	NA	150	glab	rofky	NA	NA	NA	NA
+4	NA	NA	NA	NA	NA	0	NA	151	big	green	NA	NA	NA	NA
+4	NA	NA	NA	NA	NA	0	NA	152	big	glab	NA	NA	NA	NA
+4	NA	NA	NA	NA	NA	1	NA	153	blue	big	NA	NA	NA	NA
+4	NA	NA	NA	NA	NA	0.15	NA	154	green	rofky	NA	NA	NA	NA
+4	NA	NA	NA	NA	NA	0.87	NA	155	glab	red	NA	NA	NA	NA
+4	NA	NA	NA	NA	NA	0.97	NA	156	rofky	big	NA	NA	NA	NA
+4	NA	NA	NA	NA	NA	0.12	NA	157	rofky	blue	NA	NA	NA	NA
+4	NA	NA	NA	NA	NA	0.82	NA	158	rofky	red	NA	NA	NA	NA
+4	NA	NA	NA	NA	NA	0.05	NA	159	green	glab	NA	NA	NA	NA
+4	NA	NA	NA	NA	NA	0.03	NA	160	small	glab	NA	NA	NA	NA
+5	glab	second	NA	NA	NA	NA	second	5	NA	NA	NA	NA	NA	NA
+5	glab	second	NA	NA	NA	NA	second	6	NA	NA	NA	NA	NA	NA
+5	glab	second	NA	NA	NA	NA	second	7	NA	NA	NA	NA	NA	NA
+5	rofky	second	NA	NA	NA	NA	second	8	NA	NA	NA	NA	NA	NA
+5	rofky	second	NA	NA	NA	NA	second	9	NA	NA	NA	NA	NA	NA
+5	rofky	first	NA	NA	NA	NA	first	10	NA	NA	NA	NA	NA	NA
+5	glab	first	NA	NA	NA	NA	first	11	NA	NA	NA	NA	NA	NA
+5	rofky	second	NA	NA	NA	NA	second	12	NA	NA	NA	NA	NA	NA
+5	rofky	first	NA	NA	NA	NA	first	13	NA	NA	NA	NA	NA	NA
+5	glab	first	NA	NA	NA	NA	first	14	NA	NA	NA	NA	NA	NA
+5	rofky	first	NA	NA	NA	NA	first	15	NA	NA	NA	NA	NA	NA
+5	rofky	second	NA	NA	NA	NA	second	16	NA	NA	NA	NA	NA	NA
+5	rofky	second	NA	NA	NA	NA	second	17	NA	NA	NA	NA	NA	NA
+5	rofky	first	NA	NA	NA	NA	first	18	NA	NA	NA	NA	NA	NA
+5	glab	second	NA	NA	NA	NA	second	19	NA	NA	NA	NA	NA	NA
+5	rofky	second	NA	NA	NA	NA	second	20	NA	NA	NA	NA	NA	NA
+5	rofky	first	NA	NA	NA	NA	first	21	NA	NA	NA	NA	NA	NA
+5	glab	second	NA	NA	NA	NA	second	22	NA	NA	NA	NA	NA	NA
+5	rofky	first	NA	NA	NA	NA	first	23	NA	NA	NA	NA	NA	NA
+5	glab	second	NA	NA	NA	NA	second	24	NA	NA	NA	NA	NA	NA
+5	glab	first	NA	NA	NA	NA	first	25	NA	NA	NA	NA	NA	NA
+5	rofky	second	NA	NA	NA	NA	second	26	NA	NA	NA	NA	NA	NA
+5	glab	first	NA	NA	NA	NA	first	27	NA	NA	NA	NA	NA	NA
+5	glab	first	NA	NA	NA	NA	first	28	NA	NA	NA	NA	NA	NA
+5	rofky	first	NA	NA	NA	NA	first	29	NA	NA	NA	NA	NA	NA
+5	glab	second	NA	NA	NA	NA	second	30	NA	NA	NA	NA	NA	NA
+5	rofky	first	NA	NA	NA	NA	first	31	NA	NA	NA	NA	NA	NA
+5	glab	second	NA	NA	NA	NA	second	32	NA	NA	NA	NA	NA	NA
+5	glab	first	NA	NA	NA	NA	first	33	NA	NA	NA	NA	NA	NA
+5	rofky	second	NA	NA	NA	NA	second	34	NA	NA	NA	NA	NA	NA
+5	glab	first	NA	NA	NA	NA	first	35	NA	NA	NA	NA	NA	NA
+5	glab	first	NA	NA	NA	NA	first	36	NA	NA	NA	NA	NA	NA
+5	rofky	second	NA	NA	NA	NA	second	37	NA	NA	NA	NA	NA	NA
+5	rofky	first	NA	NA	NA	NA	first	38	NA	NA	NA	NA	NA	NA
+5	glab	second	NA	NA	NA	NA	second	39	NA	NA	NA	NA	NA	NA
+5	glab	second	NA	NA	NA	NA	second	40	NA	NA	NA	NA	NA	NA
+5	rofky	second	NA	NA	NA	NA	second	41	NA	NA	NA	NA	NA	NA
+5	glab	second	NA	NA	NA	NA	second	42	NA	NA	NA	NA	NA	NA
+5	glab	first	NA	NA	NA	NA	first	43	NA	NA	NA	NA	NA	NA
+5	rofky	second	NA	NA	NA	NA	second	44	NA	NA	NA	NA	NA	NA
+5	glab	first	NA	NA	NA	NA	first	45	NA	NA	NA	NA	NA	NA
+5	glab	second	NA	NA	NA	NA	second	46	NA	NA	NA	NA	NA	NA
+5	rofky	second	NA	NA	NA	NA	second	47	NA	NA	NA	NA	NA	NA
+5	glab	second	NA	NA	NA	NA	second	48	NA	NA	NA	NA	NA	NA
+5	rofky	first	NA	NA	NA	NA	first	49	NA	NA	NA	NA	NA	NA
+5	rofky	first	NA	NA	NA	NA	first	50	NA	NA	NA	NA	NA	NA
+5	glab	second	NA	NA	NA	NA	second	51	NA	NA	NA	NA	NA	NA
+5	rofky	first	NA	NA	NA	NA	first	52	NA	NA	NA	NA	NA	NA
+5	NA	NA	NA	NA	red    	NA	NA	54	NA	NA	correct	Q_	R_COLOR	S_COLOR
+5	NA	NA	NA	NA	rofky    	NA	NA	55	NA	NA	correct	Q_rofky	R_	S_rofky
+5	NA	NA	NA	NA	spaceship glab   	NA	NA	56	NA	NA	correct	Q_glab	R_glab	S_
+5	NA	NA	NA	NA	rofky    	NA	NA	57	NA	NA	correct	Q_rofky	R_	S_rofky
+5	NA	NA	NA	NA	rofky glab   	NA	NA	58	NA	NA	correct	Q_rofky_glab	R_glab	S_rofky
+5	NA	NA	NA	NA	rofky green   	NA	NA	59	NA	NA	correct	Q_rofky	R_COLOR	S_rofky_COLOR
+5	NA	NA	NA	NA	rofky glab   	NA	NA	60	NA	NA	correct	Q_rofky_glab	R_glab	S_rofky
+5	NA	NA	NA	NA	rofky blue glab  	NA	NA	61	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_rofky_COLOR
+5	NA	NA	NA	NA	rofky blue   	NA	NA	62	NA	NA	correct	Q_rofky	R_COLOR	S_rofky_COLOR
+5	NA	NA	NA	NA	rofky glab red  	NA	NA	63	NA	NA	correct	Q_rofky_glab	R_glab_COLOR	S_rofky_COLOR
+5	NA	NA	NA	NA	rofky glab   	NA	NA	64	NA	NA	correct	Q_rofky_glab	R_glab	S_rofky
+5	NA	NA	NA	NA	rofky glab green  	NA	NA	65	NA	NA	correct	Q_rofky_glab	R_glab_COLOR	S_rofky_COLOR
+5	NA	NA	NA	NA	rofky blue   	NA	NA	66	NA	NA	correct	Q_rofky	R_COLOR	S_rofky_COLOR
+5	NA	NA	NA	NA	rofky glab green  	NA	NA	67	NA	NA	correct	Q_rofky_glab	R_glab_COLOR	S_rofky_COLOR
+5	NA	NA	NA	NA	rofky    	NA	NA	68	NA	NA	correct	Q_rofky	R_	S_rofky
+5	NA	NA	NA	NA	rofky glab   	NA	NA	69	NA	NA	correct	Q_rofky_glab	R_glab	S_rofky
+5	NA	NA	NA	NA	rofky glab   	NA	NA	70	NA	NA	correct	Q_rofky_glab	R_glab	S_rofky
+5	NA	NA	NA	NA	rofky green   	NA	NA	71	NA	NA	correct	Q_rofky	R_COLOR	S_rofky_COLOR
+5	NA	NA	NA	NA	rofky glab   	NA	NA	72	NA	NA	correct	Q_rofky_glab	R_glab	S_rofky
+5	NA	NA	NA	NA	rofky    	NA	NA	73	NA	NA	correct	Q_rofky	R_	S_rofky
+5	NA	NA	NA	NA	rofky glab   	NA	NA	74	NA	NA	correct	Q_rofky_glab	R_glab	S_rofky
+5	NA	NA	NA	NA	blue    	NA	NA	75	NA	NA	correct	Q_	R_COLOR	S_COLOR
+5	NA	NA	NA	NA	red glab   	NA	NA	76	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+5	NA	NA	NA	NA	rofky glab   	NA	NA	77	NA	NA	correct	Q_rofky_glab	R_glab	S_rofky
+5	NA	NA	NA	NA	rofky glab red  	NA	NA	78	NA	NA	correct	Q_rofky_glab	R_glab_COLOR	S_rofky_COLOR
+5	NA	NA	NA	NA	green    	NA	NA	79	NA	NA	correct	Q_	R_COLOR	S_COLOR
+5	NA	NA	NA	NA	glab	NA	NA	81	NA	NA	correct	Q_glab	R_glab	S_
+5	NA	NA	NA	NA	rofky	NA	NA	82	NA	NA	correct	Q_rofky	R_	S_rofky
+5	NA	NA	NA	NA	rofky	NA	NA	83	NA	NA	correct	Q_rofky	R_	S_rofky
+5	NA	NA	NA	NA	red	NA	NA	84	NA	NA	correct	Q_	R_COLOR	S_COLOR
+5	NA	NA	NA	NA	glab blue	NA	NA	85	NA	NA	correct	Q_glab	R_glab_COLOR	S_COLOR
+5	NA	NA	NA	NA	rofky, glab	NA	NA	86	NA	NA	correct	Q_glab	R_glab	S_
+5	NA	NA	NA	NA	rofky red	NA	NA	87	NA	NA	correct	Q_rofky	R_COLOR	S_rofky_COLOR
+5	NA	NA	NA	NA	rofky red glab	NA	NA	88	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_rofky_COLOR
+5	NA	NA	NA	NA	rofky glab	NA	NA	89	NA	NA	correct	Q_rofky_glab	R_glab	S_rofky
+5	NA	NA	NA	NA	rofky blue	NA	NA	90	NA	NA	correct	Q_rofky	R_COLOR	S_rofky_COLOR
+5	NA	NA	NA	NA	rofky blue	NA	NA	91	NA	NA	correct	Q_rofky	R_COLOR	S_rofky_COLOR
+5	NA	NA	NA	NA	rofky glab	NA	NA	92	NA	NA	correct	Q_rofky_glab	R_glab	S_rofky
+5	NA	NA	NA	NA	rofky green	NA	NA	93	NA	NA	correct	Q_rofky	R_COLOR	S_rofky_COLOR
+5	NA	NA	NA	NA	rofky glab green	NA	NA	94	NA	NA	correct	Q_rofky_glab	R_glab_COLOR	S_rofky_COLOR
+5	NA	NA	NA	NA	rofky	NA	NA	95	NA	NA	correct	Q_rofky	R_	S_rofky
+5	NA	NA	NA	NA	rofky glab	NA	NA	96	NA	NA	correct	Q_rofky_glab	R_glab	S_rofky
+5	NA	NA	NA	NA	rofky glab	NA	NA	97	NA	NA	correct	Q_rofky_glab	R_glab	S_rofky
+5	NA	NA	NA	NA	rofky green	NA	NA	98	NA	NA	correct	Q_rofky	R_COLOR	S_rofky_COLOR
+5	NA	NA	NA	NA	rofky green	NA	NA	99	NA	NA	correct	Q_rofky	R_COLOR	S_rofky_COLOR
+5	NA	NA	NA	NA	rofky blue glab	NA	NA	100	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_rofky_COLOR
+5	NA	NA	NA	NA	rofky red	NA	NA	101	NA	NA	correct	Q_rofky	R_COLOR	S_rofky_COLOR
+5	NA	NA	NA	NA	rofky green	NA	NA	102	NA	NA	correct	Q_rofky	R_COLOR	S_rofky_COLOR
+5	NA	NA	NA	NA	rofky green	NA	NA	103	NA	NA	correct	Q_rofky	R_COLOR	S_rofky_COLOR
+5	NA	NA	NA	NA	rofky	NA	NA	104	NA	NA	correct	Q_rofky	R_	S_rofky
+5	NA	NA	NA	NA	glab red	NA	NA	105	NA	NA	correct	Q_glab	R_glab_COLOR	S_COLOR
+5	NA	NA	NA	NA	blue	NA	NA	106	NA	NA	correct	Q_	R_COLOR	S_COLOR
+5	NA	NA	NA	NA	red glab	NA	NA	108	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+5	NA	NA	blue	I like ships that have the same color as I have, like this...	NA	0	NA	135	blue	rofky	NA	NA	NA	NA
+5	NA	NA	NONE	On our planet, many aliens fly ships like this...	NA	0.99	NA	136	glab	green	NA	NA	NA	NA
+5	NA	NA	NONE	My friend used to fly this...	NA	0.98	NA	137	rofky	green	NA	NA	NA	NA
+5	NA	NA	green	What a nice color. I like flying this...	NA	0.04	NA	138	green	glab	NA	NA	NA	NA
+5	NA	NA	rofky	My first ship had the same shape as this...	NA	0.01	NA	139	blue	rofky	NA	NA	NA	NA
+5	NA	NA	glab	The more spikes, the better. My favorite one is this...	NA	0.99	NA	140	rofky	glab	NA	NA	NA	NA
+5	NA	NA	glab	Wow, so many fins &#8210; I like this...	NA	0.02	NA	141	blue	glab	NA	NA	NA	NA
+5	NA	NA	glab	Ugh, too many fins &#8210; I hate flying this...	NA	0.2	NA	142	green	glab	NA	NA	NA	NA
+5	NA	NA	rofky	For long distances, I use rockets. The best one is this...	NA	0.99	NA	143	rofky	blue	NA	NA	NA	NA
+5	NA	NA	rofky	Humans think all our ships look like rockets, like this...	NA	0.02	NA	144	blue	rofky	NA	NA	NA	NA
+5	NA	NA	glab	I really don&quotechart like ships with many spikes, like this...	NA	0.02	NA	145	glab	rofky	NA	NA	NA	NA
+5	NA	NA	NA	NA	NA	0.98	NA	147	rofky	red	NA	NA	NA	NA
+5	NA	NA	NA	NA	NA	0.18	NA	148	blue	glab	NA	NA	NA	NA
+5	NA	NA	NA	NA	NA	0.03	NA	149	small	glab	NA	NA	NA	NA
+5	NA	NA	NA	NA	NA	0.98	NA	150	rofky	blue	NA	NA	NA	NA
+5	NA	NA	NA	NA	NA	1	NA	151	red	small	NA	NA	NA	NA
+5	NA	NA	NA	NA	NA	0	NA	152	big	blue	NA	NA	NA	NA
+5	NA	NA	NA	NA	NA	0.85	NA	153	rofky	small	NA	NA	NA	NA
+5	NA	NA	NA	NA	NA	0.82	NA	154	glab	green	NA	NA	NA	NA
+5	NA	NA	NA	NA	NA	0.99	NA	155	rofky	green	NA	NA	NA	NA
+5	NA	NA	NA	NA	NA	0	NA	156	big	green	NA	NA	NA	NA
+5	NA	NA	NA	NA	NA	0.08	NA	157	big	rofky	NA	NA	NA	NA
+5	NA	NA	NA	NA	NA	0.78	NA	158	rofky	glab	NA	NA	NA	NA
+5	NA	NA	NA	NA	NA	0.18	NA	159	big	glab	NA	NA	NA	NA
+5	NA	NA	NA	NA	NA	0	NA	160	red	glab	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	first	5	NA	NA	NA	NA	NA	NA
+6	rofky	first	NA	NA	NA	NA	second	6	NA	NA	NA	NA	NA	NA
+6	rofky	second	NA	NA	NA	NA	first	7	NA	NA	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	second	8	NA	NA	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	first	9	NA	NA	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	second	10	NA	NA	NA	NA	NA	NA
+6	rofky	first	NA	NA	NA	NA	first	11	NA	NA	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	first	12	NA	NA	NA	NA	NA	NA
+6	rofky	first	NA	NA	NA	NA	first	13	NA	NA	NA	NA	NA	NA
+6	rofky	second	NA	NA	NA	NA	first	14	NA	NA	NA	NA	NA	NA
+6	rofky	second	NA	NA	NA	NA	second	15	NA	NA	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	first	16	NA	NA	NA	NA	NA	NA
+6	rofky	second	NA	NA	NA	NA	second	17	NA	NA	NA	NA	NA	NA
+6	rofky	second	NA	NA	NA	NA	second	18	NA	NA	NA	NA	NA	NA
+6	rofky	second	NA	NA	NA	NA	second	19	NA	NA	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	first	20	NA	NA	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	first	21	NA	NA	NA	NA	NA	NA
+6	rofky	second	NA	NA	NA	NA	second	22	NA	NA	NA	NA	NA	NA
+6	rofky	second	NA	NA	NA	NA	second	23	NA	NA	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	first	24	NA	NA	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	second	25	NA	NA	NA	NA	NA	NA
+6	rofky	first	NA	NA	NA	NA	first	26	NA	NA	NA	NA	NA	NA
+6	rofky	second	NA	NA	NA	NA	second	27	NA	NA	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	first	28	NA	NA	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	first	29	NA	NA	NA	NA	NA	NA
+6	rofky	second	NA	NA	NA	NA	second	30	NA	NA	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	second	31	NA	NA	NA	NA	NA	NA
+6	rofky	second	NA	NA	NA	NA	second	32	NA	NA	NA	NA	NA	NA
+6	rofky	second	NA	NA	NA	NA	second	33	NA	NA	NA	NA	NA	NA
+6	rofky	first	NA	NA	NA	NA	first	34	NA	NA	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	first	35	NA	NA	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	first	36	NA	NA	NA	NA	NA	NA
+6	rofky	second	NA	NA	NA	NA	second	37	NA	NA	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	second	38	NA	NA	NA	NA	NA	NA
+6	rofky	second	NA	NA	NA	NA	second	39	NA	NA	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	second	40	NA	NA	NA	NA	NA	NA
+6	rofky	second	NA	NA	NA	NA	first	41	NA	NA	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	second	42	NA	NA	NA	NA	NA	NA
+6	rofky	first	NA	NA	NA	NA	first	43	NA	NA	NA	NA	NA	NA
+6	rofky	second	NA	NA	NA	NA	second	44	NA	NA	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	first	45	NA	NA	NA	NA	NA	NA
+6	rofky	second	NA	NA	NA	NA	second	46	NA	NA	NA	NA	NA	NA
+6	rofky	second	NA	NA	NA	NA	second	47	NA	NA	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	first	48	NA	NA	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	second	49	NA	NA	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	second	50	NA	NA	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	second	51	NA	NA	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	first	52	NA	NA	NA	NA	NA	NA
+6	NA	NA	NA	NA	the green spaceship  	NA	NA	54	NA	NA	correct	Q_	R_COLOR	S_COLOR
+6	NA	NA	NA	NA	the rofky spaceship  	NA	NA	55	NA	NA	inconsistent	Q_rofky	R_	S_rofky
+6	NA	NA	NA	NA	the glab blue spaceship 	NA	NA	56	NA	NA	underspecified	Q_glab	R_glab_COLOR	S_COLOR
+6	NA	NA	NA	NA	the green glab spaceship 	NA	NA	57	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+6	NA	NA	NA	NA	the green glab spaceship 	NA	NA	58	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+6	NA	NA	NA	NA	the red rofky glab spaceship	NA	NA	59	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_COLOR_rofky
+6	NA	NA	NA	NA	the red rofky spaceship 	NA	NA	60	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+6	NA	NA	NA	NA	the blue spaceship  	NA	NA	61	NA	NA	correct	Q_	R_COLOR	S_COLOR
+6	NA	NA	NA	NA	the red rofky spaceship 	NA	NA	62	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+6	NA	NA	NA	NA	the green glab rofky spaceship	NA	NA	63	NA	NA	correct	Q_glab_rofky	R_COLOR_glab	S_COLOR_rofky
+6	NA	NA	NA	NA	the green rofky glab spaceship	NA	NA	64	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_COLOR_rofky
+6	NA	NA	NA	NA	the blue rofky spaceship 	NA	NA	65	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+6	NA	NA	NA	NA	the red rofky glab spaceship	NA	NA	66	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_COLOR_rofky
+6	NA	NA	NA	NA	the blue glab spaceship 	NA	NA	67	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+6	NA	NA	NA	NA	the rofky glab blue spaceship	NA	NA	68	NA	NA	correct	Q_rofky_glab	R_glab_COLOR	S_rofky_COLOR
+6	NA	NA	NA	NA	the green spaceship  	NA	NA	69	NA	NA	correct	Q_	R_COLOR	S_COLOR
+6	NA	NA	NA	NA	the red spaceship  	NA	NA	70	NA	NA	correct	Q_	R_COLOR	S_COLOR
+6	NA	NA	NA	NA	the red rofky spaceship 	NA	NA	71	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+6	NA	NA	NA	NA	the glab red rofky spaceship	NA	NA	72	NA	NA	underspecified	Q_glab_rofky	R_glab_COLOR	S_COLOR_rofky
+6	NA	NA	NA	NA	the rofky green spaceship 	NA	NA	73	NA	NA	correct	Q_rofky	R_COLOR	S_rofky_COLOR
+6	NA	NA	NA	NA	the rofky blue spaceship 	NA	NA	74	NA	NA	inconsistent	Q_rofky	R_COLOR	S_rofky_COLOR
+6	NA	NA	NA	NA	the rofky glab blue spaceship	NA	NA	75	NA	NA	correct	Q_rofky_glab	R_glab_COLOR	S_rofky_COLOR
+6	NA	NA	NA	NA	the blue rofky glab spaceship	NA	NA	76	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_COLOR_rofky
+6	NA	NA	NA	NA	the green glab rofky spaceship	NA	NA	77	NA	NA	inconsistent	Q_glab_rofky	R_COLOR_glab	S_COLOR_rofky
+6	NA	NA	NA	NA	the red glab rofky spaceship	NA	NA	78	NA	NA	correct	Q_glab_rofky	R_COLOR_glab	S_COLOR_rofky
+6	NA	NA	NA	NA	the green rofky glab spaceship	NA	NA	79	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_COLOR_rofky
+6	NA	NA	NA	NA	the green rofky glab spaceship	NA	NA	81	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_COLOR_rofky
+6	NA	NA	NA	NA	the blue rofky spaceship	NA	NA	82	NA	NA	underspecified	Q_rofky	R_COLOR	S_COLOR_rofky
+6	NA	NA	NA	NA	the red spaceship	NA	NA	83	NA	NA	correct	Q_	R_COLOR	S_COLOR
+6	NA	NA	NA	NA	the green spaceship	NA	NA	84	NA	NA	correct	Q_	R_COLOR	S_COLOR
+6	NA	NA	NA	NA	the blue glab rofky spaceship	NA	NA	85	NA	NA	correct	Q_glab_rofky	R_COLOR_glab	S_COLOR_rofky
+6	NA	NA	NA	NA	the red glab rofky spacreship	NA	NA	86	NA	NA	correct	Q_glab_rofky	R_COLOR_glab	S_COLOR_rofky
+6	NA	NA	NA	NA	the glab blue spaceship	NA	NA	87	NA	NA	correct	Q_glab	R_glab_COLOR	S_COLOR
+6	NA	NA	NA	NA	the rofky glab spaceship	NA	NA	88	NA	NA	correct	Q_rofky_glab	R_glab	S_rofky
+6	NA	NA	NA	NA	the red rofky spaceship	NA	NA	89	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+6	NA	NA	NA	NA	the rofky glab spaceship	NA	NA	90	NA	NA	correct	Q_rofky_glab	R_glab	S_rofky
+6	NA	NA	NA	NA	the green glab spaceship	NA	NA	91	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+6	NA	NA	NA	NA	the glab blue spaceship	NA	NA	92	NA	NA	correct	Q_glab	R_glab_COLOR	S_COLOR
+6	NA	NA	NA	NA	the green rofky spaceship	NA	NA	93	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+6	NA	NA	NA	NA	the green glab spaceship	NA	NA	94	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+6	NA	NA	NA	NA	the rofky glab spaceship	NA	NA	95	NA	NA	correct	Q_rofky_glab	R_glab	S_rofky
+6	NA	NA	NA	NA	the glab rofky spaceship	NA	NA	96	NA	NA	correct	Q_glab_rofky	R_glab	S_rofky
+6	NA	NA	NA	NA	the red spaceship	NA	NA	97	NA	NA	correct	Q_	R_COLOR	S_COLOR
+6	NA	NA	NA	NA	the green spaceship	NA	NA	98	NA	NA	correct	Q_	R_COLOR	S_COLOR
+6	NA	NA	NA	NA	the glab green spaceship	NA	NA	99	NA	NA	correct	Q_glab	R_glab_COLOR	S_COLOR
+6	NA	NA	NA	NA	the glab rofky spaceship	NA	NA	100	NA	NA	correct	Q_glab_rofky	R_glab	S_rofky
+6	NA	NA	NA	NA	the blue spaceship	NA	NA	101	NA	NA	correct	Q_	R_COLOR	S_COLOR
+6	NA	NA	NA	NA	the red rofky spaceship	NA	NA	102	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+6	NA	NA	NA	NA	the rofky glab spaceship	NA	NA	103	NA	NA	correct	Q_rofky_glab	R_glab	S_rofky
+6	NA	NA	NA	NA	the rofky glab spaceship	NA	NA	104	NA	NA	correct	Q_rofky_glab	R_glab	S_rofky
+6	NA	NA	NA	NA	the rofky glab spaceship	NA	NA	105	NA	NA	correct	Q_rofky_glab	R_glab	S_rofky
+6	NA	NA	NA	NA	the blue glab spaceship	NA	NA	106	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+6	NA	NA	NA	NA	the glab spaceship	NA	NA	108	NA	NA	correct	Q_glab	R_glab	S_
+6	NA	NA	rofky	Wow, so many fins &#8210; I like this...	NA	1	NA	135	green	rofky	NA	NA	NA	NA
+6	NA	NA	glab	My first ship had the same shape as this...	NA	0.95	NA	136	blue	glab	NA	NA	NA	NA
+6	NA	NA	blue	I like ships that have the same color as I have, like this...	NA	1	NA	137	blue	glab	NA	NA	NA	NA
+6	NA	NA	glab	For long distances, I use rockets. The best one is this...	NA	1	NA	138	red	glab	NA	NA	NA	NA
+6	NA	NA	rofky	The more spikes, the better. My favorite one is this...	NA	1	NA	139	glab	rofky	NA	NA	NA	NA
+6	NA	NA	rofky	Ugh, too many fins &#8210; I hate flying this...	NA	0	NA	140	rofky	green	NA	NA	NA	NA
+6	NA	NA	rofky	I really don&quotechart like ships with many spikes, like this...	NA	0	NA	141	rofky	glab	NA	NA	NA	NA
+6	NA	NA	NONE	My friend used to fly this...	NA	1	NA	142	red	glab	NA	NA	NA	NA
+6	NA	NA	glab	Humans think all our ships look like rockets, like this...	NA	0	NA	143	glab	green	NA	NA	NA	NA
+6	NA	NA	NONE	On our planet, many aliens fly ships like this...	NA	0	NA	144	rofky	red	NA	NA	NA	NA
+6	NA	NA	green	What a nice color. I like flying this...	NA	0	NA	145	rofky	green	NA	NA	NA	NA
+6	NA	NA	NA	NA	NA	1	NA	147	blue	rofky	NA	NA	NA	NA
+6	NA	NA	NA	NA	NA	0	NA	148	small	glab	NA	NA	NA	NA
+6	NA	NA	NA	NA	NA	0	NA	149	glab	blue	NA	NA	NA	NA
+6	NA	NA	NA	NA	NA	1	NA	150	red	big	NA	NA	NA	NA
+6	NA	NA	NA	NA	NA	0	NA	151	small	rofky	NA	NA	NA	NA
+6	NA	NA	NA	NA	NA	0	NA	152	rofky	red	NA	NA	NA	NA
+6	NA	NA	NA	NA	NA	0	NA	153	rofky	green	NA	NA	NA	NA
+6	NA	NA	NA	NA	NA	1	NA	154	rofky	big	NA	NA	NA	NA
+6	NA	NA	NA	NA	NA	0	NA	155	glab	green	NA	NA	NA	NA
+6	NA	NA	NA	NA	NA	0	NA	156	big	glab	NA	NA	NA	NA
+6	NA	NA	NA	NA	NA	1	NA	157	red	glab	NA	NA	NA	NA
+6	NA	NA	NA	NA	NA	1	NA	158	green	small	NA	NA	NA	NA
+6	NA	NA	NA	NA	NA	1	NA	159	glab	rofky	NA	NA	NA	NA
+6	NA	NA	NA	NA	NA	1	NA	160	green	big	NA	NA	NA	NA
+7	rofky	second	NA	NA	NA	NA	second	5	NA	NA	NA	NA	NA	NA
+7	glab	first	NA	NA	NA	NA	first	6	NA	NA	NA	NA	NA	NA
+7	rofky	second	NA	NA	NA	NA	second	7	NA	NA	NA	NA	NA	NA
+7	rofky	first	NA	NA	NA	NA	first	8	NA	NA	NA	NA	NA	NA
+7	glab	second	NA	NA	NA	NA	second	9	NA	NA	NA	NA	NA	NA
+7	glab	first	NA	NA	NA	NA	first	10	NA	NA	NA	NA	NA	NA
+7	glab	second	NA	NA	NA	NA	second	11	NA	NA	NA	NA	NA	NA
+7	glab	first	NA	NA	NA	NA	first	12	NA	NA	NA	NA	NA	NA
+7	rofky	second	NA	NA	NA	NA	second	13	NA	NA	NA	NA	NA	NA
+7	rofky	second	NA	NA	NA	NA	second	14	NA	NA	NA	NA	NA	NA
+7	rofky	second	NA	NA	NA	NA	second	15	NA	NA	NA	NA	NA	NA
+7	glab	second	NA	NA	NA	NA	second	16	NA	NA	NA	NA	NA	NA
+7	rofky	second	NA	NA	NA	NA	first	17	NA	NA	NA	NA	NA	NA
+7	glab	second	NA	NA	NA	NA	second	18	NA	NA	NA	NA	NA	NA
+7	rofky	first	NA	NA	NA	NA	first	19	NA	NA	NA	NA	NA	NA
+7	rofky	second	NA	NA	NA	NA	second	20	NA	NA	NA	NA	NA	NA
+7	glab	second	NA	NA	NA	NA	second	21	NA	NA	NA	NA	NA	NA
+7	glab	first	NA	NA	NA	NA	first	22	NA	NA	NA	NA	NA	NA
+7	glab	first	NA	NA	NA	NA	first	23	NA	NA	NA	NA	NA	NA
+7	rofky	first	NA	NA	NA	NA	first	24	NA	NA	NA	NA	NA	NA
+7	glab	first	NA	NA	NA	NA	first	25	NA	NA	NA	NA	NA	NA
+7	rofky	first	NA	NA	NA	NA	first	26	NA	NA	NA	NA	NA	NA
+7	glab	first	NA	NA	NA	NA	first	27	NA	NA	NA	NA	NA	NA
+7	glab	second	NA	NA	NA	NA	second	28	NA	NA	NA	NA	NA	NA
+7	rofky	second	NA	NA	NA	NA	second	29	NA	NA	NA	NA	NA	NA
+7	glab	second	NA	NA	NA	NA	second	30	NA	NA	NA	NA	NA	NA
+7	rofky	first	NA	NA	NA	NA	first	31	NA	NA	NA	NA	NA	NA
+7	glab	first	NA	NA	NA	NA	first	32	NA	NA	NA	NA	NA	NA
+7	rofky	first	NA	NA	NA	NA	first	33	NA	NA	NA	NA	NA	NA
+7	glab	first	NA	NA	NA	NA	first	34	NA	NA	NA	NA	NA	NA
+7	rofky	first	NA	NA	NA	NA	first	35	NA	NA	NA	NA	NA	NA
+7	rofky	second	NA	NA	NA	NA	first	36	NA	NA	NA	NA	NA	NA
+7	glab	second	NA	NA	NA	NA	second	37	NA	NA	NA	NA	NA	NA
+7	glab	second	NA	NA	NA	NA	second	38	NA	NA	NA	NA	NA	NA
+7	glab	first	NA	NA	NA	NA	first	39	NA	NA	NA	NA	NA	NA
+7	rofky	second	NA	NA	NA	NA	second	40	NA	NA	NA	NA	NA	NA
+7	rofky	first	NA	NA	NA	NA	first	41	NA	NA	NA	NA	NA	NA
+7	glab	first	NA	NA	NA	NA	first	42	NA	NA	NA	NA	NA	NA
+7	rofky	second	NA	NA	NA	NA	second	43	NA	NA	NA	NA	NA	NA
+7	glab	first	NA	NA	NA	NA	first	44	NA	NA	NA	NA	NA	NA
+7	rofky	first	NA	NA	NA	NA	first	45	NA	NA	NA	NA	NA	NA
+7	rofky	second	NA	NA	NA	NA	second	46	NA	NA	NA	NA	NA	NA
+7	rofky	first	NA	NA	NA	NA	first	47	NA	NA	NA	NA	NA	NA
+7	glab	second	NA	NA	NA	NA	second	48	NA	NA	NA	NA	NA	NA
+7	rofky	first	NA	NA	NA	NA	first	49	NA	NA	NA	NA	NA	NA
+7	glab	first	NA	NA	NA	NA	first	50	NA	NA	NA	NA	NA	NA
+7	rofky	first	NA	NA	NA	NA	first	51	NA	NA	NA	NA	NA	NA
+7	glab	first	NA	NA	NA	NA	first	52	NA	NA	NA	NA	NA	NA
+7	NA	NA	NA	NA	the green glab spaceship 	NA	NA	54	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+7	NA	NA	NA	NA	the blue rofky glab spaceship	NA	NA	55	NA	NA	inconsistent	Q_rofky_glab	R_COLOR_glab	S_COLOR_rofky
+7	NA	NA	NA	NA	the rofky spaceship  	NA	NA	56	NA	NA	correct	Q_rofky	R_	S_rofky
+7	NA	NA	NA	NA	the green spaceship  	NA	NA	57	NA	NA	correct	Q_	R_COLOR	S_COLOR
+7	NA	NA	NA	NA	the rofky spaceship  	NA	NA	58	NA	NA	correct	Q_rofky	R_	S_rofky
+7	NA	NA	NA	NA	the glab spaceship  	NA	NA	59	NA	NA	correct	Q_glab	R_glab	S_
+7	NA	NA	NA	NA	the red glab rofky spaceship	NA	NA	60	NA	NA	correct	Q_glab_rofky	R_COLOR_glab	S_COLOR_rofky
+7	NA	NA	NA	NA	the red rofky glab spaceship	NA	NA	61	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_COLOR_rofky
+7	NA	NA	NA	NA	the red spaceship  	NA	NA	62	NA	NA	correct	Q_	R_COLOR	S_COLOR
+7	NA	NA	NA	NA	the rofky glab spaceship 	NA	NA	63	NA	NA	correct	Q_rofky_glab	R_glab	S_rofky
+7	NA	NA	NA	NA	the blue rofky spaceship 	NA	NA	64	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+7	NA	NA	NA	NA	the glab blue spaceship 	NA	NA	65	NA	NA	correct	Q_glab	R_glab_COLOR	S_COLOR
+7	NA	NA	NA	NA	the red rofky spaceship 	NA	NA	66	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+7	NA	NA	NA	NA	the rofky glab spaceship 	NA	NA	67	NA	NA	correct	Q_rofky_glab	R_glab	S_rofky
+7	NA	NA	NA	NA	the red rofky spaceship 	NA	NA	68	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+7	NA	NA	NA	NA	the blue rofky spaceship 	NA	NA	69	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+7	NA	NA	NA	NA	the blue rofky spaceship 	NA	NA	70	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+7	NA	NA	NA	NA	the green rofky glab spaceship	NA	NA	71	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_COLOR_rofky
+7	NA	NA	NA	NA	the green glab rofky spaceship	NA	NA	72	NA	NA	correct	Q_glab_rofky	R_COLOR_glab	S_COLOR_rofky
+7	NA	NA	NA	NA	the glab rofky spaceship 	NA	NA	73	NA	NA	correct	Q_glab_rofky	R_glab	S_rofky
+7	NA	NA	NA	NA	the blue rofky glab spaceship	NA	NA	74	NA	NA	correct	Q_rofky_glab	R_COLOR_glab	S_COLOR_rofky
+7	NA	NA	NA	NA	the glab green spaceship 	NA	NA	75	NA	NA	correct	Q_glab	R_glab_COLOR	S_COLOR
+7	NA	NA	NA	NA	the rofky spaceship  	NA	NA	76	NA	NA	correct	Q_rofky	R_	S_rofky
+7	NA	NA	NA	NA	the glab rofky spaceship 	NA	NA	77	NA	NA	correct	Q_glab_rofky	R_glab	S_rofky
+7	NA	NA	NA	NA	the rofky spaceship  	NA	NA	78	NA	NA	correct	Q_rofky	R_	S_rofky
+7	NA	NA	NA	NA	the green rofky spaceship 	NA	NA	79	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+7	NA	NA	NA	NA	The rofky spaceship	NA	NA	81	NA	NA	correct	Q_rofky	R_	S_rofky
+7	NA	NA	NA	NA	the green spaceship	NA	NA	82	NA	NA	correct	Q_	R_COLOR	S_COLOR
+7	NA	NA	NA	NA	the red spaceship	NA	NA	83	NA	NA	correct	Q_	R_COLOR	S_COLOR
+7	NA	NA	NA	NA	the blue spaceship	NA	NA	84	NA	NA	correct	Q_	R_COLOR	S_COLOR
+7	NA	NA	NA	NA	the green glab spaceship	NA	NA	85	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+7	NA	NA	NA	NA	the rofky spaceship	NA	NA	86	NA	NA	correct	Q_rofky	R_	S_rofky
+7	NA	NA	NA	NA	the glab spaceship	NA	NA	87	NA	NA	correct	Q_glab	R_glab	S_
+7	NA	NA	NA	NA	The red rofky spaceship	NA	NA	88	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+7	NA	NA	NA	NA	The green rofky spaceship	NA	NA	89	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+7	NA	NA	NA	NA	The glab rofky spaceship	NA	NA	90	NA	NA	correct	Q_glab_rofky	R_glab	S_rofky
+7	NA	NA	NA	NA	The rofky spaceship	NA	NA	91	NA	NA	correct	Q_rofky	R_	S_rofky
+7	NA	NA	NA	NA	the green rofky spaceship	NA	NA	92	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+7	NA	NA	NA	NA	the red rofky spaceship	NA	NA	93	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+7	NA	NA	NA	NA	The glab rofky spaceship	NA	NA	94	NA	NA	correct	Q_glab_rofky	R_glab	S_rofky
+7	NA	NA	NA	NA	The red spaceship	NA	NA	95	NA	NA	correct	Q_	R_COLOR	S_COLOR
+7	NA	NA	NA	NA	The green glab spaceship	NA	NA	96	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+7	NA	NA	NA	NA	the blue rofky spaceship	NA	NA	97	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+7	NA	NA	NA	NA	The glab rofky spaceship	NA	NA	98	NA	NA	correct	Q_glab_rofky	R_glab	S_rofky
+7	NA	NA	NA	NA	the blue rofky spaceship	NA	NA	99	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+7	NA	NA	NA	NA	the red rofky spaceship	NA	NA	100	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+7	NA	NA	NA	NA	the blue glab spaceship	NA	NA	101	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+7	NA	NA	NA	NA	the rofky glab spaceship	NA	NA	102	NA	NA	correct	Q_rofky_glab	R_glab	S_rofky
+7	NA	NA	NA	NA	the glab rofky spaceship	NA	NA	103	NA	NA	correct	Q_glab_rofky	R_glab	S_rofky
+7	NA	NA	NA	NA	the rofky spaceship	NA	NA	104	NA	NA	correct	Q_rofky	R_	S_rofky
+7	NA	NA	NA	NA	the glab rofky spaceship	NA	NA	105	NA	NA	correct	Q_glab_rofky	R_glab	S_rofky
+7	NA	NA	NA	NA	the red rofky spaceship	NA	NA	106	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+7	NA	NA	NA	NA	the glab spaceship	NA	NA	108	NA	NA	correct	Q_glab	R_glab	S_
+7	NA	NA	NONE	My friend used to fly this...	NA	0.83	NA	135	rofky	blue	NA	NA	NA	NA
+7	NA	NA	NONE	On our planet, many aliens fly ships like this...	NA	0.13	NA	136	glab	blue	NA	NA	NA	NA
+7	NA	NA	glab	Wow, so many fins &#8210; I like this...	NA	0.17	NA	137	glab	blue	NA	NA	NA	NA
+7	NA	NA	green	I like ships that have the same color as I have, like this...	NA	0.18	NA	138	green	rofky	NA	NA	NA	NA
+7	NA	NA	rofky	My first ship had the same shape as this...	NA	0.11	NA	139	blue	rofky	NA	NA	NA	NA
+7	NA	NA	glab	Ugh, too many fins &#8210; I hate flying this...	NA	0.14	NA	140	glab	blue	NA	NA	NA	NA
+7	NA	NA	rofky	Humans think all our ships look like rockets, like this...	NA	0.15	NA	141	blue	rofky	NA	NA	NA	NA
+7	NA	NA	rofky	For long distances, I use rockets. The best one is this...	NA	0.81	NA	142	rofky	blue	NA	NA	NA	NA
+7	NA	NA	blue	What a nice color. I like flying this...	NA	0.13	NA	143	glab	blue	NA	NA	NA	NA
+7	NA	NA	glab	I really don&quotechart like ships with many spikes, like this...	NA	0.18	NA	144	glab	rofky	NA	NA	NA	NA
+7	NA	NA	glab	The more spikes, the better. My favorite one is this...	NA	0.84	NA	145	glab	rofky	NA	NA	NA	NA
+7	NA	NA	NA	NA	NA	0.18	NA	147	glab	green	NA	NA	NA	NA
+7	NA	NA	NA	NA	NA	0.2	NA	148	big	green	NA	NA	NA	NA
+7	NA	NA	NA	NA	NA	0.85	NA	149	rofky	glab	NA	NA	NA	NA
+7	NA	NA	NA	NA	NA	0.83	NA	150	glab	big	NA	NA	NA	NA
+7	NA	NA	NA	NA	NA	0.88	NA	151	rofky	red	NA	NA	NA	NA
+7	NA	NA	NA	NA	NA	0.79	NA	152	big	red	NA	NA	NA	NA
+7	NA	NA	NA	NA	NA	0.84	NA	153	rofky	blue	NA	NA	NA	NA
+7	NA	NA	NA	NA	NA	0.86	NA	154	blue	big	NA	NA	NA	NA
+7	NA	NA	NA	NA	NA	0.84	NA	155	rofky	green	NA	NA	NA	NA
+7	NA	NA	NA	NA	NA	0.87	NA	156	glab	blue	NA	NA	NA	NA
+7	NA	NA	NA	NA	NA	0.84	NA	157	glab	red	NA	NA	NA	NA
+7	NA	NA	NA	NA	NA	0.87	NA	158	rofky	small	NA	NA	NA	NA
+7	NA	NA	NA	NA	NA	0.11	NA	159	big	rofky	NA	NA	NA	NA
+7	NA	NA	NA	NA	NA	0.81	NA	160	glab	small	NA	NA	NA	NA
+8	glab	first	NA	NA	NA	NA	first	5	NA	NA	NA	NA	NA	NA
+8	glab	second	NA	NA	NA	NA	second	6	NA	NA	NA	NA	NA	NA
+8	glab	first	NA	NA	NA	NA	first	7	NA	NA	NA	NA	NA	NA
+8	rofky	first	NA	NA	NA	NA	first	8	NA	NA	NA	NA	NA	NA
+8	glab	first	NA	NA	NA	NA	first	9	NA	NA	NA	NA	NA	NA
+8	glab	first	NA	NA	NA	NA	first	10	NA	NA	NA	NA	NA	NA
+8	rofky	second	NA	NA	NA	NA	second	11	NA	NA	NA	NA	NA	NA
+8	glab	second	NA	NA	NA	NA	second	12	NA	NA	NA	NA	NA	NA
+8	glab	second	NA	NA	NA	NA	second	13	NA	NA	NA	NA	NA	NA
+8	glab	first	NA	NA	NA	NA	first	14	NA	NA	NA	NA	NA	NA
+8	glab	first	NA	NA	NA	NA	second	15	NA	NA	NA	NA	NA	NA
+8	glab	second	NA	NA	NA	NA	second	16	NA	NA	NA	NA	NA	NA
+8	rofky	first	NA	NA	NA	NA	second	17	NA	NA	NA	NA	NA	NA
+8	rofky	second	NA	NA	NA	NA	second	18	NA	NA	NA	NA	NA	NA
+8	glab	second	NA	NA	NA	NA	second	19	NA	NA	NA	NA	NA	NA
+8	glab	second	NA	NA	NA	NA	second	20	NA	NA	NA	NA	NA	NA
+8	rofky	first	NA	NA	NA	NA	first	21	NA	NA	NA	NA	NA	NA
+8	rofky	first	NA	NA	NA	NA	first	22	NA	NA	NA	NA	NA	NA
+8	glab	second	NA	NA	NA	NA	second	23	NA	NA	NA	NA	NA	NA
+8	glab	second	NA	NA	NA	NA	second	24	NA	NA	NA	NA	NA	NA
+8	rofky	first	NA	NA	NA	NA	first	25	NA	NA	NA	NA	NA	NA
+8	rofky	first	NA	NA	NA	NA	first	26	NA	NA	NA	NA	NA	NA
+8	rofky	first	NA	NA	NA	NA	first	27	NA	NA	NA	NA	NA	NA
+8	rofky	second	NA	NA	NA	NA	first	28	NA	NA	NA	NA	NA	NA
+8	rofky	second	NA	NA	NA	NA	second	29	NA	NA	NA	NA	NA	NA
+8	rofky	second	NA	NA	NA	NA	second	30	NA	NA	NA	NA	NA	NA
+8	glab	second	NA	NA	NA	NA	second	31	NA	NA	NA	NA	NA	NA
+8	rofky	second	NA	NA	NA	NA	second	32	NA	NA	NA	NA	NA	NA
+8	glab	first	NA	NA	NA	NA	first	33	NA	NA	NA	NA	NA	NA
+8	rofky	second	NA	NA	NA	NA	first	34	NA	NA	NA	NA	NA	NA
+8	rofky	second	NA	NA	NA	NA	second	35	NA	NA	NA	NA	NA	NA
+8	rofky	first	NA	NA	NA	NA	first	36	NA	NA	NA	NA	NA	NA
+8	rofky	first	NA	NA	NA	NA	first	37	NA	NA	NA	NA	NA	NA
+8	rofky	first	NA	NA	NA	NA	first	38	NA	NA	NA	NA	NA	NA
+8	rofky	first	NA	NA	NA	NA	first	39	NA	NA	NA	NA	NA	NA
+8	glab	first	NA	NA	NA	NA	first	40	NA	NA	NA	NA	NA	NA
+8	glab	second	NA	NA	NA	NA	second	41	NA	NA	NA	NA	NA	NA
+8	glab	first	NA	NA	NA	NA	first	42	NA	NA	NA	NA	NA	NA
+8	glab	second	NA	NA	NA	NA	second	43	NA	NA	NA	NA	NA	NA
+8	rofky	first	NA	NA	NA	NA	first	44	NA	NA	NA	NA	NA	NA
+8	rofky	first	NA	NA	NA	NA	first	45	NA	NA	NA	NA	NA	NA
+8	glab	first	NA	NA	NA	NA	first	46	NA	NA	NA	NA	NA	NA
+8	rofky	second	NA	NA	NA	NA	second	47	NA	NA	NA	NA	NA	NA
+8	glab	first	NA	NA	NA	NA	first	48	NA	NA	NA	NA	NA	NA
+8	glab	second	NA	NA	NA	NA	second	49	NA	NA	NA	NA	NA	NA
+8	glab	second	NA	NA	NA	NA	second	50	NA	NA	NA	NA	NA	NA
+8	rofky	first	NA	NA	NA	NA	first	51	NA	NA	NA	NA	NA	NA
+8	rofky	first	NA	NA	NA	NA	first	52	NA	NA	NA	NA	NA	NA
+8	NA	NA	NA	NA	red rofky   	NA	NA	54	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+8	NA	NA	NA	NA	glab    	NA	NA	55	NA	NA	correct	Q_glab	R_glab	S_
+8	NA	NA	NA	NA	blue rofky   	NA	NA	56	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+8	NA	NA	NA	NA	glab    	NA	NA	57	NA	NA	correct	Q_glab	R_glab	S_
+8	NA	NA	NA	NA	red glab rofky  	NA	NA	58	NA	NA	correct	Q_glab_rofky	R_COLOR_glab	S_COLOR_rofky
+8	NA	NA	NA	NA	green glab   	NA	NA	59	NA	NA	inconsistent	Q_glab	R_COLOR_glab	S_COLOR
+8	NA	NA	NA	NA	rofky glab   	NA	NA	60	NA	NA	correct	Q_rofky_glab	R_glab	S_rofky
+8	NA	NA	NA	NA	glab blue   	NA	NA	61	NA	NA	correct	Q_glab	R_glab_COLOR	S_COLOR
+8	NA	NA	NA	NA	glab rofky   	NA	NA	62	NA	NA	correct	Q_glab_rofky	R_glab	S_rofky
+8	NA	NA	NA	NA	red glab   	NA	NA	63	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+8	NA	NA	NA	NA	red rofky   	NA	NA	64	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+8	NA	NA	NA	NA	green glab   	NA	NA	65	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+8	NA	NA	NA	NA	green glab   	NA	NA	66	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+8	NA	NA	NA	NA	blue    	NA	NA	67	NA	NA	correct	Q_	R_COLOR	S_COLOR
+8	NA	NA	NA	NA	glab rofky   	NA	NA	68	NA	NA	correct	Q_glab_rofky	R_glab	S_rofky
+8	NA	NA	NA	NA	glab red   	NA	NA	69	NA	NA	correct	Q_glab	R_glab_COLOR	S_COLOR
+8	NA	NA	NA	NA	blue rofky   	NA	NA	70	NA	NA	underspecified	Q_rofky	R_COLOR	S_COLOR_rofky
+8	NA	NA	NA	NA	glab rofky   	NA	NA	71	NA	NA	correct	Q_glab_rofky	R_glab	S_rofky
+8	NA	NA	NA	NA	green    	NA	NA	72	NA	NA	correct	Q_	R_COLOR	S_COLOR
+8	NA	NA	NA	NA	blue rofky   	NA	NA	73	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+8	NA	NA	NA	NA	red    	NA	NA	74	NA	NA	correct	Q_	R_COLOR	S_COLOR
+8	NA	NA	NA	NA	green rofky   	NA	NA	75	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+8	NA	NA	NA	NA	green glab   	NA	NA	76	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+8	NA	NA	NA	NA	green    	NA	NA	77	NA	NA	correct	Q_	R_COLOR	S_COLOR
+8	NA	NA	NA	NA	glab rofky   	NA	NA	78	NA	NA	correct	Q_glab_rofky	R_glab	S_rofky
+8	NA	NA	NA	NA	blue glab   	NA	NA	79	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+8	NA	NA	NA	NA	blue rofky	NA	NA	81	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+8	NA	NA	NA	NA	blue rofky	NA	NA	82	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+8	NA	NA	NA	NA	red	NA	NA	83	NA	NA	correct	Q_	R_COLOR	S_COLOR
+8	NA	NA	NA	NA	red rofky	NA	NA	84	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+8	NA	NA	NA	NA	glab rofky	NA	NA	85	NA	NA	underspecified	Q_glab_rofky	R_glab	S_rofky
+8	NA	NA	NA	NA	red glab	NA	NA	86	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+8	NA	NA	NA	NA	green glab	NA	NA	87	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+8	NA	NA	NA	NA	glab rofky	NA	NA	88	NA	NA	correct	Q_glab_rofky	R_glab	S_rofky
+8	NA	NA	NA	NA	green rofky	NA	NA	89	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+8	NA	NA	NA	NA	red glab	NA	NA	90	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+8	NA	NA	NA	NA	glab rofky	NA	NA	91	NA	NA	correct	Q_glab_rofky	R_glab	S_rofky
+8	NA	NA	NA	NA	glab rofky	NA	NA	92	NA	NA	correct	Q_glab_rofky	R_glab	S_rofky
+8	NA	NA	NA	NA	glab	NA	NA	93	NA	NA	correct	Q_glab	R_glab	S_
+8	NA	NA	NA	NA	green glab	NA	NA	94	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+8	NA	NA	NA	NA	blue glab	NA	NA	95	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+8	NA	NA	NA	NA	green glab	NA	NA	96	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+8	NA	NA	NA	NA	blue rofky	NA	NA	97	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+8	NA	NA	NA	NA	blue rofky	NA	NA	98	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+8	NA	NA	NA	NA	blue	NA	NA	99	NA	NA	correct	Q_	R_COLOR	S_COLOR
+8	NA	NA	NA	NA	red	NA	NA	100	NA	NA	correct	Q_	R_COLOR	S_COLOR
+8	NA	NA	NA	NA	green	NA	NA	101	NA	NA	correct	Q_	R_COLOR	S_COLOR
+8	NA	NA	NA	NA	green	NA	NA	102	NA	NA	correct	Q_	R_COLOR	S_COLOR
+8	NA	NA	NA	NA	red rofky	NA	NA	103	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+8	NA	NA	NA	NA	red rofky	NA	NA	104	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+8	NA	NA	NA	NA	glab rofky	NA	NA	105	NA	NA	correct	Q_glab_rofky	R_glab	S_rofky
+8	NA	NA	NA	NA	blue glab	NA	NA	106	NA	NA	correct	Q_glab	R_COLOR_glab	S_COLOR
+8	NA	NA	NA	NA	red rofky	NA	NA	108	NA	NA	correct	Q_rofky	R_COLOR	S_COLOR_rofky
+8	NA	NA	glab	Humans think all our ships look like rockets, like this...	NA	0.87	NA	135	glab	blue	NA	NA	NA	NA
+8	NA	NA	glab	For long distances, I use rockets. The best one is this...	NA	0.17	NA	136	blue	glab	NA	NA	NA	NA
+8	NA	NA	glab	My first ship had the same shape as this...	NA	0.16	NA	137	blue	glab	NA	NA	NA	NA
+8	NA	NA	green	I like ships that have the same color as I have, like this...	NA	0.84	NA	138	glab	green	NA	NA	NA	NA
+8	NA	NA	rofky	I really don&quotechart like ships with many spikes, like this...	NA	0.11	NA	139	glab	rofky	NA	NA	NA	NA
+8	NA	NA	rofky	The more spikes, the better. My favorite one is this...	NA	0.94	NA	140	glab	rofky	NA	NA	NA	NA
+8	NA	NA	rofky	Ugh, too many fins &#8210; I hate flying this...	NA	0.83	NA	141	rofky	green	NA	NA	NA	NA
+8	NA	NA	NONE	My friend used to fly this...	NA	0.75	NA	142	glab	red	NA	NA	NA	NA
+8	NA	NA	NONE	On our planet, many aliens fly ships like this...	NA	0.1	NA	143	red	rofky	NA	NA	NA	NA
+8	NA	NA	red	What a nice color. I like flying this...	NA	0.16	NA	144	red	rofky	NA	NA	NA	NA
+8	NA	NA	rofky	Wow, so many fins &#8210; I like this...	NA	0.1	NA	145	blue	rofky	NA	NA	NA	NA
+8	NA	NA	NA	NA	NA	0.18	NA	147	green	rofky	NA	NA	NA	NA
+8	NA	NA	NA	NA	NA	0.96	NA	148	rofky	blue	NA	NA	NA	NA
+8	NA	NA	NA	NA	NA	0.11	NA	149	small	glab	NA	NA	NA	NA
+8	NA	NA	NA	NA	NA	0.15	NA	150	blue	glab	NA	NA	NA	NA
+8	NA	NA	NA	NA	NA	0.16	NA	151	red	small	NA	NA	NA	NA
+8	NA	NA	NA	NA	NA	0.19	NA	152	red	rofky	NA	NA	NA	NA
+8	NA	NA	NA	NA	NA	0.97	NA	153	glab	green	NA	NA	NA	NA
+8	NA	NA	NA	NA	NA	0.13	NA	154	big	rofky	NA	NA	NA	NA
+8	NA	NA	NA	NA	NA	0.93	NA	155	glab	red	NA	NA	NA	NA
+8	NA	NA	NA	NA	NA	0.92	NA	156	glab	big	NA	NA	NA	NA
+8	NA	NA	NA	NA	NA	0.11	NA	157	big	red	NA	NA	NA	NA
+8	NA	NA	NA	NA	NA	0.19	NA	158	small	rofky	NA	NA	NA	NA
+8	NA	NA	NA	NA	NA	0.75	NA	159	rofky	glab	NA	NA	NA	NA
+8	NA	NA	NA	NA	NA	0.22	NA	160	small	blue	NA	NA	NA	NA
