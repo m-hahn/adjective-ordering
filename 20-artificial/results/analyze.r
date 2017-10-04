@@ -192,69 +192,44 @@ summary(glm(rofkyOrColorFirst.Transformed ~ adjective1, family="binomial", data=
 summary(glm(glabOrRofkyFirst.Transformed ~ adjective1, family="binomial", data=data.click))
 
 
+
+
+
+data.free$section = "free"
+data.click$section = "constrained"
+
+dataProduction = rbind(data.free, data.click)
+
+dataProduction$subjective.vs.color = ifelse(dataProduction$adjective1 == "glab", dataProduction$glabOrColorFirst.Transformed, dataProduction$rofkyOrColorFirst.Transformed)
+dataProduction$objective.vs.color = ifelse(dataProduction$adjective1 == "rofky", dataProduction$glabOrColorFirst.Transformed, dataProduction$rofkyOrColorFirst.Transformed)
+
+
+
+agr = dataProduction %>%
+  group_by(section) %>%
+  summarise(Mean = mean(subjective.vs.color, na.rm=TRUE), CILow = ci.low(subjective.vs.color), CIHigh = ci.high(subjective.vs.color))
+agr$alien = "subjective"
+
+agr2 = dataProduction %>%
+  group_by(section) %>%
+  summarise(Mean = mean(objective.vs.color, na.rm=TRUE), CILow = ci.low(objective.vs.color), CIHigh = ci.high(objective.vs.color))
+agr2$alien = "objective"
+
+agr = rbind(agr, agr2)
+
+dodge = position_dodge(.9)
+
+pdf('plots/production.pdf')
+ggplot(agr, aes(x=alien, y=Mean)) +
+  geom_bar(stat="identity",position=dodge) +
+  geom_errorbar(aes(ymin=Mean-CILow,ymax=Mean+CIHigh),position=dodge,width=.25) +
+  facet_wrap(~section) +
+  ylab('Alien Adjective before Color') +
+  xlab('Type of Alien Adjective')
+dev.off()
+
+
 #aggregate(data3["response"], by=c(data3["subjectiveFirst"]), mean)
-
-
-######################
-
-agr = data %>%
-  group_by(condition1, condition2, noun) %>%
-  summarise(Mean = mean(response), CILow = ci.low(response), CIHigh = ci.high(response))
-dodge = position_dodge(.9)
-
-ggplot(agr, aes(x=condition1,y=Mean,fill=condition1)) +
-  geom_bar(stat="identity",position=dodge) +
-  geom_errorbar(aes(ymin=Mean-CILow,ymax=Mean+CIHigh),position=dodge,width=.25) +
-  facet_wrap(~noun)
-
-
-
-agr = data %>%
-  group_by(condition2) %>%
-  summarise(Mean = mean(response), CILow = ci.low(response), CIHigh = ci.high(response))
-dodge = position_dodge(.9)
-
-ggplot(agr, aes(x=condition2,y=Mean,fill=condition2)) +
-  geom_bar(stat="identity",position=dodge) +
-  geom_errorbar(aes(ymin=Mean-CILow,ymax=Mean+CIHigh),position=dodge,width=.25) 
-
-
-
-agr = data %>%
-  group_by(predicate1) %>%
-  summarise(Mean = mean(response), CILow = ci.low(response), CIHigh = ci.high(response))
-dodge = position_dodge(.9)
-
-ggplot(agr, aes(x=predicate1,y=Mean,fill=predicate1)) +
-  geom_bar(stat="identity",position=dodge) +
-  geom_errorbar(aes(ymin=Mean-CILow,ymax=Mean+CIHigh),position=dodge,width=.25) +
-  facet_wrap(~predicate1)
-
-
-
-
-dataSpecial = data[data$condition1 != data$condition2,]
-
-agr = dataSpecial %>%
-  group_by(condition1, predicate1, noun) %>%
-  summarise(Mean = mean(response), CILow = ci.low(response), CIHigh = ci.high(response))
-dodge = position_dodge(.9)
-
-ggplot(agr, aes(x=condition1,y=Mean,fill=condition1)) +
-  geom_bar(stat="identity",position=dodge) +
-  geom_errorbar(aes(ymin=Mean-CILow,ymax=Mean+CIHigh),position=dodge,width=.25) +
-  facet_wrap(~noun + predicate1)
-
-
-
-agr = dataSpecial %>%
-  group_by(condition1) %>%
-  summarise(Mean = mean(response), CILow = ci.low(response), CIHigh = ci.high(response))
-dodge = position_dodge(.9)
-
-ggplot(agr, aes(x=condition1,y=Mean,fill=condition1)) +
-  geom_bar(stat="identity",position=dodge) +
-  geom_errorbar(aes(ymin=Mean-CILow,ymax=Mean+CIHigh),position=dodge,width=.25) 
 
 
 
