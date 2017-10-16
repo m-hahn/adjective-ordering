@@ -37,11 +37,21 @@
 
     <!-- experiment file -->
     <script src="js/order-preference.js"></script>
+    <script src="expt-files/switchboard-adjectives-contexts.json"></script>
+
     <script src="expt-files/corpus.js"></script>
     <script src="expt-files/names.js"></script>
 
     <!-- check unique turkers -->
     <script src="../_shared/js/uniqueturker.js"></script>
+
+<!-- Load consent form -->
+<script> 
+$(function(){
+  $("#consent-form").load("consent.html"); 
+});
+</script> 
+
 
     <!--<script> 
       var myimages=new Array("../expt-files/images/context1.1.png","../expt-files/images/context1.3.png","../expt-files/images/context1.3reg.png","../expt-files/images/context2.1.png","../expt-files/images/context2.3.png","../expt-files/images/context2.3reg.png","../expt-files/images/context3.1.png","../expt-files/images/context3.3.png","../expt-files/images/context3.3reg.png","../expt-files/images/context4.1.png","../expt-files/images/context4.3.png","../expt-files/images/context4.3reg.png","../expt-files/images/contextX.2.png")
@@ -61,7 +71,7 @@
   <div class="slide" id="i0" >
     <!--<img src="../_shared/images/cocologo.png" alt="Stanford Linguistics" id="cocologo"></img>-->
     <p id="cocolab">Stanford Linguistics</p>
-    <p id="instruct-text">This HIT involves learning a few words and answering questions. The task should take about 25 minutes. Please pay attention. Thanks! <br/>  <br/> We'll be posting a series of similar hits. Please accept only one of these. </p>
+    <p id="instruct-text">This HIT involves reading transcripts of conversations and answering questions. The task should take about 15 minutes. Please pay attention. Thanks! <br/>  <br/> We'll be posting a series of similar hits. Please accept only one of these. </p>
     
     <button id="start_button" type="button">Start Experiment</button>
     <p id="legal">Legal information: By answering the following questions, you are participating in a study being performed by cognitive scientists in the Stanford Department of Linguistics. If you have questions about this research, please contact Michael Hahn at <a href="mailto://mhahn2@stanford.edu">mhahn2@stanford.edu</a>. You must be  at least 18 years old to participate. Your participation in this research is voluntary. You may decline to answer any or all of the following questions. You may decline further participation, at any time, without adverse consequences. Your anonymity is assured; the researchers who have requested your participation will not receive any personal information about you.</p>
@@ -69,29 +79,32 @@
 
   <div class="slide" id="instructions1">
     <h3>Instructions</h3>
-    <p> You will learn Alien words describing different kinds of spaceships.
+    <p> 
+We are interested in the ways people use adjectives in natural conversations.
+<p></p>
+You will read extracts from phone conversations.
+Read the extracts.
+In each extract, one word in the last turn is <u>underlined</u>.
+When you have finished reading, press "Continue".
+You will be asked a few questions about the word that was <u>underlined</u>.
+Your task is to think about them and answer carefully.
 </p>
 <p>
-These two friendly aliens will be your tutors:
-</p>
-    <table class="slider_table">
-      <tr><td class="radio_centered" style="width: 150px;">    <img src="images/alien-1.jpg" style="height:100px;">       </td>
-          <td class="radio_centered" style="width: 150px;">    <img src="images/alien-2.png" style="height:100px;">       </td>
-      </tr>
-    </table>
-<p>
-You will see a series of displays, each showing a spaceship, with a description given by one of your tutors.
-</p>
-<p>
-From time to time, we will test your knowledge.
-</p>
-<p>
-If you don't pass a test, the tutors will go through the material again.
-Therefore, if you do well on the tests, the HIT will complete earlier!
+You might notice that the conversations were recorded around 1990. This has no bearing on your task.
 </p>
     <button onclick="_s.button()">Continue</button>
   </div>
 
+<div class="slide" id="consent">
+<span id="consent-form">
+<br/><b>PLEASE RETURN THE HIT.</b> <p>There is a technical
+problem and we cannot assure that you are fully aware of the content
+of the consent information. For this reason, you currently cannot
+participate in this study.<p>
+</p> We would appreciate if you could let
+us know about this problem, though this is not required.</p>
+</span>
+</div>
 
 
   <div class="slide" id="tutorial">
@@ -335,6 +348,7 @@ Please wait while we're pairing you up with another worker. This should take les
 
 
 
+
   <div class="slide" id="production">
     <p class="name_said"></p>
     <div>
@@ -358,7 +372,7 @@ Please wait while we're pairing you up with another worker. This should take les
       </div>
    <br/>
    <p>
-        <textarea id="production_input" rows="1" cols="48"  style="font-size: 20pt;"  ></textarea>
+        <input type="text" id="production_input" size="40"  style="font-size: 20pt;"  ></input>
    </p>
     <button id="prod_continue_1" onclick="_s.button_3()">Submit</button>
     <button id="prod_continue_2" onclick="_s.button_3()">Try again</button>
@@ -468,6 +482,69 @@ Use the slider to indicate which option sounds better as a continuation.
 
 
 
+
+
+
+
+
+
+  <div class="slide" id="dialogue">
+  <p class="name_said"></p>
+
+
+
+<!-- the turns -->
+
+<table id="turn_rows" width="800px" style="border-collapse:separate; border-spacing:0 3px;">
+<tr id="turn_row_1"><td width="5%"><span class="speaker_0"  style="text-align:left;">{{}}</span></td><td colspan="2"> <span class="turn_0"  style="text-align:left;">{{}}</span> </td></tr></tr>
+<tr id="turn_row_2"><td colspan="2"  style="text-align:right;"><span class="turn_1">{{}}</span></td><td width = "5%"> <span class="speaker_1"  style="text-align:left;">{{}}</span></td></tr>
+<tr id="turn_row_3"><td><span class="speaker_0"  style="text-align:left;">{{}}</span></td><td colspan="2"> <span class="turn_2"  style="text-align:left;">{{}}</span> </td></tr></tr>
+<tr id="turn_row_4"><td colspan="2"  style="text-align:right;"><span class="turn_3">{{}}</span></td><td> <span class="speaker_1"  style="text-align:left;">{{}}</span></td></tr>
+<tr id="turn_row_5"><td><span class="speaker_0"  style="text-align:left;">{{}}</span></td><td colspan="2"> <span class="turn_4"  style="text-align:left;">{{}}</span> </td></tr></tr>
+<tr id="turn_row_6"><td colspan="2"  style="text-align:right;"><span class="turn_5">{{}}</span></td><td> <span class="speaker_1"  style="text-align:left;">{{}}</span></td></tr>
+<tr id="turn_row_7"><td><span class="speaker_0"  style="text-align:left;">{{}}</span></td><td colspan="2"> <span class="turn_6"  style="text-align:left;">{{}}</span> </td></tr></tr>
+<tr id="turn_row_8"><td colspan="2"  style="text-align:right;"><span class="turn_7">{{}}</span></td><td> <span class="speaker_1"  style="text-align:left;">{{}}</span></td></tr>
+<tr id="turn_row_9"><td><span class="speaker_0"  style="text-align:left;">{{}}</span></td><td colspan="2"> <span class="turn_8"  style="text-align:left;">{{}}</span> </td></tr></tr>
+<tr id="turn_row_10"><td colspan="2"  style="text-align:right;"><span class="turn_9">{{}}</span></td><td> <span class="speaker_1"  style="text-align:left;">{{}}</span></td></tr>
+<tr id="turn_row_11"><td><span class="speaker_0"  style="text-align:left;">{{}}</span></td><td colspan="2"> <span class="turn_10"  style="text-align:left;">{{}}</span> </td></tr></tr>
+<tr id="turn_row_12"><td colspan="2"  style="text-align:right;"><span class="turn_11">{{}}</span></td><td> <span class="speaker_1"  style="text-align:left;">{{}}</span></td></tr>
+<tr id="turn_row_13"><td><span class="speaker_0"  style="text-align:left;">{{}}</span></td><td colspan="2"> <span class="turn_12"  style="text-align:left;">{{}}</span> </td></tr></tr>
+<tr id="turn_row_14"><td colspan="2"  style="text-align:right;"><span class="turn_13">{{}}</span></td><td> <span class="speaker_1"  style="text-align:left;">{{}}</span></td></tr>
+<tr id="turn_row_15"><td><span class="speaker_0"  style="text-align:left;">{{}}</span></td><td colspan="2"> <span class="turn_14"  style="text-align:left;">{{}}</span> </td></tr></tr>
+<tr id="turn_row_16"><td colspan="2"  style="text-align:right;"><span class="turn_15">{{}}</span></td><td> <span class="speaker_1"  style="text-align:left;">{{}}</span></td></tr>
+<tr id="turn_row_17"><td><span class="speaker_0"  style="text-align:left;">{{}}</span></td><td colspan="2"> <span class="turn_16"  style="text-align:left;">{{}}</span> </td></tr></tr>
+<tr id="turn_row_18"><td colspan="2"  style="text-align:right;"><span class="turn_18">{{}}</span></td><td> <span class="speaker_1"  style="text-align:left;">{{}}</span></td></tr>
+</table>
+
+
+
+<!-- the questions -->
+
+<div id="dialogue_display">
+<br>
+<table width="100%">
+<span class="question_table">{{}}</span>
+</table>
+
+
+   <p  style="font-size: 12pt;">(Optional) Do you have other thoughts on why the speaker uttered the underlined word?</p>
+   <p>
+        <input type="text" id="free_input" size="40"  style="text-align:left;font-size: 14pt;"  ></input>
+   </p>
+
+
+   </div>
+
+
+
+ 
+    <button onclick="_s.button()">Continue</button>
+    <div class="err">Please adjust the sliders before continuing.</div>
+  </div>
+
+
+
+
 <!-- ############################################# -->
   <div class="slide" id="multi_slider_context">
   <p class="name_said"></p>
@@ -527,7 +604,7 @@ Use the slider to indicate which option sounds better as a continuation.
     <div class="long_form">
       <div class="subj_info_title">Additional information</div>
       <p class="info">Answering these questions is optional, but will help us understand your answers.</p>
-      <p>Note: We are posting a series of similar HITs. Please do not accept another HIT from this series!</p>
+<!--      <p class="info">Note: We are posting a series of similar HITs. Please do not accept another HIT from this series!</p>-->
       <p>Did you read the instructions and do you think you did the HIT correctly?</p>
       <label><input type="radio"  name="assess" value="No"/>No</label>
       <label><input type="radio"  name="assess" value="Yes"/>Yes</label>
@@ -573,9 +650,12 @@ Use the slider to indicate which option sounds better as a continuation.
         <label><option value="2">Better than average HIT</option></label>
       </select>
 
+      <p>How much pay (in $) do you think is appropriate for this HIT?</p>
+      <input type="text" id="suggested_pay"/></p>
+
       <p>We would be interested in any comments you have about this experiment. Please type them here:</p>
       <textarea id="comments" rows="3" cols="50"></textarea>
-      <p>Also, please feel free to share your experience on Turkopticon!</p>
+<!--      <p>Also, please feel free to share your experience on Turkopticon!</p>-->
       <br/>
       <button onclick="_s.submit()">Submit</button>
     </div>

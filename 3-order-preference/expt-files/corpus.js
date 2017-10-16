@@ -7,36 +7,129 @@ return Array.apply(null, Array(Math.floor((end-start+1.0)/step))).map(function (
 
 function sampleImage(value1, scale, value2, noun) {
    colorIndices = {}
+   protoTypes = {}
+   console.log("...")
+   console.log(scale)
+   console.log(value1)
+   console.log(value2)
    if(noun == "ball" && value2 == "striped") {
-     colorIndices["green"] = range(23,28,1);
-     colorIndices["blue"] = range(0,6,1);
-     colorIndices["red"] = range(13,18,1);
-     scales = colorIndices[value1];
-     scale = scales[Math.floor(scale * (scales).length)];
-     console.log("hallo");
-     return "red_striped_ball_"+(scale)+"_SMALL.png";
+     colorIndices["green"] = range(22,29,1);
+     colorIndices["blue"] = range(0,7,1);
+     colorIndices["red"] = range(12,19,1);
+     protoTypes["green"] = 27
+     protoTypes["blue"]  = 3
+     protoTypes["red"]   = 16
+
    } else if(noun == 'cup' && value2 == 'plastic') {
-     console.log("hallo2");
+
+     colorIndices["green"] = range(0,9,1);
+     colorIndices["blue"] = range(10,22,1);
+     colorIndices["red"] = range(24,29,1);
+
+     protoTypes["green"] = 5
+     protoTypes["blue"]  = 16
+     protoTypes["red"]   = 27
+
+   } else if(noun == 'cup' && value2 == 'wooden') {
 
      colorIndices["green"] = range(1,8,1);
-     colorIndices["blue"] = range(11,18,1);
-     colorIndices["red"] = range(25,28,1);
-     scales = colorIndices[value1];
-     scale = scales[Math.floor(scale * (scales).length)];
-     return "blue_"+value2+"_"+noun+"_"+scale+"_SMALL.png";
+     colorIndices["blue"] = range(10,18,1);
+     colorIndices["red"] = range(24,29,1);
+
+     protoTypes["green"] = 5
+     protoTypes["blue"]  = 17
+     protoTypes["red"]   = 27
+
+   } else if(noun == 'ball' && value2 == 'spotted') {
+
+     colorIndices["green"] = range(0,8,1);
+     colorIndices["blue"] = range(9,20,1);
+     colorIndices["red"] = range(22,29,1);
+
+     protoTypes["green"] = 3
+     protoTypes["blue"]  = 16
+     protoTypes["red"]   = 27
+
+   } else if(noun == 'ball' && value2 == 'checkered') {
+
+     colorIndices["green"] = range(0,8,1);
+     colorIndices["blue"] = range(9,20,1);
+     colorIndices["red"] = range(22,29,1);
+
+     protoTypes["green"] = 3
+     protoTypes["blue"]  = 14
+     protoTypes["red"]   = 26
+
+   } else if(noun == 'ball' && value2 == 'solid') {
+
+     colorIndices["green"] = range(0,8,1);
+     colorIndices["blue"] = range(9,20,1);
+     colorIndices["red"] = range(21,29,1);
+
+     protoTypes["green"] = 3
+     protoTypes["blue"]  = 15
+     protoTypes["red"]   = 27
+
+   } else if(noun == 'cup' && value2 == 'glass') {
+
+     colorIndices["green"] = range(0,6,1);
+     colorIndices["blue"] = range(7,17,1);
+     colorIndices["red"] = range(18,29,1);
+
+     protoTypes["green"] = 2
+     protoTypes["blue"]  = 14
+     protoTypes["red"]   = 26
+
+   } else if(noun == 'cup' && value2 == 'metal') {
+
+     colorIndices["green"] = range(0,7,1);
+     colorIndices["blue"] = range(8,20,1);
+     colorIndices["red"] = range(21,29,1);
+
+     protoTypes["green"] = 3
+     protoTypes["blue"]  = 14
+     protoTypes["red"]   = 28
 
    } else {
-     console.log("hallo2");
 
-     colorIndices["green"] = range(0,5,1);
-     colorIndices["blue"] = range(8,15,1);
-     colorIndices["red"] = range(25,28,1);
-     scales = colorIndices[value1];
-     scale = scales[Math.floor(scale * (scales).length)];
-     return "blue_"+value2+"_"+noun+"_"+scale+"_SMALL.png";
+     colorIndices["green"] = range(0,6,1);
+     colorIndices["blue"] = range(7,16,1);
+     colorIndices["red"] = range(26,29,1);
+
+     protoTypes["green"] = 3
+     protoTypes["blue"]  = 12
+     protoTypes["red"]   = 27
+
+
 
 //     return "blue_"+value2+"_"+noun+"_"+(_.sample(colorIndices[value1]));
    }
+
+
+
+     if(scale != 0.5) {
+       scales = colorIndices[value1];
+       scale = scales[Math.floor(scale * (scales).length)];
+     } else {
+       scale = protoTypes[value1];
+     }
+   console.log(scale)
+     console.log("return")
+
+
+   if(noun == "ball" && value2 == "striped") {
+     return "red_striped_ball_"+(scale)+"_SMALL.png";
+   } else {
+     return "blue_"+value2+"_"+noun+"_"+scale+"_SMALL.png";
+   }
+
+
+
+
+
+
+
+
                       // 0 - 6 green
                    // 7-16 blue
                    // 21-29 red
@@ -143,57 +236,20 @@ function makeStims() {
                 imgs = [];
                 group = condition_index
                 // with massive informativity difference
-                if(1 == 0 && group == 0) {// A is informative
-			imgs.push([value1A+"_"+value1B+"_"+noun+".png","target"]);
-			imgs.push([value1A+"_"+value2B+"_"+noun+".png","other"]);
-			imgs.push([value2A+"_"+value1B+"_"+noun+".png","other"]);
-			imgs.push([value2A+"_"+value1B+"_"+noun+".png","other"]);
-			imgs.push([value2A+"_"+value1B+"_"+noun+".png","other"]);
-			imgs.push([value2A+"_"+value1B+"_"+noun+".png","other"]);
-			imgs.push([value2A+"_"+value1B+"_"+noun+".png","other"]);
-			imgs.push([value2A+"_"+value1B+"_"+noun+".png","other"]);
-			imgs.push([value2A+"_"+value1B+"_"+noun+".png","other"]);
-			imgs.push([value2A+"_"+value1B+"_"+noun+".png","other"]);
-                } else if(1 == 0 && group == 1) {// B is informative
-			imgs.push([value1A+"_"+value1B+"_"+noun+".png","target"]);
-			imgs.push([value2A+"_"+value1B+"_"+noun+".png","other"]);
-			imgs.push([value1A+"_"+value2B+"_"+noun+".png","other"]);
-			imgs.push([value1A+"_"+value2B+"_"+noun+".png","other"]);
-			imgs.push([value1A+"_"+value2B+"_"+noun+".png","other"]);
-			imgs.push([value1A+"_"+value2B+"_"+noun+".png","other"]);
-			imgs.push([value1A+"_"+value2B+"_"+noun+".png","other"]);
-			imgs.push([value1A+"_"+value2B+"_"+noun+".png","other"]);
-			imgs.push([value1A+"_"+value2B+"_"+noun+".png","other"]);
-			imgs.push([value1A+"_"+value2B+"_"+noun+".png","other"]);
-//                } else
-/*                 // with only mild informativity difference
-                  if(group == 0) {// A is informative
-			imgs.push([value1A+"_"+value1B+"_"+noun+".png","target"]);
-			imgs.push([value1A+"_"+value2B+"_"+noun+".png","other"]);
-			imgs.push([value2A+"_"+value1B+"_"+noun+".png","other"]);
-			imgs.push([value2A+"_"+value1B+"_"+noun+".png","other"]);
-			imgs.push([value2A+"_"+value1B+"_"+noun+".png","other"]);
-			imgs.push([value2A+"_"+value2B+"_"+noun+".png","other"]);
-			imgs.push([value3A+"_"+value2B+"_"+noun+".png","other"]);
-			imgs.push([value3A+"_"+value2B+"_"+noun+".png","other"]);
-			imgs.push([value3A+"_"+value3B+"_"+noun+".png","other"]);
-			imgs.push([value3A+"_"+value3B+"_"+noun+".png","other"]);
-                } else if(group == 1) {// B is informative
-			imgs.push([value1A+"_"+value1B+"_"+noun+".png","target"]);
-			imgs.push([value2A+"_"+value1B+"_"+noun+".png","other"]);
-			imgs.push([value1A+"_"+value2B+"_"+noun+".png","other"]);
-			imgs.push([value1A+"_"+value2B+"_"+noun+".png","other"]);
-			imgs.push([value1A+"_"+value2B+"_"+noun+".png","other"]);
-			imgs.push([value2A+"_"+value2B+"_"+noun+".png","other"]);
-			imgs.push([value2A+"_"+value3B+"_"+noun+".png","other"]);
-			imgs.push([value2A+"_"+value3B+"_"+noun+".png","other"]);
-			imgs.push([value3A+"_"+value3B+"_"+noun+".png","other"]);
-			imgs.push([value3A+"_"+value3B+"_"+noun+".png","other"]);*/
-                } else if(1==1 || group == 2) {// both equally uninformative
-                        scale1 = Math.random();
-                        scale2 = Math.random();
+                        scale1 = 0.5;
+                        bound = 0.3;
+                        while(scale1 > bound && scale1 < (1.0-bound)) {
+                          console.log("+")
+                          scale1 = Math.random();
+                        }
+                        scale2 = 0.5;
+                        while(scale2 > bound && scale2 < (1.0-bound)) {
+                          console.log("+")
 
-			imgs.push([sampleImage(value1A, scale1, value1B, noun),"target"]);
+                          scale2 = Math.random();
+                        }
+
+			imgs.push([sampleImage(value1A, 0.5, value1B, noun),"target"]);
 			imgs.push([sampleImage(value2A, scale2, value1B, noun),"other"]);
 			imgs.push([sampleImage(value1A, scale1, value2B, noun),"other"]);
 			imgs.push([sampleImage(value1A, scale1, value2B, noun),"other"]);
@@ -203,7 +259,6 @@ function makeStims() {
 			imgs.push([sampleImage(value2A, scale2, value2B, noun),"other"]);
 			imgs.push([sampleImage(value1A, scale1, value2B, noun),"other"]);
 			imgs.push([sampleImage(value2A, scale2, value1B, noun),"other"]);
-                }
 
 
 

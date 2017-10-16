@@ -22,6 +22,25 @@ exp.imagesPreloaded = [];
     }
 
 
+  slides.consent = slide({
+     name : "consent",
+     start: function() {
+      exp.startT = Date.now();
+      $("#consent_2").hide();
+      exp.consent_position = 0;      
+     },
+    button : function() {
+      if(exp.consent_position == 0) {
+         exp.consent_position++;
+         $("#consent_1").hide();
+         $("#consent_2").show();
+      } else {
+        exp.go(); //use exp.go() if and only if there is no "present" data.
+      }
+    }
+  });
+
+
 
 
   slides.i0 = slide({
@@ -138,7 +157,7 @@ exp.imagesPreloaded = [];
       a2 = function() {
          $(".description_tutorial").html('<p class=triangle-border left"> These spaceships are <b>'+adjectives[1]+'</b>.</p>');
          for(var i=1; i<13; i++) {
-            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(ships[1], _.sample(colors), _.sample(ranges))+'" style="width:70px;">');
+            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(ship, _.sample(colors), 3)+'" style="width:70px;">');
           }
           $(".alien_tutorial").html('<img src="images/'+_.sample(["alien-1.jpg", "alien-2.png"])+'" style="height:80px;">');
       }
@@ -146,7 +165,7 @@ exp.imagesPreloaded = [];
       a3 = function() {
          $(".description_tutorial").html('<p class=triangle-border left"> These spaceships are not <b>'+adjectives[1]+'</b>.</p>');
          for(var i=1; i<13; i++) {
-            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(ships[0], _.sample(colors), _.sample(ranges))+'" style="width:70px;">');
+            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(ship, _.sample(colors), _.sample([1,2,4,5]))+'" style="width:70px;">');
           }
           $(".alien_tutorial").html('<img src="images/'+_.sample(["alien-1.jpg", "alien-2.png"])+'" style="height:80px;">');
       }
@@ -154,7 +173,7 @@ exp.imagesPreloaded = [];
       a4 = function() {
          $(".description_tutorial").html('<p class=triangle-border left"> These spaceships are <b>'+adjectives[1]+'</b>.</p>');
          for(var i=1; i<13; i++) {
-            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(ships[1], _.sample(colors), _.sample(ranges))+'" style="width:70px;">');
+            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(ship, _.sample(colors), 3)+'" style="width:70px;">');
           }
           $(".alien_tutorial").html('<img src="images/'+_.sample(["alien-1.jpg", "alien-2.png"])+'" style="height:80px;">');
       }
@@ -162,7 +181,7 @@ exp.imagesPreloaded = [];
       a5 = function() {
          $(".description_tutorial").html('<p class=triangle-border left"> These spaceships are not <b>'+adjectives[1]+'</b>.</p>');
          for(var i=1; i<13; i++) {
-            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(ships[0], _.sample(colors), _.sample(ranges))+'" style="width:70px;">');
+            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(ship, _.sample(colors), _.sample([1,2,4,5]))+'" style="width:70px;">');
           }
           $(".alien_tutorial").html('<img src="images/'+_.sample(["alien-1.jpg", "alien-2.png"])+'" style="height:80px;">');
       }
@@ -179,7 +198,7 @@ exp.imagesPreloaded = [];
       a7 = function() {
          $(".description_tutorial").html('<p class=triangle-border left"> These spaceships are quite <b>'+adjectives[0]+'</b>.</p>');
          for(var i=1; i<13; i++) {
-            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(_.sample(ships), _.sample(colors), _.sample([3,4,5]))+'" style="width:70px;">');
+            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(ship, _.sample(colors), _.sample([3,4,5]))+'" style="width:70px;">');
           }
           $(".alien_tutorial").html('<img src="images/'+_.sample(["alien-1.jpg", "alien-2.png"])+'" style="height:80px;">');
       }
@@ -187,7 +206,7 @@ exp.imagesPreloaded = [];
       a8 = function() {
          $(".description_tutorial").html('<p class=triangle-border left"> These spaceships are not <b>'+adjectives[0]+'</b> at all.</p>');
          for(var i=1; i<13; i++) {
-            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(_.sample(ships), _.sample(colors), _.sample([1]))+'" style="width:70px;">');
+            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(ship, _.sample(colors), _.sample([1]))+'" style="width:70px;">');
           }
           $(".alien_tutorial").html('<img src="images/'+_.sample(["alien-1.jpg", "alien-2.png"])+'" style="height:80px;">');
       }
@@ -197,7 +216,7 @@ exp.imagesPreloaded = [];
       a9 = function() {
          $(".description_tutorial").html('<p class=triangle-border left"> These spaceships are very <b>'+adjectives[0]+'</b>.</p>');
          for(var i=1; i<13; i++) {
-            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(_.sample(ships), _.sample(colors), _.sample([5]))+'" style="width:70px;">');
+            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(ship, _.sample(colors), _.sample([5]))+'" style="width:70px;">');
           }
           $(".alien_tutorial").html('<img src="images/'+_.sample(["alien-1.jpg", "alien-2.png"])+'" style="height:80px;">');
       }
@@ -205,7 +224,7 @@ exp.imagesPreloaded = [];
       a10 = function() {
          $(".description_tutorial").html('<p class=triangle-border left"> These spaceships are not so <b>'+adjectives[0]+'</b>.</p>');
          for(var i=1; i<13; i++) {
-            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(_.sample(ships), _.sample(colors), _.sample([2,3]))+'" style="width:70px;">');
+            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(ship, _.sample(colors), _.sample([2,3]))+'" style="width:70px;">');
           }
           $(".alien_tutorial").html('<img src="images/'+_.sample(["alien-1.jpg", "alien-2.png"])+'" style="height:80px;">');
       }
@@ -214,7 +233,7 @@ exp.imagesPreloaded = [];
       a11 = function() {
          $(".description_tutorial").html('<p class=triangle-border left"> These spaceships are extremely <b>'+adjectives[0]+'</b>.</p>');
          for(var i=1; i<13; i++) {
-            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(_.sample(ships), _.sample(colors), _.sample([5]))+'" style="width:70px;">');
+            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(ship, _.sample(colors), _.sample([5]))+'" style="width:70px;">');
           }
           $(".alien_tutorial").html('<img src="images/'+_.sample(["alien-1.jpg", "alien-2.png"])+'" style="height:80px;">');
       }
@@ -224,7 +243,7 @@ exp.imagesPreloaded = [];
       a12 = function() {
          $(".description_tutorial").html('<p class=triangle-border left"> These spaceships are arranged<br> from least <b>'+adjectives[0]+'</b> to most <b>'+adjectives[0]+'</b>.</p>');
          for(var i=1; i<13; i++) {
-            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(_.sample(ships), _.sample(colors), (Math.round(4.0 * i / 11.0 + 7.0/11.0  )))+'" style="width:70px;">');
+            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(ship, _.sample(colors), (Math.round(4.0 * i / 11.0 + 7.0/11.0  )))+'" style="width:70px;">');
           }
           $(".alien_tutorial").html('<img src="images/'+_.sample(["alien-1.jpg", "alien-2.png"])+'" style="height:80px;">');
       }
@@ -234,7 +253,7 @@ exp.imagesPreloaded = [];
       a13 = function() {
          $(".description_tutorial").html('<p class=triangle-border left"> These spaceships are arranged<br> from least <b>'+adjectives[0]+'</b> to most <b>'+adjectives[0]+'</b>.</p>');
          for(var i=1; i<13; i++) {
-            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(_.sample(ships), _.sample(colors), (Math.round(4.0 * i / 11.0 + 7.0/11.0  )))+'" style="width:70px;">');
+            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(ship, _.sample(colors), (Math.round(4.0 * i / 11.0 + 7.0/11.0  )))+'" style="width:70px;">');
           }
           $(".alien_tutorial").html('<img src="images/'+_.sample(["alien-1.jpg", "alien-2.png"])+'" style="height:80px;">');
       }
@@ -244,7 +263,7 @@ exp.imagesPreloaded = [];
       a14 = function() {
          $(".description_tutorial").html('<p class=triangle-border left"> These spaceships are arranged<br> from least <b>'+adjectives[0]+'</b> to most <b>'+adjectives[0]+'</b>.</p>');
          for(var i=1; i<13; i++) {
-            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(_.sample(ships), _.sample(colors), (Math.round(4.0 * i / 11.0 + 7.0/11.0  )))+'" style="width:70px;">');
+            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(ship, _.sample(colors), (Math.round(4.0 * i / 11.0 + 7.0/11.0  )))+'" style="width:70px;">');
           }
           $(".alien_tutorial").html('<img src="images/'+_.sample(["alien-1.jpg", "alien-2.png"])+'" style="height:80px;">');
       }
@@ -252,7 +271,7 @@ exp.imagesPreloaded = [];
       a15 = function() {
          $(".description_tutorial").html('<p class=triangle-border left"> These spaceships are <b>'+adjectives[1]+'</b>.</p>');
          for(var i=1; i<13; i++) {
-            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(ships[1], _.sample(colors), _.sample(ranges))+'" style="width:70px;">');
+            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(ship, _.sample(colors), 3)+'" style="width:70px;">');
           }
           $(".alien_tutorial").html('<img src="images/'+_.sample(["alien-1.jpg", "alien-2.png"])+'" style="height:80px;">');
       }
@@ -260,7 +279,7 @@ exp.imagesPreloaded = [];
       a16 = function() {
          $(".description_tutorial").html('<p class=triangle-border left"> These spaceships are not <b>'+adjectives[1]+'</b>.</p>');
          for(var i=1; i<13; i++) {
-            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(ships[0], _.sample(colors), _.sample(ranges))+'" style="width:70px;">');
+            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(ship, _.sample(colors), _.sample([1,2,4,5]))+'" style="width:70px;">');
           }
           $(".alien_tutorial").html('<img src="images/'+_.sample(["alien-1.jpg", "alien-2.png"])+'" style="height:80px;">');
       }
@@ -268,7 +287,7 @@ exp.imagesPreloaded = [];
       a17 = function() {
          $(".description_tutorial").html('<p class=triangle-border left"> These spaceships are <b>'+adjectives[1]+'</b>.</p>');
          for(var i=1; i<13; i++) {
-            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(ships[1], _.sample(colors), _.sample(ranges))+'" style="width:70px;">');
+            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(ship, _.sample(colors), 3)+'" style="width:70px;">');
           }
           $(".alien_tutorial").html('<img src="images/'+_.sample(["alien-1.jpg", "alien-2.png"])+'" style="height:80px;">');
       }
@@ -276,12 +295,12 @@ exp.imagesPreloaded = [];
       a18 = function() {
          $(".description_tutorial").html('<p class=triangle-border left"> These spaceships are not <b>'+adjectives[1]+'</b>.</p>');
          for(var i=1; i<13; i++) {
-            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(ships[0], _.sample(colors), _.sample(ranges))+'" style="width:70px;">');
+            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(ship, _.sample(colors), _.sample([1,2,4,5]))+'" style="width:70px;">');
           }
           $(".alien_tutorial").html('<img src="images/'+_.sample(["alien-1.jpg", "alien-2.png"])+'" style="height:80px;">');
       }
 
-      self.tutorial_functions = [undefined, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18];
+      self.tutorial_functions = [undefined, a2, a3, a4, a5,a2, a3, a4, a5,  a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18];
 
       a1();
     }, 
@@ -373,6 +392,9 @@ exp.imagesPreloaded = [];
 
  
          var names_list = _.shuffle(names);
+         console.log(stim.object_image1)
+         console.log(stim.object_image2)
+
          $(".object1").html('<input type="image" onclick="_s.button_1(\'first\')" id="myimage_first" src="images/'+stim.object_image1+'" style="height:190px;"/>');
          $(".object2").html('<input type="image" onclick="_s.button_1(\'second\')" id="myimage_first" src="images/'+stim.object_image2+'" style="height:190px;"/>');
 
@@ -571,20 +593,20 @@ exp.imagesPreloaded = [];
        maxrange = Math.max.apply(null, this.stim.ships.map(function(x) { return x.range }))
 //       console.log(this.stim.ships.map(function(x) { return x.range }))
   //     console.log(maxrange);
-       function isCompatible(ship) {
+       function isCompatible(local_ship) {
           negated = false;
           for(var i=0; i<words.length; i++) {
              word = words[i];
              if(["red", "green", "blue"].includes(word)) {
-               if(word != ship.color) {
+               if(word != local_ship.color) {
                   return negated ? true : false;
                }
-             } else if(adjectives[0] == word) {
-               if(maxrange > ship.range) {
+             } else if(adjectives[0] == word) { // subjective
+               if(maxrange > local_ship.range) {
                   return negated ? true : false;
                }
              } else if(adjectives[1] == word) {
-               if(ship.type == ships[0]) {
+               if(local_ship.range != 3) {
                  return negated ? true : false;
                }
              } else if(word == "not") {
@@ -629,7 +651,7 @@ exp.imagesPreloaded = [];
        if(this.stim.suggestion != undefined && feedbackColor == "red") {
          feedback += "<br/> Hint: You could say: &nbsp;<b>"+this.stim.suggestion+"</b>"
        } else if(feedbackColor == "red") {
-         feedback += "<br/> Hint: Combine multiple descriptions if necessary."
+         feedback += "<br/> Hint: Combine multiple descriptions if necessary. You're allowed to use:<br/> <b>"+(["the", "spaceship", adjectivesOrdered[0], adjectivesOrdered[1], "red", "green", "blue"]).join(", ")+"</b>"
        }
        if(feedbackColor != "green") {
          feedback += '<br/>Press "Continue" to move on, or change your response and try again.'
@@ -714,6 +736,10 @@ exp.imagesPreloaded = [];
          document.getElementById("object"+(i)+"_td_click").style.border = "5px solid white";
       }
 
+         document.getElementById("myimage_ADJ1").value = adjectivesOrdered[0];
+         document.getElementById("myimage_ADJ2").value = adjectivesOrdered[1];
+
+
       //console.log(stim.ships);
       targetElement = ([0,1,2,3].filter(function(x) { return stim.ships[x].index == 0}))[0]
       //console.log("object"+(targetElement+1))
@@ -728,6 +754,7 @@ exp.imagesPreloaded = [];
         $("#prod_click_continue_1").show()
        $("#prod_click_feedback").hide();
 
+        $("#prod_click_continue_0").show()
 
 
       this.position = 0;
@@ -751,6 +778,11 @@ exp.imagesPreloaded = [];
 
     button_1 : function(word) {
        this.position++;
+       if(word == "ADJ1") {
+          word = adjectivesOrdered[0]
+       } else if(word == "ADJ2") {
+          word = adjectivesOrdered[1]
+       }
        $(".textfield"+this.position).html(word);
        $("#textfield"+this.position).html(word);
     },
@@ -830,7 +862,7 @@ exp.imagesPreloaded = [];
                   return negated ? true : false;
                }
              } else if(adjectives[1] == word) {
-               if(ship.type == ships[0]) {
+               if(ship.range != 3) {
                  return negated ? true : false;
                }
              } else if(word == "not") {
@@ -954,12 +986,14 @@ exp.imagesPreloaded = [];
 
   slides.what_things_mean = slide({
     name : "what_things_mean",
-    present_handle : function(stim) {
+    start : function(stim) {
       console.log(stim);
       $(".err").hide();
       document.getElementById("rofky_input").value = "";
       document.getElementById("glab_input").value = "";
 
+      document.getElementById("adjective_1").textContent = (adjectives[0])
+      document.getElementById("adjective_2").textContent = (adjectives[1])
 
     },
 
@@ -979,8 +1013,8 @@ exp.imagesPreloaded = [];
     log_responses : function() {
         //console.log(this.stim.condition);
         exp.data_trials.push({
-          "rofky_response" : document.getElementById("rofky_input").value,
-          "glab_response" : document.getElementById("glab_input").value,
+          "adj1_response" : document.getElementById("rofky_input").value,
+          "adj2_response" : document.getElementById("glab_input").value,
           "slide_number" : exp.phase
         });
     },
@@ -1120,6 +1154,7 @@ exp.imagesPreloaded = [];
         education : $("#education").val(),
 //        colorblind : $("#colorblind").val(),
         comments : $("#comments").val(),
+        suggested_pay : $("#suggested_pay").val(),
         condition : exp.condition,
         adjective1 : adjectives[0],
         adjective2 : adjectives[1],
@@ -1184,6 +1219,7 @@ repeatWorker = false;
 //   exp.structure=['i0', 'instructions1', 'learning1','instructions2','speaker_choice1','instructions3', 'multi_slider', 'subj_info', 'thanks'];//exp.structure=['multi_slider', 'subj_info', 'thanks'];
    exp.structure=[];
    exp.structure.push('i0')
+   exp.structure.push('consent')
 exp.structure.push( 'instructions1')
 exp.structure.push( 'tutorial')
 exp.structure.push('instructions2')

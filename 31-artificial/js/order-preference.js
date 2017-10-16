@@ -6,7 +6,7 @@ function make_slides(f) {
   var   slides = {};
 
 
-var imageNames =["images/alien-1.jpg", "images/alien-2.png", "images/rocket-6.jpg", "images/rocket-6_blue.jpg", "images/rocket-6_blue.xcf.jpg", "images/rocket-6_green.jpg", "images/rocket-6_green.xcf.jpg", "images/rocket-6_red.jpg", "images/rocket-6_red.xcf.jpg", "images/rocket1.png", "images/rocket2.png", "images/rocket2_blue.jpg", "images/rocket2_blue.xcf.jpg", "images/rocket2_blue_1.xcf.jpg", "images/rocket2_blue_2.xcf.jpg", "images/rocket5_red.jpg", "images/saucer-1.jpg", "images/saucer-1_blue.jpg", "images/saucer-1_blue.xcf.jpg", "images/saucer-1_blue_feet.xcf.jpg", "images/saucer-1_blue_feet_0.xcf.jpg", "images/saucer-1_blue_feet_1.xcf.jpg", "images/saucer-1_blue_feet_2.xcf.jpg", "images/saucer-1_blue_feet_3.xcf.jpg", "images/saucer-1_blue_feet_4.xcf.jpg", "images/saucer-1_blue_feet_5.xcf.jpg", "images/saucer-1_blue_feet_6.xcf.jpg", "images/saucer-1_green.jpg", "images/saucer-2_blue.jpg", "images/saucer-2_green.jpg", "images/saucer-2_red.jpg", "images/saucer-3.png", "images/saucer-3_blue.jpg", "images/saucer-3_blue.xcf.jpg", "images/saucer-3_blue_2.xcf.jpg", "images/saucer-3_blue_3.xcf.jpg", "images/saucer-3_blue_4.xcf.jpg", "images/saucer-4.jpg", "images/saucer-5.jpg", "images/saucer-6.png", "images/Spaceship-clipart-2.jpg", "images/rocket2_blue_3.xcf.jpg", "images/rocket2_blue_4.xcf.jpg", "images/rocket2_blue_5.xcf.jpg", "images/rocket2_green_1.xcf.jpg", "images/rocket2_green_2.xcf.jpg", "images/rocket2_green_3.xcf.jpg", "images/rocket2_green_4.xcf.jpg", "images/rocket2_green_5.xcf.jpg", "images/rocket2_red_1.xcf.jpg", "images/rocket2_red_2.xcf.jpg", "images/rocket2_red_3.xcf.jpg", "images/rocket2_red_4.xcf.jpg", "images/rocket2_red_5.xcf.jpg", "images/rocket3.png", "images/rocket4.png", "images/rocket5.png", "images/rocket5_blue.jpg", "images/rocket5_green.jpg", "images/saucer-2.png", "images/saucer-1_green.xcf.jpg", "images/saucer-1_green_feet_1.xcf.jpg", "images/saucer-1_green_feet_1.xcf.jpg.jpg", "images/saucer-1_green_feet_2.xcf.jpg", "images/saucer-1_green_feet_3.xcf.jpg", "images/saucer-1_green_feet_4.xcf.jpg", "images/saucer-1_green_feet_5.xcf.jpg", "images/saucer-1_green_feet_6.xcf.jpg", "images/saucer-1_red.jpg", "images/saucer-1_red.xcf.jpg", "images/saucer-1_red_feet_1.xcf.jpg", "images/saucer-1_red_feet_2.xcf.jpg", "images/saucer-1_red_feet_3.xcf.jpg", "images/saucer-1_red_feet_4.xcf.jpg", "images/saucer-1_red_feet_5.xcf.jpg", "images/saucer-1_red_feet_6.xcf.jpg"]; 
+var imageNames = []; //["images/AUTO-blue-few-0.svg", "images/AUTO-blue-few-1.svg", "images/AUTO-blue-few-2.svg", "images/AUTO-blue-few-3.svg", "images/AUTO-blue-few-4.svg", "images/AUTO-blue-few-5.svg", "images/AUTO-blue-few-6.svg", "images/AUTO-blue-few-7.svg", "images/AUTO-blue-few-8.svg", "images/AUTO-blue-few-9.svg", "images/AUTO-blue-many-0.svg", "images/AUTO-blue-many-1.svg", "images/AUTO-blue-many-2.svg", "images/AUTO-blue-many-3.svg", "images/AUTO-blue-many-4.svg", "images/AUTO-blue-many-5.svg", "images/AUTO-blue-many-6.svg", "images/AUTO-blue-many-7.svg", "images/AUTO-blue-many-8.svg", "images/AUTO-blue-many-9.svg", "images/AUTO-green-few-0.svg", "images/AUTO-green-few-1.svg", "images/AUTO-green-few-2.svg", "images/AUTO-green-few-3.svg", "images/AUTO-red-few-1.svg", "images/AUTO-green-few-4.svg", "images/AUTO-green-few-5.svg", "images/AUTO-green-few-6.svg", "images/AUTO-green-few-7.svg", "images/AUTO-green-few-8.svg", "images/AUTO-green-few-9.svg", "images/AUTO-green-many-0.svg", "images/AUTO-green-many-1.svg", "images/AUTO-green-many-2.svg", "images/AUTO-green-many-3.svg", "images/AUTO-green-many-4.svg", "images/AUTO-green-many-5.svg", "images/AUTO-green-many-6.svg", "images/AUTO-green-many-7.svg", "images/AUTO-green-many-8.svg", "images/AUTO-red-few-0.svg", "images/AUTO-red-few-10.svg", "images/AUTO-red-few-2.svg", "images/AUTO-red-few-3.svg", "images/AUTO-red-few-4.svg", "images/AUTO-red-few-5.svg", "images/AUTO-red-few-6.svg", "images/AUTO-red-few-7.svg", "images/AUTO-red-few-8.svg", "images/AUTO-red-few-9.svg", "images/AUTO-red-many-0.svg", "images/AUTO-red-many-1.svg", "images/AUTO-red-many-2.svg", "images/AUTO-red-many-3.svg", "images/AUTO-red-many-4.svg", "images/AUTO-red-many-5.svg", "images/AUTO-red-many-6.svg", "images/AUTO-red-many-7.svg", "images/AUTO-red-many-8.svg", "images/AUTO-red-many-9.svg"]; 
 
   preload(
     imageNames,
@@ -20,6 +20,25 @@ exp.imagesPreloaded = [];
         exp.imagesPreloaded[i] = new Image();
         exp.imagesPreloaded[i].src = imageNames[i];
     }
+
+
+  slides.consent = slide({
+     name : "consent",
+     start: function() {
+      exp.startT = Date.now();
+      $("#consent_2").hide();
+      exp.consent_position = 0;      
+     },
+    button : function() {
+      if(exp.consent_position == 0) {
+         exp.consent_position++;
+         $("#consent_1").hide();
+         $("#consent_2").show();
+      } else {
+        exp.go(); //use exp.go() if and only if there is no "present" data.
+      }
+    }
+  });
 
 
 
@@ -125,7 +144,7 @@ exp.imagesPreloaded = [];
         return ship.replace("COLOR", color).replace("NUM",scale);
       }
       colors = ["red", "blue", "green"]
-      ranges = [1,2,3,4,5]
+      ranges = [0,1,2,3,4,5,6,7,8]
 
       a1 = function() {
          $(".description_tutorial").html('<p class=triangle-border left"> There are two types of spaceships.</p>');
@@ -179,7 +198,7 @@ exp.imagesPreloaded = [];
       a7 = function() {
          $(".description_tutorial").html('<p class=triangle-border left"> These spaceships are quite <b>'+adjectives[0]+'</b>.</p>');
          for(var i=1; i<13; i++) {
-            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(_.sample(ships), _.sample(colors), _.sample([3,4,5]))+'" style="width:70px;">');
+            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(_.sample(ships), _.sample(colors), _.sample([5,6,7]))+'" style="width:70px;">');
           }
           $(".alien_tutorial").html('<img src="images/'+_.sample(["alien-1.jpg", "alien-2.png"])+'" style="height:80px;">');
       }
@@ -197,7 +216,7 @@ exp.imagesPreloaded = [];
       a9 = function() {
          $(".description_tutorial").html('<p class=triangle-border left"> These spaceships are very <b>'+adjectives[0]+'</b>.</p>');
          for(var i=1; i<13; i++) {
-            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(_.sample(ships), _.sample(colors), _.sample([5]))+'" style="width:70px;">');
+            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(_.sample(ships), _.sample(colors), _.sample([7,8]))+'" style="width:70px;">');
           }
           $(".alien_tutorial").html('<img src="images/'+_.sample(["alien-1.jpg", "alien-2.png"])+'" style="height:80px;">');
       }
@@ -205,7 +224,7 @@ exp.imagesPreloaded = [];
       a10 = function() {
          $(".description_tutorial").html('<p class=triangle-border left"> These spaceships are not so <b>'+adjectives[0]+'</b>.</p>');
          for(var i=1; i<13; i++) {
-            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(_.sample(ships), _.sample(colors), _.sample([2,3]))+'" style="width:70px;">');
+            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(_.sample(ships), _.sample(colors), _.sample([2,3,4]))+'" style="width:70px;">');
           }
           $(".alien_tutorial").html('<img src="images/'+_.sample(["alien-1.jpg", "alien-2.png"])+'" style="height:80px;">');
       }
@@ -214,7 +233,7 @@ exp.imagesPreloaded = [];
       a11 = function() {
          $(".description_tutorial").html('<p class=triangle-border left"> These spaceships are extremely <b>'+adjectives[0]+'</b>.</p>');
          for(var i=1; i<13; i++) {
-            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(_.sample(ships), _.sample(colors), _.sample([5]))+'" style="width:70px;">');
+            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(_.sample(ships), _.sample(colors), _.sample([8]))+'" style="width:70px;">');
           }
           $(".alien_tutorial").html('<img src="images/'+_.sample(["alien-1.jpg", "alien-2.png"])+'" style="height:80px;">');
       }
@@ -224,7 +243,7 @@ exp.imagesPreloaded = [];
       a12 = function() {
          $(".description_tutorial").html('<p class=triangle-border left"> These spaceships are arranged<br> from least <b>'+adjectives[0]+'</b> to most <b>'+adjectives[0]+'</b>.</p>');
          for(var i=1; i<13; i++) {
-            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(_.sample(ships), _.sample(colors), (Math.round(4.0 * i / 11.0 + 7.0/11.0  )))+'" style="width:70px;">');
+            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(_.sample(ships), _.sample(colors), (Math.round(8.0 * i / 11.0 - 8.0/11.0  )))+'" style="width:70px;">');
           }
           $(".alien_tutorial").html('<img src="images/'+_.sample(["alien-1.jpg", "alien-2.png"])+'" style="height:80px;">');
       }
@@ -234,7 +253,7 @@ exp.imagesPreloaded = [];
       a13 = function() {
          $(".description_tutorial").html('<p class=triangle-border left"> These spaceships are arranged<br> from least <b>'+adjectives[0]+'</b> to most <b>'+adjectives[0]+'</b>.</p>');
          for(var i=1; i<13; i++) {
-            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(_.sample(ships), _.sample(colors), (Math.round(4.0 * i / 11.0 + 7.0/11.0  )))+'" style="width:70px;">');
+            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(_.sample(ships), _.sample(colors), (Math.round(8.0 * i / 11.0 - 8.0/11.0  )))+'" style="width:70px;">');
           }
           $(".alien_tutorial").html('<img src="images/'+_.sample(["alien-1.jpg", "alien-2.png"])+'" style="height:80px;">');
       }
@@ -244,7 +263,7 @@ exp.imagesPreloaded = [];
       a14 = function() {
          $(".description_tutorial").html('<p class=triangle-border left"> These spaceships are arranged<br> from least <b>'+adjectives[0]+'</b> to most <b>'+adjectives[0]+'</b>.</p>');
          for(var i=1; i<13; i++) {
-            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(_.sample(ships), _.sample(colors), (Math.round(4.0 * i / 11.0 + 7.0/11.0  )))+'" style="width:70px;">');
+            $(".object_tutorial_"+i).html('<img id="pngFrame" src="images/'+applyColorRange(_.sample(ships), _.sample(colors), (Math.round(8.0 * i / 11.0 - 8.0/11.0  )))+'" style="width:70px;">');
           }
           $(".alien_tutorial").html('<img src="images/'+_.sample(["alien-1.jpg", "alien-2.png"])+'" style="height:80px;">');
       }
@@ -548,7 +567,7 @@ exp.imagesPreloaded = [];
        alien = [];
 
        //console.log(this.stim);
-       description = $("#production_input").val().replace("."," ").replace(","," ");
+       description = $("#production_input").val().replace("."," ").replace(","," ").toLowerCase();
        words = description.split(" ");
 
        //console.log(description);
@@ -629,7 +648,7 @@ exp.imagesPreloaded = [];
        if(this.stim.suggestion != undefined && feedbackColor == "red") {
          feedback += "<br/> Hint: You could say: &nbsp;<b>"+this.stim.suggestion+"</b>"
        } else if(feedbackColor == "red") {
-         feedback += "<br/> Hint: Combine multiple descriptions if necessary."
+         feedback += "<br/> Hint: Combine multiple descriptions if necessary. You're allowed to use:<br/> <b>"+(["the", "spaceship", adjectivesOrdered[0], adjectivesOrdered[1], "red", "green", "blue"]).join(", ")+"</b>"
        }
        if(feedbackColor != "green") {
          feedback += '<br/>Press "Continue" to move on, or change your response and try again.'
@@ -714,6 +733,10 @@ exp.imagesPreloaded = [];
          document.getElementById("object"+(i)+"_td_click").style.border = "5px solid white";
       }
 
+         document.getElementById("myimage_ADJ1").value = adjectivesOrdered[0];
+         document.getElementById("myimage_ADJ2").value = adjectivesOrdered[1];
+
+
       //console.log(stim.ships);
       targetElement = ([0,1,2,3].filter(function(x) { return stim.ships[x].index == 0}))[0]
       //console.log("object"+(targetElement+1))
@@ -728,6 +751,7 @@ exp.imagesPreloaded = [];
         $("#prod_click_continue_1").show()
        $("#prod_click_feedback").hide();
 
+        $("#prod_click_continue_0").show()
 
 
       this.position = 0;
@@ -751,6 +775,11 @@ exp.imagesPreloaded = [];
 
     button_1 : function(word) {
        this.position++;
+       if(word == "ADJ1") {
+          word = adjectivesOrdered[0]
+       } else if(word == "ADJ2") {
+          word = adjectivesOrdered[1]
+       }
        $(".textfield"+this.position).html(word);
        $("#textfield"+this.position).html(word);
     },
@@ -954,12 +983,14 @@ exp.imagesPreloaded = [];
 
   slides.what_things_mean = slide({
     name : "what_things_mean",
-    present_handle : function(stim) {
+    start : function(stim) {
       console.log(stim);
       $(".err").hide();
       document.getElementById("rofky_input").value = "";
       document.getElementById("glab_input").value = "";
 
+      document.getElementById("adjective_1").textContent = (adjectives[0])
+      document.getElementById("adjective_2").textContent = (adjectives[1])
 
     },
 
@@ -979,8 +1010,8 @@ exp.imagesPreloaded = [];
     log_responses : function() {
         //console.log(this.stim.condition);
         exp.data_trials.push({
-          "rofky_response" : document.getElementById("rofky_input").value,
-          "glab_response" : document.getElementById("glab_input").value,
+          "adj1_response" : document.getElementById("rofky_input").value,
+          "adj2_response" : document.getElementById("glab_input").value,
           "slide_number" : exp.phase
         });
     },
@@ -1120,6 +1151,7 @@ exp.imagesPreloaded = [];
         education : $("#education").val(),
 //        colorblind : $("#colorblind").val(),
         comments : $("#comments").val(),
+        suggested_pay : $("#suggested_pay").val(),
         condition : exp.condition,
         adjective1 : adjectives[0],
         adjective2 : adjectives[1],
@@ -1184,6 +1216,7 @@ repeatWorker = false;
 //   exp.structure=['i0', 'instructions1', 'learning1','instructions2','speaker_choice1','instructions3', 'multi_slider', 'subj_info', 'thanks'];//exp.structure=['multi_slider', 'subj_info', 'thanks'];
    exp.structure=[];
    exp.structure.push('i0')
+   exp.structure.push('consent')
 exp.structure.push( 'instructions1')
 exp.structure.push( 'tutorial')
 exp.structure.push('instructions2')

@@ -22,6 +22,24 @@ exp.imagesPreloaded = [];
     }
 
 
+  slides.consent = slide({
+     name : "consent",
+     start: function() {
+      exp.startT = Date.now();
+      $("#consent_2").hide();
+      exp.consent_position = 0;      
+     },
+    button : function() {
+      if(exp.consent_position == 0) {
+         exp.consent_position++;
+         $("#consent_1").hide();
+         $("#consent_2").show();
+      } else {
+        exp.go(); //use exp.go() if and only if there is no "present" data.
+      }
+    }
+  });
+
 
 
   slides.i0 = slide({
@@ -629,7 +647,7 @@ exp.imagesPreloaded = [];
        if(this.stim.suggestion != undefined && feedbackColor == "red") {
          feedback += "<br/> Hint: You could say: &nbsp;<b>"+this.stim.suggestion+"</b>"
        } else if(feedbackColor == "red") {
-         feedback += "<br/> Hint: Combine multiple descriptions if necessary."
+         feedback += "<br/> Hint: Combine multiple descriptions if necessary. You're allowed to use:<br/> <b>"+(["the", "spaceship", adjectivesOrdered[0], adjectivesOrdered[1], "red", "green", "blue"]).join(", ")+"</b>"
        }
        if(feedbackColor != "green") {
          feedback += '<br/>Press "Continue" to move on, or change your response and try again.'
@@ -714,6 +732,10 @@ exp.imagesPreloaded = [];
          document.getElementById("object"+(i)+"_td_click").style.border = "5px solid white";
       }
 
+         document.getElementById("myimage_ADJ1").value = adjectivesOrdered[0];
+         document.getElementById("myimage_ADJ2").value = adjectivesOrdered[1];
+
+
       //console.log(stim.ships);
       targetElement = ([0,1,2,3].filter(function(x) { return stim.ships[x].index == 0}))[0]
       //console.log("object"+(targetElement+1))
@@ -728,6 +750,7 @@ exp.imagesPreloaded = [];
         $("#prod_click_continue_1").show()
        $("#prod_click_feedback").hide();
 
+        $("#prod_click_continue_0").show()
 
 
       this.position = 0;
@@ -751,6 +774,11 @@ exp.imagesPreloaded = [];
 
     button_1 : function(word) {
        this.position++;
+       if(word == "ADJ1") {
+          word = adjectivesOrdered[0]
+       } else if(word == "ADJ2") {
+          word = adjectivesOrdered[1]
+       }
        $(".textfield"+this.position).html(word);
        $("#textfield"+this.position).html(word);
     },
@@ -954,12 +982,14 @@ exp.imagesPreloaded = [];
 
   slides.what_things_mean = slide({
     name : "what_things_mean",
-    present_handle : function(stim) {
+    start : function(stim) {
       console.log(stim);
       $(".err").hide();
       document.getElementById("rofky_input").value = "";
       document.getElementById("glab_input").value = "";
 
+      document.getElementById("adjective_1").textContent = (adjectives[0])
+      document.getElementById("adjective_2").textContent = (adjectives[1])
 
     },
 
@@ -979,8 +1009,8 @@ exp.imagesPreloaded = [];
     log_responses : function() {
         //console.log(this.stim.condition);
         exp.data_trials.push({
-          "rofky_response" : document.getElementById("rofky_input").value,
-          "glab_response" : document.getElementById("glab_input").value,
+          "adj1_response" : document.getElementById("rofky_input").value,
+          "adj2_response" : document.getElementById("glab_input").value,
           "slide_number" : exp.phase
         });
     },
@@ -1120,6 +1150,7 @@ exp.imagesPreloaded = [];
         education : $("#education").val(),
 //        colorblind : $("#colorblind").val(),
         comments : $("#comments").val(),
+        suggested_pay : $("#suggested_pay").val(),
         condition : exp.condition,
         adjective1 : adjectives[0],
         adjective2 : adjectives[1],
@@ -1184,6 +1215,7 @@ repeatWorker = false;
 //   exp.structure=['i0', 'instructions1', 'learning1','instructions2','speaker_choice1','instructions3', 'multi_slider', 'subj_info', 'thanks'];//exp.structure=['multi_slider', 'subj_info', 'thanks'];
    exp.structure=[];
    exp.structure.push('i0')
+   exp.structure.push('consent')
 exp.structure.push( 'instructions1')
 exp.structure.push( 'tutorial')
 exp.structure.push('instructions2')

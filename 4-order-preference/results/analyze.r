@@ -19,6 +19,12 @@ data6$workerid = data6$workerid + 60
 #data = data3
 data=rbind(data1, data2, data4, data5, data6)
 
+# remove people that participated multiple times
+data = data[data$workerid != 40,]
+data = data[data$workerid != 50,]
+data = data[data$workerid != 60,]
+
+
 color = c("red","green","blue")
 texture = c("checkered","striped","spotted", "solid")
 material = c("glass", "wooden", "plastic", "metal")
@@ -61,13 +67,25 @@ condition.Is.Second.Informative = (data$condition == "second_informative") # i.e
 condition.Is.Filler = (data$condition == "filler") # i.e., non-color is informative
 data$condition.Renumbered = (-1 * condition.Is.First.Informative) + (0*condition.Is.Filler) + (1*condition.Is.Second.Informative)
 
-#aggregate(data["scoreForColorFirst"], by=c(data["condition"], data["noun"]), mean)
-#summary(lmer(scoreForColorFirst ~ condition.Renumbered + noun+ (1|workerid) + (1|item), data=data))
+
 createUniqueItemIDs = function(data, columnName) {
    newName = (paste(columnName,"Renumbered",sep="."))
    data[,newName] = as.integer(factor(data[,columnName]))
    return (data)
 }
+
+aggregate(data["scoreForColorFirst"], by=c(data["condition"], data["noun"]), mean)
+
+data = createUniqueItemIDs(data, 'noun')
+data = centerColumn(data, 'condition.Renumbered')
+data = centerColumn(data, 'noun.Renumbered')
+
+summary(lmer(scoreForColorFirst ~ condition.Renumbered.Centered + noun.Renumbered.Centered + (condition.Renumbered.Centered|item) + (condition.Renumbered.Centered|workerid) + (1|workerid) + (1|item), data=data))
+
+
+
+
+
 
 library(tidyverse)
 source("helpers.R")

@@ -77,4 +77,13 @@ data.Ball = data[data$noun == 'ball',]
 summary(lmer(scoreForColorFirst ~ condition.Renumbered * containsCheckeredOrStriped+ (1|workerid) + (1|item), data=data.Ball))
 
 
+dataColorFirst = data[data$predicate1.Type == "Color",]
+dataColorSecond = data[data$predicate2.Type == "Color",]
+
+dataColorFirst$NonColorAdjective = dataColorFirst$predicate2
+dataColorSecond$NonColorAdjective = dataColorSecond$predicate1
+
+data2 = rbind(dataColorFirst, dataColorSecond)
+
+aggregate(data2["scoreForColorFirst"], by=c(data2["NonColorAdjective"]), FUN = function(x) c(mn = mean(x), sd = sd(x), low = mean(x)-ci.low(x), up = mean(x)+ci.high(x)))   
 
