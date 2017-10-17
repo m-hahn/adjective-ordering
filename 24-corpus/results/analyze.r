@@ -53,9 +53,6 @@ data = merge(data, dataSubj, by=c("adjective"))
 
 # correlation matrix with significance
 
-#summary(lmer(data$response_1 ~ data$subjectivity + (1|adjective) + (1|workerid), data=data))
-
-
 #      questions.push('Does it describe the '+stim.noun+'?');
 #      questions.push('Does it uniquely identify the '+stim.noun+'?');
 #      questions.push('Does it describe how the speaker feels about the '+stim.noun+'?');
@@ -63,9 +60,6 @@ data = merge(data, dataSubj, by=c("adjective"))
 #      questions.push('Does it serve to distinguish the '+stim.noun+' from those that are not '+stim.adjective+'?');
 #      questions.push('Do you think other people would mostly agree that the '+stim.noun+(stim.noun.slice(-1) == 's' ? ' are ' : ' is ')+stim.adjective+'?');
 
-
-
-# TODO predict order ratings
 
 printCorrelations = function() {
     cat("By-trial measures\n")
@@ -122,7 +116,7 @@ printCorrelations = function() {
      cat("\n")
     }
     
-    
+    cat("*","<",level0,",","**","<",level1,",","***","<",level2,"\n", sep=" ")
    
 }
 
@@ -141,7 +135,7 @@ printCorrelations = function() {
 #3 	0.1	-0.27	0.97***	
 #4 	0.25	0.55***	-0.35	-0.37*	
 #5 	0.29	0.27	-0.23	-0.22	0.36*	
-
+#* < 0.003333333 , ** < 0.0006666667 , *** < 0.0003333333 
 
 #summary(lmer(response_4 ~ response_0 + response_1 + response_2 + response_5 + (1|workerid) + (1|adjective), data=data))
 
