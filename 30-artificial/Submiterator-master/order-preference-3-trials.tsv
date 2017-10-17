@@ -1,0 +1,1168 @@
+workerid	adjective	quiz_response	relevant_adjective	text	enteredText	response	correct_response	adj1_response	slide_number	predicate2	predicate1	correct	adj2_response
+0	kolch	first	NA	NA	NA	NA	first	NA	6	NA	NA	NA	NA
+0	kolch	first	NA	NA	NA	NA	first	NA	7	NA	NA	NA	NA
+0	broff	second	NA	NA	NA	NA	second	NA	8	NA	NA	NA	NA
+0	kolch	first	NA	NA	NA	NA	first	NA	9	NA	NA	NA	NA
+0	kolch	first	NA	NA	NA	NA	first	NA	10	NA	NA	NA	NA
+0	broff	first	NA	NA	NA	NA	first	NA	11	NA	NA	NA	NA
+0	kolch	first	NA	NA	NA	NA	first	NA	12	NA	NA	NA	NA
+0	kolch	first	NA	NA	NA	NA	first	NA	13	NA	NA	NA	NA
+0	broff	first	NA	NA	NA	NA	first	NA	14	NA	NA	NA	NA
+0	kolch	first	NA	NA	NA	NA	first	NA	15	NA	NA	NA	NA
+0	broff	first	NA	NA	NA	NA	first	NA	16	NA	NA	NA	NA
+0	kolch	second	NA	NA	NA	NA	second	NA	17	NA	NA	NA	NA
+0	broff	second	NA	NA	NA	NA	second	NA	18	NA	NA	NA	NA
+0	kolch	first	NA	NA	NA	NA	first	NA	19	NA	NA	NA	NA
+0	kolch	second	NA	NA	NA	NA	second	NA	20	NA	NA	NA	NA
+0	broff	first	NA	NA	NA	NA	first	NA	21	NA	NA	NA	NA
+0	kolch	second	NA	NA	NA	NA	second	NA	22	NA	NA	NA	NA
+0	broff	second	NA	NA	NA	NA	second	NA	23	NA	NA	NA	NA
+0	kolch	second	NA	NA	NA	NA	second	NA	24	NA	NA	NA	NA
+0	broff	second	NA	NA	NA	NA	second	NA	25	NA	NA	NA	NA
+0	kolch	second	NA	NA	NA	NA	second	NA	26	NA	NA	NA	NA
+0	broff	first	NA	NA	NA	NA	first	NA	27	NA	NA	NA	NA
+0	kolch	first	NA	NA	NA	NA	first	NA	28	NA	NA	NA	NA
+0	broff	first	NA	NA	NA	NA	first	NA	29	NA	NA	NA	NA
+0	kolch	second	NA	NA	NA	NA	second	NA	30	NA	NA	NA	NA
+0	broff	second	NA	NA	NA	NA	second	NA	31	NA	NA	NA	NA
+0	broff	second	NA	NA	NA	NA	second	NA	32	NA	NA	NA	NA
+0	kolch	first	NA	NA	NA	NA	first	NA	33	NA	NA	NA	NA
+0	kolch	first	NA	NA	NA	NA	first	NA	34	NA	NA	NA	NA
+0	broff	first	NA	NA	NA	NA	first	NA	35	NA	NA	NA	NA
+0	kolch	first	NA	NA	NA	NA	first	NA	36	NA	NA	NA	NA
+0	broff	first	NA	NA	NA	NA	first	NA	37	NA	NA	NA	NA
+0	broff	first	NA	NA	NA	NA	first	NA	38	NA	NA	NA	NA
+0	broff	first	NA	NA	NA	NA	first	NA	39	NA	NA	NA	NA
+0	broff	first	NA	NA	NA	NA	first	NA	40	NA	NA	NA	NA
+0	broff	first	NA	NA	NA	NA	first	NA	41	NA	NA	NA	NA
+0	kolch	second	NA	NA	NA	NA	second	NA	42	NA	NA	NA	NA
+0	kolch	second	NA	NA	NA	NA	second	NA	43	NA	NA	NA	NA
+0	kolch	first	NA	NA	NA	NA	first	NA	44	NA	NA	NA	NA
+0	broff	second	NA	NA	NA	NA	second	NA	45	NA	NA	NA	NA
+0	broff	second	NA	NA	NA	NA	second	NA	46	NA	NA	NA	NA
+0	kolch	second	NA	NA	NA	NA	second	NA	47	NA	NA	NA	NA
+0	kolch	second	NA	NA	NA	NA	second	NA	48	NA	NA	NA	NA
+0	broff	first	NA	NA	NA	NA	first	NA	49	NA	NA	NA	NA
+0	kolch	first	NA	NA	NA	NA	first	NA	50	NA	NA	NA	NA
+0	broff	second	NA	NA	NA	NA	first	NA	51	NA	NA	NA	NA
+0	broff	first	NA	NA	NA	NA	first	NA	52	NA	NA	NA	NA
+0	broff	first	NA	NA	NA	NA	first	NA	53	NA	NA	NA	NA
+0	NA	NA	NA	NA	kolch blue   	NA	NA	NA	55	NA	NA	correct	NA
+0	NA	NA	NA	NA	kolch blue spaceship broff 	NA	NA	NA	56	NA	NA	correct	NA
+0	NA	NA	NA	NA	kolch red broff spaceship 	NA	NA	NA	57	NA	NA	correct	NA
+0	NA	NA	NA	NA	broff blue spaceship  	NA	NA	NA	58	NA	NA	correct	NA
+0	NA	NA	NA	NA	green spaceship   	NA	NA	NA	59	NA	NA	underspecified	NA
+0	NA	NA	NA	NA	the broff kolch  	NA	NA	NA	60	NA	NA	correct	NA
+0	NA	NA	NA	NA	broff kolch   	NA	NA	NA	61	NA	NA	correct	NA
+0	NA	NA	NA	NA	broff kolch   	NA	NA	NA	62	NA	NA	correct	NA
+0	NA	NA	NA	NA	kolch    	NA	NA	NA	63	NA	NA	correct	NA
+0	NA	NA	NA	NA	red kolch   	NA	NA	NA	64	NA	NA	correct	NA
+0	NA	NA	NA	NA	red kolch   	NA	NA	NA	65	NA	NA	correct	NA
+0	NA	NA	NA	NA	red kolch   	NA	NA	NA	66	NA	NA	correct	NA
+0	NA	NA	NA	NA	green kolch   	NA	NA	NA	67	NA	NA	correct	NA
+0	NA	NA	NA	NA	red kolch   	NA	NA	NA	68	NA	NA	correct	NA
+0	NA	NA	NA	NA	green broff   	NA	NA	NA	69	NA	NA	correct	NA
+0	NA	NA	NA	NA	broff kolch   	NA	NA	NA	70	NA	NA	correct	NA
+0	NA	NA	NA	NA	blue broff   	NA	NA	NA	71	NA	NA	correct	NA
+0	NA	NA	NA	NA	broff kolch blue  	NA	NA	NA	72	NA	NA	correct	NA
+0	NA	NA	NA	NA	broff kolch green  	NA	NA	NA	73	NA	NA	correct	NA
+0	NA	NA	NA	NA	kolch green   	NA	NA	NA	74	NA	NA	correct	NA
+0	NA	NA	NA	NA	broff red   	NA	NA	NA	75	NA	NA	correct	NA
+0	NA	NA	NA	NA	blue kolch   	NA	NA	NA	76	NA	NA	correct	NA
+0	NA	NA	NA	NA	broff red   	NA	NA	NA	77	NA	NA	correct	NA
+0	NA	NA	NA	NA	blue broff   	NA	NA	NA	78	NA	NA	correct	NA
+0	NA	NA	NA	NA	blue kolch   	NA	NA	NA	79	NA	NA	correct	NA
+0	NA	NA	NA	NA	green kolch   	NA	NA	NA	80	NA	NA	correct	NA
+0	NA	NA	NA	NA	blue broff	NA	NA	NA	82	NA	NA	correct	NA
+0	NA	NA	NA	NA	broff kolch	NA	NA	NA	83	NA	NA	correct	NA
+0	NA	NA	NA	NA	kolch	NA	NA	NA	84	NA	NA	correct	NA
+0	NA	NA	NA	NA	broff green	NA	NA	NA	85	NA	NA	correct	NA
+0	NA	NA	NA	NA	kolch	NA	NA	NA	86	NA	NA	correct	NA
+0	NA	NA	NA	NA	kolch	NA	NA	NA	87	NA	NA	correct	NA
+0	NA	NA	NA	NA	broff kolch red	NA	NA	NA	88	NA	NA	correct	NA
+0	NA	NA	NA	NA	kolch	NA	NA	NA	89	NA	NA	correct	NA
+0	NA	NA	NA	NA	broff green kolch	NA	NA	NA	90	NA	NA	correct	NA
+0	NA	NA	NA	NA	broff blue	NA	NA	NA	91	NA	NA	correct	NA
+0	NA	NA	NA	NA	blue kolch	NA	NA	NA	92	NA	NA	correct	NA
+0	NA	NA	NA	NA	red kolch	NA	NA	NA	93	NA	NA	correct	NA
+0	NA	NA	NA	NA	broff red	NA	NA	NA	94	NA	NA	correct	NA
+0	NA	NA	NA	NA	broff red kolch	NA	NA	NA	95	NA	NA	correct	NA
+0	NA	NA	NA	NA	broff blue kolch	NA	NA	NA	96	NA	NA	correct	NA
+0	NA	NA	NA	NA	broff blue	NA	NA	NA	97	NA	NA	correct	NA
+0	NA	NA	NA	NA	green	NA	NA	NA	98	NA	NA	correct	NA
+0	NA	NA	NA	NA	broff blue kolch	NA	NA	NA	99	NA	NA	correct	NA
+0	NA	NA	NA	NA	red broff kolch	NA	NA	NA	100	NA	NA	correct	NA
+0	NA	NA	NA	NA	green kolch	NA	NA	NA	101	NA	NA	correct	NA
+0	NA	NA	NA	NA	green kolch	NA	NA	NA	102	NA	NA	correct	NA
+0	NA	NA	NA	NA	blue kolch	NA	NA	NA	103	NA	NA	correct	NA
+0	NA	NA	NA	NA	green kolch	NA	NA	NA	104	NA	NA	correct	NA
+0	NA	NA	NA	NA	red kolch	NA	NA	NA	105	NA	NA	correct	NA
+0	NA	NA	NA	NA	red broff kolch	NA	NA	NA	106	NA	NA	correct	NA
+0	NA	NA	NA	NA	red broff	NA	NA	NA	107	NA	NA	correct	NA
+0	NA	NA	NA	NA	blue broff	NA	NA	NA	109	NA	NA	correct	NA
+0	NA	NA	broff	The more spikes, the better. My favorite one is this...	NA	0.08	NA	NA	136	broff	kolch	NA	NA
+0	NA	NA	kolch	For long distances, I use saucers. The best one is this...	NA	0.95	NA	NA	137	kolch	red	NA	NA
+0	NA	NA	broff	Wow, so many fins &#8210; I like this...	NA	1	NA	NA	138	broff	green	NA	NA
+0	NA	NA	blue	I like ships that have the same color as I have, like this...	NA	1	NA	NA	139	kolch	blue	NA	NA
+0	NA	NA	broff	I really don&quotechart like ships with many spikes, like this...	NA	1	NA	NA	140	kolch	broff	NA	NA
+0	NA	NA	NONE	On our planet, many aliens fly ships like this...	NA	1	NA	NA	141	green	broff	NA	NA
+0	NA	NA	broff	Ugh, too many fins &#8210; I hate flying this...	NA	1	NA	NA	142	blue	broff	NA	NA
+0	NA	NA	NONE	My friend used to fly this...	NA	0	NA	NA	143	red	kolch	NA	NA
+0	NA	NA	blue	What a nice color. I like flying this...	NA	0	NA	NA	144	blue	broff	NA	NA
+0	NA	NA	kolch	Humans think all our ships look like saucers, like this...	NA	1	NA	NA	145	kolch	blue	NA	NA
+0	NA	NA	kolch	My first ship had the same shape as this...	NA	1	NA	NA	146	kolch	blue	NA	NA
+0	NA	NA	NA	NA	NA	0	NA	NA	148	green	broff	NA	NA
+0	NA	NA	NA	NA	NA	1	NA	NA	149	red	big	NA	NA
+0	NA	NA	NA	NA	NA	0.76	NA	NA	150	red	broff	NA	NA
+0	NA	NA	NA	NA	NA	0	NA	NA	151	red	kolch	NA	NA
+0	NA	NA	NA	NA	NA	0	NA	NA	152	small	blue	NA	NA
+0	NA	NA	NA	NA	NA	0.1	NA	NA	153	broff	kolch	NA	NA
+0	NA	NA	NA	NA	NA	0	NA	NA	154	small	kolch	NA	NA
+0	NA	NA	NA	NA	NA	0	NA	NA	155	big	kolch	NA	NA
+0	NA	NA	NA	NA	NA	0.09	NA	NA	156	blue	broff	NA	NA
+0	NA	NA	NA	NA	NA	0.97	NA	NA	157	kolch	green	NA	NA
+0	NA	NA	NA	NA	NA	1	NA	NA	158	broff	small	NA	NA
+0	NA	NA	NA	NA	NA	0	NA	NA	159	blue	kolch	NA	NA
+0	NA	NA	NA	NA	NA	0	NA	NA	160	small	green	NA	NA
+0	NA	NA	NA	NA	NA	1	NA	NA	161	broff	big	NA	NA
+0	NA	NA	NA	NA	NA	NA	NA	saucer	162	NA	NA	NA	spiky
+1	yunt	second	NA	NA	NA	NA	second	NA	6	NA	NA	NA	NA
+1	yunt	first	NA	NA	NA	NA	second	NA	7	NA	NA	NA	NA
+1	physs	second	NA	NA	NA	NA	second	NA	8	NA	NA	NA	NA
+1	yunt	second	NA	NA	NA	NA	second	NA	9	NA	NA	NA	NA
+1	yunt	second	NA	NA	NA	NA	second	NA	10	NA	NA	NA	NA
+1	yunt	second	NA	NA	NA	NA	second	NA	11	NA	NA	NA	NA
+1	yunt	second	NA	NA	NA	NA	second	NA	12	NA	NA	NA	NA
+1	physs	second	NA	NA	NA	NA	second	NA	13	NA	NA	NA	NA
+1	physs	second	NA	NA	NA	NA	second	NA	14	NA	NA	NA	NA
+1	physs	first	NA	NA	NA	NA	first	NA	15	NA	NA	NA	NA
+1	yunt	second	NA	NA	NA	NA	second	NA	16	NA	NA	NA	NA
+1	physs	second	NA	NA	NA	NA	second	NA	17	NA	NA	NA	NA
+1	yunt	first	NA	NA	NA	NA	second	NA	18	NA	NA	NA	NA
+1	physs	second	NA	NA	NA	NA	second	NA	19	NA	NA	NA	NA
+1	physs	second	NA	NA	NA	NA	second	NA	20	NA	NA	NA	NA
+1	yunt	second	NA	NA	NA	NA	second	NA	21	NA	NA	NA	NA
+1	physs	first	NA	NA	NA	NA	first	NA	22	NA	NA	NA	NA
+1	yunt	second	NA	NA	NA	NA	second	NA	23	NA	NA	NA	NA
+1	yunt	second	NA	NA	NA	NA	second	NA	24	NA	NA	NA	NA
+1	physs	second	NA	NA	NA	NA	second	NA	25	NA	NA	NA	NA
+1	yunt	second	NA	NA	NA	NA	second	NA	26	NA	NA	NA	NA
+1	yunt	second	NA	NA	NA	NA	second	NA	27	NA	NA	NA	NA
+1	physs	first	NA	NA	NA	NA	first	NA	28	NA	NA	NA	NA
+1	physs	first	NA	NA	NA	NA	first	NA	29	NA	NA	NA	NA
+1	yunt	first	NA	NA	NA	NA	first	NA	30	NA	NA	NA	NA
+1	yunt	second	NA	NA	NA	NA	second	NA	31	NA	NA	NA	NA
+1	yunt	second	NA	NA	NA	NA	second	NA	32	NA	NA	NA	NA
+1	physs	second	NA	NA	NA	NA	second	NA	33	NA	NA	NA	NA
+1	physs	second	NA	NA	NA	NA	second	NA	34	NA	NA	NA	NA
+1	physs	second	NA	NA	NA	NA	second	NA	35	NA	NA	NA	NA
+1	physs	first	NA	NA	NA	NA	first	NA	36	NA	NA	NA	NA
+1	yunt	first	NA	NA	NA	NA	second	NA	37	NA	NA	NA	NA
+1	yunt	second	NA	NA	NA	NA	second	NA	38	NA	NA	NA	NA
+1	physs	second	NA	NA	NA	NA	second	NA	39	NA	NA	NA	NA
+1	yunt	second	NA	NA	NA	NA	second	NA	40	NA	NA	NA	NA
+1	yunt	first	NA	NA	NA	NA	first	NA	41	NA	NA	NA	NA
+1	physs	first	NA	NA	NA	NA	first	NA	42	NA	NA	NA	NA
+1	yunt	second	NA	NA	NA	NA	second	NA	43	NA	NA	NA	NA
+1	yunt	second	NA	NA	NA	NA	second	NA	44	NA	NA	NA	NA
+1	yunt	first	NA	NA	NA	NA	second	NA	45	NA	NA	NA	NA
+1	yunt	second	NA	NA	NA	NA	second	NA	46	NA	NA	NA	NA
+1	physs	second	NA	NA	NA	NA	second	NA	47	NA	NA	NA	NA
+1	physs	second	NA	NA	NA	NA	second	NA	48	NA	NA	NA	NA
+1	physs	second	NA	NA	NA	NA	second	NA	49	NA	NA	NA	NA
+1	physs	second	NA	NA	NA	NA	second	NA	50	NA	NA	NA	NA
+1	physs	second	NA	NA	NA	NA	second	NA	51	NA	NA	NA	NA
+1	physs	first	NA	NA	NA	NA	first	NA	52	NA	NA	NA	NA
+1	physs	first	NA	NA	NA	NA	first	NA	53	NA	NA	NA	NA
+1	NA	NA	NA	NA	the physs spaceship green blue	NA	NA	NA	55	NA	NA	inconsistent	NA
+1	NA	NA	NA	NA	the red physs spaceship yunt	NA	NA	NA	56	NA	NA	inconsistent	NA
+1	NA	NA	NA	NA	the physs spaceship  	NA	NA	NA	57	NA	NA	inconsistent	NA
+1	NA	NA	NA	NA	the physs spaceship  	NA	NA	NA	58	NA	NA	underspecified	NA
+1	NA	NA	NA	NA	the blue physs spaceship 	NA	NA	NA	59	NA	NA	correct	NA
+1	NA	NA	NA	NA	the green physs spaceship 	NA	NA	NA	60	NA	NA	correct	NA
+1	NA	NA	NA	NA	the green physs spaceship 	NA	NA	NA	61	NA	NA	correct	NA
+1	NA	NA	NA	NA	the red physs spaceship 	NA	NA	NA	62	NA	NA	correct	NA
+1	NA	NA	NA	NA	the blue physs spaceship 	NA	NA	NA	63	NA	NA	correct	NA
+1	NA	NA	NA	NA	the green yunt spaceship 	NA	NA	NA	64	NA	NA	inconsistent	NA
+1	NA	NA	NA	NA	the blue physs spaceship 	NA	NA	NA	65	NA	NA	underspecified	NA
+1	NA	NA	NA	NA	the green physs spaceship 	NA	NA	NA	66	NA	NA	correct	NA
+1	NA	NA	NA	NA	the blue yunt spaceship 	NA	NA	NA	67	NA	NA	correct	NA
+1	NA	NA	NA	NA	the blue physs spaceship 	NA	NA	NA	68	NA	NA	correct	NA
+1	NA	NA	NA	NA	the green yunt spaceship 	NA	NA	NA	69	NA	NA	correct	NA
+1	NA	NA	NA	NA	the red yunt spaceship 	NA	NA	NA	70	NA	NA	correct	NA
+1	NA	NA	NA	NA	the blue physs spaceship 	NA	NA	NA	71	NA	NA	underspecified	NA
+1	NA	NA	NA	NA	the red physs spaceship 	NA	NA	NA	72	NA	NA	underspecified	NA
+1	NA	NA	NA	NA	the red physs spaceship 	NA	NA	NA	73	NA	NA	underspecified	NA
+1	NA	NA	NA	NA	the red physs physs spaceship	NA	NA	NA	74	NA	NA	underspecified	NA
+1	NA	NA	NA	NA	the green physs yunt spaceship	NA	NA	NA	75	NA	NA	inconsistent	NA
+1	NA	NA	NA	NA	the red physs spaceship 	NA	NA	NA	76	NA	NA	correct	NA
+1	NA	NA	NA	NA	the red yunt physs spaceship	NA	NA	NA	77	NA	NA	inconsistent	NA
+1	NA	NA	NA	NA	the blue physs spaceship 	NA	NA	NA	78	NA	NA	correct	NA
+1	NA	NA	NA	NA	the blue physs yunt spaceship	NA	NA	NA	79	NA	NA	correct	NA
+1	NA	NA	NA	NA	the red physs yunt spaceship	NA	NA	NA	80	NA	NA	correct	NA
+1	NA	NA	NA	NA	the green physs spaceship	NA	NA	NA	82	NA	NA	correct	NA
+1	NA	NA	NA	NA	the red physs spaceship	NA	NA	NA	83	NA	NA	correct	NA
+1	NA	NA	NA	NA	the red yuss spaceship	NA	NA	NA	84	NA	NA	underspecified	NA
+1	NA	NA	NA	NA	the blue physs spaceship	NA	NA	NA	85	NA	NA	correct	NA
+1	NA	NA	NA	NA	the blue physs spaceship	NA	NA	NA	86	NA	NA	underspecified	NA
+1	NA	NA	NA	NA	the red yunt spaceship	NA	NA	NA	87	NA	NA	correct	NA
+1	NA	NA	NA	NA	the red physs yunt spaceship	NA	NA	NA	88	NA	NA	correct	NA
+1	NA	NA	NA	NA	the blue physs yunt spaceship	NA	NA	NA	89	NA	NA	correct	NA
+1	NA	NA	NA	NA	the green physs yunt space ship	NA	NA	NA	90	NA	NA	correct	NA
+1	NA	NA	NA	NA	the red physs yunt spaceship	NA	NA	NA	91	NA	NA	inconsistent	NA
+1	NA	NA	NA	NA	the green physs space ship	NA	NA	NA	92	NA	NA	correct	NA
+1	NA	NA	NA	NA	the green physs yunt spaceship	NA	NA	NA	93	NA	NA	inconsistent	NA
+1	NA	NA	NA	NA	the green yunt spaceship	NA	NA	NA	94	NA	NA	inconsistent	NA
+1	NA	NA	NA	NA	the red physs spaceship	NA	NA	NA	95	NA	NA	correct	NA
+1	NA	NA	NA	NA	the blue yunt spaceship	NA	NA	NA	96	NA	NA	correct	NA
+1	NA	NA	NA	NA	the blue physs spaceship	NA	NA	NA	97	NA	NA	correct	NA
+1	NA	NA	NA	NA	the red yunt spaceship	NA	NA	NA	98	NA	NA	inconsistent	NA
+1	NA	NA	NA	NA	the blue phys space ship	NA	NA	NA	99	NA	NA	underspecified	NA
+1	NA	NA	NA	NA	the red physs yunt spaceship	NA	NA	NA	100	NA	NA	correct	NA
+1	NA	NA	NA	NA	the green phys spaceship	NA	NA	NA	101	NA	NA	underspecified	NA
+1	NA	NA	NA	NA	the blue physs yunt spaceship	NA	NA	NA	102	NA	NA	inconsistent	NA
+1	NA	NA	NA	NA	the blue physs yunt spaceship	NA	NA	NA	103	NA	NA	correct	NA
+1	NA	NA	NA	NA	the blue physs spaceship	NA	NA	NA	104	NA	NA	correct	NA
+1	NA	NA	NA	NA	the red physs yunt spaceship	NA	NA	NA	105	NA	NA	correct	NA
+1	NA	NA	NA	NA	the blue physs yunt spaceship	NA	NA	NA	106	NA	NA	correct	NA
+1	NA	NA	NA	NA	the green physs spaceship	NA	NA	NA	107	NA	NA	inconsistent	NA
+1	NA	NA	NA	NA	the red physs yunt spaceship	NA	NA	NA	109	NA	NA	inconsistent	NA
+1	NA	NA	physs	For long distances, I use rockets. The best one is this...	NA	0	NA	NA	136	blue	physs	NA	NA
+1	NA	NA	yunt	Ugh, too many fins &#8210; I hate flying this...	NA	0	NA	NA	137	green	yunt	NA	NA
+1	NA	NA	yunt	The more spikes, the better. My favorite one is this...	NA	0	NA	NA	138	yunt	physs	NA	NA
+1	NA	NA	yunt	Wow, so many fins &#8210; I like this...	NA	0	NA	NA	139	green	yunt	NA	NA
+1	NA	NA	physs	My first ship had the same shape as this...	NA	0.01	NA	NA	140	green	physs	NA	NA
+1	NA	NA	blue	I like ships that have the same color as I have, like this...	NA	0.02	NA	NA	141	blue	physs	NA	NA
+1	NA	NA	yunt	I really don&quotechart like ships with many spikes, like this...	NA	0.09	NA	NA	142	physs	yunt	NA	NA
+1	NA	NA	NONE	My friend used to fly this...	NA	0.03	NA	NA	143	green	physs	NA	NA
+1	NA	NA	NONE	On our planet, many aliens fly ships like this...	NA	0.92	NA	NA	144	yunt	green	NA	NA
+1	NA	NA	blue	What a nice color. I like flying this...	NA	0.05	NA	NA	145	blue	yunt	NA	NA
+1	NA	NA	physs	Humans think all our ships look like rockets, like this...	NA	0.01	NA	NA	146	physs	green	NA	NA
+1	NA	NA	NA	NA	NA	0.08	NA	NA	148	physs	yunt	NA	NA
+1	NA	NA	NA	NA	NA	0.04	NA	NA	149	blue	yunt	NA	NA
+1	NA	NA	NA	NA	NA	0.86	NA	NA	150	physs	red	NA	NA
+1	NA	NA	NA	NA	NA	0.08	NA	NA	151	physs	small	NA	NA
+1	NA	NA	NA	NA	NA	0.96	NA	NA	152	big	green	NA	NA
+1	NA	NA	NA	NA	NA	0.95	NA	NA	153	small	green	NA	NA
+1	NA	NA	NA	NA	NA	0.13	NA	NA	154	yunt	small	NA	NA
+1	NA	NA	NA	NA	NA	0.19	NA	NA	155	blue	small	NA	NA
+1	NA	NA	NA	NA	NA	0.94	NA	NA	156	green	physs	NA	NA
+1	NA	NA	NA	NA	NA	0.1	NA	NA	157	yunt	green	NA	NA
+1	NA	NA	NA	NA	NA	0.18	NA	NA	158	red	yunt	NA	NA
+1	NA	NA	NA	NA	NA	0.8	NA	NA	159	physs	big	NA	NA
+1	NA	NA	NA	NA	NA	0.84	NA	NA	160	big	yunt	NA	NA
+1	NA	NA	NA	NA	NA	0.12	NA	NA	161	physs	blue	NA	NA
+1	NA	NA	NA	NA	NA	NA	NA	rocket shape	162	NA	NA	NA	saucer shape
+2	broff	second	NA	NA	NA	NA	second	NA	6	NA	NA	NA	NA
+2	plach	second	NA	NA	NA	NA	second	NA	7	NA	NA	NA	NA
+2	broff	second	NA	NA	NA	NA	second	NA	8	NA	NA	NA	NA
+2	plach	second	NA	NA	NA	NA	second	NA	9	NA	NA	NA	NA
+2	broff	second	NA	NA	NA	NA	second	NA	10	NA	NA	NA	NA
+2	plach	first	NA	NA	NA	NA	first	NA	11	NA	NA	NA	NA
+2	plach	first	NA	NA	NA	NA	first	NA	12	NA	NA	NA	NA
+2	plach	first	NA	NA	NA	NA	first	NA	13	NA	NA	NA	NA
+2	broff	second	NA	NA	NA	NA	second	NA	14	NA	NA	NA	NA
+2	plach	second	NA	NA	NA	NA	second	NA	15	NA	NA	NA	NA
+2	plach	second	NA	NA	NA	NA	second	NA	16	NA	NA	NA	NA
+2	broff	second	NA	NA	NA	NA	second	NA	17	NA	NA	NA	NA
+2	broff	second	NA	NA	NA	NA	second	NA	18	NA	NA	NA	NA
+2	plach	second	NA	NA	NA	NA	second	NA	19	NA	NA	NA	NA
+2	plach	second	NA	NA	NA	NA	second	NA	20	NA	NA	NA	NA
+2	broff	first	NA	NA	NA	NA	first	NA	21	NA	NA	NA	NA
+2	plach	second	NA	NA	NA	NA	second	NA	22	NA	NA	NA	NA
+2	broff	second	NA	NA	NA	NA	second	NA	23	NA	NA	NA	NA
+2	plach	first	NA	NA	NA	NA	first	NA	24	NA	NA	NA	NA
+2	plach	first	NA	NA	NA	NA	first	NA	25	NA	NA	NA	NA
+2	plach	first	NA	NA	NA	NA	first	NA	26	NA	NA	NA	NA
+2	plach	second	NA	NA	NA	NA	second	NA	27	NA	NA	NA	NA
+2	broff	second	NA	NA	NA	NA	second	NA	28	NA	NA	NA	NA
+2	broff	first	NA	NA	NA	NA	first	NA	29	NA	NA	NA	NA
+2	plach	first	NA	NA	NA	NA	first	NA	30	NA	NA	NA	NA
+2	broff	first	NA	NA	NA	NA	first	NA	31	NA	NA	NA	NA
+2	broff	second	NA	NA	NA	NA	second	NA	32	NA	NA	NA	NA
+2	plach	first	NA	NA	NA	NA	first	NA	33	NA	NA	NA	NA
+2	plach	second	NA	NA	NA	NA	second	NA	34	NA	NA	NA	NA
+2	plach	first	NA	NA	NA	NA	first	NA	35	NA	NA	NA	NA
+2	plach	second	NA	NA	NA	NA	second	NA	36	NA	NA	NA	NA
+2	broff	second	NA	NA	NA	NA	second	NA	37	NA	NA	NA	NA
+2	broff	second	NA	NA	NA	NA	second	NA	38	NA	NA	NA	NA
+2	broff	first	NA	NA	NA	NA	first	NA	39	NA	NA	NA	NA
+2	plach	first	NA	NA	NA	NA	first	NA	40	NA	NA	NA	NA
+2	broff	second	NA	NA	NA	NA	second	NA	41	NA	NA	NA	NA
+2	broff	second	NA	NA	NA	NA	second	NA	42	NA	NA	NA	NA
+2	plach	first	NA	NA	NA	NA	first	NA	43	NA	NA	NA	NA
+2	plach	first	NA	NA	NA	NA	first	NA	44	NA	NA	NA	NA
+2	plach	first	NA	NA	NA	NA	first	NA	45	NA	NA	NA	NA
+2	broff	first	NA	NA	NA	NA	first	NA	46	NA	NA	NA	NA
+2	broff	second	NA	NA	NA	NA	second	NA	47	NA	NA	NA	NA
+2	broff	first	NA	NA	NA	NA	first	NA	48	NA	NA	NA	NA
+2	broff	second	NA	NA	NA	NA	second	NA	49	NA	NA	NA	NA
+2	plach	first	NA	NA	NA	NA	first	NA	50	NA	NA	NA	NA
+2	broff	first	NA	NA	NA	NA	first	NA	51	NA	NA	NA	NA
+2	broff	second	NA	NA	NA	NA	second	NA	52	NA	NA	NA	NA
+2	broff	first	NA	NA	NA	NA	first	NA	53	NA	NA	NA	NA
+2	NA	NA	NA	NA	blue broff spaceship  	NA	NA	NA	55	NA	NA	correct	NA
+2	NA	NA	NA	NA	green broff spaceship  	NA	NA	NA	56	NA	NA	correct	NA
+2	NA	NA	NA	NA	red broff plach  	NA	NA	NA	57	NA	NA	correct	NA
+2	NA	NA	NA	NA	red plach   	NA	NA	NA	58	NA	NA	inconsistent	NA
+2	NA	NA	NA	NA	green plach   	NA	NA	NA	59	NA	NA	correct	NA
+2	NA	NA	NA	NA	blue plach   	NA	NA	NA	60	NA	NA	correct	NA
+2	NA	NA	NA	NA	blue broff spaceship  	NA	NA	NA	61	NA	NA	correct	NA
+2	NA	NA	NA	NA	red broff plach  	NA	NA	NA	62	NA	NA	correct	NA
+2	NA	NA	NA	NA	red broff plach  	NA	NA	NA	63	NA	NA	correct	NA
+2	NA	NA	NA	NA	green broff plach  	NA	NA	NA	64	NA	NA	correct	NA
+2	NA	NA	NA	NA	the red spaceship  	NA	NA	NA	65	NA	NA	correct	NA
+2	NA	NA	NA	NA	blue blue broff plach 	NA	NA	NA	66	NA	NA	correct	NA
+2	NA	NA	NA	NA	green broff plach  	NA	NA	NA	67	NA	NA	correct	NA
+2	NA	NA	NA	NA	green broff plach  	NA	NA	NA	68	NA	NA	correct	NA
+2	NA	NA	NA	NA	green broff spaceship  	NA	NA	NA	69	NA	NA	correct	NA
+2	NA	NA	NA	NA	blue plach   	NA	NA	NA	70	NA	NA	correct	NA
+2	NA	NA	NA	NA	green plach   	NA	NA	NA	71	NA	NA	correct	NA
+2	NA	NA	NA	NA	blue plach   	NA	NA	NA	72	NA	NA	correct	NA
+2	NA	NA	NA	NA	red broff plach  	NA	NA	NA	73	NA	NA	correct	NA
+2	NA	NA	NA	NA	red broff plach  	NA	NA	NA	74	NA	NA	correct	NA
+2	NA	NA	NA	NA	red broff plach  	NA	NA	NA	75	NA	NA	correct	NA
+2	NA	NA	NA	NA	the blue spaceship  	NA	NA	NA	76	NA	NA	correct	NA
+2	NA	NA	NA	NA	red broff plach  	NA	NA	NA	77	NA	NA	correct	NA
+2	NA	NA	NA	NA	green plach   	NA	NA	NA	78	NA	NA	correct	NA
+2	NA	NA	NA	NA	blue broff plach  	NA	NA	NA	79	NA	NA	correct	NA
+2	NA	NA	NA	NA	blue broff plach  	NA	NA	NA	80	NA	NA	correct	NA
+2	NA	NA	NA	NA	blue broff plach	NA	NA	NA	82	NA	NA	correct	NA
+2	NA	NA	NA	NA	red plach	NA	NA	NA	83	NA	NA	correct	NA
+2	NA	NA	NA	NA	red broff plach	NA	NA	NA	84	NA	NA	correct	NA
+2	NA	NA	NA	NA	blue broff spaceship	NA	NA	NA	85	NA	NA	correct	NA
+2	NA	NA	NA	NA	green platch	NA	NA	NA	86	NA	NA	correct	NA
+2	NA	NA	NA	NA	green broff spaceship	NA	NA	NA	87	NA	NA	correct	NA
+2	NA	NA	NA	NA	red broff spaceship	NA	NA	NA	88	NA	NA	correct	NA
+2	NA	NA	NA	NA	green plach	NA	NA	NA	89	NA	NA	correct	NA
+2	NA	NA	NA	NA	the blue spaceship	NA	NA	NA	90	NA	NA	correct	NA
+2	NA	NA	NA	NA	the red spaceship	NA	NA	NA	91	NA	NA	correct	NA
+2	NA	NA	NA	NA	red broff plach	NA	NA	NA	92	NA	NA	correct	NA
+2	NA	NA	NA	NA	blue broff spaceship	NA	NA	NA	93	NA	NA	correct	NA
+2	NA	NA	NA	NA	red broff plach	NA	NA	NA	94	NA	NA	correct	NA
+2	NA	NA	NA	NA	red broff plach	NA	NA	NA	95	NA	NA	correct	NA
+2	NA	NA	NA	NA	green plach	NA	NA	NA	96	NA	NA	inconsistent	NA
+2	NA	NA	NA	NA	green broff spaceship	NA	NA	NA	97	NA	NA	correct	NA
+2	NA	NA	NA	NA	blue plach	NA	NA	NA	98	NA	NA	correct	NA
+2	NA	NA	NA	NA	the green plach	NA	NA	NA	99	NA	NA	correct	NA
+2	NA	NA	NA	NA	the blue plach	NA	NA	NA	100	NA	NA	correct	NA
+2	NA	NA	NA	NA	blue broff plach	NA	NA	NA	101	NA	NA	correct	NA
+2	NA	NA	NA	NA	blue broff plach	NA	NA	NA	102	NA	NA	correct	NA
+2	NA	NA	NA	NA	red broff plach	NA	NA	NA	103	NA	NA	correct	NA
+2	NA	NA	NA	NA	blue broff plach	NA	NA	NA	104	NA	NA	correct	NA
+2	NA	NA	NA	NA	green broff plach	NA	NA	NA	105	NA	NA	correct	NA
+2	NA	NA	NA	NA	red broff plach	NA	NA	NA	106	NA	NA	correct	NA
+2	NA	NA	NA	NA	green broff plach	NA	NA	NA	107	NA	NA	correct	NA
+2	NA	NA	NA	NA	red broff plach	NA	NA	NA	109	NA	NA	inconsistent	NA
+2	NA	NA	broff	The more spikes, the better. My favorite one is this...	NA	1	NA	NA	136	plach	broff	NA	NA
+2	NA	NA	broff	Ugh, too many fins &#8210; I hate flying this...	NA	0	NA	NA	137	green	broff	NA	NA
+2	NA	NA	red	What a nice color. I like flying this...	NA	0.13	NA	NA	138	red	broff	NA	NA
+2	NA	NA	broff	I really don&quotechart like ships with many spikes, like this...	NA	0.17	NA	NA	139	broff	plach	NA	NA
+2	NA	NA	plach	My first ship had the same shape as this...	NA	0.17	NA	NA	140	green	plach	NA	NA
+2	NA	NA	plach	Humans think all our ships look like rockets, like this...	NA	0	NA	NA	141	blue	plach	NA	NA
+2	NA	NA	blue	I like ships that have the same color as I have, like this...	NA	1	NA	NA	142	plach	blue	NA	NA
+2	NA	NA	NONE	On our planet, many aliens fly ships like this...	NA	0	NA	NA	143	red	broff	NA	NA
+2	NA	NA	broff	Wow, so many fins &#8210; I like this...	NA	1	NA	NA	144	broff	blue	NA	NA
+2	NA	NA	NONE	My friend used to fly this...	NA	1	NA	NA	145	plach	blue	NA	NA
+2	NA	NA	plach	For long distances, I use rockets. The best one is this...	NA	1	NA	NA	146	plach	green	NA	NA
+2	NA	NA	NA	NA	NA	1	NA	NA	148	plach	broff	NA	NA
+2	NA	NA	NA	NA	NA	0	NA	NA	149	green	broff	NA	NA
+2	NA	NA	NA	NA	NA	1	NA	NA	150	plach	blue	NA	NA
+2	NA	NA	NA	NA	NA	1	NA	NA	151	red	big	NA	NA
+2	NA	NA	NA	NA	NA	0	NA	NA	152	small	plach	NA	NA
+2	NA	NA	NA	NA	NA	1	NA	NA	153	broff	small	NA	NA
+2	NA	NA	NA	NA	NA	0	NA	NA	154	big	broff	NA	NA
+2	NA	NA	NA	NA	NA	0.04	NA	NA	155	big	plach	NA	NA
+2	NA	NA	NA	NA	NA	1	NA	NA	156	plach	green	NA	NA
+2	NA	NA	NA	NA	NA	0	NA	NA	157	red	broff	NA	NA
+2	NA	NA	NA	NA	NA	0.74	NA	NA	158	blue	big	NA	NA
+2	NA	NA	NA	NA	NA	1	NA	NA	159	broff	blue	NA	NA
+2	NA	NA	NA	NA	NA	1	NA	NA	160	plach	red	NA	NA
+2	NA	NA	NA	NA	NA	0.65	NA	NA	161	red	small	NA	NA
+2	NA	NA	NA	NA	NA	NA	NA	thin	162	NA	NA	NA	spikey
+3	scrib	first	NA	NA	NA	NA	first	NA	6	NA	NA	NA	NA
+3	scrib	second	NA	NA	NA	NA	second	NA	7	NA	NA	NA	NA
+3	broff	first	NA	NA	NA	NA	first	NA	8	NA	NA	NA	NA
+3	broff	second	NA	NA	NA	NA	second	NA	9	NA	NA	NA	NA
+3	broff	first	NA	NA	NA	NA	first	NA	10	NA	NA	NA	NA
+3	scrib	second	NA	NA	NA	NA	second	NA	11	NA	NA	NA	NA
+3	broff	first	NA	NA	NA	NA	first	NA	12	NA	NA	NA	NA
+3	broff	second	NA	NA	NA	NA	second	NA	13	NA	NA	NA	NA
+3	broff	second	NA	NA	NA	NA	second	NA	14	NA	NA	NA	NA
+3	broff	second	NA	NA	NA	NA	second	NA	15	NA	NA	NA	NA
+3	scrib	first	NA	NA	NA	NA	first	NA	16	NA	NA	NA	NA
+3	scrib	second	NA	NA	NA	NA	second	NA	17	NA	NA	NA	NA
+3	broff	first	NA	NA	NA	NA	first	NA	18	NA	NA	NA	NA
+3	scrib	first	NA	NA	NA	NA	first	NA	19	NA	NA	NA	NA
+3	scrib	first	NA	NA	NA	NA	first	NA	20	NA	NA	NA	NA
+3	broff	first	NA	NA	NA	NA	first	NA	21	NA	NA	NA	NA
+3	broff	second	NA	NA	NA	NA	second	NA	22	NA	NA	NA	NA
+3	broff	second	NA	NA	NA	NA	second	NA	23	NA	NA	NA	NA
+3	scrib	first	NA	NA	NA	NA	first	NA	24	NA	NA	NA	NA
+3	scrib	second	NA	NA	NA	NA	second	NA	25	NA	NA	NA	NA
+3	broff	second	NA	NA	NA	NA	second	NA	26	NA	NA	NA	NA
+3	broff	second	NA	NA	NA	NA	second	NA	27	NA	NA	NA	NA
+3	scrib	second	NA	NA	NA	NA	second	NA	28	NA	NA	NA	NA
+3	scrib	second	NA	NA	NA	NA	second	NA	29	NA	NA	NA	NA
+3	scrib	first	NA	NA	NA	NA	first	NA	30	NA	NA	NA	NA
+3	broff	first	NA	NA	NA	NA	first	NA	31	NA	NA	NA	NA
+3	scrib	first	NA	NA	NA	NA	first	NA	32	NA	NA	NA	NA
+3	broff	second	NA	NA	NA	NA	second	NA	33	NA	NA	NA	NA
+3	scrib	first	NA	NA	NA	NA	first	NA	34	NA	NA	NA	NA
+3	scrib	first	NA	NA	NA	NA	first	NA	35	NA	NA	NA	NA
+3	broff	first	NA	NA	NA	NA	first	NA	36	NA	NA	NA	NA
+3	broff	second	NA	NA	NA	NA	second	NA	37	NA	NA	NA	NA
+3	broff	first	NA	NA	NA	NA	first	NA	38	NA	NA	NA	NA
+3	broff	first	NA	NA	NA	NA	first	NA	39	NA	NA	NA	NA
+3	scrib	second	NA	NA	NA	NA	second	NA	40	NA	NA	NA	NA
+3	scrib	first	NA	NA	NA	NA	first	NA	41	NA	NA	NA	NA
+3	broff	first	NA	NA	NA	NA	first	NA	42	NA	NA	NA	NA
+3	scrib	first	NA	NA	NA	NA	first	NA	43	NA	NA	NA	NA
+3	scrib	first	NA	NA	NA	NA	first	NA	44	NA	NA	NA	NA
+3	scrib	second	NA	NA	NA	NA	second	NA	45	NA	NA	NA	NA
+3	scrib	first	NA	NA	NA	NA	first	NA	46	NA	NA	NA	NA
+3	scrib	second	NA	NA	NA	NA	second	NA	47	NA	NA	NA	NA
+3	scrib	second	NA	NA	NA	NA	second	NA	48	NA	NA	NA	NA
+3	scrib	first	NA	NA	NA	NA	first	NA	49	NA	NA	NA	NA
+3	broff	second	NA	NA	NA	NA	second	NA	50	NA	NA	NA	NA
+3	broff	second	NA	NA	NA	NA	second	NA	51	NA	NA	NA	NA
+3	broff	second	NA	NA	NA	NA	second	NA	52	NA	NA	NA	NA
+3	broff	second	NA	NA	NA	NA	second	NA	53	NA	NA	NA	NA
+3	NA	NA	NA	NA	scrib    	NA	NA	NA	55	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib red   	NA	NA	NA	56	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib blue   	NA	NA	NA	57	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib blue broff  	NA	NA	NA	58	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib green broff  	NA	NA	NA	59	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib    	NA	NA	NA	60	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib green broff  	NA	NA	NA	61	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib red broff  	NA	NA	NA	62	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib blue   	NA	NA	NA	63	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib green broff  	NA	NA	NA	64	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib green   	NA	NA	NA	65	NA	NA	correct	NA
+3	NA	NA	NA	NA	spaceship broff red  	NA	NA	NA	66	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib blue   	NA	NA	NA	67	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib    	NA	NA	NA	68	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib broff   	NA	NA	NA	69	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib green   	NA	NA	NA	70	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib broff   	NA	NA	NA	71	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib blue   	NA	NA	NA	72	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib red broff  	NA	NA	NA	73	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib green   	NA	NA	NA	74	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib green   	NA	NA	NA	75	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib blue   	NA	NA	NA	76	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib red   	NA	NA	NA	77	NA	NA	correct	NA
+3	NA	NA	NA	NA	spaceship red broff  	NA	NA	NA	78	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib red   	NA	NA	NA	79	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib green   	NA	NA	NA	80	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib red	NA	NA	NA	82	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib green	NA	NA	NA	83	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib blue	NA	NA	NA	84	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib broff	NA	NA	NA	85	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib green	NA	NA	NA	86	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib red	NA	NA	NA	87	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib blue	NA	NA	NA	88	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib broff	NA	NA	NA	89	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib red	NA	NA	NA	90	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib blue	NA	NA	NA	91	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib blue	NA	NA	NA	92	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib broff	NA	NA	NA	93	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib	NA	NA	NA	94	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib broff	NA	NA	NA	95	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib green	NA	NA	NA	96	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib broff	NA	NA	NA	97	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib green	NA	NA	NA	98	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib green	NA	NA	NA	99	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib broff	NA	NA	NA	100	NA	NA	correct	NA
+3	NA	NA	NA	NA	spaceship red broff	NA	NA	NA	101	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib blue	NA	NA	NA	102	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib blue	NA	NA	NA	103	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib broff	NA	NA	NA	104	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib green	NA	NA	NA	105	NA	NA	correct	NA
+3	NA	NA	NA	NA	spaceship red broff	NA	NA	NA	106	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib broff	NA	NA	NA	107	NA	NA	correct	NA
+3	NA	NA	NA	NA	scrib red	NA	NA	NA	109	NA	NA	correct	NA
+3	NA	NA	scrib	For long distances, I use saucers. The best one is this...	NA	1	NA	NA	136	scrib	red	NA	NA
+3	NA	NA	scrib	Humans think all our ships look like saucers, like this...	NA	1	NA	NA	137	scrib	red	NA	NA
+3	NA	NA	blue	What a nice color. I like flying this...	NA	0	NA	NA	138	blue	broff	NA	NA
+3	NA	NA	broff	I really don&quotechart like ships with many spikes, like this...	NA	1	NA	NA	139	broff	scrib	NA	NA
+3	NA	NA	green	I like ships that have the same color as I have, like this...	NA	0	NA	NA	140	green	scrib	NA	NA
+3	NA	NA	NONE	My friend used to fly this...	NA	1	NA	NA	141	scrib	red	NA	NA
+3	NA	NA	broff	Wow, so many fins &#8210; I like this...	NA	1	NA	NA	142	broff	red	NA	NA
+3	NA	NA	scrib	My first ship had the same shape as this...	NA	0	NA	NA	143	blue	scrib	NA	NA
+3	NA	NA	broff	The more spikes, the better. My favorite one is this...	NA	0.66	NA	NA	144	broff	scrib	NA	NA
+3	NA	NA	NONE	On our planet, many aliens fly ships like this...	NA	1	NA	NA	145	broff	red	NA	NA
+3	NA	NA	broff	Ugh, too many fins &#8210; I hate flying this...	NA	0	NA	NA	146	blue	broff	NA	NA
+3	NA	NA	NA	NA	NA	1	NA	NA	148	scrib	small	NA	NA
+3	NA	NA	NA	NA	NA	1	NA	NA	149	broff	green	NA	NA
+3	NA	NA	NA	NA	NA	1	NA	NA	150	broff	red	NA	NA
+3	NA	NA	NA	NA	NA	0	NA	NA	151	big	broff	NA	NA
+3	NA	NA	NA	NA	NA	1	NA	NA	152	scrib	big	NA	NA
+3	NA	NA	NA	NA	NA	0.54	NA	NA	153	broff	scrib	NA	NA
+3	NA	NA	NA	NA	NA	1	NA	NA	154	broff	blue	NA	NA
+3	NA	NA	NA	NA	NA	0	NA	NA	155	big	green	NA	NA
+3	NA	NA	NA	NA	NA	0	NA	NA	156	big	blue	NA	NA
+3	NA	NA	NA	NA	NA	1	NA	NA	157	scrib	red	NA	NA
+3	NA	NA	NA	NA	NA	1	NA	NA	158	scrib	green	NA	NA
+3	NA	NA	NA	NA	NA	0	NA	NA	159	big	green	NA	NA
+3	NA	NA	NA	NA	NA	0	NA	NA	160	blue	scrib	NA	NA
+3	NA	NA	NA	NA	NA	0	NA	NA	161	small	broff	NA	NA
+3	NA	NA	NA	NA	NA	NA	NA	Saucer	162	NA	NA	NA	Spikey
+4	glab	second	NA	NA	NA	NA	second	NA	6	NA	NA	NA	NA
+4	muic	second	NA	NA	NA	NA	first	NA	7	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	second	NA	8	NA	NA	NA	NA
+4	muic	first	NA	NA	NA	NA	first	NA	9	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	second	NA	10	NA	NA	NA	NA
+4	muic	second	NA	NA	NA	NA	second	NA	11	NA	NA	NA	NA
+4	muic	first	NA	NA	NA	NA	first	NA	12	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	first	NA	13	NA	NA	NA	NA
+4	muic	first	NA	NA	NA	NA	first	NA	14	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	first	NA	15	NA	NA	NA	NA
+4	muic	second	NA	NA	NA	NA	second	NA	16	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	first	NA	17	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	second	NA	18	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	second	NA	19	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	second	NA	20	NA	NA	NA	NA
+4	muic	second	NA	NA	NA	NA	second	NA	21	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	second	NA	22	NA	NA	NA	NA
+4	muic	first	NA	NA	NA	NA	first	NA	23	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	second	NA	24	NA	NA	NA	NA
+4	muic	second	NA	NA	NA	NA	second	NA	25	NA	NA	NA	NA
+4	muic	second	NA	NA	NA	NA	second	NA	26	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	second	NA	27	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	second	NA	28	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	second	NA	29	NA	NA	NA	NA
+4	muic	second	NA	NA	NA	NA	second	NA	30	NA	NA	NA	NA
+4	muic	first	NA	NA	NA	NA	first	NA	31	NA	NA	NA	NA
+4	muic	first	NA	NA	NA	NA	first	NA	32	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	first	NA	33	NA	NA	NA	NA
+4	muic	first	NA	NA	NA	NA	first	NA	34	NA	NA	NA	NA
+4	muic	second	NA	NA	NA	NA	second	NA	35	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	first	NA	36	NA	NA	NA	NA
+4	muic	second	NA	NA	NA	NA	second	NA	37	NA	NA	NA	NA
+4	muic	first	NA	NA	NA	NA	first	NA	38	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	first	NA	39	NA	NA	NA	NA
+4	muic	second	NA	NA	NA	NA	second	NA	40	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	first	NA	41	NA	NA	NA	NA
+4	muic	first	NA	NA	NA	NA	first	NA	42	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	first	NA	43	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	second	NA	44	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	second	NA	45	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	first	NA	46	NA	NA	NA	NA
+4	muic	second	NA	NA	NA	NA	second	NA	47	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	second	NA	48	NA	NA	NA	NA
+4	muic	second	NA	NA	NA	NA	second	NA	49	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	first	NA	50	NA	NA	NA	NA
+4	muic	second	NA	NA	NA	NA	second	NA	51	NA	NA	NA	NA
+4	muic	first	NA	NA	NA	NA	first	NA	52	NA	NA	NA	NA
+4	muic	first	NA	NA	NA	NA	first	NA	53	NA	NA	NA	NA
+4	NA	NA	NA	NA	red muic   	NA	NA	NA	55	NA	NA	correct	NA
+4	NA	NA	NA	NA	red muic   	NA	NA	NA	56	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue muic glab  	NA	NA	NA	57	NA	NA	correct	NA
+4	NA	NA	NA	NA	green muic glab  	NA	NA	NA	58	NA	NA	correct	NA
+4	NA	NA	NA	NA	red muic   	NA	NA	NA	59	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue spaceship glab  	NA	NA	NA	60	NA	NA	correct	NA
+4	NA	NA	NA	NA	red muic   	NA	NA	NA	61	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue glab spaceship  	NA	NA	NA	62	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue glab spaceship  	NA	NA	NA	63	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue muic   	NA	NA	NA	64	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue muic   	NA	NA	NA	65	NA	NA	correct	NA
+4	NA	NA	NA	NA	green muic   	NA	NA	NA	66	NA	NA	correct	NA
+4	NA	NA	NA	NA	red glab muic  	NA	NA	NA	67	NA	NA	correct	NA
+4	NA	NA	NA	NA	red muic glab  	NA	NA	NA	68	NA	NA	correct	NA
+4	NA	NA	NA	NA	red glab   	NA	NA	NA	69	NA	NA	correct	NA
+4	NA	NA	NA	NA	green muic   	NA	NA	NA	70	NA	NA	correct	NA
+4	NA	NA	NA	NA	red muic glab  	NA	NA	NA	71	NA	NA	correct	NA
+4	NA	NA	NA	NA	red muic   	NA	NA	NA	72	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue muic glab  	NA	NA	NA	73	NA	NA	correct	NA
+4	NA	NA	NA	NA	green muic   	NA	NA	NA	74	NA	NA	correct	NA
+4	NA	NA	NA	NA	green muic   	NA	NA	NA	75	NA	NA	correct	NA
+4	NA	NA	NA	NA	green spaceship   	NA	NA	NA	76	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue muic glab  	NA	NA	NA	77	NA	NA	correct	NA
+4	NA	NA	NA	NA	green muic   	NA	NA	NA	78	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue muic   	NA	NA	NA	79	NA	NA	correct	NA
+4	NA	NA	NA	NA	green muic glab  	NA	NA	NA	80	NA	NA	correct	NA
+4	NA	NA	NA	NA	red muic	NA	NA	NA	82	NA	NA	correct	NA
+4	NA	NA	NA	NA	red muic	NA	NA	NA	83	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue muic glab	NA	NA	NA	84	NA	NA	correct	NA
+4	NA	NA	NA	NA	green muic	NA	NA	NA	85	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue muic	NA	NA	NA	86	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue muic glab	NA	NA	NA	87	NA	NA	correct	NA
+4	NA	NA	NA	NA	green muic glab	NA	NA	NA	88	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue spaceship glab	NA	NA	NA	89	NA	NA	correct	NA
+4	NA	NA	NA	NA	red muic	NA	NA	NA	90	NA	NA	correct	NA
+4	NA	NA	NA	NA	green muic	NA	NA	NA	91	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue muic	NA	NA	NA	92	NA	NA	correct	NA
+4	NA	NA	NA	NA	green muic	NA	NA	NA	93	NA	NA	correct	NA
+4	NA	NA	NA	NA	red muic glab	NA	NA	NA	94	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue muic glab	NA	NA	NA	95	NA	NA	correct	NA
+4	NA	NA	NA	NA	green muic	NA	NA	NA	96	NA	NA	correct	NA
+4	NA	NA	NA	NA	red muic	NA	NA	NA	97	NA	NA	correct	NA
+4	NA	NA	NA	NA	green muic	NA	NA	NA	98	NA	NA	correct	NA
+4	NA	NA	NA	NA	green muic	NA	NA	NA	99	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue spaceship glab	NA	NA	NA	100	NA	NA	correct	NA
+4	NA	NA	NA	NA	red muic glab	NA	NA	NA	101	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue spaceship glab	NA	NA	NA	102	NA	NA	correct	NA
+4	NA	NA	NA	NA	red muic	NA	NA	NA	103	NA	NA	correct	NA
+4	NA	NA	NA	NA	red spaceship glab	NA	NA	NA	104	NA	NA	correct	NA
+4	NA	NA	NA	NA	red muic glab	NA	NA	NA	105	NA	NA	correct	NA
+4	NA	NA	NA	NA	green spaceship 	NA	NA	NA	106	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue muic	NA	NA	NA	107	NA	NA	correct	NA
+4	NA	NA	NA	NA	red muic	NA	NA	NA	109	NA	NA	correct	NA
+4	NA	NA	glab	Ugh, too many fins &#8210; I hate flying this...	NA	0.02	NA	NA	136	green	glab	NA	NA
+4	NA	NA	glab	The more spikes, the better. My favorite one is this...	NA	0.99	NA	NA	137	glab	muic	NA	NA
+4	NA	NA	glab	I really don&quotechart like ships with many spikes, like this...	NA	0.01	NA	NA	138	muic	glab	NA	NA
+4	NA	NA	muic	For long distances, I use saucers. The best one is this...	NA	0.05	NA	NA	139	red	muic	NA	NA
+4	NA	NA	green	I like ships that have the same color as I have, like this...	NA	0.04	NA	NA	140	green	muic	NA	NA
+4	NA	NA	muic	My first ship had the same shape as this...	NA	0.96	NA	NA	141	muic	green	NA	NA
+4	NA	NA	blue	What a nice color. I like flying this...	NA	0.04	NA	NA	142	blue	glab	NA	NA
+4	NA	NA	NONE	My friend used to fly this...	NA	0.96	NA	NA	143	muic	green	NA	NA
+4	NA	NA	muic	Humans think all our ships look like saucers, like this...	NA	0.96	NA	NA	144	muic	red	NA	NA
+4	NA	NA	NONE	On our planet, many aliens fly ships like this...	NA	0.02	NA	NA	145	red	glab	NA	NA
+4	NA	NA	glab	Wow, so many fins &#8210; I like this...	NA	0.97	NA	NA	146	glab	red	NA	NA
+4	NA	NA	NA	NA	NA	0.04	NA	NA	148	small	blue	NA	NA
+4	NA	NA	NA	NA	NA	0.99	NA	NA	149	glab	blue	NA	NA
+4	NA	NA	NA	NA	NA	0.97	NA	NA	150	muic	big	NA	NA
+4	NA	NA	NA	NA	NA	0.05	NA	NA	151	big	glab	NA	NA
+4	NA	NA	NA	NA	NA	0.03	NA	NA	152	big	green	NA	NA
+4	NA	NA	NA	NA	NA	0.02	NA	NA	153	small	muic	NA	NA
+4	NA	NA	NA	NA	NA	0.06	NA	NA	154	big	green	NA	NA
+4	NA	NA	NA	NA	NA	0.97	NA	NA	155	glab	small	NA	NA
+4	NA	NA	NA	NA	NA	0.05	NA	NA	156	blue	muic	NA	NA
+4	NA	NA	NA	NA	NA	0.03	NA	NA	157	muic	glab	NA	NA
+4	NA	NA	NA	NA	NA	1	NA	NA	158	muic	green	NA	NA
+4	NA	NA	NA	NA	NA	0.96	NA	NA	159	glab	green	NA	NA
+4	NA	NA	NA	NA	NA	0	NA	NA	160	red	glab	NA	NA
+4	NA	NA	NA	NA	NA	0.98	NA	NA	161	muic	red	NA	NA
+4	NA	NA	NA	NA	NA	NA	NA	circle	162	NA	NA	NA	points
+5	scrib	first	NA	NA	NA	NA	second	NA	6	NA	NA	NA	NA
+5	scrib	second	NA	NA	NA	NA	first	NA	7	NA	NA	NA	NA
+5	scrib	first	NA	NA	NA	NA	first	NA	8	NA	NA	NA	NA
+5	lann	first	NA	NA	NA	NA	first	NA	9	NA	NA	NA	NA
+5	lann	first	NA	NA	NA	NA	first	NA	10	NA	NA	NA	NA
+5	lann	first	NA	NA	NA	NA	first	NA	11	NA	NA	NA	NA
+5	lann	first	NA	NA	NA	NA	first	NA	12	NA	NA	NA	NA
+5	scrib	first	NA	NA	NA	NA	first	NA	13	NA	NA	NA	NA
+5	lann	first	NA	NA	NA	NA	first	NA	14	NA	NA	NA	NA
+5	lann	first	NA	NA	NA	NA	second	NA	15	NA	NA	NA	NA
+5	lann	second	NA	NA	NA	NA	second	NA	16	NA	NA	NA	NA
+5	lann	first	NA	NA	NA	NA	first	NA	17	NA	NA	NA	NA
+5	lann	first	NA	NA	NA	NA	first	NA	18	NA	NA	NA	NA
+5	lann	second	NA	NA	NA	NA	second	NA	19	NA	NA	NA	NA
+5	lann	first	NA	NA	NA	NA	first	NA	20	NA	NA	NA	NA
+5	lann	first	NA	NA	NA	NA	first	NA	21	NA	NA	NA	NA
+5	scrib	first	NA	NA	NA	NA	first	NA	22	NA	NA	NA	NA
+5	scrib	first	NA	NA	NA	NA	first	NA	23	NA	NA	NA	NA
+5	scrib	first	NA	NA	NA	NA	first	NA	24	NA	NA	NA	NA
+5	lann	first	NA	NA	NA	NA	first	NA	25	NA	NA	NA	NA
+5	scrib	first	NA	NA	NA	NA	first	NA	26	NA	NA	NA	NA
+5	scrib	second	NA	NA	NA	NA	second	NA	27	NA	NA	NA	NA
+5	lann	first	NA	NA	NA	NA	first	NA	28	NA	NA	NA	NA
+5	scrib	first	NA	NA	NA	NA	first	NA	29	NA	NA	NA	NA
+5	lann	second	NA	NA	NA	NA	second	NA	30	NA	NA	NA	NA
+5	scrib	first	NA	NA	NA	NA	first	NA	31	NA	NA	NA	NA
+5	scrib	second	NA	NA	NA	NA	second	NA	32	NA	NA	NA	NA
+5	scrib	first	NA	NA	NA	NA	first	NA	33	NA	NA	NA	NA
+5	lann	second	NA	NA	NA	NA	second	NA	34	NA	NA	NA	NA
+5	scrib	first	NA	NA	NA	NA	first	NA	35	NA	NA	NA	NA
+5	lann	first	NA	NA	NA	NA	first	NA	36	NA	NA	NA	NA
+5	scrib	first	NA	NA	NA	NA	first	NA	37	NA	NA	NA	NA
+5	lann	first	NA	NA	NA	NA	first	NA	38	NA	NA	NA	NA
+5	lann	first	NA	NA	NA	NA	first	NA	39	NA	NA	NA	NA
+5	lann	second	NA	NA	NA	NA	second	NA	40	NA	NA	NA	NA
+5	scrib	first	NA	NA	NA	NA	first	NA	41	NA	NA	NA	NA
+5	scrib	first	NA	NA	NA	NA	first	NA	42	NA	NA	NA	NA
+5	scrib	second	NA	NA	NA	NA	second	NA	43	NA	NA	NA	NA
+5	lann	first	NA	NA	NA	NA	first	NA	44	NA	NA	NA	NA
+5	scrib	first	NA	NA	NA	NA	first	NA	45	NA	NA	NA	NA
+5	scrib	first	NA	NA	NA	NA	first	NA	46	NA	NA	NA	NA
+5	lann	first	NA	NA	NA	NA	first	NA	47	NA	NA	NA	NA
+5	scrib	first	NA	NA	NA	NA	first	NA	48	NA	NA	NA	NA
+5	lann	first	NA	NA	NA	NA	first	NA	49	NA	NA	NA	NA
+5	scrib	first	NA	NA	NA	NA	first	NA	50	NA	NA	NA	NA
+5	scrib	second	NA	NA	NA	NA	second	NA	51	NA	NA	NA	NA
+5	scrib	second	NA	NA	NA	NA	second	NA	52	NA	NA	NA	NA
+5	lann	first	NA	NA	NA	NA	first	NA	53	NA	NA	NA	NA
+5	NA	NA	NA	NA	the lann spaceship blue 	NA	NA	NA	55	NA	NA	wrong	NA
+5	NA	NA	NA	NA	the green lann spaceship 	NA	NA	NA	56	NA	NA	wrong	NA
+5	NA	NA	NA	NA	the scrib blue spaceship 	NA	NA	NA	57	NA	NA	underspecified	NA
+5	NA	NA	NA	NA	the lann spaceship  	NA	NA	NA	58	NA	NA	underspecified	NA
+5	NA	NA	NA	NA	the red scrib  	NA	NA	NA	59	NA	NA	underspecified	NA
+5	NA	NA	NA	NA	the lann spaceship red 	NA	NA	NA	60	NA	NA	correct	NA
+5	NA	NA	NA	NA	the lann scrib spaceship 	NA	NA	NA	61	NA	NA	correct	NA
+5	NA	NA	NA	NA	the blue scrib lann spaceship	NA	NA	NA	62	NA	NA	correct	NA
+5	NA	NA	NA	NA	the blue scrib lann spaceship	NA	NA	NA	63	NA	NA	correct	NA
+5	NA	NA	NA	NA	the green scrib spaceship 	NA	NA	NA	64	NA	NA	correct	NA
+5	NA	NA	NA	NA	the green scrib lann spaceship	NA	NA	NA	65	NA	NA	correct	NA
+5	NA	NA	NA	NA	the blue scrib lann spaceship	NA	NA	NA	66	NA	NA	correct	NA
+5	NA	NA	NA	NA	the red scrib lann spaceship	NA	NA	NA	67	NA	NA	correct	NA
+5	NA	NA	NA	NA	the blue scrib spaceship 	NA	NA	NA	68	NA	NA	correct	NA
+5	NA	NA	NA	NA	the blue scrib spaceship 	NA	NA	NA	69	NA	NA	correct	NA
+5	NA	NA	NA	NA	the green spaceship  	NA	NA	NA	70	NA	NA	inconsistent	NA
+5	NA	NA	NA	NA	the green lann spaceship 	NA	NA	NA	71	NA	NA	correct	NA
+5	NA	NA	NA	NA	the blue lann scrib spaceship	NA	NA	NA	72	NA	NA	inconsistent	NA
+5	NA	NA	NA	NA	the blue lann spaceship 	NA	NA	NA	73	NA	NA	inconsistent	NA
+5	NA	NA	NA	NA	the green lann spaceship 	NA	NA	NA	74	NA	NA	correct	NA
+5	NA	NA	NA	NA	the blue scrib lann spaceship	NA	NA	NA	75	NA	NA	correct	NA
+5	NA	NA	NA	NA	the blue lann spaceship 	NA	NA	NA	76	NA	NA	correct	NA
+5	NA	NA	NA	NA	the red lann spaceship 	NA	NA	NA	77	NA	NA	correct	NA
+5	NA	NA	NA	NA	the green scrib spaceship 	NA	NA	NA	78	NA	NA	correct	NA
+5	NA	NA	NA	NA	the green scrib lann spaceship	NA	NA	NA	79	NA	NA	correct	NA
+5	NA	NA	NA	NA	the green scrib lann spaceship	NA	NA	NA	80	NA	NA	correct	NA
+5	NA	NA	NA	NA	The red scrib spaceship	NA	NA	NA	82	NA	NA	correct	NA
+5	NA	NA	NA	NA	The red lann spaceshp	NA	NA	NA	83	NA	NA	correct	NA
+5	NA	NA	NA	NA	The red Lann spaceship 	NA	NA	NA	84	NA	NA	correct	NA
+5	NA	NA	NA	NA	The green Lann spaceship 	NA	NA	NA	85	NA	NA	underspecified	NA
+5	NA	NA	NA	NA	The green scrib Lanny spaceship 	NA	NA	NA	86	NA	NA	correct	NA
+5	NA	NA	NA	NA	The green scrib Lann spaceship 	NA	NA	NA	87	NA	NA	correct	NA
+5	NA	NA	NA	NA	The Lann spaceship 	NA	NA	NA	88	NA	NA	underspecified	NA
+5	NA	NA	NA	NA	The red Lann spaceship 	NA	NA	NA	89	NA	NA	correct	NA
+5	NA	NA	NA	NA	The blue scrib spaceship 	NA	NA	NA	90	NA	NA	underspecified	NA
+5	NA	NA	NA	NA	The blue scrib spaceship 	NA	NA	NA	91	NA	NA	correct	NA
+5	NA	NA	NA	NA	The blue Lann scribble spaceship	NA	NA	NA	92	NA	NA	underspecified	NA
+5	NA	NA	NA	NA	The blue Lann scrib spaceship 	NA	NA	NA	93	NA	NA	underspecified	NA
+5	NA	NA	NA	NA	The blue Lann spaceship 	NA	NA	NA	94	NA	NA	correct	NA
+5	NA	NA	NA	NA	The green scrib spaceship	NA	NA	NA	95	NA	NA	correct	NA
+5	NA	NA	NA	NA	The green scrib Lann spaceship	NA	NA	NA	96	NA	NA	correct	NA
+5	NA	NA	NA	NA	The red Lann spaceship	NA	NA	NA	97	NA	NA	underspecified	NA
+5	NA	NA	NA	NA	The red Lann scrib spaceship 	NA	NA	NA	98	NA	NA	correct	NA
+5	NA	NA	NA	NA	The scrib Lann spaceship 	NA	NA	NA	99	NA	NA	underspecified	NA
+5	NA	NA	NA	NA	The red scrib Lann spaceship	NA	NA	NA	100	NA	NA	underspecified	NA
+5	NA	NA	NA	NA	The Lann scrib spaceship 	NA	NA	NA	101	NA	NA	underspecified	NA
+5	NA	NA	NA	NA	The green Lann scrib spaceship 	NA	NA	NA	102	NA	NA	underspecified	NA
+5	NA	NA	NA	NA	The red Lann scrib spaceship 	NA	NA	NA	103	NA	NA	inconsistent	NA
+5	NA	NA	NA	NA	The blue lann spaceship 	NA	NA	NA	104	NA	NA	correct	NA
+5	NA	NA	NA	NA	The green Lann spaceship 	NA	NA	NA	105	NA	NA	underspecified	NA
+5	NA	NA	NA	NA	The blue Lann spaceship 	NA	NA	NA	106	NA	NA	underspecified	NA
+5	NA	NA	NA	NA	The red spaceship 	NA	NA	NA	109	NA	NA	correct	NA
+5	NA	NA	NA	NA	The blue scrib spaceship 	NA	NA	NA	110	NA	NA	correct	NA
+5	NA	NA	NA	NA	The red spaceship 	NA	NA	NA	111	NA	NA	correct	NA
+5	NA	NA	NA	NA	The blue spaceship 	NA	NA	NA	112	NA	NA	correct	NA
+5	NA	NA	NA	NA	The lann spaceship	NA	NA	NA	113	NA	NA	correct	NA
+5	NA	NA	NA	NA	The red scrib Lann spaceship 	NA	NA	NA	114	NA	NA	correct	NA
+5	NA	NA	NA	NA	The Lann scrib spaceship 	NA	NA	NA	115	NA	NA	underspecified	NA
+5	NA	NA	NA	NA	The blue spaceship 	NA	NA	NA	116	NA	NA	correct	NA
+5	NA	NA	NA	NA	The red scrib lann spaceship 	NA	NA	NA	117	NA	NA	inconsistent	NA
+5	NA	NA	NA	NA	The green scrib Lann spaceship 	NA	NA	NA	118	NA	NA	underspecified	NA
+5	NA	NA	NA	NA	The green spaceship 	NA	NA	NA	119	NA	NA	correct	NA
+5	NA	NA	NA	NA	The green Lann scrib spaceship	NA	NA	NA	120	NA	NA	correct	NA
+5	NA	NA	NA	NA	The red Lann spaceship 	NA	NA	NA	121	NA	NA	underspecified	NA
+5	NA	NA	NA	NA	The red Lann spaceship 	NA	NA	NA	122	NA	NA	underspecified	NA
+5	NA	NA	NA	NA	The Lann spaceship	NA	NA	NA	123	NA	NA	underspecified	NA
+5	NA	NA	NA	NA		NA	NA	NA	124	NA	NA	underspecified	NA
+5	NA	NA	NA	NA		NA	NA	NA	125	NA	NA	underspecified	NA
+5	NA	NA	NA	NA		NA	NA	NA	126	NA	NA	underspecified	NA
+5	NA	NA	NA	NA		NA	NA	NA	127	NA	NA	underspecified	NA
+5	NA	NA	NA	NA		NA	NA	NA	128	NA	NA	underspecified	NA
+5	NA	NA	NA	NA		NA	NA	NA	129	NA	NA	underspecified	NA
+5	NA	NA	NA	NA		NA	NA	NA	130	NA	NA	underspecified	NA
+5	NA	NA	NA	NA		NA	NA	NA	131	NA	NA	underspecified	NA
+5	NA	NA	NA	NA		NA	NA	NA	132	NA	NA	underspecified	NA
+5	NA	NA	NA	NA		NA	NA	NA	133	NA	NA	underspecified	NA
+5	NA	NA	NA	NA		NA	NA	NA	134	NA	NA	underspecified	NA
+5	NA	NA	scrib	Ugh, too many fins &#8210; I hate flying this...	NA	0.94	NA	NA	136	scrib	red	NA	NA
+5	NA	NA	scrib	I really don&quotechart like ships with many spikes, like this...	NA	0.97	NA	NA	137	lann	scrib	NA	NA
+5	NA	NA	scrib	The more spikes, the better. My favorite one is this...	NA	0.94	NA	NA	138	lann	scrib	NA	NA
+5	NA	NA	scrib	Wow, so many fins &#8210; I like this...	NA	0.94	NA	NA	139	scrib	blue	NA	NA
+5	NA	NA	lann	My first ship had the same shape as this...	NA	0.9	NA	NA	140	lann	blue	NA	NA
+5	NA	NA	NONE	My friend used to fly this...	NA	0.94	NA	NA	141	red	lann	NA	NA
+5	NA	NA	green	I like ships that have the same color as I have, like this...	NA	0.88	NA	NA	142	green	lann	NA	NA
+5	NA	NA	NONE	On our planet, many aliens fly ships like this...	NA	0.93	NA	NA	143	scrib	red	NA	NA
+5	NA	NA	lann	Humans think all our ships look like saucers, like this...	NA	0.97	NA	NA	144	lann	blue	NA	NA
+5	NA	NA	lann	For long distances, I use saucers. The best one is this...	NA	0.03	NA	NA	145	red	lann	NA	NA
+5	NA	NA	red	What a nice color. I like flying this...	NA	0.04	NA	NA	146	scrib	red	NA	NA
+5	NA	NA	NA	NA	NA	0.93	NA	NA	148	green	lann	NA	NA
+5	NA	NA	NA	NA	NA	0.95	NA	NA	149	scrib	big	NA	NA
+5	NA	NA	NA	NA	NA	0.03	NA	NA	150	red	scrib	NA	NA
+5	NA	NA	NA	NA	NA	0.05	NA	NA	151	red	lann	NA	NA
+5	NA	NA	NA	NA	NA	0.02	NA	NA	152	blue	lann	NA	NA
+5	NA	NA	NA	NA	NA	0.97	NA	NA	153	scrib	lann	NA	NA
+5	NA	NA	NA	NA	NA	0.92	NA	NA	154	blue	small	NA	NA
+5	NA	NA	NA	NA	NA	0.96	NA	NA	155	scrib	green	NA	NA
+5	NA	NA	NA	NA	NA	0.04	NA	NA	156	big	lann	NA	NA
+5	NA	NA	NA	NA	NA	0.05	NA	NA	157	big	blue	NA	NA
+5	NA	NA	NA	NA	NA	0.93	NA	NA	158	green	small	NA	NA
+5	NA	NA	NA	NA	NA	0.92	NA	NA	159	scrib	small	NA	NA
+5	NA	NA	NA	NA	NA	0.03	NA	NA	160	small	lann	NA	NA
+5	NA	NA	NA	NA	NA	0.02	NA	NA	161	blue	scrib	NA	NA
+5	NA	NA	NA	NA	NA	NA	NA	Smooth	162	NA	NA	NA	Pointed
+6	glab	first	NA	NA	NA	NA	first	NA	6	NA	NA	NA	NA
+6	physs	second	NA	NA	NA	NA	second	NA	7	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	first	NA	8	NA	NA	NA	NA
+6	physs	first	NA	NA	NA	NA	first	NA	9	NA	NA	NA	NA
+6	physs	second	NA	NA	NA	NA	second	NA	10	NA	NA	NA	NA
+6	physs	second	NA	NA	NA	NA	second	NA	11	NA	NA	NA	NA
+6	physs	second	NA	NA	NA	NA	second	NA	12	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	second	NA	13	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	first	NA	14	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	second	NA	15	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	second	NA	16	NA	NA	NA	NA
+6	physs	first	NA	NA	NA	NA	first	NA	17	NA	NA	NA	NA
+6	physs	first	NA	NA	NA	NA	first	NA	18	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	second	NA	19	NA	NA	NA	NA
+6	physs	second	NA	NA	NA	NA	second	NA	20	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	first	NA	21	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	second	NA	22	NA	NA	NA	NA
+6	physs	first	NA	NA	NA	NA	first	NA	23	NA	NA	NA	NA
+6	physs	second	NA	NA	NA	NA	second	NA	24	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	first	NA	25	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	second	NA	26	NA	NA	NA	NA
+6	physs	second	NA	NA	NA	NA	second	NA	27	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	second	NA	28	NA	NA	NA	NA
+6	physs	first	NA	NA	NA	NA	first	NA	29	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	first	NA	30	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	first	NA	31	NA	NA	NA	NA
+6	physs	second	NA	NA	NA	NA	second	NA	32	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	second	NA	33	NA	NA	NA	NA
+6	physs	first	NA	NA	NA	NA	first	NA	34	NA	NA	NA	NA
+6	physs	second	NA	NA	NA	NA	second	NA	35	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	second	NA	36	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	first	NA	37	NA	NA	NA	NA
+6	physs	first	NA	NA	NA	NA	first	NA	38	NA	NA	NA	NA
+6	physs	second	NA	NA	NA	NA	second	NA	39	NA	NA	NA	NA
+6	physs	second	NA	NA	NA	NA	second	NA	40	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	first	NA	41	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	first	NA	42	NA	NA	NA	NA
+6	physs	second	NA	NA	NA	NA	second	NA	43	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	second	NA	44	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	second	NA	45	NA	NA	NA	NA
+6	physs	second	NA	NA	NA	NA	second	NA	46	NA	NA	NA	NA
+6	physs	first	NA	NA	NA	NA	first	NA	47	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	second	NA	48	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	first	NA	49	NA	NA	NA	NA
+6	physs	first	NA	NA	NA	NA	first	NA	50	NA	NA	NA	NA
+6	physs	first	NA	NA	NA	NA	first	NA	51	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	first	NA	52	NA	NA	NA	NA
+6	physs	second	NA	NA	NA	NA	second	NA	53	NA	NA	NA	NA
+6	NA	NA	NA	NA	glab physs   	NA	NA	NA	55	NA	NA	correct	NA
+6	NA	NA	NA	NA	green    	NA	NA	NA	56	NA	NA	correct	NA
+6	NA	NA	NA	NA	green physs   	NA	NA	NA	57	NA	NA	correct	NA
+6	NA	NA	NA	NA	physs glab   	NA	NA	NA	58	NA	NA	correct	NA
+6	NA	NA	NA	NA	physs blue   	NA	NA	NA	59	NA	NA	correct	NA
+6	NA	NA	NA	NA	physs glab   	NA	NA	NA	60	NA	NA	correct	NA
+6	NA	NA	NA	NA	red    	NA	NA	NA	61	NA	NA	correct	NA
+6	NA	NA	NA	NA	glab physs   	NA	NA	NA	62	NA	NA	correct	NA
+6	NA	NA	NA	NA	physs glab   	NA	NA	NA	63	NA	NA	correct	NA
+6	NA	NA	NA	NA	physs blue   	NA	NA	NA	64	NA	NA	correct	NA
+6	NA	NA	NA	NA	physs glab   	NA	NA	NA	65	NA	NA	correct	NA
+6	NA	NA	NA	NA	physs green   	NA	NA	NA	66	NA	NA	correct	NA
+6	NA	NA	NA	NA	physs green glab  	NA	NA	NA	67	NA	NA	underspecified	NA
+6	NA	NA	NA	NA	    	NA	NA	NA	68	NA	NA	underspecified	NA
+6	NA	NA	NA	NA	physs red   	NA	NA	NA	69	NA	NA	correct	NA
+6	NA	NA	NA	NA	blue    	NA	NA	NA	70	NA	NA	correct	NA
+6	NA	NA	NA	NA	red    	NA	NA	NA	71	NA	NA	correct	NA
+6	NA	NA	NA	NA	physs glab   	NA	NA	NA	72	NA	NA	correct	NA
+6	NA	NA	NA	NA	physs red   	NA	NA	NA	73	NA	NA	correct	NA
+6	NA	NA	NA	NA	glab red   	NA	NA	NA	74	NA	NA	correct	NA
+6	NA	NA	NA	NA	physs glab   	NA	NA	NA	75	NA	NA	correct	NA
+6	NA	NA	NA	NA	physs green   	NA	NA	NA	76	NA	NA	correct	NA
+6	NA	NA	NA	NA	physs glab   	NA	NA	NA	77	NA	NA	correct	NA
+6	NA	NA	NA	NA	glab green   	NA	NA	NA	78	NA	NA	correct	NA
+6	NA	NA	NA	NA	physs red   	NA	NA	NA	79	NA	NA	correct	NA
+6	NA	NA	NA	NA	glab green   	NA	NA	NA	80	NA	NA	correct	NA
+6	NA	NA	NA	NA	green physs	NA	NA	NA	82	NA	NA	correct	NA
+6	NA	NA	NA	NA	physs green	NA	NA	NA	83	NA	NA	correct	NA
+6	NA	NA	NA	NA	physs red	NA	NA	NA	84	NA	NA	correct	NA
+6	NA	NA	NA	NA	physs glab	NA	NA	NA	85	NA	NA	correct	NA
+6	NA	NA	NA	NA		NA	NA	NA	86	NA	NA	underspecified	NA
+6	NA	NA	NA	NA	physs red	NA	NA	NA	87	NA	NA	correct	NA
+6	NA	NA	NA	NA	physs glab	NA	NA	NA	88	NA	NA	correct	NA
+6	NA	NA	NA	NA	physs glab	NA	NA	NA	89	NA	NA	correct	NA
+6	NA	NA	NA	NA	physs red	NA	NA	NA	90	NA	NA	correct	NA
+6	NA	NA	NA	NA	physs gren	NA	NA	NA	91	NA	NA	underspecified	NA
+6	NA	NA	NA	NA	physs glab green	NA	NA	NA	92	NA	NA	correct	NA
+6	NA	NA	NA	NA	physs blue	NA	NA	NA	93	NA	NA	correct	NA
+6	NA	NA	NA	NA	physs glab	NA	NA	NA	94	NA	NA	correct	NA
+6	NA	NA	NA	NA	physs	NA	NA	NA	95	NA	NA	correct	NA
+6	NA	NA	NA	NA	physs glab	NA	NA	NA	96	NA	NA	correct	NA
+6	NA	NA	NA	NA	red glab	NA	NA	NA	97	NA	NA	correct	NA
+6	NA	NA	NA	NA	physs blue	NA	NA	NA	98	NA	NA	correct	NA
+6	NA	NA	NA	NA	physs green	NA	NA	NA	99	NA	NA	correct	NA
+6	NA	NA	NA	NA	physs blue	NA	NA	NA	100	NA	NA	correct	NA
+6	NA	NA	NA	NA	physs red	NA	NA	NA	101	NA	NA	correct	NA
+6	NA	NA	NA	NA	blue	NA	NA	NA	102	NA	NA	correct	NA
+6	NA	NA	NA	NA	red	NA	NA	NA	103	NA	NA	correct	NA
+6	NA	NA	NA	NA	green	NA	NA	NA	104	NA	NA	underspecified	NA
+6	NA	NA	NA	NA	physs	NA	NA	NA	105	NA	NA	underspecified	NA
+6	NA	NA	NA	NA	physs red	NA	NA	NA	106	NA	NA	correct	NA
+6	NA	NA	NA	NA	physs green	NA	NA	NA	107	NA	NA	inconsistent	NA
+6	NA	NA	NA	NA	physs 	NA	NA	NA	109	NA	NA	correct	NA
+6	NA	NA	blue	I like ships that have the same color as I have, like this...	NA	0.09	NA	NA	136	blue	physs	NA	NA
+6	NA	NA	NONE	My friend used to fly this...	NA	0.06	NA	NA	137	blue	physs	NA	NA
+6	NA	NA	physs	My first ship had the same shape as this...	NA	0.83	NA	NA	138	physs	red	NA	NA
+6	NA	NA	physs	Humans think all our ships look like rockets, like this...	NA	0.18	NA	NA	139	red	physs	NA	NA
+6	NA	NA	glab	Wow, so many fins &#8210; I like this...	NA	0.18	NA	NA	140	glab	blue	NA	NA
+6	NA	NA	physs	For long distances, I use rockets. The best one is this...	NA	0.88	NA	NA	141	physs	green	NA	NA
+6	NA	NA	glab	The more spikes, the better. My favorite one is this...	NA	0.87	NA	NA	142	physs	glab	NA	NA
+6	NA	NA	glab	Ugh, too many fins &#8210; I hate flying this...	NA	0.07	NA	NA	143	glab	blue	NA	NA
+6	NA	NA	blue	What a nice color. I like flying this...	NA	0.94	NA	NA	144	blue	glab	NA	NA
+6	NA	NA	glab	I really don&quotechart like ships with many spikes, like this...	NA	0.73	NA	NA	145	physs	glab	NA	NA
+6	NA	NA	NONE	On our planet, many aliens fly ships like this...	NA	0.05	NA	NA	146	blue	glab	NA	NA
+6	NA	NA	NA	NA	NA	0.87	NA	NA	148	red	physs	NA	NA
+6	NA	NA	NA	NA	NA	0.1	NA	NA	149	green	small	NA	NA
+6	NA	NA	NA	NA	NA	0.17	NA	NA	150	glab	red	NA	NA
+6	NA	NA	NA	NA	NA	0.87	NA	NA	151	glab	blue	NA	NA
+6	NA	NA	NA	NA	NA	0.16	NA	NA	152	blue	physs	NA	NA
+6	NA	NA	NA	NA	NA	0.18	NA	NA	153	small	physs	NA	NA
+6	NA	NA	NA	NA	NA	0.53	NA	NA	154	glab	big	NA	NA
+6	NA	NA	NA	NA	NA	0.86	NA	NA	155	glab	green	NA	NA
+6	NA	NA	NA	NA	NA	0.16	NA	NA	156	small	glab	NA	NA
+6	NA	NA	NA	NA	NA	0.12	NA	NA	157	physs	big	NA	NA
+6	NA	NA	NA	NA	NA	0.15	NA	NA	158	green	physs	NA	NA
+6	NA	NA	NA	NA	NA	0.78	NA	NA	159	big	green	NA	NA
+6	NA	NA	NA	NA	NA	0.06	NA	NA	160	glab	physs	NA	NA
+6	NA	NA	NA	NA	NA	0.19	NA	NA	161	blue	big	NA	NA
+6	NA	NA	NA	NA	NA	NA	NA	oblong	162	NA	NA	NA	spiked
+7	broff	second	NA	NA	NA	NA	second	NA	6	NA	NA	NA	NA
+7	lann	second	NA	NA	NA	NA	second	NA	7	NA	NA	NA	NA
+7	broff	second	NA	NA	NA	NA	second	NA	8	NA	NA	NA	NA
+7	broff	first	NA	NA	NA	NA	second	NA	9	NA	NA	NA	NA
+7	lann	second	NA	NA	NA	NA	second	NA	10	NA	NA	NA	NA
+7	broff	second	NA	NA	NA	NA	second	NA	11	NA	NA	NA	NA
+7	lann	second	NA	NA	NA	NA	second	NA	12	NA	NA	NA	NA
+7	broff	first	NA	NA	NA	NA	second	NA	13	NA	NA	NA	NA
+7	broff	second	NA	NA	NA	NA	second	NA	14	NA	NA	NA	NA
+7	broff	second	NA	NA	NA	NA	second	NA	15	NA	NA	NA	NA
+7	lann	second	NA	NA	NA	NA	second	NA	16	NA	NA	NA	NA
+7	lann	second	NA	NA	NA	NA	second	NA	17	NA	NA	NA	NA
+7	lann	first	NA	NA	NA	NA	first	NA	18	NA	NA	NA	NA
+7	lann	first	NA	NA	NA	NA	first	NA	19	NA	NA	NA	NA
+7	broff	second	NA	NA	NA	NA	second	NA	20	NA	NA	NA	NA
+7	lann	first	NA	NA	NA	NA	first	NA	21	NA	NA	NA	NA
+7	broff	first	NA	NA	NA	NA	first	NA	22	NA	NA	NA	NA
+7	lann	first	NA	NA	NA	NA	first	NA	23	NA	NA	NA	NA
+7	broff	second	NA	NA	NA	NA	second	NA	24	NA	NA	NA	NA
+7	lann	first	NA	NA	NA	NA	first	NA	25	NA	NA	NA	NA
+7	broff	second	NA	NA	NA	NA	second	NA	26	NA	NA	NA	NA
+7	lann	first	NA	NA	NA	NA	first	NA	27	NA	NA	NA	NA
+7	broff	first	NA	NA	NA	NA	first	NA	28	NA	NA	NA	NA
+7	lann	first	NA	NA	NA	NA	second	NA	29	NA	NA	NA	NA
+7	broff	second	NA	NA	NA	NA	second	NA	30	NA	NA	NA	NA
+7	lann	second	NA	NA	NA	NA	second	NA	31	NA	NA	NA	NA
+7	broff	second	NA	NA	NA	NA	second	NA	32	NA	NA	NA	NA
+7	lann	second	NA	NA	NA	NA	second	NA	33	NA	NA	NA	NA
+7	lann	first	NA	NA	NA	NA	first	NA	34	NA	NA	NA	NA
+7	broff	second	NA	NA	NA	NA	second	NA	35	NA	NA	NA	NA
+7	lann	second	NA	NA	NA	NA	second	NA	36	NA	NA	NA	NA
+7	broff	second	NA	NA	NA	NA	second	NA	37	NA	NA	NA	NA
+7	broff	first	NA	NA	NA	NA	first	NA	38	NA	NA	NA	NA
+7	lann	first	NA	NA	NA	NA	first	NA	39	NA	NA	NA	NA
+7	broff	second	NA	NA	NA	NA	second	NA	40	NA	NA	NA	NA
+7	lann	second	NA	NA	NA	NA	second	NA	41	NA	NA	NA	NA
+7	lann	second	NA	NA	NA	NA	second	NA	42	NA	NA	NA	NA
+7	lann	second	NA	NA	NA	NA	second	NA	43	NA	NA	NA	NA
+7	lann	second	NA	NA	NA	NA	second	NA	44	NA	NA	NA	NA
+7	broff	second	NA	NA	NA	NA	second	NA	45	NA	NA	NA	NA
+7	broff	second	NA	NA	NA	NA	second	NA	46	NA	NA	NA	NA
+7	lann	first	NA	NA	NA	NA	first	NA	47	NA	NA	NA	NA
+7	lann	second	NA	NA	NA	NA	second	NA	48	NA	NA	NA	NA
+7	broff	first	NA	NA	NA	NA	first	NA	49	NA	NA	NA	NA
+7	lann	first	NA	NA	NA	NA	first	NA	50	NA	NA	NA	NA
+7	broff	second	NA	NA	NA	NA	second	NA	51	NA	NA	NA	NA
+7	broff	first	NA	NA	NA	NA	first	NA	52	NA	NA	NA	NA
+7	broff	first	NA	NA	NA	NA	first	NA	53	NA	NA	NA	NA
+7	NA	NA	NA	NA	the green lann spaceship 	NA	NA	NA	55	NA	NA	correct	NA
+7	NA	NA	NA	NA	the blue lann spaceship 	NA	NA	NA	56	NA	NA	correct	NA
+7	NA	NA	NA	NA	the green lann spaceship 	NA	NA	NA	57	NA	NA	correct	NA
+7	NA	NA	NA	NA	the red spaceship  	NA	NA	NA	58	NA	NA	correct	NA
+7	NA	NA	NA	NA	the red lann spaceship 	NA	NA	NA	59	NA	NA	correct	NA
+7	NA	NA	NA	NA	the red broff spaceship 	NA	NA	NA	60	NA	NA	correct	NA
+7	NA	NA	NA	NA	the green broff spaceship 	NA	NA	NA	61	NA	NA	correct	NA
+7	NA	NA	NA	NA	the blue lann spaceship 	NA	NA	NA	62	NA	NA	correct	NA
+7	NA	NA	NA	NA	the red lann broff spaceship	NA	NA	NA	63	NA	NA	correct	NA
+7	NA	NA	NA	NA	the blue lann spaceship 	NA	NA	NA	64	NA	NA	correct	NA
+7	NA	NA	NA	NA	the green lann spaceship 	NA	NA	NA	65	NA	NA	correct	NA
+7	NA	NA	NA	NA	the blue lann broff spaceship	NA	NA	NA	66	NA	NA	underspecified	NA
+7	NA	NA	NA	NA	the blue lann spaceship 	NA	NA	NA	67	NA	NA	correct	NA
+7	NA	NA	NA	NA	the red lann spaceship 	NA	NA	NA	68	NA	NA	correct	NA
+7	NA	NA	NA	NA	the blue lann broff spaceship	NA	NA	NA	69	NA	NA	correct	NA
+7	NA	NA	NA	NA	the red lann broff spaceship	NA	NA	NA	70	NA	NA	correct	NA
+7	NA	NA	NA	NA	the red lann spaceship 	NA	NA	NA	71	NA	NA	correct	NA
+7	NA	NA	NA	NA	the red broff spaceship 	NA	NA	NA	72	NA	NA	correct	NA
+7	NA	NA	NA	NA	the red lann spaceship 	NA	NA	NA	73	NA	NA	correct	NA
+7	NA	NA	NA	NA	the green lann spaceship 	NA	NA	NA	74	NA	NA	correct	NA
+7	NA	NA	NA	NA	the green lann broff spaceship	NA	NA	NA	75	NA	NA	correct	NA
+7	NA	NA	NA	NA	the blue broff spaceship 	NA	NA	NA	76	NA	NA	correct	NA
+7	NA	NA	NA	NA	the blue spaceship  	NA	NA	NA	77	NA	NA	correct	NA
+7	NA	NA	NA	NA	the blue lann broff spaceship	NA	NA	NA	78	NA	NA	correct	NA
+7	NA	NA	NA	NA	the blue spaceship  	NA	NA	NA	79	NA	NA	correct	NA
+7	NA	NA	NA	NA	the green lann broff spaceship	NA	NA	NA	80	NA	NA	correct	NA
+7	NA	NA	NA	NA	the lann spaceship	NA	NA	NA	82	NA	NA	correct	NA
+7	NA	NA	NA	NA	the green spaceship	NA	NA	NA	83	NA	NA	correct	NA
+7	NA	NA	NA	NA	the red spaceship	NA	NA	NA	84	NA	NA	correct	NA
+7	NA	NA	NA	NA	the lann spaceship	NA	NA	NA	85	NA	NA	correct	NA
+7	NA	NA	NA	NA	the red broff spaceship	NA	NA	NA	86	NA	NA	correct	NA
+7	NA	NA	NA	NA	the green spaceship	NA	NA	NA	87	NA	NA	correct	NA
+7	NA	NA	NA	NA	the broff lann spaceship	NA	NA	NA	88	NA	NA	correct	NA
+7	NA	NA	NA	NA	the green lann spaceship	NA	NA	NA	89	NA	NA	correct	NA
+7	NA	NA	NA	NA	the red lann spaceship	NA	NA	NA	90	NA	NA	correct	NA
+7	NA	NA	NA	NA	the blue spaceship	NA	NA	NA	91	NA	NA	correct	NA
+7	NA	NA	NA	NA	the blue lann broff spaceship	NA	NA	NA	92	NA	NA	correct	NA
+7	NA	NA	NA	NA	the red lann broff spaceship	NA	NA	NA	93	NA	NA	correct	NA
+7	NA	NA	NA	NA	the blue lann spaceship	NA	NA	NA	94	NA	NA	correct	NA
+7	NA	NA	NA	NA	the red lann spaceship	NA	NA	NA	95	NA	NA	correct	NA
+7	NA	NA	NA	NA	the broff lann spaceship	NA	NA	NA	96	NA	NA	correct	NA
+7	NA	NA	NA	NA	the green lann spaceship	NA	NA	NA	97	NA	NA	correct	NA
+7	NA	NA	NA	NA	the blue spaceship	NA	NA	NA	98	NA	NA	correct	NA
+7	NA	NA	NA	NA	the red lann spaceship	NA	NA	NA	99	NA	NA	correct	NA
+7	NA	NA	NA	NA	the blue lann spaceship	NA	NA	NA	100	NA	NA	correct	NA
+7	NA	NA	NA	NA	the blue broff spaceship	NA	NA	NA	101	NA	NA	correct	NA
+7	NA	NA	NA	NA	the broff lann spaceship	NA	NA	NA	102	NA	NA	correct	NA
+7	NA	NA	NA	NA	the red broff spaceship	NA	NA	NA	103	NA	NA	correct	NA
+7	NA	NA	NA	NA	the broff green spaceship	NA	NA	NA	104	NA	NA	correct	NA
+7	NA	NA	NA	NA	the broff green lann spaceship	NA	NA	NA	105	NA	NA	correct	NA
+7	NA	NA	NA	NA	the green lann broff spaceship	NA	NA	NA	106	NA	NA	correct	NA
+7	NA	NA	NA	NA	the blue lann spaceship	NA	NA	NA	107	NA	NA	correct	NA
+7	NA	NA	NA	NA	the red spaceship	NA	NA	NA	109	NA	NA	correct	NA
+7	NA	NA	broff	I really don&quotechart like ships with many spikes, like this...	NA	0.19	NA	NA	136	lann	broff	NA	NA
+7	NA	NA	broff	The more spikes, the better. My favorite one is this...	NA	0.91	NA	NA	137	lann	broff	NA	NA
+7	NA	NA	broff	Ugh, too many fins &#8210; I hate flying this...	NA	0.11	NA	NA	138	broff	red	NA	NA
+7	NA	NA	lann	My first ship had the same shape as this...	NA	0.04	NA	NA	139	green	lann	NA	NA
+7	NA	NA	lann	Humans think all our ships look like saucers, like this...	NA	0.93	NA	NA	140	lann	blue	NA	NA
+7	NA	NA	NONE	My friend used to fly this...	NA	0.09	NA	NA	141	red	lann	NA	NA
+7	NA	NA	blue	I like ships that have the same color as I have, like this...	NA	0.92	NA	NA	142	lann	blue	NA	NA
+7	NA	NA	NONE	On our planet, many aliens fly ships like this...	NA	0.07	NA	NA	143	broff	red	NA	NA
+7	NA	NA	green	What a nice color. I like flying this...	NA	0.95	NA	NA	144	broff	green	NA	NA
+7	NA	NA	lann	For long distances, I use saucers. The best one is this...	NA	0.07	NA	NA	145	blue	lann	NA	NA
+7	NA	NA	broff	Wow, so many fins &#8210; I like this...	NA	0.07	NA	NA	146	broff	green	NA	NA
+7	NA	NA	NA	NA	NA	0.04	NA	NA	148	broff	small	NA	NA
+7	NA	NA	NA	NA	NA	0.95	NA	NA	149	lann	blue	NA	NA
+7	NA	NA	NA	NA	NA	0.92	NA	NA	150	broff	green	NA	NA
+7	NA	NA	NA	NA	NA	0.07	NA	NA	151	small	blue	NA	NA
+7	NA	NA	NA	NA	NA	0.93	NA	NA	152	blue	small	NA	NA
+7	NA	NA	NA	NA	NA	0.07	NA	NA	153	big	green	NA	NA
+7	NA	NA	NA	NA	NA	0.04	NA	NA	154	red	broff	NA	NA
+7	NA	NA	NA	NA	NA	0.05	NA	NA	155	green	lann	NA	NA
+7	NA	NA	NA	NA	NA	0.07	NA	NA	156	big	broff	NA	NA
+7	NA	NA	NA	NA	NA	0.97	NA	NA	157	lann	big	NA	NA
+7	NA	NA	NA	NA	NA	0.97	NA	NA	158	lann	broff	NA	NA
+7	NA	NA	NA	NA	NA	0.9	NA	NA	159	lann	red	NA	NA
+7	NA	NA	NA	NA	NA	0.94	NA	NA	160	lann	small	NA	NA
+7	NA	NA	NA	NA	NA	0.06	NA	NA	161	blue	broff	NA	NA
+7	NA	NA	NA	NA	NA	NA	NA	saucer	162	NA	NA	NA	feet
+8	lann	second	NA	NA	NA	NA	second	NA	6	NA	NA	NA	NA
+8	lann	second	NA	NA	NA	NA	second	NA	7	NA	NA	NA	NA
+8	plach	first	NA	NA	NA	NA	second	NA	8	NA	NA	NA	NA
+8	plach	first	NA	NA	NA	NA	first	NA	9	NA	NA	NA	NA
+8	plach	first	NA	NA	NA	NA	first	NA	10	NA	NA	NA	NA
+8	plach	second	NA	NA	NA	NA	second	NA	11	NA	NA	NA	NA
+8	plach	second	NA	NA	NA	NA	second	NA	12	NA	NA	NA	NA
+8	plach	second	NA	NA	NA	NA	second	NA	13	NA	NA	NA	NA
+8	plach	first	NA	NA	NA	NA	first	NA	14	NA	NA	NA	NA
+8	lann	second	NA	NA	NA	NA	second	NA	15	NA	NA	NA	NA
+8	plach	first	NA	NA	NA	NA	first	NA	16	NA	NA	NA	NA
+8	lann	first	NA	NA	NA	NA	first	NA	17	NA	NA	NA	NA
+8	lann	second	NA	NA	NA	NA	second	NA	18	NA	NA	NA	NA
+8	lann	second	NA	NA	NA	NA	second	NA	19	NA	NA	NA	NA
+8	plach	first	NA	NA	NA	NA	first	NA	20	NA	NA	NA	NA
+8	lann	second	NA	NA	NA	NA	second	NA	21	NA	NA	NA	NA
+8	lann	second	NA	NA	NA	NA	first	NA	22	NA	NA	NA	NA
+8	lann	second	NA	NA	NA	NA	second	NA	23	NA	NA	NA	NA
+8	lann	second	NA	NA	NA	NA	second	NA	24	NA	NA	NA	NA
+8	plach	first	NA	NA	NA	NA	first	NA	25	NA	NA	NA	NA
+8	lann	second	NA	NA	NA	NA	second	NA	26	NA	NA	NA	NA
+8	lann	second	NA	NA	NA	NA	second	NA	27	NA	NA	NA	NA
+8	lann	first	NA	NA	NA	NA	first	NA	28	NA	NA	NA	NA
+8	lann	second	NA	NA	NA	NA	second	NA	29	NA	NA	NA	NA
+8	lann	second	NA	NA	NA	NA	second	NA	30	NA	NA	NA	NA
+8	plach	second	NA	NA	NA	NA	second	NA	31	NA	NA	NA	NA
+8	plach	first	NA	NA	NA	NA	first	NA	32	NA	NA	NA	NA
+8	plach	second	NA	NA	NA	NA	second	NA	33	NA	NA	NA	NA
+8	lann	first	NA	NA	NA	NA	first	NA	34	NA	NA	NA	NA
+8	plach	first	NA	NA	NA	NA	first	NA	35	NA	NA	NA	NA
+8	lann	first	NA	NA	NA	NA	first	NA	36	NA	NA	NA	NA
+8	plach	first	NA	NA	NA	NA	first	NA	37	NA	NA	NA	NA
+8	plach	first	NA	NA	NA	NA	first	NA	38	NA	NA	NA	NA
+8	plach	first	NA	NA	NA	NA	first	NA	39	NA	NA	NA	NA
+8	plach	first	NA	NA	NA	NA	first	NA	40	NA	NA	NA	NA
+8	lann	second	NA	NA	NA	NA	second	NA	41	NA	NA	NA	NA
+8	plach	second	NA	NA	NA	NA	second	NA	42	NA	NA	NA	NA
+8	lann	second	NA	NA	NA	NA	second	NA	43	NA	NA	NA	NA
+8	plach	first	NA	NA	NA	NA	first	NA	44	NA	NA	NA	NA
+8	plach	second	NA	NA	NA	NA	second	NA	45	NA	NA	NA	NA
+8	plach	first	NA	NA	NA	NA	first	NA	46	NA	NA	NA	NA
+8	lann	second	NA	NA	NA	NA	second	NA	47	NA	NA	NA	NA
+8	plach	second	NA	NA	NA	NA	second	NA	48	NA	NA	NA	NA
+8	lann	first	NA	NA	NA	NA	first	NA	49	NA	NA	NA	NA
+8	plach	second	NA	NA	NA	NA	second	NA	50	NA	NA	NA	NA
+8	lann	second	NA	NA	NA	NA	second	NA	51	NA	NA	NA	NA
+8	lann	second	NA	NA	NA	NA	second	NA	52	NA	NA	NA	NA
+8	lann	second	NA	NA	NA	NA	second	NA	53	NA	NA	NA	NA
+8	NA	NA	NA	NA	lann blue   	NA	NA	NA	55	NA	NA	correct	NA
+8	NA	NA	NA	NA	red    	NA	NA	NA	56	NA	NA	correct	NA
+8	NA	NA	NA	NA	plach blue   	NA	NA	NA	57	NA	NA	correct	NA
+8	NA	NA	NA	NA	green lann   	NA	NA	NA	58	NA	NA	correct	NA
+8	NA	NA	NA	NA	blue plach   	NA	NA	NA	59	NA	NA	correct	NA
+8	NA	NA	NA	NA	lann green   	NA	NA	NA	60	NA	NA	correct	NA
+8	NA	NA	NA	NA	red plach   	NA	NA	NA	61	NA	NA	correct	NA
+8	NA	NA	NA	NA	lann blue   	NA	NA	NA	62	NA	NA	correct	NA
+8	NA	NA	NA	NA	red plach lann  	NA	NA	NA	63	NA	NA	correct	NA
+8	NA	NA	NA	NA	green plach   	NA	NA	NA	64	NA	NA	underspecified	NA
+8	NA	NA	NA	NA	green lann plach  	NA	NA	NA	65	NA	NA	correct	NA
+8	NA	NA	NA	NA	plach green lann  	NA	NA	NA	66	NA	NA	correct	NA
+8	NA	NA	NA	NA	green    	NA	NA	NA	67	NA	NA	correct	NA
+8	NA	NA	NA	NA	blue lann   	NA	NA	NA	68	NA	NA	correct	NA
+8	NA	NA	NA	NA	plach green lann  	NA	NA	NA	69	NA	NA	correct	NA
+8	NA	NA	NA	NA	plach green lann  	NA	NA	NA	70	NA	NA	correct	NA
+8	NA	NA	NA	NA	green plach lann  	NA	NA	NA	71	NA	NA	correct	NA
+8	NA	NA	NA	NA	plach blue   	NA	NA	NA	72	NA	NA	correct	NA
+8	NA	NA	NA	NA	blue lann   	NA	NA	NA	73	NA	NA	correct	NA
+8	NA	NA	NA	NA	red    	NA	NA	NA	74	NA	NA	correct	NA
+8	NA	NA	NA	NA	red plach   	NA	NA	NA	75	NA	NA	correct	NA
+8	NA	NA	NA	NA	red plach lann  	NA	NA	NA	76	NA	NA	correct	NA
+8	NA	NA	NA	NA	green plach   	NA	NA	NA	77	NA	NA	correct	NA
+8	NA	NA	NA	NA	green plach   	NA	NA	NA	78	NA	NA	correct	NA
+8	NA	NA	NA	NA	red    	NA	NA	NA	79	NA	NA	correct	NA
+8	NA	NA	NA	NA	plach red   	NA	NA	NA	80	NA	NA	correct	NA
+8	NA	NA	NA	NA	blue plach	NA	NA	NA	82	NA	NA	correct	NA
+8	NA	NA	NA	NA	red	NA	NA	NA	83	NA	NA	correct	NA
+8	NA	NA	NA	NA	blue	NA	NA	NA	84	NA	NA	correct	NA
+8	NA	NA	NA	NA	blue plach	NA	NA	NA	85	NA	NA	correct	NA
+8	NA	NA	NA	NA	green plach lann	NA	NA	NA	86	NA	NA	correct	NA
+8	NA	NA	NA	NA	blue lann	NA	NA	NA	87	NA	NA	underspecified	NA
+8	NA	NA	NA	NA	green plach	NA	NA	NA	88	NA	NA	correct	NA
+8	NA	NA	NA	NA	red	NA	NA	NA	89	NA	NA	correct	NA
+8	NA	NA	NA	NA	green	NA	NA	NA	90	NA	NA	correct	NA
+8	NA	NA	NA	NA	green plach	NA	NA	NA	91	NA	NA	correct	NA
+8	NA	NA	NA	NA	green lann	NA	NA	NA	92	NA	NA	correct	NA
+8	NA	NA	NA	NA	red plach	NA	NA	NA	93	NA	NA	correct	NA
+8	NA	NA	NA	NA	red plach lann	NA	NA	NA	94	NA	NA	correct	NA
+8	NA	NA	NA	NA	lann plach	NA	NA	NA	95	NA	NA	underspecified	NA
+8	NA	NA	NA	NA	blue lann	NA	NA	NA	96	NA	NA	correct	NA
+8	NA	NA	NA	NA	red plach	NA	NA	NA	97	NA	NA	correct	NA
+8	NA	NA	NA	NA	green lann	NA	NA	NA	98	NA	NA	correct	NA
+8	NA	NA	NA	NA	blue lann	NA	NA	NA	99	NA	NA	correct	NA
+8	NA	NA	NA	NA	red lann	NA	NA	NA	100	NA	NA	correct	NA
+8	NA	NA	NA	NA	green plach	NA	NA	NA	101	NA	NA	correct	NA
+8	NA	NA	NA	NA	plach lann	NA	NA	NA	102	NA	NA	correct	NA
+8	NA	NA	NA	NA	lann plach	NA	NA	NA	103	NA	NA	correct	NA
+8	NA	NA	NA	NA	green	NA	NA	NA	104	NA	NA	correct	NA
+8	NA	NA	NA	NA	plach blue	NA	NA	NA	105	NA	NA	correct	NA
+8	NA	NA	NA	NA	red	NA	NA	NA	106	NA	NA	correct	NA
+8	NA	NA	NA	NA	red plach	NA	NA	NA	107	NA	NA	correct	NA
+8	NA	NA	NA	NA	blue	NA	NA	NA	109	NA	NA	correct	NA
+8	NA	NA	NONE	On our planet, many aliens fly ships like this...	NA	0	NA	NA	136	blue	lann	NA	NA
+8	NA	NA	NONE	My friend used to fly this...	NA	0.94	NA	NA	137	plach	red	NA	NA
+8	NA	NA	plach	For long distances, I use saucers. The best one is this...	NA	0.03	NA	NA	138	green	plach	NA	NA
+8	NA	NA	green	What a nice color. I like flying this...	NA	0.04	NA	NA	139	green	lann	NA	NA
+8	NA	NA	lann	Ugh, too many fins &#8210; I hate flying this...	NA	0.94	NA	NA	140	lann	green	NA	NA
+8	NA	NA	lann	I really don&quotechart like ships with many spikes, like this...	NA	0.04	NA	NA	141	plach	lann	NA	NA
+8	NA	NA	lann	The more spikes, the better. My favorite one is this...	NA	0.06	NA	NA	142	plach	lann	NA	NA
+8	NA	NA	plach	My first ship had the same shape as this...	NA	0.99	NA	NA	143	plach	blue	NA	NA
+8	NA	NA	lann	Wow, so many fins &#8210; I like this...	NA	0.02	NA	NA	144	blue	lann	NA	NA
+8	NA	NA	plach	Humans think all our ships look like saucers, like this...	NA	0.96	NA	NA	145	plach	blue	NA	NA
+8	NA	NA	blue	I like ships that have the same color as I have, like this...	NA	0	NA	NA	146	blue	plach	NA	NA
+8	NA	NA	NA	NA	NA	0.04	NA	NA	148	big	green	NA	NA
+8	NA	NA	NA	NA	NA	0.94	NA	NA	149	plach	big	NA	NA
+8	NA	NA	NA	NA	NA	0.01	NA	NA	150	plach	green	NA	NA
+8	NA	NA	NA	NA	NA	0	NA	NA	151	red	lann	NA	NA
+8	NA	NA	NA	NA	NA	1	NA	NA	152	blue	small	NA	NA
+8	NA	NA	NA	NA	NA	0	NA	NA	153	big	lann	NA	NA
+8	NA	NA	NA	NA	NA	0	NA	NA	154	plach	lann	NA	NA
+8	NA	NA	NA	NA	NA	1	NA	NA	155	plach	red	NA	NA
+8	NA	NA	NA	NA	NA	0	NA	NA	156	small	green	NA	NA
+8	NA	NA	NA	NA	NA	0.02	NA	NA	157	green	lann	NA	NA
+8	NA	NA	NA	NA	NA	0.98	NA	NA	158	lann	blue	NA	NA
+8	NA	NA	NA	NA	NA	0.93	NA	NA	159	plach	blue	NA	NA
+8	NA	NA	NA	NA	NA	0.02	NA	NA	160	small	lann	NA	NA
+8	NA	NA	NA	NA	NA	0.97	NA	NA	161	plach	small	NA	NA
+8	NA	NA	NA	NA	NA	NA	NA	round	162	NA	NA	NA	many
