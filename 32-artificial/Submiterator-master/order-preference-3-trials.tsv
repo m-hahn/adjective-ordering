@@ -1,0 +1,307 @@
+workerid	relevant_adjective_id	relevant_adjective	text	correct2	slide_number	correct1	predicate2	predicate1	response
+0	0	NA	NA	0.2	4	0.95	NA	NA	0.98
+0	0	NA	NA	0.3	5	0.8	NA	NA	0.48
+0	1	NA	NA	0	6	0	NA	NA	0.45
+0	0	NA	NA	0.3	7	0.5	NA	NA	0.69
+0	1	NA	NA	1	8	1	NA	NA	0.95
+0	0	NA	NA	0.2	9	0.95	NA	NA	0.24
+0	0	NA	NA	0.85	10	0.8	NA	NA	1
+0	1	NA	NA	1	11	1	NA	NA	0.96
+0	1	NA	NA	1	12	1	NA	NA	0.88
+0	NA	broff	I really don&quotechart like ships like this...	NA	14	NA	broff	glab	0.62
+0	NA	glab	My first ship had the same shape as this...	NA	15	NA	glab	blue	0.86
+0	NA	glab	Humans think all of our ships look like rockets, like this...	NA	16	NA	glab	red	0.97
+0	NA	glab	For long distances, I use saucers. The best one is this...	NA	17	NA	glab	blue	0.9
+0	NA	NONE	My friend used to fly this...	NA	18	NA	green	broff	0.21
+0	NA	broff	You like it? Wow, I hate flying this...	NA	19	NA	broff	blue	0.99
+0	NA	broff	The more teleporters, the better. My favorite one is this...	NA	20	NA	glab	broff	0.81
+0	NA	NONE	On our planet, many aliens fly ships like this...	NA	21	NA	green	glab	0.23
+0	NA	green	I like ships that have the same color as I have, like this...	NA	22	NA	green	glab	0.17
+0	NA	broff	Wow, such a nice ship &#8210; I like this...	NA	23	NA	red	broff	0.24
+0	NA	green	What a nice color. I like flying this...	NA	24	NA	broff	green	0.93
+0	NA	NA	NA	NA	26	NA	broff	blue	0.99
+0	NA	NA	NA	NA	27	NA	small	broff	0.01
+0	NA	NA	NA	NA	28	NA	green	broff	0.11
+0	NA	NA	NA	NA	29	NA	green	glab	0.18
+0	NA	NA	NA	NA	30	NA	red	big	0.95
+0	NA	NA	NA	NA	31	NA	big	green	0.12
+0	NA	NA	NA	NA	32	NA	small	glab	0.1
+0	NA	NA	NA	NA	33	NA	glab	red	1
+0	NA	NA	NA	NA	34	NA	glab	big	0.92
+0	NA	NA	NA	NA	35	NA	broff	glab	0.15
+0	NA	NA	NA	NA	36	NA	red	broff	0.12
+0	NA	NA	NA	NA	37	NA	blue	glab	0.09
+0	NA	NA	NA	NA	38	NA	big	red	0.05
+0	NA	NA	NA	NA	39	NA	broff	big	0.94
+1	1	NA	NA	0	4	0	NA	NA	0.49
+1	1	NA	NA	1	5	1	NA	NA	0
+1	0	NA	NA	0.2	6	0.95	NA	NA	0
+1	1	NA	NA	1	7	1	NA	NA	1
+1	0	NA	NA	0.85	8	0.8	NA	NA	0.86
+1	0	NA	NA	0.2	9	0.95	NA	NA	0
+1	0	NA	NA	0.3	10	0.8	NA	NA	1
+1	0	NA	NA	0.3	11	0.5	NA	NA	0.76
+1	1	NA	NA	1	12	1	NA	NA	1
+1	NA	kolch	Humans think all of our ships look like saucers, like this...	NA	14	NA	kolch	green	1
+1	NA	plach	You like it? Wow, I hate flying this...	NA	15	NA	red	plach	0
+1	NA	NONE	My friend used to fly this...	NA	16	NA	green	plach	0
+1	NA	plach	I really don&quotechart like ships like this...	NA	17	NA	kolch	plach	0.73
+1	NA	plach	The more teleporters, the better. My favorite one is this...	NA	18	NA	kolch	plach	0.22
+1	NA	kolch	For long distances, I use rockets. The best one is this...	NA	19	NA	red	kolch	0
+1	NA	NONE	On our planet, many aliens fly ships like this...	NA	20	NA	green	kolch	0
+1	NA	kolch	My first ship had the same shape as this...	NA	21	NA	blue	kolch	0
+1	NA	green	I like ships that have the same color as I have, like this...	NA	22	NA	green	kolch	0
+1	NA	red	What a nice color. I like flying this...	NA	23	NA	plach	red	1
+1	NA	plach	Wow, such a nice ship &#8210; I like this...	NA	24	NA	red	plach	0
+1	NA	NA	NA	NA	26	NA	kolch	big	1
+1	NA	NA	NA	NA	27	NA	kolch	small	1
+1	NA	NA	NA	NA	28	NA	plach	blue	1
+1	NA	NA	NA	NA	29	NA	small	plach	0
+1	NA	NA	NA	NA	30	NA	plach	green	1
+1	NA	NA	NA	NA	31	NA	big	plach	0
+1	NA	NA	NA	NA	32	NA	big	green	0
+1	NA	NA	NA	NA	33	NA	kolch	blue	1
+1	NA	NA	NA	NA	34	NA	plach	kolch	0.78
+1	NA	NA	NA	NA	35	NA	plach	red	1
+1	NA	NA	NA	NA	36	NA	kolch	green	1
+1	NA	NA	NA	NA	37	NA	big	green	0
+1	NA	NA	NA	NA	38	NA	red	kolch	0
+1	NA	NA	NA	NA	39	NA	green	small	1
+2	1	NA	NA	1	4	1	NA	NA	1
+2	0	NA	NA	0.2	5	0.95	NA	NA	0.42
+2	0	NA	NA	0.85	6	0.8	NA	NA	0.79
+2	0	NA	NA	0.2	7	0.95	NA	NA	0.44
+2	0	NA	NA	0.3	8	0.5	NA	NA	0.4
+2	0	NA	NA	0.3	9	0.8	NA	NA	0.28
+2	1	NA	NA	0	10	0	NA	NA	0.16
+2	1	NA	NA	1	11	1	NA	NA	0.85
+2	1	NA	NA	1	12	1	NA	NA	1
+2	NA	broff	Humans think all of our ships look like saucers, like this...	NA	14	NA	broff	blue	0
+2	NA	NONE	My friend used to fly this...	NA	15	NA	kolch	green	0.72
+2	NA	kolch	Wow, such a nice ship &#8210; I like this...	NA	16	NA	kolch	red	0.89
+2	NA	kolch	You like it? Wow, I hate flying this...	NA	17	NA	kolch	blue	0.87
+2	NA	broff	For long distances, I use rockets. The best one is this...	NA	18	NA	red	broff	1
+2	NA	NONE	On our planet, many aliens fly ships like this...	NA	19	NA	broff	green	0
+2	NA	kolch	I really don&quotechart like ships like this...	NA	20	NA	broff	kolch	0.1
+2	NA	broff	My first ship had the same shape as this...	NA	21	NA	broff	red	0.03
+2	NA	kolch	The more teleporters, the better. My favorite one is this...	NA	22	NA	kolch	broff	0.93
+2	NA	red	What a nice color. I like flying this...	NA	23	NA	red	kolch	0.16
+2	NA	green	I like ships that have the same color as I have, like this...	NA	24	NA	broff	green	0
+2	NA	NA	NA	NA	26	NA	broff	red	0.15
+2	NA	NA	NA	NA	27	NA	broff	blue	0.1
+2	NA	NA	NA	NA	28	NA	small	blue	0
+2	NA	NA	NA	NA	29	NA	red	kolch	0.11
+2	NA	NA	NA	NA	30	NA	broff	small	0.91
+2	NA	NA	NA	NA	31	NA	kolch	green	0.9
+2	NA	NA	NA	NA	32	NA	kolch	big	0.9
+2	NA	NA	NA	NA	33	NA	kolch	broff	0.89
+2	NA	NA	NA	NA	34	NA	broff	green	0.15
+2	NA	NA	NA	NA	35	NA	big	broff	0.1
+2	NA	NA	NA	NA	36	NA	big	blue	0
+2	NA	NA	NA	NA	37	NA	big	green	0
+2	NA	NA	NA	NA	38	NA	blue	kolch	0.87
+2	NA	NA	NA	NA	39	NA	small	kolch	0.14
+3	1	NA	NA	1	4	1	NA	NA	0.51
+3	1	NA	NA	1	5	1	NA	NA	1
+3	0	NA	NA	0.2	6	0.95	NA	NA	0
+3	1	NA	NA	1	7	1	NA	NA	1
+3	1	NA	NA	0	8	0	NA	NA	0
+3	0	NA	NA	0.2	9	0.95	NA	NA	0
+3	0	NA	NA	0.85	10	0.8	NA	NA	1
+3	0	NA	NA	0.3	11	0.8	NA	NA	1
+3	0	NA	NA	0.3	12	0.5	NA	NA	0.47
+3	NA	lann	I really don&quotechart like ships like this...	NA	14	NA	lann	physs	1
+3	NA	NONE	On our planet, many aliens fly ships like this...	NA	15	NA	blue	physs	0
+3	NA	blue	I like ships that have the same color as I have, like this...	NA	16	NA	blue	physs	0
+3	NA	red	What a nice color. I like flying this...	NA	17	NA	lann	red	1
+3	NA	lann	Wow, such a nice ship &#8210; I like this...	NA	18	NA	green	lann	0
+3	NA	lann	The more teleporters, the better. My favorite one is this...	NA	19	NA	physs	lann	1
+3	NA	NONE	My friend used to fly this...	NA	20	NA	blue	lann	0
+3	NA	physs	My first ship had the same shape as this...	NA	21	NA	red	physs	0
+3	NA	lann	You like it? Wow, I hate flying this...	NA	22	NA	lann	red	1
+3	NA	physs	Humans think all of our ships look like rockets, like this...	NA	23	NA	physs	blue	1
+3	NA	physs	For long distances, I use rockets. The best one is this...	NA	24	NA	physs	green	1
+3	NA	NA	NA	NA	26	NA	lann	physs	1
+3	NA	NA	NA	NA	27	NA	blue	lann	0
+3	NA	NA	NA	NA	28	NA	small	green	0
+3	NA	NA	NA	NA	29	NA	small	green	0
+3	NA	NA	NA	NA	30	NA	small	physs	0
+3	NA	NA	NA	NA	31	NA	physs	green	1
+3	NA	NA	NA	NA	32	NA	lann	big	1
+3	NA	NA	NA	NA	33	NA	big	physs	0
+3	NA	NA	NA	NA	34	NA	physs	red	1
+3	NA	NA	NA	NA	35	NA	lann	red	0
+3	NA	NA	NA	NA	36	NA	blue	physs	0
+3	NA	NA	NA	NA	37	NA	lann	green	0
+3	NA	NA	NA	NA	38	NA	small	lann	1
+3	NA	NA	NA	NA	39	NA	small	red	1
+4	0	NA	NA	0.2	4	0.95	NA	NA	0.15
+4	0	NA	NA	0.3	5	0.8	NA	NA	0.42
+4	0	NA	NA	0.85	6	0.8	NA	NA	0.7
+4	0	NA	NA	0.2	7	0.95	NA	NA	0.37
+4	0	NA	NA	0.3	8	0.5	NA	NA	0.4
+4	1	NA	NA	1	9	1	NA	NA	1
+4	1	NA	NA	1	10	1	NA	NA	1
+4	1	NA	NA	1	11	1	NA	NA	1
+4	1	NA	NA	0	12	0	NA	NA	1
+4	NA	kolch	Humans think all of our ships look like saucers, like this...	NA	14	NA	kolch	blue	0
+4	NA	broff	I really don&quotechart like ships like this...	NA	15	NA	kolch	broff	0.38
+4	NA	kolch	For long distances, I use saucers. The best one is this...	NA	16	NA	kolch	red	0
+4	NA	blue	I like ships that have the same color as I have, like this...	NA	17	NA	blue	kolch	1
+4	NA	green	What a nice color. I like flying this...	NA	18	NA	broff	green	0
+4	NA	NONE	On our planet, many aliens fly ships like this...	NA	19	NA	red	kolch	1
+4	NA	broff	You like it? Wow, I hate flying this...	NA	20	NA	broff	green	0
+4	NA	broff	Wow, such a nice ship &#8210; I like this...	NA	21	NA	broff	green	0
+4	NA	NONE	My friend used to fly this...	NA	22	NA	green	broff	1
+4	NA	broff	The more teleporters, the better. My favorite one is this...	NA	23	NA	kolch	broff	1
+4	NA	kolch	My first ship had the same shape as this...	NA	24	NA	green	kolch	0
+4	NA	NA	NA	NA	26	NA	blue	big	1
+4	NA	NA	NA	NA	27	NA	red	broff	1
+4	NA	NA	NA	NA	28	NA	green	kolch	1
+4	NA	NA	NA	NA	29	NA	broff	big	1
+4	NA	NA	NA	NA	30	NA	red	kolch	1
+4	NA	NA	NA	NA	31	NA	kolch	small	0
+4	NA	NA	NA	NA	32	NA	kolch	broff	0
+4	NA	NA	NA	NA	33	NA	big	kolch	0.27
+4	NA	NA	NA	NA	34	NA	broff	blue	0
+4	NA	NA	NA	NA	35	NA	broff	small	1
+4	NA	NA	NA	NA	36	NA	big	green	0
+4	NA	NA	NA	NA	37	NA	green	broff	1
+4	NA	NA	NA	NA	38	NA	small	blue	0
+4	NA	NA	NA	NA	39	NA	blue	kolch	1
+5	0	NA	NA	0.3	4	0.5	NA	NA	0.88
+5	1	NA	NA	1	5	1	NA	NA	0.97
+5	0	NA	NA	0.85	6	0.8	NA	NA	0.98
+5	1	NA	NA	1	7	1	NA	NA	0.97
+5	0	NA	NA	0.2	8	0.95	NA	NA	0.05
+5	1	NA	NA	0	9	0	NA	NA	0.02
+5	0	NA	NA	0.3	10	0.8	NA	NA	0.15
+5	1	NA	NA	1	11	1	NA	NA	0.94
+5	0	NA	NA	0.2	12	0.95	NA	NA	0.99
+5	NA	NONE	On our planet, many aliens fly ships like this...	NA	14	NA	scrib	red	0.69
+5	NA	scrib	Humans think all of our ships look like rockets, like this...	NA	15	NA	blue	scrib	0.11
+5	NA	green	I like ships that have the same color as I have, like this...	NA	16	NA	green	scrib	0.89
+5	NA	blue	What a nice color. I like flying this...	NA	17	NA	blue	lann	0.9
+5	NA	scrib	For long distances, I use saucers. The best one is this...	NA	18	NA	green	scrib	0.1
+5	NA	lann	The more teleporters, the better. My favorite one is this...	NA	19	NA	lann	scrib	0.15
+5	NA	NONE	My friend used to fly this...	NA	20	NA	green	lann	0.86
+5	NA	lann	Wow, such a nice ship &#8210; I like this...	NA	21	NA	red	lann	0.87
+5	NA	lann	You like it? Wow, I hate flying this...	NA	22	NA	lann	blue	0.09
+5	NA	scrib	My first ship had the same shape as this...	NA	23	NA	red	scrib	0.11
+5	NA	lann	I really don&quotechart like ships like this...	NA	24	NA	lann	scrib	0.15
+5	NA	NA	NA	NA	26	NA	red	small	0.84
+5	NA	NA	NA	NA	27	NA	big	lann	0.16
+5	NA	NA	NA	NA	28	NA	scrib	green	0.13
+5	NA	NA	NA	NA	29	NA	lann	scrib	0.08
+5	NA	NA	NA	NA	30	NA	scrib	big	0.86
+5	NA	NA	NA	NA	31	NA	red	lann	0.91
+5	NA	NA	NA	NA	32	NA	big	blue	0.06
+5	NA	NA	NA	NA	33	NA	scrib	small	0.92
+5	NA	NA	NA	NA	34	NA	lann	green	0.05
+5	NA	NA	NA	NA	35	NA	blue	lann	0.01
+5	NA	NA	NA	NA	36	NA	small	green	0.04
+5	NA	NA	NA	NA	37	NA	scrib	red	0.03
+5	NA	NA	NA	NA	38	NA	small	lann	0.07
+5	NA	NA	NA	NA	39	NA	blue	scrib	0.09
+6	0	NA	NA	0.2	4	0.95	NA	NA	0.49
+6	1	NA	NA	1	5	1	NA	NA	1
+6	0	NA	NA	0.2	6	0.95	NA	NA	0.5
+6	0	NA	NA	0.3	7	0.5	NA	NA	0.66
+6	1	NA	NA	0	8	0	NA	NA	0
+6	0	NA	NA	0.85	9	0.8	NA	NA	0.5
+6	1	NA	NA	1	10	1	NA	NA	0.73
+6	0	NA	NA	0.3	11	0.8	NA	NA	0.66
+6	1	NA	NA	1	12	1	NA	NA	1
+6	NA	broff	For long distances, I use rockets. The best one is this...	NA	14	NA	green	broff	0
+6	NA	broff	Humans think all of our ships look like rockets, like this...	NA	15	NA	broff	green	1
+6	NA	broff	My first ship had the same shape as this...	NA	16	NA	red	broff	0
+6	NA	physs	Wow, such a nice ship &#8210; I like this...	NA	17	NA	green	physs	0
+6	NA	NONE	On our planet, many aliens fly ships like this...	NA	18	NA	red	broff	0
+6	NA	physs	You like it? Wow, I hate flying this...	NA	19	NA	physs	red	1
+6	NA	physs	I really don&quotechart like ships like this...	NA	20	NA	physs	broff	1
+6	NA	blue	What a nice color. I like flying this...	NA	21	NA	blue	physs	0
+6	NA	blue	I like ships that have the same color as I have, like this...	NA	22	NA	broff	blue	1
+6	NA	NONE	My friend used to fly this...	NA	23	NA	physs	red	1
+6	NA	physs	The more teleporters, the better. My favorite one is this...	NA	24	NA	physs	broff	1
+6	NA	NA	NA	NA	26	NA	small	green	0
+6	NA	NA	NA	NA	27	NA	red	broff	1
+6	NA	NA	NA	NA	28	NA	red	physs	0
+6	NA	NA	NA	NA	29	NA	blue	small	1
+6	NA	NA	NA	NA	30	NA	big	broff	0
+6	NA	NA	NA	NA	31	NA	physs	blue	1
+6	NA	NA	NA	NA	32	NA	physs	green	1
+6	NA	NA	NA	NA	33	NA	green	broff	1
+6	NA	NA	NA	NA	34	NA	broff	physs	0
+6	NA	NA	NA	NA	35	NA	big	physs	0
+6	NA	NA	NA	NA	36	NA	small	broff	0
+6	NA	NA	NA	NA	37	NA	small	green	0
+6	NA	NA	NA	NA	38	NA	physs	small	1
+6	NA	NA	NA	NA	39	NA	blue	broff	1
+7	1	NA	NA	1	4	1	NA	NA	1
+7	1	NA	NA	0	5	0	NA	NA	0.25
+7	0	NA	NA	0.3	6	0.8	NA	NA	0.54
+7	1	NA	NA	1	7	1	NA	NA	1
+7	0	NA	NA	0.3	8	0.5	NA	NA	0.39
+7	0	NA	NA	0.2	9	0.95	NA	NA	0.6
+7	0	NA	NA	0.2	10	0.95	NA	NA	0.54
+7	1	NA	NA	1	11	1	NA	NA	0.99
+7	0	NA	NA	0.85	12	0.8	NA	NA	0.78
+7	NA	green	I like ships that have the same color as I have, like this...	NA	14	NA	green	glab	0.01
+7	NA	kolch	Wow, such a nice ship &#8210; I like this...	NA	15	NA	red	kolch	0.72
+7	NA	kolch	The more teleporters, the better. My favorite one is this...	NA	16	NA	kolch	glab	0.11
+7	NA	glab	Humans think all of our ships look like saucers, like this...	NA	17	NA	red	glab	0.07
+7	NA	blue	What a nice color. I like flying this...	NA	18	NA	blue	kolch	0.89
+7	NA	NONE	My friend used to fly this...	NA	19	NA	red	kolch	0.11
+7	NA	NONE	On our planet, many aliens fly ships like this...	NA	20	NA	glab	green	0.85
+7	NA	glab	For long distances, I use rockets. The best one is this...	NA	21	NA	glab	blue	0.88
+7	NA	glab	My first ship had the same shape as this...	NA	22	NA	red	glab	0.08
+7	NA	kolch	I really don&quotechart like ships like this...	NA	23	NA	glab	kolch	0.89
+7	NA	kolch	You like it? Wow, I hate flying this...	NA	24	NA	kolch	red	0.13
+7	NA	NA	NA	NA	26	NA	glab	kolch	0.85
+7	NA	NA	NA	NA	27	NA	kolch	red	0.11
+7	NA	NA	NA	NA	28	NA	kolch	big	0.9
+7	NA	NA	NA	NA	29	NA	blue	glab	0.13
+7	NA	NA	NA	NA	30	NA	big	green	0.17
+7	NA	NA	NA	NA	31	NA	glab	big	0.88
+7	NA	NA	NA	NA	32	NA	small	glab	0.16
+7	NA	NA	NA	NA	33	NA	glab	red	0.88
+7	NA	NA	NA	NA	34	NA	green	kolch	0.81
+7	NA	NA	NA	NA	35	NA	glab	green	0.87
+7	NA	NA	NA	NA	36	NA	small	green	0.15
+7	NA	NA	NA	NA	37	NA	blue	kolch	0.85
+7	NA	NA	NA	NA	38	NA	big	red	0.06
+7	NA	NA	NA	NA	39	NA	kolch	small	0.98
+8	1	NA	NA	0	4	0	NA	NA	0.98
+8	0	NA	NA	0.85	5	0.8	NA	NA	0.49
+8	0	NA	NA	0.2	6	0.95	NA	NA	0.04
+8	1	NA	NA	1	7	1	NA	NA	0.97
+8	0	NA	NA	0.3	8	0.8	NA	NA	0.12
+8	0	NA	NA	0.2	9	0.95	NA	NA	0.09
+8	0	NA	NA	0.3	10	0.5	NA	NA	0.49
+8	1	NA	NA	1	11	1	NA	NA	0.48
+8	1	NA	NA	1	12	1	NA	NA	0.48
+8	NA	glab	I really don&quotechart like ships like this...	NA	14	NA	glab	physs	0.49
+8	NA	glab	The more teleporters, the better. My favorite one is this...	NA	15	NA	physs	glab	0.75
+8	NA	NONE	My friend used to fly this...	NA	16	NA	glab	blue	0.09
+8	NA	physs	Humans think all of our ships look like saucers, like this...	NA	17	NA	physs	red	0.08
+8	NA	NONE	On our planet, many aliens fly ships like this...	NA	18	NA	blue	physs	0.08
+8	NA	blue	What a nice color. I like flying this...	NA	19	NA	glab	blue	0.1
+8	NA	physs	My first ship had the same shape as this...	NA	20	NA	blue	physs	0.86
+8	NA	glab	You like it? Wow, I hate flying this...	NA	21	NA	blue	glab	0.93
+8	NA	glab	Wow, such a nice ship &#8210; I like this...	NA	22	NA	green	glab	0.93
+8	NA	green	I like ships that have the same color as I have, like this...	NA	23	NA	green	physs	0.94
+8	NA	physs	For long distances, I use rockets. The best one is this...	NA	24	NA	physs	blue	0.06
+8	NA	NA	NA	NA	26	NA	small	red	0.06
+8	NA	NA	NA	NA	27	NA	big	physs	0.08
+8	NA	NA	NA	NA	28	NA	small	blue	0.06
+8	NA	NA	NA	NA	29	NA	blue	glab	0.03
+8	NA	NA	NA	NA	30	NA	big	glab	0.04
+8	NA	NA	NA	NA	31	NA	glab	green	0.05
+8	NA	NA	NA	NA	32	NA	glab	small	0.08
+8	NA	NA	NA	NA	33	NA	physs	blue	0.04
+8	NA	NA	NA	NA	34	NA	red	physs	0.03
+8	NA	NA	NA	NA	35	NA	physs	small	0
+8	NA	NA	NA	NA	36	NA	glab	physs	0.07
+8	NA	NA	NA	NA	37	NA	green	physs	0.04
+8	NA	NA	NA	NA	38	NA	red	small	0.96
+8	NA	NA	NA	NA	39	NA	glab	red	0.03
