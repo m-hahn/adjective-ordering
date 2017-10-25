@@ -186,6 +186,13 @@ ggsave('plots/by_class_with_pca.pdf', plot=plot, unit="cm", width=50, height=30)
 
 
 
+# look at determiner, number
+itemData = read.csv("item_data.tsv", sep="\t", header=TRUE)
+data = merge(data, itemData, by=c("item"))
+dataD = data[data$determiner %in% c("a","the"),]
+#summary(lmer(response_5 ~ determiner + (1|workerid) + (1|item), data=dataD))
+
+
 
 adjectivesByClass =  select(dataAgg, class=class, adjective=adjective)
 adjectivesByClass = adjectivesByClass[order(adjectivesByClass$class),]

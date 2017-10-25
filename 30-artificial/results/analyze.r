@@ -1,3 +1,8 @@
+NEW
+data$ADJ1_ADJ2 = ifelse(data$ADJ2OrADJ1First == "Q_ADJ1_ADJ2", 1, ifelse(data$ADJ2OrADJ1First == "Q_ADJ2_ADJ1", -1, 0))
+
+
+
 centerColumn = function(data,columnName) {
  newName = (paste(columnName,"Centered",sep="."))
  data[,newName] <- data[,columnName] - mean(data[,columnName], na.rm = TRUE)
@@ -63,6 +68,18 @@ data2$alienWordIsFirst = data2$a
 
 data2$responseAlienFirst = (data2$alienWordIsFirst == 1) * data2$response + (data2$alienWordIsFirst == -1) * (1-data2$response)
 
+library(tidyverse)
+
+
+orderNorm = read.csv("../../35-artificial/results/alien-order-norm.tsv")
+oNorm1 = orderNorm %>% rename(predicate1 = predicate, preference1 = response)
+oNorm2 = orderNorm %>% rename(predicate2 = predicate, preference2 = response)
+oNorm2$preference2 = 1-oNorm2$preference2
+data2 = merge(data2, oNorm1, by=c("predicate1"))
+data2 = merge(data2, oNorm2, by=c("predicate2"))
+
+
+
 
 ###########################################
 # looking both at contextualized and at out-of-context data
@@ -74,7 +91,6 @@ data2$nonAlienAdjectiveIsColor = (data2$nonAlienAdjective %in% c("red", "green",
 
 source('helpers.R')
 library(ggplot2)
-library(tidyverse)
 
 data5 = rbind(data2)
 
@@ -84,7 +100,8 @@ data5 = centerColumn(data5, "inContext")
 data5 = centerColumn(data5, "alienWordIsFirst")
 data5 = centerColumn(data5, "nonAlienAdjectiveIsColor")
 
-summary(lmer(responseAlienFirst ~ nonAlienAdjectiveIsColor.Centered*inContext.Centered*condition.Centered + (1|workerid), data=data5))
+# Added Oct 25: Control for preferences from experiment 35 (from people who only did ratings, without prior exposure)
+summary(lmer(responseAlienFirst ~ nonAlienAdjectiveIsColor.Centered*inContext.Centered*condition.Centered + preference1 + preference2 + (1|workerid), data=data5))
 
 
 
