@@ -189,7 +189,11 @@ Try to answer as accurately as possible. But don't worry if you don't know all t
   <div class="slide" id="instructions3">
     <h3>Quiz</h3>
     <p>
+Well done! 
 You'll now see a series of spaceships with two descriptions. Your task is to decide which description sounds more natural.
+</p>
+<p>
+Use the slider to indicate which option sounds better as a continuation.
 </p>
 <br>
     <button onclick="_s.button()">Continue</button>
@@ -231,11 +235,11 @@ Your tutor sees the same spaceships, without the highlighting, and in a differen
 Your tutor will try to figure out which spaceship you were referring to.
 You will score a point if your tutor guessed the right ship &#8210; so try to be precise!
 </p><p>
-You can only use words from the previous quiz. That is, you can use colors and words from the Alien language. Your tutor won't understand other words.
+You can only use words from the previous quiz. That is, you can use `the', `spaceship', colors, and words from the Alien language. Your tutor won't understand other words.
 </p><p>
 If you're unsure, just try &#8210; you can edit your response and resubmit any number of times.
 <!--If you did not succeed, you can change your response and hit "Try again" to get a point.-->
-Alternatively, you can just press "Continue" to move on.
+Alternatively, you can just press "Skip" to move on.
 </p><p>
 If your score drops too low, the tutors will go through some material again. The HIT will finish earlier if you're doing well.
 </p>
@@ -261,7 +265,7 @@ Use "Erase" to erase the description.
 It is possible to describe the spaceships using only the words provided.
 If you're unsure, just try &#8210; you can edit your response and resubmit any number of times.
 <!--If you did not succeed, you can change your response and hit "Try again" to get a point.-->
-Alternatively, you can just press "Continue" to move on.
+Alternatively, you can just press "Skip" to move on.
 </p><p>
 If your score drops too low, the tutors will go through some material again. The HIT will finish earlier if you're doing well.
 </p>
@@ -332,6 +336,58 @@ Please wait while we're pairing you up with another worker. This should take les
 
 
 
+  <div class="slide" id="disagreement">
+    <p class="name_said"></p>
+   <br/>
+   <p>Imagine that two aliens disagree whether a spaceship is <span id="adjective_1_d">{{}}</span>. Is it possible that neither of the aliens is wrong?</p>
+   <p>
+    <table class="slider_table">
+      <tr><td><span>No, one of them is wrong</span></td><td>
+      <div id="slider_disag_1" class="slider"></div>
+      </td><td><span>Yes, maybe neither is wrong</span></td></tr>
+    </table>
+   </p>
+<br>
+   <p>Imagine that two aliens disagree whether a spaceship is <span id="adjective_2_d">{{}}</span>. Is it possible that neither of the aliens is wrong?</p>
+   <p>
+    <table id="multi_slider_table_subj_2" class="slider_table">
+      <tr><td><span>No, one of them is wrong</span></td><td>
+      <div id="slider_disag_2" class="slider"></div>
+      </td><td><span>Yes, maybe neither is wrong</span></td></tr>
+    </table>
+   </p>
+    <button id="disagreement_continue" onclick="_s.button()">Submit</button>
+    <div class="err">Please adjust the sliders before continuing.</div>
+  </div>
+</div>
+
+  <div class="slide" id="subjectivity">
+    <p class="name_said"></p>
+   <br/>
+   <p>How subjective do you think is `<span id="adjective_1_s">{{}}</span>'?</p>
+   <p>
+    <table id="multi_slider_table_subj_1" class="slider_table">
+      <tr><td>Not Subjective</td><td>
+      <div id="slider_subj_1" class="slider"></div>
+      </td><td>Subjective</td></tr>
+    </table>
+   </p>
+<br>
+   <p>How subjective do you think is `<span id="adjective_2_s">{{}}</span>'?</p>
+   <p>
+    <table id="multi_slider_table_subj_2" class="slider_table">
+      <tr><td>Not Subjective</td><td>
+      <div id="slider_subj_2" class="slider"></div>
+      </td><td>Subjective</td></tr>
+    </table>
+   </p>
+    <button id="subjectivity_continue" onclick="_s.button()">Submit</button>
+    <div class="err">Please adjust the sliders before continuing.</div>
+  </div>
+</div>
+
+
+
 
   <div class="slide" id="what_things_mean">
     <p class="name_said"></p>
@@ -380,7 +436,8 @@ Please wait while we're pairing you up with another worker. This should take les
    </p>
     <button id="prod_continue_1" onclick="_s.button_3()">Submit</button>
     <button id="prod_continue_2" onclick="_s.button_3()">Try again</button>
-    <button id="prod_continue_3" onclick="_s.button()">Continue</button>
+    <button id="prod_continue_3" onclick="_s.button()">Skip</button>
+    <button id="prod_continue_4" onclick="_s.button()">Continue</button>
     <p id="prod_feedback_p"><span id="prod_feedback">{{}}</span></p>
   </div>
 </div>
@@ -390,7 +447,6 @@ Please wait while we're pairing you up with another worker. This should take les
 
     <h3>Quiz</h3>
     <p>
-Well done! 
 You will see a series of spaceships, with a sentence uttered by one of your tutors.
 For each sentence, you will see two possible continuations.
 </p>
@@ -432,10 +488,14 @@ Use the slider to indicate which option sounds better as a continuation.
 
   <table>
           <tr>
-          <td class="radio_centered" style="width: 150px;">  <input type="button" onclick="_s.button_1('the')" id="myimage_none" value="the" style="width: 150px;height:40px;;font-size: 200%; border: 0px solid white; background-color:white;cursor: pointer;"/>    </td>
-</tr><tr>
+<!--          <td class="radio_centered" style="width: 150px;">  <input type="button" onclick="_s.button_1('the')" id="myimage_none" value="the" style="width: 150px;height:40px;;font-size: 200%; border: 0px solid white; background-color:white;cursor: pointer;"/>    </td>
+</tr>-->
+<!--<tr>
           <td class="radio_centered" style="width: 150px;">  <input type="button" onclick="_s.button_1('spaceship')" id="myimage_none" value="spaceship" style="width: 150px;height:40px;;font-size: 200%; border: 0px solid white; background-color:white;cursor: pointer;"/>    </td>
-</tr><tr>
+</tr>-->
+          <td class="radio_centered" style="width: 150px;">  <input type="button" id="myimage_none" value="" style="width: 150px;height:40px;;font-size: 200%; border: 0px solid white; background-color:white;cursor: pointer;"/>    </td>
+</tr>
+<tr>
           <td class="radio_centered" style="width: 150px;">  <input type="button" onclick="_s.button_1('ADJ1')" id="myimage_ADJ1" value="ADJ1" style="width: 150px;height:40px;font-size: 200%; border: 0px solid white; background-color:white;cursor: pointer;"/>    </td>
 </tr><tr>
           <td class="radio_centered" style="width: 150px;">  <input type="button" onclick="_s.button_1('ADJ2')" id="myimage_ADJ2" value="ADJ2" style="width: 150px;height:40px;;font-size: 200%; border: 0px solid white; background-color:white;cursor: pointer;"/>    </td>
@@ -447,6 +507,10 @@ Use the slider to indicate which option sounds better as a continuation.
           <td class="radio_centered" style="width: 150px;">  <input type="button" onclick="_s.button_1('blue')" id="myimage_none" value="blue" style="width: 150px;height:40px;;font-size: 200%; border: 0px solid white; background-color:white;cursor: pointer;"/>    </td>
 
      </tr>
+<tr>
+          <td class="radio_centered" style="width: 150px;">  <input type="button" id="myimage_none" value="" style="width: 150px;height:40px;;font-size: 200%; border: 0px solid white; background-color:white;cursor: pointer;"/>    </td>
+</tr>
+
 
   </table>
 </div>
@@ -454,23 +518,24 @@ Use the slider to indicate which option sounds better as a continuation.
 <br>
 
 <div>
-<div id="div_text1" style="float: left;width: 100px;height: 35px;margin: 1px;padding: 10px;border: 1px solid black;">
-  <p id="textfield1" width="88" height="31" style="cursor: default;">  </p>
+<div style="width: 90%;margin: 0 auto;">
+<div id="div_text1" style="float: left;width: 100px;height: 35px;margin: 1px;padding: 10px;border: 0px solid black;">
+  <p id="textfield_1" width="88" height="31" style="cursor: default;"> the </p>
 </div>
 <div id="div_text2" style="float: left;width: 100px;height: 35px;margin: 1;padding: 10px;border: 1px solid black;">
-  <p id="textfield2" width="88" height="31" style="cursor: default;">  </p>
+  <p id="textfield1" width="88" height="31" style="cursor: default;">  </p>
 </div>
 <div id="div_text3" style="float: left;width: 100px;height: 35px;margin: 1;padding: 10px;border: 1px solid black;">
-  <p id="textfield3" width="88" height="31" style="cursor: default;">  </p>
+  <p id="textfield2" width="88" height="31" style="cursor: default;">  </p>
 </div>
 <div id="div_text4" style="float: left;width: 100px;height: 35px;margin: 1;padding: 10px;border: 1px solid black;">
-  <p id="textfield4" width="88" height="31" style="cursor: default;">  </p>
+  <p id="textfield3" width="88" height="31" style="cursor: default;">  </p>
 </div>
-<div id="div_text5" style="float: left;width: 100px;height: 35px;margin: 1;padding: 10px;border: 1px solid black;">
-  <p id="textfield5" width="88" height="31" style="cursor: default;">  </p>
+<div id="div_text5" style="float: left;width: 100px;height: 35px;margin: 1;padding: 10px;border: 0px solid black;">
+  <p id="textfield_5" width="88" height="31" style="cursor: default;"> spaceship </p>
 </div>
 </div>
-
+</div>
 
 <br/>
 
@@ -479,7 +544,8 @@ Use the slider to indicate which option sounds better as a continuation.
     <button id="prod_click_continue_0" onclick="_s.button_2()">Erase</button>
     <button id="prod_click_continue_1" onclick="_s.button_3()">Submit</button>
     <button id="prod_click_continue_2" onclick="_s.button_3()">Try again</button>
-    <button id="prod_click_continue_3" onclick="_s.button()">Continue</button>
+    <button id="prod_click_continue_3" onclick="_s.button()">Skip</button>
+    <button id="prod_click_continue_4" onclick="_s.button()">Continue</button>
     <p id="prod_click_feedback_p"><span id="prod_click_feedback">{{}}</span></p>
 
   </div>

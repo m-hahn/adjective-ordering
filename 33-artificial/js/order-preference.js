@@ -543,6 +543,7 @@ exp.imagesPreloaded = [];
 
         $("#prod_continue_2").hide()
         $("#prod_continue_3").hide()
+        $("#prod_continue_4").hide()
 
         $("#prod_continue_1").show()
        $("#prod_feedback").hide();
@@ -570,7 +571,7 @@ exp.imagesPreloaded = [];
        alien = [];
 
        //console.log(this.stim);
-       description = $("#production_input").val().replace("."," ").replace(","," ");
+       description = $("#production_input").val().replace("."," ").replace(","," ").toLowerCase();
        words = description.split(" ");
 
        //console.log(description);
@@ -649,12 +650,12 @@ exp.imagesPreloaded = [];
        }
        //console.log(this.stim.suggestion);
        if(this.stim.suggestion != undefined && feedbackColor == "red") {
-         feedback += "<br/> Hint: You could say: &nbsp;<b>"+this.stim.suggestion+"</b>"
+         feedback += "<br/> Hint: You could say: &nbsp;<b>"+this.stim.suggestion.replace("ship", "spaceship")+"</b>"
        } else if(feedbackColor == "red") {
          feedback += "<br/> Hint: Combine multiple descriptions if necessary. You're allowed to use:<br/> <b>"+(["the", "spaceship", adjectivesOrdered[0], adjectivesOrdered[1], "red", "green", "blue"]).join(", ")+"</b>"
        }
        if(feedbackColor != "green") {
-         feedback += '<br/>Press "Continue" to move on, or change your response and try again.'
+         feedback += '<br/>Press "Skip" to move on, or change your response and try again.'
        }
        //console.log(compatibleShips);
        chosenShip = _.sample(compatibleShips);
@@ -675,9 +676,14 @@ exp.imagesPreloaded = [];
         $("#prod_continue_3").show()
         if(this.answer_status != "correct") {
           $("#prod_continue_2").show()
+          $("#prod_continue_3").show()
+          $("#prod_continue_4").hide()
+
           document.getElementById("object"+(targetElement+1)+"_td").style.border = "5px solid blue";
         } else {
           $("#prod_continue_2").hide()
+          $("#prod_continue_3").hide()
+          $("#prod_continue_4").show()
         }
 
     }
@@ -722,7 +728,7 @@ exp.imagesPreloaded = [];
       $(".alien_production").html('<img id="pngFrame" src="images/'+(_.sample(["alien-1.jpg", "alien-2.png"]))+'" style="width:130px;">');
 
        this.position = 0;
-       for(var i=1; i < 6; i++) {
+       for(var i=1; i < 4; i++) {
          $("#textfield"+i).html("");
        }
       this.stim = stim; //FRED: allows you to access stim in helpers
@@ -749,7 +755,8 @@ exp.imagesPreloaded = [];
       document.getElementById("production_input").value = ""; 
 
         $("#prod_click_continue_2").hide()
-        $("#prod_click_continue_3").hide()
+        $("#prod_click_continue_4").hide() // continue
+        $("#prod_click_continue_3").show() // skip
 
         $("#prod_click_continue_1").show()
        $("#prod_click_feedback").hide();
@@ -789,7 +796,7 @@ exp.imagesPreloaded = [];
 
     button_2 : function(word) {
        this.position = 0;
-       for(var i=1; i < 6; i++) {
+       for(var i=1; i < 4; i++) {
          $("#textfield"+i).html("");
        }
 
@@ -801,7 +808,7 @@ exp.imagesPreloaded = [];
        words = [];
 
       
-       for(var i=1; i < 6; i++) {
+       for(var i=1; i < 4; i++) {
          word = (document.getElementById("textfield"+i).innerHTML);
          words.push(word);
 
@@ -910,7 +917,7 @@ exp.imagesPreloaded = [];
          feedback += "<br/> Hint: Combine multiple descriptions if necessary."
        }
        if(feedbackColor != "green") {
-         feedback += '<br/>Press "Continue" to move on, or change your response and try again.'
+         feedback += '<br/>Press "Skip" to move on, or change your response and try again.'
        }
        //console.log(compatibleShips);
        chosenShip = _.sample(compatibleShips);
@@ -936,6 +943,9 @@ exp.imagesPreloaded = [];
         } else {
           $("#prod_click_continue_2").hide()
           $("#prod_click_continue_0").hide()
+        $("#prod_click_continue_3").hide()
+        $("#prod_click_continue_4").show()
+
         }
       
         
@@ -951,7 +961,7 @@ exp.imagesPreloaded = [];
         exp.total_quiz_trials_click += 1
 
        words = [];
-       for(var i=1; i < 6; i++) {
+       for(var i=1; i < 4; i++) {
          word = (document.getElementById("textfield"+i).innerHTML);
          words.push(word);
        }
@@ -1020,6 +1030,104 @@ exp.imagesPreloaded = [];
     },
   });
 
+
+
+
+  slides.disagreement = slide({
+    name : "disagreement",
+    start : function(stim) {
+      console.log(stim);
+      $(".err").hide();
+
+      this.init_sliders();
+      exp.sliderPost1 = null;
+      exp.sliderPost2 = null;
+
+      document.getElementById("adjective_1_d").textContent = (adjectives[0])
+      document.getElementById("adjective_2_d").textContent = (adjectives[1])
+
+    },
+
+    button : function() {
+      if (exp.sliderPost1 != null && exp.sliderPost2 != null) {
+        this.log_responses();
+        exp.go(); //use exp.go() if and only if there is no "present" data.
+      } else {
+        $(".err").show();
+      }
+
+    },
+
+    log_responses : function() {
+        //console.log(this.stim.condition);
+        exp.data_trials.push({
+          "adj1_disagreement" : exp.sliderPost1,
+          "adj2_disagreement" : exp.sliderPost2,
+          "slide_number" : exp.phase
+        });
+    },
+
+
+    init_sliders : function() {
+      utils.make_slider("#slider_disag_1", function(event, ui) {
+        exp.sliderPost1 = ui.value;
+      });
+      utils.make_slider("#slider_disag_2", function(event, ui) {
+        exp.sliderPost2 = ui.value;
+      });
+    },
+  });
+
+
+
+  slides.subjectivity = slide({
+    name : "subjectivity",
+    start : function(stim) {
+      console.log(stim);
+      $(".err").hide();
+
+      this.init_sliders();
+      exp.sliderPost1 = null;
+      exp.sliderPost2 = null;
+
+      document.getElementById("adjective_1_s").textContent = (adjectives[0])
+      document.getElementById("adjective_2_s").textContent = (adjectives[1])
+
+    },
+
+    button : function() {
+    	//console.log(exp.sliderPost);
+      result1 = document.getElementById("rofky_input").value;
+      result2 = document.getElementById("glab_input").value;
+
+      if (exp.sliderPost1 != null && exp.sliderPost2 != null) {
+        this.log_responses();
+        exp.go(); //use exp.go() if and only if there is no "present" data.
+      } else {
+        $(".err").show();
+      }
+
+    },
+
+    log_responses : function() {
+        //console.log(this.stim.condition);
+        exp.data_trials.push({
+          "adj1_subj" : exp.sliderPost1,
+          "adj2_subj" : exp.sliderPost2,
+          "slide_number" : exp.phase
+        });
+    },
+
+
+    init_sliders : function() {
+      utils.make_slider("#slider_subj_1", function(event, ui) {
+        exp.sliderPost1 = ui.value;
+      });
+      utils.make_slider("#slider_subj_2", function(event, ui) {
+        exp.sliderPost2 = ui.value;
+      });
+    },
+  });
 
 
 
@@ -1230,10 +1338,12 @@ exp.structure.push('instructions6')
 exp.structure.push( 'production')
 exp.structure.push( 'tutorial')
 exp.structure.push( 'production2')
-exp.structure.push('instructions8')
-exp.structure.push( 'multi_slider_context')
 exp.structure.push( 'instructions3')
 exp.structure.push( 'multi_slider')
+exp.structure.push('instructions8')
+exp.structure.push( 'multi_slider_context')
+exp.structure.push('subjectivity')
+exp.structure.push('disagreement')
 exp.structure.push('what_things_mean')
 exp.structure.push( 'subj_info')
 exp.structure.push( 'thanks');

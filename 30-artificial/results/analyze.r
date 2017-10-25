@@ -1,5 +1,3 @@
-NEW
-data$ADJ1_ADJ2 = ifelse(data$ADJ2OrADJ1First == "Q_ADJ1_ADJ2", 1, ifelse(data$ADJ2OrADJ1First == "Q_ADJ2_ADJ1", -1, 0))
 
 
 
@@ -59,8 +57,27 @@ check = (data$condition1 | data$condition2)
 
 data$a = data$a1 - data$a2
 
+
+#######################################
+# ANALYSIS I: analyze items where both adjectives are alien words
+data7 = data[!is.na(data$predicate1) & data$a1 + data$a2 == 2,]
+# there should be 3 datapoints per participant
+# Also, data7$predicate1 == data7$predicate2 should not contain any TRUE entries
+
+data7$subjectiveFirst = (as.character(data7$predicate1) == as.character(data7$adjective1))
+
+data7$inContext = !is.na(data7$relevant_adjective)
+
+data7 = centerColumn(data7, "inContext")
+data7 = centerColumn(data7, "subjectiveFirst")
+
+
+# The prediction is that the effect of subjectiveFirst is positive
+summary(lmer(response ~ subjectiveFirst.Centered*inContext.Centered + preference1 + preference2 + (1|workerid), data=data7))
+
+
 ###########################################
-# items that contain exactly one alien word
+# ANALYSIS II: items that contain exactly one alien word
 ###########################################
 data2 = data[data$a != 0,]
 data2 = centerColumn(data2, "condition")
@@ -181,10 +198,22 @@ data3 = data3[is.na(data3$relevant_adjective),]
 
 data3$subjectiveFirst = (as.character(data3$predicate1) == as.character(data3$adjective1))
 
-# PROBLEM NEED TO EXLUCDE 'RELEVANT_ADJ' ITEMS
-#summary(lmer(response ~ subjectiveFirst + (1|workerid) + (subjectiveFirst|workerid), data=data3))
 
-# evaluating production (TODO need to separate the click- and textfield-based parts)
+
+#########################################################################################
+# ANALYSIS III: ANALYZING PRODUCTION DATA
+
+oNormA1 = orderNorm %>% rename(adjective1 = predicate, preferenceA1 = response)
+oNormA2 = orderNorm %>% rename(adjective2 = predicate, preferenceA2 = response)
+oNormA2$preferenceA2 = 1-oNormA2$preferenceA2
+data = merge(data, oNormA1, by=c("adjective1"))
+data = merge(data, oNormA2, by=c("adjective2"))
+
+
+
+
+
+
 
 data.free = data[data$slide_number > 80,]
 
@@ -198,6 +227,22 @@ summary(glm(ADJ2OrColorFirst.Transformed ~ adjective1, family="binomial", data=d
 summary(glm(ADJ1OrColorFirst.Transformed ~ adjective1, family="binomial", data=data.free))
 summary(glm(ADJ2OrADJ1First.Transformed ~ adjective1, family="binomial", data=data.free))
 
+
+summary(glm(ADJ2OrColorFirst.Transformed ~ preferenceA1 + preferenceA2, family="binomial", data=data.free))
+summary(glm(ADJ1OrColorFirst.Transformed ~ preferenceA1 + preferenceA2, family="binomial", data=data.free))
+
+
+summary(glmer(ADJ2OrColorFirst.Transformed ~ preferenceA1 + preferenceA2 + (1|workerid), family="binomial", data=data.free))
+summary(glmer(ADJ1OrColorFirst.Transformed ~ preferenceA1 + preferenceA2 + (1|workerid), family="binomial", data=data.free))
+# this one has one sample per participant, therefore no random effect
+summary(glm(ADJ2OrADJ1First.Transformed ~ preferenceA1 + preferenceA2, family="binomial", data=data.free))
+# the intercept is insignificant, but preferenceA1 is significant
+
+
+
+
+
+
 ########################
 
 data.click$ADJ2OrADJ1First.Transformed = ifelse(data.click$ADJ2OrADJ1First == "Q_ADJ2_ADJ1", 1, ifelse(data.click$ADJ2OrADJ1First == "Q_ADJ1_ADJ2", 0, NA))
@@ -208,7 +253,13 @@ summary(glm(ADJ2OrColorFirst.Transformed ~ adjective1, family="binomial", data=d
 summary(glm(ADJ1OrColorFirst.Transformed ~ adjective1, family="binomial", data=data.click))
 summary(glm(ADJ2OrADJ1First.Transformed ~ adjective1, family="binomial", data=data.click))
 
+summary(glmer(ADJ2OrColorFirst.Transformed ~ preferenceA1 + preferenceA2 + (1|workerid), family="binomial", data=data.click))
+summary(glmer(ADJ1OrColorFirst.Transformed ~ preferenceA1 + preferenceA2 + (1|workerid), family="binomial", data=data.click))
+# this one has one sample per participant, therefore no random effect
+summary(glm(ADJ2OrADJ1First.Transformed ~ preferenceA1 + preferenceA2, family="binomial", data=data.click))
+# intercept and fixed effects are all insignificant
 
+#data$ADJ1_ADJ2 = ifelse(data$ADJ2OrADJ1First == "Q_ADJ1_ADJ2", 1, ifelse(data$ADJ2OrADJ1First == "Q_ADJ2_ADJ1", -1, 0))
 
 
 
@@ -216,6 +267,38 @@ data.free$section = "free"
 data.click$section = "constrained"
 
 dataProduction = rbind(data.free, data.click)
+
+##########################################################################
+# two alien adjectives
+
+dataProduction = centerColumn(dataProduction, "free")
+
+summary(glm(ADJ2OrADJ1First.Transformed ~ free + preferenceA1 + preferenceA2, family="binomial", data=dataProduction))
+# nothing is significant
+
+###########################################################################
+# compare ADJ1OrColorFirst.Transformed with ADJ2OrColorFirst.Transformed.
+
+# which alien word?
+dataProduction$alienVersusColor = ifelse(!is.na(dataProduction$ADJ1OrColorFirst.Transformed), 1, ifelse(!is.na(dataProduction$ADJ2OrColorFirst.Transformed), 2, NA))
+# where does it stand w.r.t. color?
+dataProduction$alienOrColorFirst = ifelse(!is.na(dataProduction$ADJ1OrColorFirst.Transformed), dataProduction$ADJ1OrColorFirst.Transformed, ifelse(!is.na(dataProduction$ADJ2OrColorFirst.Transformed), dataProduction$ADJ2OrColorFirst.Transformed, NA))
+
+# A problem in this analysis is that the two datasets overlap. Therefore, remove overlapping points
+dataProduction$alienIsUnique = ifelse(!is.na(dataProduction$ADJ1OrColorFirst.Transformed) & !is.na(dataProduction$ADJ2OrColorFirst.Transformed), NA, 0)
+dataProduction$alienOrColorFirst = dataProduction$alienOrColorFirst + dataProduction$alienIsUnique
+
+dataProduction$free = (dataProduction$section == "free")
+
+
+dataProduction = centerColumn(dataProduction, "alienVersusColor")
+dataProduction = centerColumn(dataProduction, "alienOrColorFirst")
+
+summary(glmer(alienOrColorFirst ~ alienVersusColor.Centered*free.Centered + preferenceA1*alienVersusColor.Centered + preferenceA2*alienVersusColor.Centered + (1|workerid), data=dataProduction, family="binomial"))
+#alienVersusColor.Centered                1.56447    0.76205   2.053   0.0401 # means the objective adjective is better before colors than the subjective adjective (at least numerically)
+# free.Centered                           -0.86102    0.13798  -6.240 4.37e-10
+# the preferences and their interactions are not significant
+#################################################################################
 
 dataProduction$subjective.vs.color = dataProduction$ADJ1OrColorFirst.Transformed
 dataProduction$objective.vs.color = dataProduction$ADJ2OrColorFirst.Transformed
