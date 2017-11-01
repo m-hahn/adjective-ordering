@@ -1,0 +1,10 @@
+workerid	language	enjoyment	gender	age	suggested_pay	comments	adjective1	asses	adjective2	condition
+0	English	2	Female	23	.25		olm	Yes	cref	0
+1	American English	2	Male	31	.50		lann	Yes	twell	0
+2	english	2	Female	45	.50	no	twell	Yes	olm	0
+3	English	1	Female	24			twell	Yes	lann	0
+4	English	2	Female	24	.3		muic	Yes	twell	0
+5	English	1	Male	27	.30		cref	Yes	olm	0
+6	english	2	Female	35	.25		twell	Yes	olm	0
+7	English	1	Male	28	.30		lann	Yes	muic	0
+8	English	2	Female	27	.20		olm	Yes	twell	0
