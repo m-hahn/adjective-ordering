@@ -1,3 +1,6 @@
+# use render for rmarkdown
+
+
 centerColumn = function(data,columnName) {
  newName = (paste(columnName,"Centered",sep="."))
  data[,newName] <- data[,columnName] - mean(data[,columnName], na.rm = TRUE)
@@ -50,6 +53,9 @@ write.csv(dataAgg, file="24_aggregate_data.csv")
 
 
 
+library(tidyverse)
+
+
 #########################
 
 data = merge(data, dataSubj, by=c("adjective"))
@@ -57,13 +63,20 @@ data = merge(data, dataSubj, by=c("adjective"))
 
 byClass = aggregate(c(data["response_0"], data["response_1"], data["response_2"], data["response_3"], data["response_4"], data["response_5"], data["subjectivity"]), by=c(data["class"]), mean)
 byClass = byClass[order(byClass$subjectivity),]
+
+
+
+#######################
+
+
+
+
 #byClass$classId = (1:nrow(byClass))
 
 #data = merge(data, byClass[, c("class", "classId")], by=c("class"))
 
 source('helpers.R')
 library(ggplot2)
-library(tidyverse)
 
 library(reshape)
 
@@ -124,6 +137,87 @@ paste(byClass[order(byClass$PC4),]$class, collapse=" ")
 paste(byClass[order(byClass$PC5),]$class, collapse=" ")
 paste(byClass[order(byClass$PC6),]$class, collapse=" ")
 
+
+detach('package:reshape', unload=TRUE)
+corpusByClassBooks = read.csv("../../../corpus-order-by-class-books.csv") %>% rename(books = Correct, class=class1)
+corpusByClassGiga = read.csv("../../../corpus-order-by-class-gigaword.csv") %>% rename(gigaword = Correct, class=class1)
+
+surpM1Books = read.csv("../../../corpus-surp-M.1-by-class-books.csv") %>% rename(books.surp.M.1 = Surp.M.1, class=class1)
+surp1Books = read.csv("../../../corpus-surp-1-by-class-books.csv") %>% rename(books.surp.1 = Surp.1, class=class2)
+
+surpM1Giga = read.csv("../../../corpus-surp-M.1-by-class-gigaword.csv") %>% rename(giga.surp.M.1 = Surp.M.1, class=class1)
+surp1Giga = read.csv("../../../corpus-surp-1-by-class-gigaword.csv") %>% rename(giga.surp.1 = Surp.1, class=class2)
+
+
+cat('TODO Use PMI instead of surprisal')
+
+preferences = read.csv("12-order-preference.csv") %>% rename(class = class1, adjective = predicate1, rating=response)
+preferences = aggregate(preferences["rating"], by=c(preferences["class"]), mean)
+
+byClass = merge(byClass, corpusByClassBooks, by=c("class"))
+byClass = merge(byClass, corpusByClassGiga, by=c("class"))
+byClass = merge(byClass, preferences, by=c("class"))
+byClass = merge(byClass, surp1Books, by=c("class"))
+byClass = merge(byClass, surpM1Books, by=c("class"))
+byClass = merge(byClass, surp1Giga, by=c("class"))
+byClass = merge(byClass, surpM1Giga, by=c("class"))
+
+byClass2 = rbind(byClass)
+
+byClass2$PC1 = NULL
+byClass2$PC2 = NULL
+byClass2$PC3 = NULL
+byClass2$PC4 = NULL
+byClass2$PC5 = NULL
+byClass2$PC6 = NULL
+byClass2$X.x = NULL
+byClass2$X.x = NULL
+byClass2$X.y = NULL
+byClass2$X.y = NULL
+byClass2$X.x = NULL
+byClass2$X.x = NULL
+byClass2$X.y = NULL
+byClass2$X.y = NULL
+
+
+
+library('reshape')
+dataU = melt(byClass2, id=c("class"))
+
+
+
+agr = dataU %>%
+  group_by(class, variable) %>%
+  summarise(Mean = mean(value), CILow = ci.low(value), CIHigh = ci.high(value))
+dodge = position_dodge(.9)
+
+
+
+
+# make sure classes are ordered by increasing subjectivity
+byClass = byClass[order(byClass$subjectivity),]
+agr$class = factor(agr$class, levels=byClass$class)
+
+plot = ggplot(agr, aes(x=class,y=Mean)) +
+  geom_bar(stat="identity",position=dodge) +
+  geom_errorbar(aes(ymin=Mean-CILow,ymax=Mean+CIHigh),position=dodge,width=.25) +
+  facet_wrap(~variable, scales = "free") + scale_x_discrete( labels = function( labels ) { # user aaiezza on https://stackoverflow.com/questions/19567986/overlapping-axis-labels-in-r
+                           fixedLabels <- c() 
+                           for ( l in 1:length( labels ) ) { 
+                                     fixedLabels <- c( fixedLabels, paste0( ifelse( l %% 2 == 0, '', '\n' ), labels[l] ) ) 
+                           }
+                            return( fixedLabels ) } ) 
+
+ggsave('plots/by_class_with_corpora.pdf', plot=plot, unit="cm", width=50, height=30)
+
+
+
+
+library(ggfortify)
+
+
+
+
 #> prcomp(data[,7:12])
 #Standard deviations:
 #[1] 0.4919875 0.4087268 0.2870593 0.2316250 0.2271294 0.1148677
@@ -159,7 +253,7 @@ paste(byClass[order(byClass$PC6),]$class, collapse=" ")
 #> paste(byClass[order(byClass$subjectivity),]$class, collapse=" ")
 #[1] "material shape color nationality location temporal physical age dimension X texture speed size human value quality"
 
-
+library('reshape')
 dataM = melt(data, id=c("adjective", "free_input", "item", "response", "class", "workerid", "slide_number"))
 
 agr = dataM %>%
@@ -189,7 +283,8 @@ ggsave('plots/by_class_with_pca.pdf', plot=plot, unit="cm", width=50, height=30)
 # look at determiner, number
 itemData = read.csv("item_data.tsv", sep="\t", header=TRUE)
 data = merge(data, itemData, by=c("item"))
-dataD = data[data$determiner %in% c("a","the"),]
+dataD = data[data$determiner %in% c("a","the", "an"),]
+dataD$determiner = (dataD$determiner == "the")
 #summary(lmer(response_5 ~ determiner + (1|workerid) + (1|item), data=dataD))
 
 
@@ -406,6 +501,17 @@ printCorrelations = function() {
 #dataAgg$predicate1 =NULL 
 #dataAgg$predicate2 = dataAgg$adjective
 #dataOrder = merge(dataOrder, dataAgg, by=c("predicate2"))
+
+
+library(lme4)
+lmSubj = function(i) {
+   model1 = (lmer(paste("response_",i," ~ subjectivity + (1|workerid) + (1|item)", sep=""), data=data))
+   model0 = (lmer(paste("response_",i," ~ (1|workerid) + (1|item)", sep=""), data=data))
+   test = anova(model1, model0)
+   cat(test$AIC[1] - test$AIC[2], test$BIC[1] - test$BIC[2], "\n", sep=" ")
+   return(test)
+}
+
 
 
 

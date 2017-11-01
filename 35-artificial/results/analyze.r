@@ -11,7 +11,7 @@ dataS = read.csv("../Submiterator-master/order-preference-subject_information.ts
 #dataS = dataS[FALSE,]
 #data = data[FALSE,]
 
-for(i in (2:2)) {
+for(i in (2:5)) {
   dataNew = read.csv(paste("../Submiterator-master/order-preference-",i,"-trials.tsv",sep=""), sep="\t")
   dataNew$workerid = dataNew$workerid + i*9
   data = rbind(data, dataNew)

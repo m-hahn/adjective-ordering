@@ -60,7 +60,16 @@ var ships = _.shuffle(["AUTO-COLOR-few-NUM.svg", "AUTO-COLOR-many-NUM.svg"]) //,
 var     shipsGroupB1 = [ships[0]]; //"rocket1.png", "rocket2.png"] //, "rocket3.png", "rocket4.png", "rocket5.png", "rocket-6.jpg"];
 var     shipsGroupB2 = [ships[1]]; //, "saucer-2.png"] //, "saucer-3.png", "saucer-4.jpg", "saucer-5.jpg", "saucer-6.png"];
 
-var     adjectives = _.sample(["broff", "kolch", "muic", "yunt", "plach", "lann", "physs", "scrib", "glab","olm","gelt","hafs","twell","cref","gwigs"], 2);
+
+/////////////////////////////////////////////////
+// for runs up to (including 21)
+var     adjectives = _.sample(["cref", "muic", "olm", "twell", "lann"], 2);
+// further runs
+var     adjectives = ["twell","cref"];
+/////////////////////////////////////////////////
+
+
+
 var     adjectivesOrdered = _.shuffle(adjectives.concat());
 
 if(false) {
@@ -665,7 +674,7 @@ function makeStims() {
              stims.push(stimulus);
 
      }
-     colors = ["red", "green", "blue"];
+     colors = _.sample(["red", "green", "blue"],2);
        for(var i=0; i<2; i++) {
           adjective = adjectives[i];
 
@@ -684,7 +693,7 @@ function makeStims() {
           adjective = adjectives[i];
           distractors = ["big", "small"];
           for(distractor in distractors) {
-             color = _.sample(["red", "green", "blue"],1)[0];
+             color = _.sample(colors);
              // sample a compatible object
              if(exp.condition == 0) {
                   ship = _.sample(ships).replace("COLOR", color).replace("NUM", scale)
@@ -697,22 +706,23 @@ function makeStims() {
 
        }
 
-          ranges = _.sample([0,1,2,3,4,5,6,7,8],3)
-          for(var range in ranges) {
-             scale = ranges[range]
-             color = _.sample(["red", "green", "blue"],1)[0];
-             distractor = _.sample(["big", "small"],1)[0];
-             // sample a compatible object
-             ship = _.sample(ships).replace("COLOR", color).replace("NUM", scale)
-             addStimulus(color, distractor, ship);
-          }
+      //    ranges = _.sample([0,1,2,3,4,5,6,7,8],3)
+      //    for(var range in ranges) {
+      //       scale = ranges[range]
+      //       color = _.sample(["red", "green", "blue"],1)[0];
+      //       distractor = _.sample(["big", "small"],1)[0];
+      //       // sample a compatible object
+      //       ship = _.sample(ships).replace("COLOR", color).replace("NUM", scale)
+      //       addStimulus(color, distractor, ship);
+      //    }
 
-          // a single item for the adjective pair
-          range = _.sample([6,7,8])
-          color = _.sample(["red", "green", "blue"]);
-          ship = _.sample(shipsGroupB2).replace("COLOR", color).replace("NUM", scale)
-          addStimulus(adjectives[0], adjectives[1], ship);
-          
+          // two item for the adjective pair
+          for(var i=0; i<2; i++) {
+              scale = _.sample([6,7,8])
+              color = _.sample(colors);
+              ship = _.sample(shipsGroupB2).replace("COLOR", color).replace("NUM", scale)
+              addStimulus(adjectives[i], adjectives[1-i], ship);
+          }
 
 
 
