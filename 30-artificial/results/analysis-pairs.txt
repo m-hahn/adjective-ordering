@@ -1,0 +1,203 @@
+Evaluation for items where one word is an alien adjective
+
+# responseAlienFirst: response for the version with alien adjective first
+# adjective1: the subjective Alien adjective
+
+
+# The relevant interactions are
+# condition.Centered:adjective1...
+
+> summary(lmer(responseAlienFirst ~ nonAlienAdjectiveIsColor.Centered*inContext.Centered*condition.Centered*adjective1 + preference1 + preference2 + (1|workerid), data=data5))
+fixed-effect model matrix is rank deficient so dropping 18 columns / coefficients
+Linear mixed model fit by REML ['lmerMod']
+Formula: 
+responseAlienFirst ~ nonAlienAdjectiveIsColor.Centered * inContext.Centered *  
+    condition.Centered * adjective1 + preference1 + preference2 +  
+    (1 | workerid)
+   Data: data5
+
+REML criterion at convergence: 250.5
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-2.1555 -0.5090 -0.1072  0.2016  3.8617 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ workerid (Intercept) 0.03489  0.1868  
+ Residual             0.05450  0.2335  
+Number of obs: 665, groups:  workerid, 35
+
+Fixed effects:
+                                                                      Estimate
+(Intercept)                                                           0.134947
+nonAlienAdjectiveIsColor.Centered                                     0.041272
+inContext.Centered                                                    0.029132
+condition.Centered                                                   -0.017379
+adjective1kolch                                                      -0.062071
+adjective1lann                                                        0.035189
+adjective1muic                                                        0.031973
+adjective1plach                                                      -0.007634
+adjective1scrib                                                       0.027198
+adjective1yunt                                                        0.246860
+adjective1broff                                                       0.001726
+adjective1physs                                                       0.139136
+preference1                                                           0.317661
+preference2                                                          -0.258417
+nonAlienAdjectiveIsColor.Centered:condition.Centered                  0.002898
+inContext.Centered:condition.Centered                                 0.008990
+nonAlienAdjectiveIsColor.Centered:adjective1kolch                     0.020321
+nonAlienAdjectiveIsColor.Centered:adjective1lann                      0.037007
+nonAlienAdjectiveIsColor.Centered:adjective1muic                      0.002959
+nonAlienAdjectiveIsColor.Centered:adjective1plach                     0.064876
+nonAlienAdjectiveIsColor.Centered:adjective1scrib                     0.029868
+nonAlienAdjectiveIsColor.Centered:adjective1yunt                     -0.006225
+nonAlienAdjectiveIsColor.Centered:adjective1broff                    -0.007071
+nonAlienAdjectiveIsColor.Centered:adjective1physs                     0.017183
+inContext.Centered:adjective1kolch                                   -0.057135
+inContext.Centered:adjective1lann                                    -0.003028
+inContext.Centered:adjective1muic                                     0.136049
+inContext.Centered:adjective1plach                                   -0.063936
+inContext.Centered:adjective1scrib                                    0.007594
+inContext.Centered:adjective1yunt                                    -0.042067
+inContext.Centered:adjective1broff                                    0.025412
+inContext.Centered:adjective1physs                                    0.024958
+condition.Centered:adjective1kolch                                    0.038042
+condition.Centered:adjective1lann                                     0.069046
+condition.Centered:adjective1muic                                     0.093554
+condition.Centered:adjective1plach                                    0.047095
+condition.Centered:adjective1scrib                                   -0.026117
+condition.Centered:adjective1yunt                                     0.092312
+condition.Centered:adjective1broff                                    0.095929
+condition.Centered:adjective1physs                                    0.106509
+nonAlienAdjectiveIsColor.Centered:condition.Centered:adjective1kolch -0.026551
+nonAlienAdjectiveIsColor.Centered:condition.Centered:adjective1lann  -0.008612
+nonAlienAdjectiveIsColor.Centered:condition.Centered:adjective1muic  -0.008881
+nonAlienAdjectiveIsColor.Centered:condition.Centered:adjective1plach  0.068120
+nonAlienAdjectiveIsColor.Centered:condition.Centered:adjective1scrib -0.036279
+nonAlienAdjectiveIsColor.Centered:condition.Centered:adjective1yunt  -0.019567
+nonAlienAdjectiveIsColor.Centered:condition.Centered:adjective1broff -0.012112
+nonAlienAdjectiveIsColor.Centered:condition.Centered:adjective1physs  0.021394
+inContext.Centered:condition.Centered:adjective1kolch                 0.017800
+inContext.Centered:condition.Centered:adjective1lann                  0.027332
+inContext.Centered:condition.Centered:adjective1muic                  0.064484
+inContext.Centered:condition.Centered:adjective1plach                -0.074525
+inContext.Centered:condition.Centered:adjective1scrib                 0.015760
+inContext.Centered:condition.Centered:adjective1yunt                  0.019288
+inContext.Centered:condition.Centered:adjective1broff                 0.044074
+inContext.Centered:condition.Centered:adjective1physs                -0.065963
+                                                                     Std. Error
+(Intercept)                                                            0.082499
+nonAlienAdjectiveIsColor.Centered                                      0.031813
+inContext.Centered                                                     0.023292
+condition.Centered                                                     0.022838
+adjective1kolch                                                        0.135579
+adjective1lann                                                         0.122414
+adjective1muic                                                         0.155969
+adjective1plach                                                        0.121817
+adjective1scrib                                                        0.155915
+adjective1yunt                                                         0.114110
+adjective1broff                                                        0.122028
+adjective1physs                                                        0.122776
+preference1                                                            0.151328
+preference2                                                            0.154274
+nonAlienAdjectiveIsColor.Centered:condition.Centered                   0.023233
+inContext.Centered:condition.Centered                                  0.023307
+nonAlienAdjectiveIsColor.Centered:adjective1kolch                      0.042623
+nonAlienAdjectiveIsColor.Centered:adjective1lann                       0.038672
+nonAlienAdjectiveIsColor.Centered:adjective1muic                       0.049368
+nonAlienAdjectiveIsColor.Centered:adjective1plach                      0.038608
+nonAlienAdjectiveIsColor.Centered:adjective1scrib                      0.049398
+nonAlienAdjectiveIsColor.Centered:adjective1yunt                       0.036129
+nonAlienAdjectiveIsColor.Centered:adjective1broff                      0.038594
+nonAlienAdjectiveIsColor.Centered:adjective1physs                      0.038649
+inContext.Centered:adjective1kolch                                     0.042528
+inContext.Centered:adjective1lann                                      0.038669
+inContext.Centered:adjective1muic                                      0.049394
+inContext.Centered:adjective1plach                                     0.038610
+inContext.Centered:adjective1scrib                                     0.049372
+inContext.Centered:adjective1yunt                                      0.036082
+inContext.Centered:adjective1broff                                     0.038597
+inContext.Centered:adjective1physs                                     0.038606
+condition.Centered:adjective1kolch                                     0.048452
+condition.Centered:adjective1lann                                      0.042762
+condition.Centered:adjective1muic                                      0.045272
+condition.Centered:adjective1plach                                     0.035777
+condition.Centered:adjective1scrib                                     0.043633
+condition.Centered:adjective1yunt                                      0.032705
+condition.Centered:adjective1broff                                     0.034034
+condition.Centered:adjective1physs                                     0.045973
+nonAlienAdjectiveIsColor.Centered:condition.Centered:adjective1kolch   0.042401
+nonAlienAdjectiveIsColor.Centered:condition.Centered:adjective1lann    0.038529
+nonAlienAdjectiveIsColor.Centered:condition.Centered:adjective1muic    0.049376
+nonAlienAdjectiveIsColor.Centered:condition.Centered:adjective1plach   0.038555
+nonAlienAdjectiveIsColor.Centered:condition.Centered:adjective1scrib   0.049290
+nonAlienAdjectiveIsColor.Centered:condition.Centered:adjective1yunt    0.035998
+nonAlienAdjectiveIsColor.Centered:condition.Centered:adjective1broff   0.038520
+nonAlienAdjectiveIsColor.Centered:condition.Centered:adjective1physs   0.038527
+inContext.Centered:condition.Centered:adjective1kolch                  0.042549
+inContext.Centered:condition.Centered:adjective1lann                   0.038619
+inContext.Centered:condition.Centered:adjective1muic                   0.049389
+inContext.Centered:condition.Centered:adjective1plach                  0.038630
+inContext.Centered:condition.Centered:adjective1scrib                  0.049390
+inContext.Centered:condition.Centered:adjective1yunt                   0.036136
+inContext.Centered:condition.Centered:adjective1broff                  0.038621
+inContext.Centered:condition.Centered:adjective1physs                  0.038612
+                                                                     t value
+(Intercept)                                                            1.636
+nonAlienAdjectiveIsColor.Centered                                      1.297
+inContext.Centered                                                     1.251
+condition.Centered                                                    -0.761
+adjective1kolch                                                       -0.458
+adjective1lann                                                         0.288
+adjective1muic                                                         0.205
+adjective1plach                                                       -0.063
+adjective1scrib                                                        0.174
+adjective1yunt                                                         2.163
+adjective1broff                                                        0.014
+adjective1physs                                                        1.133
+preference1                                                            2.099
+preference2                                                           -1.675
+nonAlienAdjectiveIsColor.Centered:condition.Centered                   0.125
+inContext.Centered:condition.Centered                                  0.386
+nonAlienAdjectiveIsColor.Centered:adjective1kolch                      0.477
+nonAlienAdjectiveIsColor.Centered:adjective1lann                       0.957
+nonAlienAdjectiveIsColor.Centered:adjective1muic                       0.060
+nonAlienAdjectiveIsColor.Centered:adjective1plach                      1.680
+nonAlienAdjectiveIsColor.Centered:adjective1scrib                      0.605
+nonAlienAdjectiveIsColor.Centered:adjective1yunt                      -0.172
+nonAlienAdjectiveIsColor.Centered:adjective1broff                     -0.183
+nonAlienAdjectiveIsColor.Centered:adjective1physs                      0.445
+inContext.Centered:adjective1kolch                                    -1.343
+inContext.Centered:adjective1lann                                     -0.078
+inContext.Centered:adjective1muic                                      2.754
+inContext.Centered:adjective1plach                                    -1.656
+inContext.Centered:adjective1scrib                                     0.154
+inContext.Centered:adjective1yunt                                     -1.166
+inContext.Centered:adjective1broff                                     0.658
+inContext.Centered:adjective1physs                                     0.646
+condition.Centered:adjective1kolch                                     0.785
+condition.Centered:adjective1lann                                      1.615
+condition.Centered:adjective1muic                                      2.066
+condition.Centered:adjective1plach                                     1.316
+condition.Centered:adjective1scrib                                    -0.599
+condition.Centered:adjective1yunt                                      2.822
+condition.Centered:adjective1broff                                     2.819
+condition.Centered:adjective1physs                                     2.317
+nonAlienAdjectiveIsColor.Centered:condition.Centered:adjective1kolch  -0.626
+nonAlienAdjectiveIsColor.Centered:condition.Centered:adjective1lann   -0.224
+nonAlienAdjectiveIsColor.Centered:condition.Centered:adjective1muic   -0.180
+nonAlienAdjectiveIsColor.Centered:condition.Centered:adjective1plach   1.767
+nonAlienAdjectiveIsColor.Centered:condition.Centered:adjective1scrib  -0.736
+nonAlienAdjectiveIsColor.Centered:condition.Centered:adjective1yunt   -0.544
+nonAlienAdjectiveIsColor.Centered:condition.Centered:adjective1broff  -0.314
+nonAlienAdjectiveIsColor.Centered:condition.Centered:adjective1physs   0.555
+inContext.Centered:condition.Centered:adjective1kolch                  0.418
+inContext.Centered:condition.Centered:adjective1lann                   0.708
+inContext.Centered:condition.Centered:adjective1muic                   1.306
+inContext.Centered:condition.Centered:adjective1plach                 -1.929
+inContext.Centered:condition.Centered:adjective1scrib                  0.319
+inContext.Centered:condition.Centered:adjective1yunt                   0.534
+inContext.Centered:condition.Centered:adjective1broff                  1.141
+inContext.Centered:condition.Centered:adjective1physs                 -1.708
+
