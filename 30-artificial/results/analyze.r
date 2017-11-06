@@ -57,6 +57,7 @@ check = (data$condition1 | data$condition2)
 
 data$a = data$a1 - data$a2
 
+library(lme4)
 
 #######################################
 # ANALYSIS I: analyze items where both adjectives are alien words
@@ -74,6 +75,34 @@ data7 = centerColumn(data7, "subjectiveFirst")
 
 # The prediction is that the effect of subjectiveFirst is positive
 summary(lmer(response ~ subjectiveFirst.Centered*inContext.Centered + preference1 + preference2 + (1|workerid), data=data7))
+
+
+
+# per-pair visualization
+
+library('tidyverse')
+dataAOpposite = data7 %>% rename(pred1 = predicate2, pred2 = predicate1) %>% rename(predicate1 = pred1, predicate2 = pred2)
+dataAOpposite$response = 1-dataAOpposite$response
+
+dataA2 = rbind(data7, dataAOpposite)
+
+dataA2$firstIsSubjective = (as.character(dataA2$predicate1) == as.character(dataA2$adjective1))
+
+agr = dataA2 %>%
+  group_by(predicate1, predicate2, firstIsSubjective) %>%
+  summarise(Mean = mean(response), CILow = ci.low(response), CIHigh = ci.high(response))
+dodge = position_dodge(.9)
+
+
+plot = ggplot(agr, aes(x=predicate2, y=Mean, color=firstIsSubjective)) + 
+   geom_bar(stat="identity",position=dodge) +
+   geom_errorbar(aes(ymin=Mean-CILow, ymax=Mean+CIHigh), position=dodge,width=.25) +
+   facet_wrap(~predicate1)
+ggsave('plots/alien_pairs_merged.pdf', plot=plot) 
+
+
+
+
 
 
 ###########################################
@@ -121,6 +150,9 @@ data5 = centerColumn(data5, "nonAlienAdjectiveIsColor")
 summary(lmer(responseAlienFirst ~ nonAlienAdjectiveIsColor.Centered*inContext.Centered*condition.Centered + preference1 + preference2 + (1|workerid), data=data5))
 
 
+# look at all the alien adjectives
+summary(lmer(responseAlienFirst ~ nonAlienAdjectiveIsColor.Centered*inContext.Centered*condition.Centered*adjective1 + preference1 + preference2 + (1|workerid), data=data5))
+
 
 
 data5$nonAlienAdjectiveIsColor.Label = ifelse(data5$nonAlienAdjectiveIsColor, "Color", "Size")
@@ -140,6 +172,42 @@ ggplot(agr, aes(x=condition.Label,y=Mean,fill=condition.Label)) +
   ylab('Rating for Alien First') +
   xlab('Type of Alien Adjective')
 dev.off()
+
+
+
+
+#############################################
+# further visualizations
+
+
+
+dataOpposite = data5 %>% rename(pred1 = predicate2, pred2 = predicate1) %>% rename(predicate1 = pred1, predicate2 = pred2)
+dataOpposite$response = 1-dataOpposite$response
+
+data20 = rbind(data5, dataOpposite)
+
+dataNA = data20[(data20$predicate2 %in% c("green","red","blue","small","big")),]
+
+dataNA$alienIsSubjective = (as.character(dataNA$predicate1) == as.character(dataNA$adjective1))
+
+agr = dataNA %>%
+  group_by(predicate1, predicate2, alienIsSubjective) %>%
+  summarise(Mean = mean(response), CILow = ci.low(response), CIHigh = ci.high(response))
+dodge = position_dodge(.9)
+
+
+plot = ggplot(agr, aes(x=predicate2, y=Mean, color=alienIsSubjective)) + 
+   geom_bar(stat="identity",position=dodge) +
+   geom_errorbar(aes(ymin=Mean-CILow, ymax=Mean+CIHigh), position=dodge,width=.25) +
+   facet_wrap(~predicate1)
+ggsave('plots/alien_english_merged.pdf', plot=plot) 
+
+
+
+
+
+
+
 
 
 
@@ -341,6 +409,7 @@ dev.off()
 
 
 #aggregate(data3["response"], by=c(data3["subjectiveFirst"]), mean)
+
 
 
 

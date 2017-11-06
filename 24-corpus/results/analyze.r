@@ -142,17 +142,27 @@ detach('package:reshape', unload=TRUE)
 corpusByClassBooks = read.csv("../../../corpus-order-by-class-books.csv") %>% rename(books = Correct, class=class1)
 corpusByClassGiga = read.csv("../../../corpus-order-by-class-gigaword.csv") %>% rename(gigaword = Correct, class=class1)
 
-surpM1Books = read.csv("../../../corpus-surp-M.1-by-class-books.csv") %>% rename(books.surp.M.1 = Surp.M.1, class=class1)
-surp1Books = read.csv("../../../corpus-surp-1-by-class-books.csv") %>% rename(books.surp.1 = Surp.1, class=class2)
+surpM1Books = read.csv("../../../corpus-surp-M.1-by-class-books.csv") %>% rename(books.surp.M.1 = Surp.M.1, class=class1) %>% mutate(books.pmi.M.1 = -(books.surp.M.1+LogCount.1))
+surp1Books = read.csv("../../../corpus-surp-1-by-class-books.csv") %>% rename(books.surp.1 = Surp.1, class=class2) %>% mutate(books.pmi.1 = -(books.surp.1+LogCount.3))
 
-surpM1Giga = read.csv("../../../corpus-surp-M.1-by-class-gigaword.csv") %>% rename(giga.surp.M.1 = Surp.M.1, class=class1)
-surp1Giga = read.csv("../../../corpus-surp-1-by-class-gigaword.csv") %>% rename(giga.surp.1 = Surp.1, class=class2)
+surpM1Giga = read.csv("../../../corpus-surp-M.1-by-class-gigaword.csv") %>% rename(giga.surp.M.1 = Surp.M.1, class=class1) %>% mutate(giga.pmi.M.1 = -(giga.surp.M.1+LogCount.1))
+surp1Giga = read.csv("../../../corpus-surp-1-by-class-gigaword.csv") %>% rename(giga.surp.1 = Surp.1, class=class2) %>% mutate(giga.pmi.1 = -(giga.surp.1+LogCount.3))
 
 
 cat('TODO Use PMI instead of surprisal')
 
 preferences = read.csv("12-order-preference.csv") %>% rename(class = class1, adjective = predicate1, rating=response)
 preferences = aggregate(preferences["rating"], by=c(preferences["class"]), mean)
+
+detach('package:reshape', unload=TRUE)
+
+valence = read.csv("../../../valence-affect-dominance.csv") %>% rename(adjective=Word) #%>% select(Word, V.Extreme)
+valence = merge(valence, unique(data %>% select(adjective, class))) %>% select(class, V.Extreme)
+
+
+
+
+
 
 byClass = merge(byClass, corpusByClassBooks, by=c("class"))
 byClass = merge(byClass, corpusByClassGiga, by=c("class"))
@@ -161,8 +171,20 @@ byClass = merge(byClass, surp1Books, by=c("class"))
 byClass = merge(byClass, surpM1Books, by=c("class"))
 byClass = merge(byClass, surp1Giga, by=c("class"))
 byClass = merge(byClass, surpM1Giga, by=c("class"))
+byClass = merge(byClass, valence, by=c("class"))
 
 byClass2 = rbind(byClass)
+
+byClass2$LogCount.1.x = NULL
+byClass2$LogCount.1.y = NULL
+byClass2$LogCount.3.x = NULL
+byClass2$LogCount.3.y = NULL
+
+byClass2$giga.surp.M.1 = NULL
+byClass2$giga.surp.1 = NULL
+byClass2$books.surp.M.1 = NULL
+byClass2$books.surp.1 = NULL
+
 
 byClass2$PC1 = NULL
 byClass2$PC2 = NULL
@@ -170,6 +192,14 @@ byClass2$PC3 = NULL
 byClass2$PC4 = NULL
 byClass2$PC5 = NULL
 byClass2$PC6 = NULL
+byClass2$X.x = NULL
+byClass2$X.x = NULL
+byClass2$X.y = NULL
+byClass2$X.y = NULL
+byClass2$X.x = NULL
+byClass2$X.x = NULL
+byClass2$X.y = NULL
+byClass2$X.y = NULL
 byClass2$X.x = NULL
 byClass2$X.x = NULL
 byClass2$X.y = NULL
@@ -511,6 +541,18 @@ lmSubj = function(i) {
    cat(test$AIC[1] - test$AIC[2], test$BIC[1] - test$BIC[2], "\n", sep=" ")
    return(test)
 }
+
+# somehow isn't working.
+# the problem seems to be with the preferences file
+detach('package:reshape', unload=TRUE)
+preferences = read.csv("12-order-preference.csv") %>% rename(class = class1, rating=response) %>% select(workerid, predicate1, predicate2, rating)
+valence = read.csv("../../../valence-affect-dominance.csv") %>% select(Word, V.Extreme, subjectivity)
+preferences = merge(preferences, valence %>% rename(subjectivity1 = subjectivity, V.Extreme1 = V.Extreme, predicate1 = Word), by=c("predicate1"), sort=FALSE)
+preferences = merge(valence %>% rename(subjectivity2 = subjectivity, V.Extreme2 = V.Extreme, predicate2 = Word), preferences, by=c("predicate2"))
+
+#dataSubj = getSubjRatings()
+
+#valence = merge(valence, dataSubj, by=c("adjective"))
 
 
 

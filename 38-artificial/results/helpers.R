@@ -84,3 +84,11 @@ groupedBootstrapMatrix = function(dataMatrix, samples=100) {
   return(means)
 }
 
+
+centerColumn = function(data,columnName) {
+ newName = (paste(columnName,"Centered",sep="."))
+ data[,newName] <- data[,columnName] - mean(data[,columnName], na.rm = TRUE)
+ data[,newName] <- data[,newName] / sd(data[,columnName], na.rm = TRUE)
+ return(data)
+}
+
