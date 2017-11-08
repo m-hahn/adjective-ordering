@@ -132,9 +132,41 @@ plot = ggplot(agr, aes(x=predicate2, y=Mean, color=firstIsSubjective)) +
    facet_wrap(~predicate1)
 ggsave('plots/alien_pairs_merged.pdf', plot=plot) 
 
+###############
+dataAA$subjectiveFirst.Label = (ifelse(dataAA$subjectiveFirst, "Subjective First", "Objective First"))
+
+# plot by manipulation effect strength
+dataAA$manipulationEffect = ifelse(dataAA$subjDiff < 0.0, "0 Opposite", ifelse(dataAA$subjDiff < 0.4, "1 Small", "2 Big"))
+agr = dataAA %>%
+  group_by(manipulationEffect, subjectiveFirst.Label) %>%
+  summarise(Mean = mean(response), CILow = ci.low.grouped(dataAA$response, dataAA$workerid, (1:nrow(dataAA))), CIHigh = ci.high.grouped(dataAA$response, dataAA$workerid, (1:nrow(dataAA))))
+dodge = position_dodge(.9)
+
+pdf('plots/alien-pairs-order-ratings-by-manipulation-effect.pdf')
+ggplot(agr, aes(x=subjectiveFirst.Label,y=Mean, fill=manipulationEffect)) +
+  geom_bar(stat="identity",position=dodge) +
+  geom_errorbar(aes(ymin=Mean-CILow,ymax=Mean+CIHigh),position=dodge,width=.25) +
+  ylab('Rating') +
+  xlab('Ordering of Alien Adjectives')
+dev.off()
 
 
-dataA2$manipulationEffect = ifelse(dataA2$subjDiff < 0.22, "<33%", ifelse(dataA2$subjDiff < 0.65, "<67%", ">67%"))
+
+dataAA$manipulationEffectFaultless = ifelse(dataAA$subjDiff < 0.0, "0 Opposite", ifelse(dataAA$subjDiff < 0.4, "1 Small", "2 Big"))
+agr = dataAA %>%
+  group_by(manipulationEffectFaultless, subjectiveFirst.Label) %>%
+  summarise(Mean = mean(response), CILow = ci.low.grouped(dataAA$response, dataAA$workerid, (1:nrow(dataAA))), CIHigh = ci.high.grouped(dataAA$response, dataAA$workerid, (1:nrow(dataAA))))
+dodge = position_dodge(.9)
+
+pdf('plots/alien-pairs-order-ratings-by-manipulation-effect-faultless.pdf')
+ggplot(agr, aes(x=subjectiveFirst.Label,y=Mean, fill=manipulationEffectFaultless)) +
+  geom_bar(stat="identity",position=dodge) +
+  geom_errorbar(aes(ymin=Mean-CILow,ymax=Mean+CIHigh),position=dodge,width=.25) +
+  ylab('Rating') +
+  xlab('Ordering of Alien Adjectives')
+dev.off()
+
+
 
 ###########################################
 ###########################################
@@ -230,6 +262,21 @@ dodge = position_dodge(.9)
 
 pdf('plots/order-ratings-by-manipulation-effect.pdf')
 ggplot(agr, aes(x=containsSubjectiveAdjective.Label,y=Mean, fill=manipulationEffect)) +
+  geom_bar(stat="identity",position=dodge) +
+  geom_errorbar(aes(ymin=Mean-CILow,ymax=Mean+CIHigh),position=dodge,width=.25) +
+  facet_wrap(~nonAlienAdjectiveIsColor.Label+inContext.Label)+
+  ylab('Rating for Alien First') +
+  xlab('Type of Alien Adjective')
+dev.off()
+
+data5$manipulationEffectFaultless = ifelse(data5$subjDiff < 0.0, "0 Opposite", ifelse(data5$subjDiff < 0.4, "1 Small", "2 Big"))
+agr = data5 %>%
+  group_by(manipulationEffectFaultless, containsSubjectiveAdjective.Label, nonAlienAdjectiveIsColor.Label, inContext.Label) %>%
+  summarise(Mean = mean(responseAlienFirst), CILow = ci.low.grouped(data5$responseAlienFirst, data5$workerid, (1:nrow(data5))), CIHigh = ci.high.grouped(data5$responseAlienFirst, data5$workerid, (1:nrow(data5))))
+dodge = position_dodge(.9)
+
+pdf('plots/order-ratings-by-manipulation-effect-faultless.pdf')
+ggplot(agr, aes(x=containsSubjectiveAdjective.Label,y=Mean, fill=manipulationEffectFaultless)) +
   geom_bar(stat="identity",position=dodge) +
   geom_errorbar(aes(ymin=Mean-CILow,ymax=Mean+CIHigh),position=dodge,width=.25) +
   facet_wrap(~nonAlienAdjectiveIsColor.Label+inContext.Label)+
