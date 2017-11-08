@@ -51,6 +51,7 @@ data$a2 = !(data$predicate2 %in% c("big", "small", "blue", "red", "green")) # se
 # -1: predicate2 is alien, predicate1 is not
 # 0: both adjectives are alien or both adjectives are English
 data$a = data$a1 - data$a2
+data$sequence = ifelse(data$a == 1, "alien-english", ifelse(data$a == -1, "english-alien", ifelse(data$a1, "alien-alien","english-english")))
 
 dataAdj = data[,c('workerid','subjective_adjective', 'objective_adjective')]
 dataAdj = subset(dataAdj, !duplicated(dataAdj$workerid))
@@ -83,7 +84,8 @@ dataAA = centerColumn(dataAA, "subjectiveFirst")
 
 # Analysis
 # The prediction is that the effect of subjectiveFirst is positive.
-summary(lmer(response ~ subjectiveFirst + (1|workerid) + (1|predicate1) + (1|predicate2), data=dataAA))
+m = lmer(response ~ subjectiveFirst + (1|workerid) + (1|predicate1) + (1|predicate2), data=dataAA)
+summary(m)
 
 library('tidyverse')
 
@@ -149,9 +151,11 @@ data5 = centerColumn(data5, "nonAlienAdjectiveIsColor")
 # The prediction is that the effect of containsSubjectiveAdjective on responseAlienFirst is positive
 # (i.e., ratings for alien-first increase when the alien adjective is subjective)
 # Unlike Experiment 30, this effect is not shown here.
-summary(lmer(responseAlienFirst ~ nonAlienAdjectiveIsColor.Centered*inContext.Centered*containsSubjectiveAdjective.Centered + preference1 + preference2 + (1|workerid), data=data5))
+m = lmer(responseAlienFirst ~ nonAlienAdjectiveIsColor.Centered*inContext.Centered*containsSubjectiveAdjective.Centered + preference1 + preference2 + (1|workerid), data=data5)
+summary(m)
 
-
+m = lmer(responseAlienFirst ~ containsSubjectiveAdjective.Centered + preference1 + preference2 + (1|workerid), data=data5)
+summary(m)
 
 
 ################ Further analysis
@@ -286,5 +290,25 @@ ggplot(agr, aes(x=alien, y=Mean)) +
 dev.off()
 
 
+## JD's code
 
+# Did people actually get the subjectivity manipulation?
+d_subj = data %>%
+  filter(!is.na(adj1_subj)) %>%
+  select(workerid,adj2_subj,adj1_subj,subjective_adjective,objective_adjective) %>%
+  gather(AdjType, Adjective, -workerid, -adj2_subj, -adj1_subj) %>%
+  gather(SubjValueAdjType, Subjectivity, -workerid,-AdjType,-Adjective) %>%
+  filter(AdjType == "subjective_adjective" & SubjValueAdjType == "adj1_subj" | AdjType == "objective_adjective" & SubjValueAdjType == "adj2_subj")
+nrow(d_subj)
+d_subj
 
+agr = d_subj %>%
+  group_by(AdjType) %>%
+  summarize(MeanSubjectivity = mean(Subjectivity), CILow=ci.low(Subjectivity), CIHigh=ci.high(Subjectivity)) %>%
+  mutate(YMin=MeanSubjectivity-CILow,YMax=MeanSubjectivity+CIHigh)
+dodge = position_dodge(.9)
+
+ggplot(agr, aes(x=AdjType, y=MeanSubjectivity)) +
+  geom_bar(stat="identity",position=dodge) +
+  geom_errorbar(aes(ymin=YMin,ymax=YMax),position=dodge,width=.25) +
+  geom_line(data=d_subj,aes(group=workerid,y=Subjectivity), alpha=.3)
