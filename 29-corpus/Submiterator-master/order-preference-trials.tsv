@@ -1,0 +1,241 @@
+workerid	noun	sentence	pattern	adjective	slide_number	response_2	article	response_0	response_1
+0	crime	This is a favorite one.	This is ARTICLE ADJECTIVE one.	favorite	4	0.05	a	0.06	0.07
+0	spirit	That is a speedy one.	That is ARTICLE ADJECTIVE one.	speedy	5	0.1	a	0.29	0.71
+0	school	This is thin.	This is ADJECTIVE.	thin	6	0.04	the	0.03	0.03
+0	student	This is a Hispanic one.	This is ARTICLE ADJECTIVE one.	Hispanic	7	0.09	a	0.31	0.51
+0	line	That is a wooden one.	That is ARTICLE ADJECTIVE one.	wooden	8	0.06	a	0.07	0.03
+0	shell	This one is green.	This one is ADJECTIVE.	green	9	0.07	a	0.05	0.05
+0	mouth	That one is creamy.	That one is ADJECTIVE.	creamy	10	0.02	a	0.05	0.02
+0	bin	It is blonde.	It is ADJECTIVE.	blonde	11	0.09	a	0.26	0.25
+0	life	That is the individual one.	That is ARTICLE ADJECTIVE one.	individual	12	0.01	the	0.02	0.06
+0	room	That is a senior one.	That is ARTICLE ADJECTIVE one.	senior	13	0.07	a	0.25	0.4
+0	truth	This is the pleasant one.	This is ARTICLE ADJECTIVE one.	pleasant	14	0.09	the	0.07	0.73
+0	grandfather	This is sad.	This is ADJECTIVE.	sad	15	0.19	a	0.75	0.76
+0	reason	This is a spicy one.	This is ARTICLE ADJECTIVE one.	spicy	16	0.07	a	0.5	0.42
+0	form	That one is daily.	That one is ADJECTIVE.	daily	17	0.03	a	0.04	0.07
+0	spaghetti	This one is last.	This one is ADJECTIVE.	last	18	0.04	a	0.06	0.07
+0	labrador	This is new.	This is ADJECTIVE.	new	19	0.1	the	0.04	0.06
+0	fish	That is a long one.	That is ARTICLE ADJECTIVE one.	long	20	0.05	a	0.1	0.21
+0	level	This is Brazilian.	This is ADJECTIVE.	Brazilian	21	0.04	a	0.05	0.13
+0	situation	This is the Vietnamese one.	This is ARTICLE ADJECTIVE one.	Vietnamese	22	0.05	the	0.17	0.21
+0	color	It is corduroy.	It is ADJECTIVE.	corduroy	23	0.04	the	0.05	0.04
+0	slant	This is a purple one.	This is ARTICLE ADJECTIVE one.	purple	24	0.05	a	0.03	0.05
+0	lab	This is the everyday one.	This is ARTICLE ADJECTIVE one.	everyday	25	0.06	the	0.04	0.06
+0	list	That one is professional.	That one is ADJECTIVE.	professional	26	0.01	a	0.6	0.62
+0	area	This one is old.	This one is ADJECTIVE.	old	27	0.04	an	0.21	0.07
+0	hand	It is historical.	It is ADJECTIVE.	historical	28	0.06	the	0.12	0.06
+0	teller	That one is mini.	That one is ADJECTIVE.	mini	29	0.05	a	0.06	0.04
+0	meat	This is smooth.	This is ADJECTIVE.	smooth	30	0.07	the	0.04	0.04
+0	radio	This one is exciting.	This one is ADJECTIVE.	exciting	31	0.09	an	0.54	0.74
+0	engine	This one is open.	This one is ADJECTIVE.	open	32	0.03	an	0.18	0.07
+0	family	This is red.	This is ADJECTIVE.	red	33	0.03	the	0.02	0.03
+1	opinion	That one is selfish.	That one is ADJECTIVE.	selfish	4	0.29	the	0.8	0.65
+1	nation	That one is large.	That one is ADJECTIVE.	large	5	0.5	the	0.19	0
+1	conscience	That one is unique.	That one is ADJECTIVE.	unique	6	0.69	an	0.73	0.77
+1	level	This is the new one.	This is ARTICLE ADJECTIVE one.	new	7	0.48	the	0.38	0.14
+1	pan	This one is fast.	This one is ADJECTIVE.	fast	8	0.51	the	0.26	0.39
+1	value	That one is internal.	That one is ADJECTIVE.	internal	9	0.48	the	0.21	0.07
+1	issue	This is the international one.	This is ARTICLE ADJECTIVE one.	international	10	0.5	the	0.37	0.61
+1	offender	It is pleasant.	It is ADJECTIVE.	pleasant	11	0.77	a	0.94	0.95
+1	money	This one is gold.	This one is ADJECTIVE.	gold	12	0.57	a	0.63	0.7
+1	school	That is a crocheted one.	That is ARTICLE ADJECTIVE one.	crocheted	13	0.5	a	0.29	0.2
+1	lab	This is the playful one.	This is ARTICLE ADJECTIVE one.	playful	14	0.8	the	0.89	0.79
+1	snake	This one is everyday.	This one is ADJECTIVE.	everyday	15	0.46	the	0.2	0.29
+1	code	This is designated.	This is ADJECTIVE.	designated	16	0.35	the	0.17	0.1
+1	term	This is a Japanese one.	This is ARTICLE ADJECTIVE one.	Japanese	17	0.48	a	0.33	0.48
+1	bag	That is the Vietnamese one.	That is ARTICLE ADJECTIVE one.	Vietnamese	18	0.45	the	0.17	0.31
+1	goal	That one is purple.	That one is ADJECTIVE.	purple	19	0.53	the	0.12	0.16
+1	one	That is the smooth one.	That is ARTICLE ADJECTIVE one.	smooth	20	0.53	the	0.32	0.34
+1	rib	This is creamy.	This is ADJECTIVE.	creamy	21	0.58	a	0.77	0.65
+1	suit	This is biggest.	This is ADJECTIVE.	biggest	22	0.48	the	0.35	0.21
+1	topic	This one is long.	This one is ADJECTIVE.	long	23	0.49	a	0.08	0.11
+1	corporation	This one is curly.	This one is ADJECTIVE.	curly	24	0.61	the	0.34	0.4
+1	lettering	That is the mixed one.	That is ARTICLE ADJECTIVE one.	mixed	25	0.47	the	0.26	0.21
+1	leadership	This is a junior one.	This is ARTICLE ADJECTIVE one.	junior	26	0.41	a	0.26	0.37
+1	look	This one is slow.	This one is ADJECTIVE.	slow	27	0.3	a	0.54	0.69
+1	satire	That is the potential one.	That is ARTICLE ADJECTIVE one.	potential	28	0.56	the	0.81	0.68
+1	reason	It is young.	It is ADJECTIVE.	young	29	0.46	the	0.17	0.2
+1	party	This is strange.	This is ADJECTIVE.	strange	30	0.54	the	0.89	0.63
+1	autobiography	It is old-time.	It is ADJECTIVE.	old-time	31	0.47	an	0.51	0.3
+1	sense	It is closest.	It is ADJECTIVE.	closest	32	0.48	the	0.1	0.14
+1	puppy	It is Brazilian.	It is ADJECTIVE.	Brazilian	33	0.38	the	0.29	0.41
+2	coke	This one is creamy.	This one is ADJECTIVE.	creamy	4	0.01	a	0.31	0.28
+2	problem	It is senior.	It is ADJECTIVE.	senior	5	0.12	a	0.18	0.12
+2	grandchild	This is the entrepreneurial one.	This is ARTICLE ADJECTIVE one.	entrepreneurial	6	0.1	the	0.38	0.42
+2	pan	This is solid.	This is ADJECTIVE.	solid	7	0.19	the	0.72	0.52
+2	world	This is an internal one.	This is ARTICLE ADJECTIVE one.	internal	8	0.13	an	0.16	0.28
+2	music	This is the smooth one.	This is ARTICLE ADJECTIVE one.	smooth	9	0.31	the	0.81	0.59
+2	vitamin	It is selfish.	It is ADJECTIVE.	selfish	10	0.17	a	0.75	0.61
+2	life	This is an everyday one.	This is ARTICLE ADJECTIVE one.	everyday	11	0.08	an	0.12	0.13
+2	line	This one is exciting.	This one is ADJECTIVE.	exciting	12	0.27	an	0.76	0.53
+2	room	This is the gold one.	This is ARTICLE ADJECTIVE one.	gold	13	0.15	the	0.12	0.35
+2	resort	That one is different.	That one is ADJECTIVE.	different	14	0.2	a	0.69	0.83
+2	decision	That one is speedy.	That one is ADJECTIVE.	speedy	15	0.1	a	0.79	0.77
+2	mouth	That one is professional.	That one is ADJECTIVE.	professional	16	0.09	the	0.61	0.48
+2	voice	It is Hispanic.	It is ADJECTIVE.	Hispanic	17	0.1	the	0.14	0.69
+2	wind	This is an old one.	This is ARTICLE ADJECTIVE one.	old	18	0.11	an	0.49	0.51
+2	report	That is the lacy one.	That is ARTICLE ADJECTIVE one.	lacy	19	0.08	the	0.45	0.14
+2	guy	It is national.	It is ADJECTIVE.	national	20	0.14	the	0.09	0.15
+2	family	It is wooden.	It is ADJECTIVE.	wooden	21	0.1	a	0.09	0.11
+2	research	This is curly.	This is ADJECTIVE.	curly	22	0.12	a	0.58	0.45
+2	teller	This is current.	This is ADJECTIVE.	current	23	0.15	the	0.43	0.57
+2	place	This is a playful one.	This is ARTICLE ADJECTIVE one.	playful	24	0.14	a	0.47	0.35
+2	recipe	This is an overhead one.	This is ARTICLE ADJECTIVE one.	overhead	25	0.1	an	0.18	0.18
+2	car	This is a Japanese one.	This is ARTICLE ADJECTIVE one.	Japanese	26	0.04	a	0.12	0.15
+2	solution	That one is open.	That one is ADJECTIVE.	open	27	0.09	an	0.44	0.33
+2	style	This one is plain.	This one is ADJECTIVE.	plain	28	0.04	the	0.49	0.49
+2	feeling	It is token.	It is ADJECTIVE.	token	29	0.07	a	0.1	0.1
+2	labrador	It is blue.	It is ADJECTIVE.	blue	30	0.11	a	0.15	0.1
+2	source	That one is sad.	That one is ADJECTIVE.	sad	31	0.26	a	0.63	0.77
+2	time	It is biggest.	It is ADJECTIVE.	biggest	32	0.22	the	0.48	0.52
+2	valley	This is the European one.	This is ARTICLE ADJECTIVE one.	European	33	0.11	the	0.05	0.09
+3	citizen	That one is selfish.	That one is ADJECTIVE.	selfish	4	0.01	a	0.68	0.61
+3	sand	That is a prestigious one.	That is ARTICLE ADJECTIVE one.	prestigious	5	0.1	a	0.51	0.5
+3	ride	It is plain.	It is ADJECTIVE.	plain	6	0	the	0.05	0.1
+3	student	This is the young one.	This is ARTICLE ADJECTIVE one.	young	7	0.16	the	0.62	0.46
+3	lifestyle	That is the purple one.	That is ARTICLE ADJECTIVE one.	purple	8	0.12	the	0.08	0.09
+3	wind	This is a lacy one.	This is ARTICLE ADJECTIVE one.	lacy	9	0.12	a	0.46	0.16
+3	plate	This is the best one.	This is ARTICLE ADJECTIVE one.	best	10	0.12	the	0.28	0.17
+3	wood	This one is international.	This one is ADJECTIVE.	international	11	0.09	an	0.5	0.5
+3	place	That one is thin.	That one is ADJECTIVE.	thin	12	0.13	the	0.49	0.14
+3	leadership	This is closest.	This is ADJECTIVE.	closest	13	0.71	the	0.47	0.47
+3	trunk	This is a sad one.	This is ARTICLE ADJECTIVE one.	sad	14	0.45	a	0.45	0.21
+3	line	This is a civilized one.	This is ARTICLE ADJECTIVE one.	civilized	15	0.7	a	0.67	0.25
+3	crime	That one is square.	That one is ADJECTIVE.	square	16	0.04	a	0.08	0.1
+3	death	That one is corduroy.	That one is ADJECTIVE.	corduroy	17	0	the	0.11	0.14
+3	bag	That is a different one.	That is ARTICLE ADJECTIVE one.	different	18	0.5	a	0.5	0.79
+3	trial	This one is unique.	This one is ADJECTIVE.	unique	19	0.48	the	0.57	0.27
+3	solution	This is a historical one.	This is ARTICLE ADJECTIVE one.	historical	20	0.54	a	0.46	0.24
+3	coke	This is yellow.	This is ADJECTIVE.	yellow	21	0.48	a	0.73	0.87
+3	money	This one is playful.	This one is ADJECTIVE.	playful	22	0.77	a	0.56	0.48
+3	brush	It is Brazilian.	It is ADJECTIVE.	Brazilian	23	0.44	a	1	0.75
+3	time	It is blue.	It is ADJECTIVE.	blue	24	0.22	a	0.32	0.34
+3	offender	That one is speedy.	That one is ADJECTIVE.	speedy	25	0.34	a	0.49	0.24
+3	puppy	That one is fast.	That one is ADJECTIVE.	fast	26	0.11	a	0.63	0.48
+3	number	It is mini.	It is ADJECTIVE.	mini	27	0	the	0.49	0.35
+3	behavior	That one is spicy.	That one is ADJECTIVE.	spicy	28	0.19	a	0.38	0
+3	opinion	That one is new.	That one is ADJECTIVE.	new	29	0.28	the	0.17	0.3
+3	rib	This is the current one.	This is ARTICLE ADJECTIVE one.	current	30	0.47	the	0.68	0.53
+3	school	That is a junior one.	That is ARTICLE ADJECTIVE one.	junior	31	0	a	0.73	0.48
+3	policy	This is the strange one.	This is ARTICLE ADJECTIVE one.	strange	32	0	the	0.46	0.31
+3	rate	This is biggest.	This is ADJECTIVE.	biggest	33	0.02	the	1	0.53
+4	fish	That is the historical one.	That is ARTICLE ADJECTIVE one.	historical	4	0.56	the	0.64	0.81
+4	recipe	That is a purple one.	That is ARTICLE ADJECTIVE one.	purple	5	0.36	a	0.36	0.59
+4	situation	It is spicy.	It is ADJECTIVE.	spicy	6	0.53	a	0.6	0.35
+4	pan	It is narrow.	It is ADJECTIVE.	narrow	7	0.31	the	0.24	0.39
+4	wind	This is mixed.	This is ADJECTIVE.	mixed	8	0.18	the	0.09	0.14
+4	shot	It is slow.	It is ADJECTIVE.	slow	9	0.54	a	0.36	0.2
+4	mouth	It is lacy.	It is ADJECTIVE.	lacy	10	0.43	a	0.35	0.61
+4	room	This is the open one.	This is ARTICLE ADJECTIVE one.	open	11	0.45	the	0.33	0.58
+4	labrador	This is the green one.	This is ARTICLE ADJECTIVE one.	green	12	0.45	the	0.57	0.63
+4	casserole	This is a closest one.	This is ARTICLE ADJECTIVE one.	closest	13	0.4	a	0.48	0.33
+4	grandfather	That is the speedy one.	That is ARTICLE ADJECTIVE one.	speedy	14	0.5	the	0.55	0.37
+4	spirit	It is frozen.	It is ADJECTIVE.	frozen	15	0.44	the	0.43	0.32
+4	bin	That one is selfish.	That one is ADJECTIVE.	selfish	16	0.45	a	0.69	0.7
+4	code	This is fast.	This is ADJECTIVE.	fast	17	0.54	a	0.49	0.3
+4	vitamin	This one is old.	This one is ADJECTIVE.	old	18	0.62	the	0.43	0.23
+4	policy	It is square.	It is ADJECTIVE.	square	19	0.48	the	0.39	0.24
+4	spaghetti	That one is overhead.	That one is ADJECTIVE.	overhead	20	0.52	an	0.44	0.71
+4	slant	That is the black one.	That is ARTICLE ADJECTIVE one.	black	21	0.5	the	0.47	0.63
+4	line	This is the blonde one.	This is ARTICLE ADJECTIVE one.	blonde	22	0.62	the	0.51	0.35
+4	weather	This is thin.	This is ADJECTIVE.	thin	23	0.5	a	0.41	0.67
+4	teller	That one is red.	That one is ADJECTIVE.	red	24	0.81	the	0.57	0.72
+4	lettering	That one is corduroy.	That one is ADJECTIVE.	corduroy	25	0.52	the	0.59	0.39
+4	form	This is the everyday one.	This is ARTICLE ADJECTIVE one.	everyday	26	0.52	the	0.49	0.39
+4	country	It is Japanese.	It is ADJECTIVE.	Japanese	27	0.39	a	0.35	0.55
+4	factor	This one is gold.	This one is ADJECTIVE.	gold	28	0.63	the	0.64	0.42
+4	conscience	This one is creamy.	This one is ADJECTIVE.	creamy	29	0.49	the	0.46	0.67
+4	coverage	It is strict.	It is ADJECTIVE.	strict	30	0.5	a	0.37	0.64
+4	food	It is strange.	It is ADJECTIVE.	strange	31	0.38	the	0.53	0.7
+4	suit	This one is individual.	This one is ADJECTIVE.	individual	32	0.64	an	0.51	0.42
+4	ski	This is the last one.	This is ARTICLE ADJECTIVE one.	last	33	0.53	the	0.6	0.37
+5	food	This is new.	This is ADJECTIVE.	new	4	0.24	the	0.15	0.64
+5	club	This is young.	This is ADJECTIVE.	young	5	0.31	a	0.82	0.84
+5	country	That one is wooden.	That one is ADJECTIVE.	wooden	6	0.37	the	0.25	0.45
+5	paper	That is the mini one.	That is ARTICLE ADJECTIVE one.	mini	7	0.26	the	0.74	0.72
+5	background	It is exciting.	It is ADJECTIVE.	exciting	8	0.61	the	0.75	0.87
+5	color	This is the prestigious one.	This is ARTICLE ADJECTIVE one.	prestigious	9	0.38	the	0.5	0.69
+5	leadership	That one is solid.	That one is ADJECTIVE.	solid	10	0.51	a	0.82	0.39
+5	style	This one is crocheted.	This one is ADJECTIVE.	crocheted	11	0.79	a	0.82	0.91
+5	change	This one is old.	This one is ADJECTIVE.	old	12	0.77	an	0.82	0.72
+5	student	It is European.	It is ADJECTIVE.	European	13	0.63	the	0.61	0.74
+5	valley	That is the current one.	That is ARTICLE ADJECTIVE one.	current	14	0.69	the	0.45	0.71
+5	plate	That one is fast.	That one is ADJECTIVE.	fast	15	0.78	a	0.91	0.9
+5	reinforcement	This one is long.	This one is ADJECTIVE.	long	16	0.69	the	0.86	0.46
+5	bin	This is professional.	This is ADJECTIVE.	professional	17	0.38	the	0.9	0.72
+5	sauce	This one is purple.	This one is ADJECTIVE.	purple	18	0.77	a	0.87	0.88
+5	rate	That is a blue one.	That is ARTICLE ADJECTIVE one.	blue	19	0.74	a	0.86	0.52
+5	grandfather	That one is everyday.	That one is ADJECTIVE.	everyday	20	0.7	the	0.78	0.71
+5	money	This is the corduroy one.	This is ARTICLE ADJECTIVE one.	corduroy	21	0.45	the	0.58	0.67
+5	typewriter	That is the black one.	That is ARTICLE ADJECTIVE one.	black	22	0.72	the	0.91	0.75
+5	crime	This is blonde.	This is ADJECTIVE.	blonde	23	0.53	a	0.49	0.67
+5	feeling	This one is individual.	This one is ADJECTIVE.	individual	24	0.75	the	0.81	0.74
+5	voice	This one is narrow.	This one is ADJECTIVE.	narrow	25	0.59	a	0.46	0.68
+5	guy	That is an entrepreneurial one.	That is ARTICLE ADJECTIVE one.	entrepreneurial	26	0.41	an	0.39	0.44
+5	level	It is sweet.	It is ADJECTIVE.	sweet	27	0.7	the	0.69	0.73
+5	engine	It is yellow.	It is ADJECTIVE.	yellow	28	0.63	the	0.52	0.64
+5	satire	This is last.	This is ADJECTIVE.	last	29	0.38	the	0.36	0.27
+5	stuff	That one is favorite.	That one is ADJECTIVE.	favorite	30	0.59	the	0.75	0.46
+5	autobiography	It is open.	It is ADJECTIVE.	open	31	0.52	the	0.77	0.32
+5	school	This one is selfish.	This one is ADJECTIVE.	selfish	32	0.15	the	0.83	0.89
+5	citizen	It is curly.	It is ADJECTIVE.	curly	33	0.16	the	0.86	0.74
+6	lettering	This is international.	This is ADJECTIVE.	international	4	0.12	the	0	0.17
+6	stuff	It is overhead.	It is ADJECTIVE.	overhead	5	0	an	0	0
+6	story	It is new.	It is ADJECTIVE.	new	6	0	the	0	0.08
+6	driveway	That one is thin.	That one is ADJECTIVE.	thin	7	0.06	a	0.03	0.05
+6	environment	This is European.	This is ADJECTIVE.	European	8	0.01	the	0.03	0.03
+6	being	That one is large.	That one is ADJECTIVE.	large	9	0.01	the	0	0.02
+6	food	It is current.	It is ADJECTIVE.	current	10	0.05	the	0.14	0.15
+6	bag	This one is green.	This one is ADJECTIVE.	green	11	0.07	a	0.08	0.08
+6	dough	This one is internal.	This one is ADJECTIVE.	internal	12	0.06	the	0.07	0.03
+6	situation	This is spicy.	This is ADJECTIVE.	spicy	13	0.12	a	0.12	0.18
+6	music	That one is exciting.	That one is ADJECTIVE.	exciting	14	0.33	the	0.54	0.42
+6	satire	It is old.	It is ADJECTIVE.	old	15	0.03	an	0.06	0.05
+6	corporation	That is an everyday one.	That is ARTICLE ADJECTIVE one.	everyday	16	0.08	an	0.12	0.14
+6	car	This is a black one.	This is ARTICLE ADJECTIVE one.	black	17	0.04	a	0	0
+6	libertarian	That one is purple.	That one is ADJECTIVE.	purple	18	0.03	the	0	0.02
+6	typewriter	This is a historical one.	This is ARTICLE ADJECTIVE one.	historical	19	0.03	a	0.05	0.1
+6	book	That is the Vietnamese one.	That is ARTICLE ADJECTIVE one.	Vietnamese	20	0	the	0.01	0.02
+6	hair	That one is long.	That one is ADJECTIVE.	long	21	0.02	the	0.01	0
+6	voice	That one is biggest.	That one is ADJECTIVE.	biggest	22	0.02	the	0.01	0.03
+6	code	That is a smooth one.	That is ARTICLE ADJECTIVE one.	smooth	23	0.02	a	0.03	0.02
+6	farm	This one is pleasant.	This one is ADJECTIVE.	pleasant	24	0.5	the	0.62	0.6
+6	house	This is corduroy.	This is ADJECTIVE.	corduroy	25	0.02	the	0.05	0.05
+6	field	This is plain.	This is ADJECTIVE.	plain	26	0.07	a	0.02	0.08
+6	way	This is the mini one.	This is ARTICLE ADJECTIVE one.	mini	27	0.08	the	0.1	0.07
+6	background	This one is blonde.	This one is ADJECTIVE.	blonde	28	0.06	the	0.01	0.02
+6	style	That is the fast one.	That is ARTICLE ADJECTIVE one.	fast	29	0.04	the	0.02	0.03
+6	room	This is blue.	This is ADJECTIVE.	blue	30	0.04	a	0.03	0.02
+6	leadership	That is the lacy one.	That is ARTICLE ADJECTIVE one.	lacy	31	0.02	the	0.03	0.03
+6	radio	It is best.	It is ADJECTIVE.	best	32	0.23	the	0.28	0.3
+6	area	That one is Brazilian.	That one is ADJECTIVE.	Brazilian	33	0.01	the	0	0.04
+7	color	That is the blue one.	That is ARTICLE ADJECTIVE one.	blue	4	0.02	the	0	0
+7	situation	That is the senior one.	That is ARTICLE ADJECTIVE one.	senior	5	0.17	the	0.48	0.4
+7	dough	This one is yellow.	This one is ADJECTIVE.	yellow	6	0	the	0	0.01
+7	stuff	That one is wooden.	That one is ADJECTIVE.	wooden	7	0.05	the	0	0.03
+7	citizen	It is smooth.	It is ADJECTIVE.	smooth	8	0.17	the	0.42	0.42
+7	parent	This one is long.	This one is ADJECTIVE.	long	9	0.62	the	0.43	0.53
+7	term	That is the pleasant one.	That is ARTICLE ADJECTIVE one.	pleasant	10	0.4	the	0.74	0.68
+7	area	That one is square.	That one is ADJECTIVE.	square	11	0.01	a	0.2	0
+7	strip	It is exciting.	It is ADJECTIVE.	exciting	12	0.72	an	0.72	0.72
+7	field	This one is frozen.	This one is ADJECTIVE.	frozen	13	0.04	the	0	0.02
+7	income	This is the slow one.	This is ARTICLE ADJECTIVE one.	slow	14	0.11	the	0.44	0.58
+7	life	This one is lavish.	This one is ADJECTIVE.	lavish	15	0.58	the	0.6	0.56
+7	tax	This is thin.	This is ADJECTIVE.	thin	16	0.31	a	0.3	0.31
+7	list	This is speedy.	This is ADJECTIVE.	speedy	17	0.22	the	0.61	0.64
+7	teller	It is strict.	It is ADJECTIVE.	strict	18	0.07	a	0.75	0.69
+7	story	This is a thick one.	This is ARTICLE ADJECTIVE one.	thick	19	0.05	a	0.05	0
+7	spirit	This is internal.	This is ADJECTIVE.	internal	20	0.12	the	0.26	0.18
+7	value	That one is everyday.	That one is ADJECTIVE.	everyday	21	0	an	0	0.06
+7	sand	That one is solid.	That one is ADJECTIVE.	solid	22	0.05	the	0.05	0
+7	region	This is civilized.	This is ADJECTIVE.	civilized	23	0.42	a	0.43	0.34
+7	food	This one is favorite.	This one is ADJECTIVE.	favorite	24	0.64	the	0.81	0.88
+7	luck	This is a sad one.	This is ARTICLE ADJECTIVE one.	sad	25	0.78	a	0.87	0.85
+7	city	It is token.	It is ADJECTIVE.	token	26	0.07	a	0	0
+7	child	That is the old-time one.	That is ARTICLE ADJECTIVE one.	old-time	27	0.08	the	0.49	0.27
+7	satire	That one is corduroy.	That one is ADJECTIVE.	corduroy	28	0.12	the	0	0
+7	plan	This one is potential.	This one is ADJECTIVE.	potential	29	0.16	a	0.09	0.05
+7	can	This is mini.	This is ADJECTIVE.	mini	30	0.12	the	0.08	0.1
+7	shot	This is Hispanic.	This is ADJECTIVE.	Hispanic	31	0.09	a	0	0.08
+7	rate	It is historical.	It is ADJECTIVE.	historical	32	0.12	the	0.16	0.23
+7	coverage	It is selfish.	It is ADJECTIVE.	selfish	33	0.45	the	0.63	0.74

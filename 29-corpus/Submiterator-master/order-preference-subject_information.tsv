@@ -1,0 +1,9 @@
+workerid	language	enjoyment	gender	age	suggested_pay	comments	adjective1	asses	adjective2
+0	English	1	Female	27	1.00		{u'Predicate': u'biggest', u'Class': u'dimension'}	Yes	{u'Predicate': u'large', u'Class': u'dimension'}
+1	English	0	Male	29	.7	none	{u'Predicate': u'biggest', u'Class': u'dimension'}	Yes	{u'Predicate': u'large', u'Class': u'dimension'}
+2	English	1	Male	26	.70		{u'Predicate': u'biggest', u'Class': u'dimension'}	No	{u'Predicate': u'large', u'Class': u'dimension'}
+3	English	1	Male	39	1.00	Just would like to say thanks!	{u'Predicate': u'biggest', u'Class': u'dimension'}	Yes	{u'Predicate': u'large', u'Class': u'dimension'}
+4	english	0	Male	32	1		{u'Predicate': u'biggest', u'Class': u'dimension'}	Yes	{u'Predicate': u'large', u'Class': u'dimension'}
+5	english	1	Female	47	.50	Wouldn&quotechart punctuation have better?  Like ! or ?	{u'Predicate': u'biggest', u'Class': u'dimension'}	No	{u'Predicate': u'large', u'Class': u'dimension'}
+6	English	1	Other	32	1		{u'Predicate': u'biggest', u'Class': u'dimension'}	Yes	{u'Predicate': u'large', u'Class': u'dimension'}
+7	english	2	Male	21	1		{u'Predicate': u'biggest', u'Class': u'dimension'}	Yes	{u'Predicate': u'large', u'Class': u'dimension'}

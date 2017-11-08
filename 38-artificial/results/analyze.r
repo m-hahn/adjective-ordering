@@ -29,8 +29,24 @@ correctByWorker = aggregate(data["correctQuiz"], by=c(data["workerid"]), mean, n
 dataS = merge(dataS, correctByWorker)
 dataS = dataS[dataS$correctQuiz > 0.85,]
 
+########################################################
+# look at whether the manipulation worked
+
+subjAgr = aggregate(c(data["adj1_disagreement"], data["adj2_disagreement"], data["adj1_subj"], data["adj2_subj"]), by=c(data["workerid"]), mean, na.rm=TRUE)
+
+subjAgr$disagrDiff = subjAgr$adj1_disagreement - subjAgr$adj2_disagreement
+subjAgr$subjDiff = subjAgr$adj1_subj - subjAgr$adj2_subj
+data$adj1_subj = NULL
+data$adj2_subj = NULL
+data$adj1_disagreement = NULL
+data$adj1_disagreement = NULL
+
+dataS = merge(dataS, subjAgr, by=c("workerid"))
+
 # Merge trial and subject data
 data = merge(data, dataS, by=c("workerid"))
+
+
 
 ######################################################
 ######################################################
@@ -86,6 +102,12 @@ dataAA = centerColumn(dataAA, "subjectiveFirst")
 # The prediction is that the effect of subjectiveFirst is positive.
 m = lmer(response ~ subjectiveFirst + (1|workerid) + (1|predicate1) + (1|predicate2), data=dataAA)
 summary(m)
+
+dataAA = centerColumn(dataAA, "subjDiff")
+dataAA = centerColumn(dataAA, "disagrDiff")
+m = lmer(response ~ subjectiveFirst.Centered*subjDiff.Centered + (1|workerid) + (1|predicate1) + (1|predicate2), data=dataAA)
+summary(m)
+
 
 library('tidyverse')
 
@@ -145,6 +167,7 @@ data5$inContext = !is.na(data5$relevant_adjective)
 data5 = centerColumn(data5, "inContext")
 data5 = centerColumn(data5, "alienWordIsFirst")
 data5 = centerColumn(data5, "nonAlienAdjectiveIsColor")
+data5 = centerColumn(data5, "subjDiff")
 
 # MAIN ANALYSIS
 # Analysis: predict rating for `alien first' based on containsSubjectiveAdjective
@@ -190,6 +213,22 @@ dodge = position_dodge(.9)
 
 pdf('plots/order-ratings.pdf')
 ggplot(agr, aes(x=containsSubjectiveAdjective.Label,y=Mean,fill=containsSubjectiveAdjective.Label)) +
+  geom_bar(stat="identity",position=dodge) +
+  geom_errorbar(aes(ymin=Mean-CILow,ymax=Mean+CIHigh),position=dodge,width=.25) +
+  facet_wrap(~nonAlienAdjectiveIsColor.Label+inContext.Label)+
+  ylab('Rating for Alien First') +
+  xlab('Type of Alien Adjective')
+dev.off()
+
+# plot by effect strength of manipulation
+data5$manipulationEffect = ifelse(data5$subjDiff < 0.22, "<33%", ifelse(data5$subjDiff < 0.65, "<67%", ">67%"))
+agr = data5 %>%
+  group_by(manipulationEffect, containsSubjectiveAdjective.Label, nonAlienAdjectiveIsColor.Label, inContext.Label) %>%
+  summarise(Mean = mean(responseAlienFirst), CILow = ci.low.grouped(data5$responseAlienFirst, data5$workerid, (1:nrow(data5))), CIHigh = ci.high.grouped(data5$responseAlienFirst, data5$workerid, (1:nrow(data5))))
+dodge = position_dodge(.9)
+
+pdf('plots/order-ratings-by-manipulation-effect.pdf')
+ggplot(agr, aes(x=containsSubjectiveAdjective.Label,y=Mean,fill=containsSubjectiveAdjective.Label, color=manipulationEffect)) +
   geom_bar(stat="identity",position=dodge) +
   geom_errorbar(aes(ymin=Mean-CILow,ymax=Mean+CIHigh),position=dodge,width=.25) +
   facet_wrap(~nonAlienAdjectiveIsColor.Label+inContext.Label)+
@@ -312,3 +351,30 @@ ggplot(agr, aes(x=AdjType, y=MeanSubjectivity)) +
   geom_bar(stat="identity",position=dodge) +
   geom_errorbar(aes(ymin=YMin,ymax=YMax),position=dodge,width=.25) +
   geom_line(data=d_subj,aes(group=workerid,y=Subjectivity), alpha=.3)
+
+##################################
+
+# same for faultless disagreement
+d_disagreement = data %>%
+  filter(!is.na(adj1_disagreement)) %>%
+  select(workerid,adj2_disagreement,adj1_disagreement,subjective_adjective,objective_adjective) %>%
+  gather(AdjType, Adjective, -workerid, -adj2_disagreement, -adj1_disagreement) %>%
+  gather(SubjValueAdjType, FaultlessDisagreement, -workerid,-AdjType,-Adjective) %>%
+  filter(AdjType == "subjective_adjective" & SubjValueAdjType == "adj1_disagreement" | AdjType == "objective_adjective" & SubjValueAdjType == "adj2_disagreement")
+nrow(d_disagreement)
+d_disagreement
+
+agr = d_disagreement %>%
+  group_by(AdjType) %>%
+  summarize(MeanFaultlessDisagreement = mean(FaultlessDisagreement), CILow=ci.low(FaultlessDisagreement), CIHigh=ci.high(FaultlessDisagreement)) %>%
+  mutate(YMin=MeanFaultlessDisagreement-CILow,YMax=MeanFaultlessDisagreement+CIHigh)
+dodge = position_dodge(.9)
+
+ggplot(agr, aes(x=AdjType, y=MeanFaultlessDisagreement)) +
+  geom_bar(stat="identity",position=dodge) +
+  geom_errorbar(aes(ymin=YMin,ymax=YMax),position=dodge,width=.25) +
+  geom_line(data=d_disagreement,aes(group=workerid,y=FaultlessDisagreement), alpha=.3)
+
+
+
+
