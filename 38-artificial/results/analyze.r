@@ -134,6 +134,7 @@ ggsave('plots/alien_pairs_merged.pdf', plot=plot)
 
 
 
+dataA2$manipulationEffect = ifelse(dataA2$subjDiff < 0.22, "<33%", ifelse(dataA2$subjDiff < 0.65, "<67%", ">67%"))
 
 ###########################################
 ###########################################
@@ -221,14 +222,14 @@ ggplot(agr, aes(x=containsSubjectiveAdjective.Label,y=Mean,fill=containsSubjecti
 dev.off()
 
 # plot by effect strength of manipulation
-data5$manipulationEffect = ifelse(data5$subjDiff < 0.22, "<33%", ifelse(data5$subjDiff < 0.65, "<67%", ">67%"))
+data5$manipulationEffect = ifelse(data5$subjDiff < 0.0, "0 Opposite", ifelse(data5$subjDiff < 0.4, "1 Small", "2 Big"))
 agr = data5 %>%
   group_by(manipulationEffect, containsSubjectiveAdjective.Label, nonAlienAdjectiveIsColor.Label, inContext.Label) %>%
   summarise(Mean = mean(responseAlienFirst), CILow = ci.low.grouped(data5$responseAlienFirst, data5$workerid, (1:nrow(data5))), CIHigh = ci.high.grouped(data5$responseAlienFirst, data5$workerid, (1:nrow(data5))))
 dodge = position_dodge(.9)
 
 pdf('plots/order-ratings-by-manipulation-effect.pdf')
-ggplot(agr, aes(x=containsSubjectiveAdjective.Label,y=Mean,fill=containsSubjectiveAdjective.Label, color=manipulationEffect)) +
+ggplot(agr, aes(x=containsSubjectiveAdjective.Label,y=Mean, fill=manipulationEffect)) +
   geom_bar(stat="identity",position=dodge) +
   geom_errorbar(aes(ymin=Mean-CILow,ymax=Mean+CIHigh),position=dodge,width=.25) +
   facet_wrap(~nonAlienAdjectiveIsColor.Label+inContext.Label)+
