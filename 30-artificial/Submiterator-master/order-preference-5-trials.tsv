@@ -253,3 +253,384 @@ workerid	adjective	quiz_response	relevant_adjective	text	enteredText	response	co
 1	NA	NA	NA	NA	NA	1	NA	NA	160	green	big	NA	NA
 1	NA	NA	NA	NA	NA	0	NA	NA	161	green	muic	NA	NA
 1	NA	NA	NA	NA	NA	NA	NA	not reactive with metal	162	NA	NA	NA	a latched door
+2	kolch	first	NA	NA	NA	NA	first	NA	6	NA	NA	NA	NA
+2	kolch	first	NA	NA	NA	NA	first	NA	7	NA	NA	NA	NA
+2	kolch	first	NA	NA	NA	NA	first	NA	8	NA	NA	NA	NA
+2	lann	first	NA	NA	NA	NA	first	NA	9	NA	NA	NA	NA
+2	lann	first	NA	NA	NA	NA	second	NA	10	NA	NA	NA	NA
+2	kolch	second	NA	NA	NA	NA	second	NA	11	NA	NA	NA	NA
+2	kolch	second	NA	NA	NA	NA	second	NA	12	NA	NA	NA	NA
+2	kolch	first	NA	NA	NA	NA	second	NA	13	NA	NA	NA	NA
+2	kolch	first	NA	NA	NA	NA	first	NA	14	NA	NA	NA	NA
+2	lann	first	NA	NA	NA	NA	second	NA	15	NA	NA	NA	NA
+2	lann	first	NA	NA	NA	NA	first	NA	16	NA	NA	NA	NA
+2	lann	second	NA	NA	NA	NA	first	NA	17	NA	NA	NA	NA
+2	lann	first	NA	NA	NA	NA	second	NA	18	NA	NA	NA	NA
+2	kolch	first	NA	NA	NA	NA	first	NA	19	NA	NA	NA	NA
+2	lann	second	NA	NA	NA	NA	second	NA	20	NA	NA	NA	NA
+2	kolch	first	NA	NA	NA	NA	first	NA	21	NA	NA	NA	NA
+2	lann	second	NA	NA	NA	NA	first	NA	22	NA	NA	NA	NA
+2	kolch	second	NA	NA	NA	NA	second	NA	23	NA	NA	NA	NA
+2	kolch	first	NA	NA	NA	NA	first	NA	24	NA	NA	NA	NA
+2	lann	second	NA	NA	NA	NA	second	NA	25	NA	NA	NA	NA
+2	kolch	second	NA	NA	NA	NA	second	NA	26	NA	NA	NA	NA
+2	lann	first	NA	NA	NA	NA	second	NA	27	NA	NA	NA	NA
+2	kolch	first	NA	NA	NA	NA	first	NA	28	NA	NA	NA	NA
+2	lann	second	NA	NA	NA	NA	second	NA	29	NA	NA	NA	NA
+2	kolch	second	NA	NA	NA	NA	second	NA	30	NA	NA	NA	NA
+2	kolch	first	NA	NA	NA	NA	first	NA	31	NA	NA	NA	NA
+2	lann	second	NA	NA	NA	NA	second	NA	32	NA	NA	NA	NA
+2	lann	first	NA	NA	NA	NA	first	NA	33	NA	NA	NA	NA
+2	kolch	second	NA	NA	NA	NA	second	NA	34	NA	NA	NA	NA
+2	lann	second	NA	NA	NA	NA	first	NA	35	NA	NA	NA	NA
+2	kolch	first	NA	NA	NA	NA	second	NA	36	NA	NA	NA	NA
+2	lann	second	NA	NA	NA	NA	second	NA	37	NA	NA	NA	NA
+2	kolch	second	NA	NA	NA	NA	second	NA	38	NA	NA	NA	NA
+2	kolch	second	NA	NA	NA	NA	second	NA	39	NA	NA	NA	NA
+2	lann	second	NA	NA	NA	NA	second	NA	40	NA	NA	NA	NA
+2	kolch	first	NA	NA	NA	NA	first	NA	41	NA	NA	NA	NA
+2	lann	first	NA	NA	NA	NA	first	NA	42	NA	NA	NA	NA
+2	kolch	second	NA	NA	NA	NA	second	NA	43	NA	NA	NA	NA
+2	kolch	second	NA	NA	NA	NA	second	NA	44	NA	NA	NA	NA
+2	lann	second	NA	NA	NA	NA	second	NA	45	NA	NA	NA	NA
+2	kolch	second	NA	NA	NA	NA	first	NA	46	NA	NA	NA	NA
+2	lann	first	NA	NA	NA	NA	first	NA	47	NA	NA	NA	NA
+2	lann	second	NA	NA	NA	NA	first	NA	48	NA	NA	NA	NA
+2	lann	first	NA	NA	NA	NA	first	NA	49	NA	NA	NA	NA
+2	lann	first	NA	NA	NA	NA	second	NA	50	NA	NA	NA	NA
+2	lann	first	NA	NA	NA	NA	first	NA	51	NA	NA	NA	NA
+2	kolch	first	NA	NA	NA	NA	first	NA	52	NA	NA	NA	NA
+2	lann	first	NA	NA	NA	NA	first	NA	53	NA	NA	NA	NA
+2	NA	NA	NA	NA	the blue spaceship  	NA	NA	NA	55	NA	NA	underspecified	NA
+2	NA	NA	NA	NA	the green spaceship  	NA	NA	NA	56	NA	NA	correct	NA
+2	NA	NA	NA	NA	the green spaceship  	NA	NA	NA	57	NA	NA	correct	NA
+2	NA	NA	NA	NA	the red spaceship the red	NA	NA	NA	58	NA	NA	correct	NA
+2	NA	NA	NA	NA	the red lann  	NA	NA	NA	59	NA	NA	correct	NA
+2	NA	NA	NA	NA	the kolch spaceship  	NA	NA	NA	60	NA	NA	underspecified	NA
+2	NA	NA	NA	NA	the green spaceship  	NA	NA	NA	61	NA	NA	underspecified	NA
+2	NA	NA	NA	NA	the red spaceship  	NA	NA	NA	62	NA	NA	underspecified	NA
+2	NA	NA	NA	NA	the blue lann  	NA	NA	NA	63	NA	NA	wrong	NA
+2	NA	NA	NA	NA	the blue kolch  	NA	NA	NA	64	NA	NA	underspecified	NA
+2	NA	NA	NA	NA	the green kolch  	NA	NA	NA	65	NA	NA	correct	NA
+2	NA	NA	NA	NA	the blue kolch  	NA	NA	NA	66	NA	NA	underspecified	NA
+2	NA	NA	NA	NA	the red lann  	NA	NA	NA	67	NA	NA	underspecified	NA
+2	NA	NA	NA	NA	the green lann  	NA	NA	NA	68	NA	NA	underspecified	NA
+2	NA	NA	NA	NA	the green kolch  	NA	NA	NA	69	NA	NA	correct	NA
+2	NA	NA	NA	NA	the blue kolch  	NA	NA	NA	70	NA	NA	underspecified	NA
+2	NA	NA	NA	NA	the green kolch  	NA	NA	NA	71	NA	NA	correct	NA
+2	NA	NA	NA	NA	the blue lann  	NA	NA	NA	72	NA	NA	underspecified	NA
+2	NA	NA	NA	NA	the green kolch  	NA	NA	NA	73	NA	NA	correct	NA
+2	NA	NA	NA	NA	the blue kolch  	NA	NA	NA	74	NA	NA	correct	NA
+2	NA	NA	NA	NA	the red lann spaceship 	NA	NA	NA	75	NA	NA	underspecified	NA
+2	NA	NA	NA	NA	the red kolch  	NA	NA	NA	76	NA	NA	correct	NA
+2	NA	NA	NA	NA	the blue lann  	NA	NA	NA	77	NA	NA	correct	NA
+2	NA	NA	NA	NA	the blue kolch  	NA	NA	NA	78	NA	NA	correct	NA
+2	NA	NA	NA	NA	the blue lann  	NA	NA	NA	79	NA	NA	correct	NA
+2	NA	NA	NA	NA	the red kolch  	NA	NA	NA	80	NA	NA	correct	NA
+2	NA	NA	NA	NA	the red lann	NA	NA	NA	82	NA	NA	correct	NA
+2	NA	NA	NA	NA	the blue kolch	NA	NA	NA	83	NA	NA	correct	NA
+2	NA	NA	NA	NA	the green kolch	NA	NA	NA	84	NA	NA	correct	NA
+2	NA	NA	NA	NA	the green lann	NA	NA	NA	85	NA	NA	correct	NA
+2	NA	NA	NA	NA	the red kolch	NA	NA	NA	86	NA	NA	correct	NA
+2	NA	NA	NA	NA	the red kolch	NA	NA	NA	87	NA	NA	correct	NA
+2	NA	NA	NA	NA	the blue kolch	NA	NA	NA	88	NA	NA	correct	NA
+2	NA	NA	NA	NA	the red lann	NA	NA	NA	89	NA	NA	correct	NA
+2	NA	NA	NA	NA	the red kolch	NA	NA	NA	90	NA	NA	correct	NA
+2	NA	NA	NA	NA	the green kolch	NA	NA	NA	91	NA	NA	correct	NA
+2	NA	NA	NA	NA	the green kolch	NA	NA	NA	92	NA	NA	underspecified	NA
+2	NA	NA	NA	NA	the red kolch	NA	NA	NA	93	NA	NA	underspecified	NA
+2	NA	NA	NA	NA	the blue kolch	NA	NA	NA	94	NA	NA	correct	NA
+2	NA	NA	NA	NA	the green kolch	NA	NA	NA	95	NA	NA	correct	NA
+2	NA	NA	NA	NA	the red kolch	NA	NA	NA	96	NA	NA	underspecified	NA
+2	NA	NA	NA	NA	blue lann	NA	NA	NA	97	NA	NA	correct	NA
+2	NA	NA	NA	NA	blue kolch	NA	NA	NA	98	NA	NA	underspecified	NA
+2	NA	NA	NA	NA	red kolch	NA	NA	NA	99	NA	NA	underspecified	NA
+2	NA	NA	NA	NA	green kolch	NA	NA	NA	100	NA	NA	correct	NA
+2	NA	NA	NA	NA	blue kolch	NA	NA	NA	101	NA	NA	correct	NA
+2	NA	NA	NA	NA	blue lann	NA	NA	NA	102	NA	NA	correct	NA
+2	NA	NA	NA	NA	red kolch	NA	NA	NA	103	NA	NA	correct	NA
+2	NA	NA	NA	NA	green kolch	NA	NA	NA	104	NA	NA	correct	NA
+2	NA	NA	NA	NA	blue kolch	NA	NA	NA	105	NA	NA	underspecified	NA
+2	NA	NA	NA	NA	green kolch	NA	NA	NA	106	NA	NA	correct	NA
+2	NA	NA	NA	NA	blue kolch	NA	NA	NA	107	NA	NA	correct	NA
+2	NA	NA	NA	NA	blue kolch	NA	NA	NA	109	NA	NA	correct	NA
+2	NA	NA	kolch	My first ship had the same shape as this...	NA	0.88	NA	NA	136	kolch	red	NA	NA
+2	NA	NA	kolch	For long distances, I use saucers. The best one is this...	NA	0.9	NA	NA	137	kolch	red	NA	NA
+2	NA	NA	NONE	My friend used to fly this...	NA	0.14	NA	NA	138	red	kolch	NA	NA
+2	NA	NA	green	I like ships that have the same color as I have, like this...	NA	0.8	NA	NA	139	kolch	green	NA	NA
+2	NA	NA	red	What a nice color. I like flying this...	NA	0.13	NA	NA	140	red	lann	NA	NA
+2	NA	NA	NONE	On our planet, many aliens fly ships like this...	NA	0.04	NA	NA	141	red	lann	NA	NA
+2	NA	NA	lann	The more spikes, the better. My favorite one is this...	NA	0.82	NA	NA	142	kolch	lann	NA	NA
+2	NA	NA	lann	Wow, so many fins &#8210; I like this...	NA	0.9	NA	NA	143	blue	lann	NA	NA
+2	NA	NA	lann	I really don&quotechart like ships with many spikes, like this...	NA	0.93	NA	NA	144	kolch	lann	NA	NA
+2	NA	NA	kolch	Humans think all our ships look like saucers, like this...	NA	0.07	NA	NA	145	kolch	green	NA	NA
+2	NA	NA	lann	Ugh, too many fins &#8210; I hate flying this...	NA	0.08	NA	NA	146	red	lann	NA	NA
+2	NA	NA	NA	NA	NA	0.05	NA	NA	148	big	lann	NA	NA
+2	NA	NA	NA	NA	NA	0.84	NA	NA	149	blue	small	NA	NA
+2	NA	NA	NA	NA	NA	0.93	NA	NA	150	green	big	NA	NA
+2	NA	NA	NA	NA	NA	0.21	NA	NA	151	blue	kolch	NA	NA
+2	NA	NA	NA	NA	NA	0.14	NA	NA	152	blue	lann	NA	NA
+2	NA	NA	NA	NA	NA	0.09	NA	NA	153	small	lann	NA	NA
+2	NA	NA	NA	NA	NA	0.14	NA	NA	154	lann	kolch	NA	NA
+2	NA	NA	NA	NA	NA	0.19	NA	NA	155	small	kolch	NA	NA
+2	NA	NA	NA	NA	NA	0.77	NA	NA	156	kolch	big	NA	NA
+2	NA	NA	NA	NA	NA	0.8	NA	NA	157	lann	green	NA	NA
+2	NA	NA	NA	NA	NA	0.11	NA	NA	158	big	red	NA	NA
+2	NA	NA	NA	NA	NA	0.07	NA	NA	159	red	lann	NA	NA
+2	NA	NA	NA	NA	NA	0.05	NA	NA	160	green	kolch	NA	NA
+2	NA	NA	NA	NA	NA	0.89	NA	NA	161	kolch	red	NA	NA
+2	NA	NA	NA	NA	NA	NA	NA	large	162	NA	NA	NA	thin
+3	scrib	first	NA	NA	NA	NA	first	NA	6	NA	NA	NA	NA
+3	scrib	second	NA	NA	NA	NA	second	NA	7	NA	NA	NA	NA
+3	scrib	first	NA	NA	NA	NA	first	NA	8	NA	NA	NA	NA
+3	lann	second	NA	NA	NA	NA	second	NA	9	NA	NA	NA	NA
+3	lann	second	NA	NA	NA	NA	second	NA	10	NA	NA	NA	NA
+3	lann	first	NA	NA	NA	NA	first	NA	11	NA	NA	NA	NA
+3	scrib	second	NA	NA	NA	NA	second	NA	12	NA	NA	NA	NA
+3	lann	first	NA	NA	NA	NA	first	NA	13	NA	NA	NA	NA
+3	scrib	first	NA	NA	NA	NA	first	NA	14	NA	NA	NA	NA
+3	scrib	first	NA	NA	NA	NA	first	NA	15	NA	NA	NA	NA
+3	scrib	second	NA	NA	NA	NA	second	NA	16	NA	NA	NA	NA
+3	lann	second	NA	NA	NA	NA	second	NA	17	NA	NA	NA	NA
+3	lann	second	NA	NA	NA	NA	second	NA	18	NA	NA	NA	NA
+3	scrib	first	NA	NA	NA	NA	first	NA	19	NA	NA	NA	NA
+3	lann	second	NA	NA	NA	NA	second	NA	20	NA	NA	NA	NA
+3	lann	second	NA	NA	NA	NA	second	NA	21	NA	NA	NA	NA
+3	lann	first	NA	NA	NA	NA	first	NA	22	NA	NA	NA	NA
+3	lann	second	NA	NA	NA	NA	second	NA	23	NA	NA	NA	NA
+3	lann	second	NA	NA	NA	NA	second	NA	24	NA	NA	NA	NA
+3	scrib	first	NA	NA	NA	NA	second	NA	25	NA	NA	NA	NA
+3	scrib	second	NA	NA	NA	NA	second	NA	26	NA	NA	NA	NA
+3	scrib	first	NA	NA	NA	NA	first	NA	27	NA	NA	NA	NA
+3	scrib	first	NA	NA	NA	NA	first	NA	28	NA	NA	NA	NA
+3	lann	second	NA	NA	NA	NA	second	NA	29	NA	NA	NA	NA
+3	scrib	first	NA	NA	NA	NA	first	NA	30	NA	NA	NA	NA
+3	scrib	second	NA	NA	NA	NA	second	NA	31	NA	NA	NA	NA
+3	lann	first	NA	NA	NA	NA	first	NA	32	NA	NA	NA	NA
+3	scrib	second	NA	NA	NA	NA	second	NA	33	NA	NA	NA	NA
+3	scrib	first	NA	NA	NA	NA	first	NA	34	NA	NA	NA	NA
+3	lann	first	NA	NA	NA	NA	first	NA	35	NA	NA	NA	NA
+3	scrib	first	NA	NA	NA	NA	first	NA	36	NA	NA	NA	NA
+3	scrib	first	NA	NA	NA	NA	first	NA	37	NA	NA	NA	NA
+3	lann	first	NA	NA	NA	NA	first	NA	38	NA	NA	NA	NA
+3	scrib	second	NA	NA	NA	NA	second	NA	39	NA	NA	NA	NA
+3	lann	first	NA	NA	NA	NA	first	NA	40	NA	NA	NA	NA
+3	scrib	first	NA	NA	NA	NA	first	NA	41	NA	NA	NA	NA
+3	lann	second	NA	NA	NA	NA	second	NA	42	NA	NA	NA	NA
+3	lann	second	NA	NA	NA	NA	second	NA	43	NA	NA	NA	NA
+3	lann	first	NA	NA	NA	NA	first	NA	44	NA	NA	NA	NA
+3	scrib	second	NA	NA	NA	NA	second	NA	45	NA	NA	NA	NA
+3	scrib	first	NA	NA	NA	NA	first	NA	46	NA	NA	NA	NA
+3	lann	second	NA	NA	NA	NA	second	NA	47	NA	NA	NA	NA
+3	lann	second	NA	NA	NA	NA	second	NA	48	NA	NA	NA	NA
+3	lann	second	NA	NA	NA	NA	second	NA	49	NA	NA	NA	NA
+3	lann	second	NA	NA	NA	NA	second	NA	50	NA	NA	NA	NA
+3	lann	second	NA	NA	NA	NA	second	NA	51	NA	NA	NA	NA
+3	scrib	first	NA	NA	NA	NA	first	NA	52	NA	NA	NA	NA
+3	scrib	second	NA	NA	NA	NA	second	NA	53	NA	NA	NA	NA
+3	NA	NA	NA	NA	the lann spaceship green 	NA	NA	NA	55	NA	NA	inconsistent	NA
+3	NA	NA	NA	NA	the lann scrib spaceship green	NA	NA	NA	56	NA	NA	correct	NA
+3	NA	NA	NA	NA	the lann spaceship blue 	NA	NA	NA	57	NA	NA	correct	NA
+3	NA	NA	NA	NA	the scrib lann spaceship blue	NA	NA	NA	58	NA	NA	correct	NA
+3	NA	NA	NA	NA	the lann spaceship green 	NA	NA	NA	59	NA	NA	correct	NA
+3	NA	NA	NA	NA	the lann spaceship green 	NA	NA	NA	60	NA	NA	correct	NA
+3	NA	NA	NA	NA	the lann spaceship scrib 	NA	NA	NA	61	NA	NA	correct	NA
+3	NA	NA	NA	NA	the lann spaceship  	NA	NA	NA	62	NA	NA	correct	NA
+3	NA	NA	NA	NA	the lann spaceship  	NA	NA	NA	63	NA	NA	correct	NA
+3	NA	NA	NA	NA	the lann spaceship blue 	NA	NA	NA	64	NA	NA	correct	NA
+3	NA	NA	NA	NA	the lann spaceship scrib green	NA	NA	NA	65	NA	NA	underspecified	NA
+3	NA	NA	NA	NA	the lann spaceship scrib 	NA	NA	NA	66	NA	NA	correct	NA
+3	NA	NA	NA	NA	the scrib spaceship red 	NA	NA	NA	67	NA	NA	underspecified	NA
+3	NA	NA	NA	NA	the lann spaceship scrib 	NA	NA	NA	68	NA	NA	correct	NA
+3	NA	NA	NA	NA	the red spaceship  	NA	NA	NA	69	NA	NA	correct	NA
+3	NA	NA	NA	NA	the green spaceship scrib 	NA	NA	NA	70	NA	NA	correct	NA
+3	NA	NA	NA	NA	the scrib red spaceship 	NA	NA	NA	71	NA	NA	correct	NA
+3	NA	NA	NA	NA	the red lann spaceship 	NA	NA	NA	72	NA	NA	correct	NA
+3	NA	NA	NA	NA	the scrib blue lann spaceship	NA	NA	NA	73	NA	NA	correct	NA
+3	NA	NA	NA	NA	the blue lann spaceship 	NA	NA	NA	74	NA	NA	correct	NA
+3	NA	NA	NA	NA	the blue lann spaceship 	NA	NA	NA	75	NA	NA	correct	NA
+3	NA	NA	NA	NA	the blue scrib spaceship 	NA	NA	NA	76	NA	NA	correct	NA
+3	NA	NA	NA	NA	the blue lann scrib spaceship	NA	NA	NA	77	NA	NA	correct	NA
+3	NA	NA	NA	NA	the red lann spaceship 	NA	NA	NA	78	NA	NA	correct	NA
+3	NA	NA	NA	NA	the red lann scrib spaceship	NA	NA	NA	79	NA	NA	correct	NA
+3	NA	NA	NA	NA	the green spaceship  	NA	NA	NA	80	NA	NA	correct	NA
+3	NA	NA	NA	NA	the blue spaceship	NA	NA	NA	82	NA	NA	correct	NA
+3	NA	NA	NA	NA	the green lann spaceship	NA	NA	NA	83	NA	NA	correct	NA
+3	NA	NA	NA	NA	the green scrib spaceship	NA	NA	NA	84	NA	NA	correct	NA
+3	NA	NA	NA	NA	the green scrib spaceship	NA	NA	NA	85	NA	NA	correct	NA
+3	NA	NA	NA	NA	the red lann spaceship	NA	NA	NA	86	NA	NA	correct	NA
+3	NA	NA	NA	NA	the blue lann scrib spaceship	NA	NA	NA	87	NA	NA	correct	NA
+3	NA	NA	NA	NA	the blue lann scrib spaceship	NA	NA	NA	88	NA	NA	correct	NA
+3	NA	NA	NA	NA	the blue lann scrib spaceship	NA	NA	NA	89	NA	NA	correct	NA
+3	NA	NA	NA	NA	the blue scrib spaceship	NA	NA	NA	90	NA	NA	correct	NA
+3	NA	NA	NA	NA	the lann spaceship	NA	NA	NA	91	NA	NA	correct	NA
+3	NA	NA	NA	NA	the lann scrib spaceship	NA	NA	NA	92	NA	NA	correct	NA
+3	NA	NA	NA	NA	blue lann spaceship	NA	NA	NA	93	NA	NA	correct	NA
+3	NA	NA	NA	NA	blue lann spaceship	NA	NA	NA	94	NA	NA	correct	NA
+3	NA	NA	NA	NA	blue lann scrib	NA	NA	NA	95	NA	NA	correct	NA
+3	NA	NA	NA	NA	green lann	NA	NA	NA	96	NA	NA	correct	NA
+3	NA	NA	NA	NA	lann	NA	NA	NA	97	NA	NA	correct	NA
+3	NA	NA	NA	NA	red	NA	NA	NA	98	NA	NA	correct	NA
+3	NA	NA	NA	NA	red scrib	NA	NA	NA	99	NA	NA	correct	NA
+3	NA	NA	NA	NA	lann scrib	NA	NA	NA	100	NA	NA	correct	NA
+3	NA	NA	NA	NA	green	NA	NA	NA	101	NA	NA	correct	NA
+3	NA	NA	NA	NA	green scrib	NA	NA	NA	102	NA	NA	correct	NA
+3	NA	NA	NA	NA	red scrib lann	NA	NA	NA	103	NA	NA	correct	NA
+3	NA	NA	NA	NA	red scrib	NA	NA	NA	104	NA	NA	correct	NA
+3	NA	NA	NA	NA	blue lann	NA	NA	NA	105	NA	NA	correct	NA
+3	NA	NA	NA	NA	green lann	NA	NA	NA	106	NA	NA	correct	NA
+3	NA	NA	NA	NA	red lann	NA	NA	NA	107	NA	NA	correct	NA
+3	NA	NA	NA	NA	green scrib	NA	NA	NA	109	NA	NA	correct	NA
+3	NA	NA	lann	Humans think all our ships look like saucers, like this...	NA	1	NA	NA	136	lann	red	NA	NA
+3	NA	NA	NONE	My friend used to fly this...	NA	0	NA	NA	137	blue	lann	NA	NA
+3	NA	NA	scrib	The more spikes, the better. My favorite one is this...	NA	0	NA	NA	138	scrib	lann	NA	NA
+3	NA	NA	green	I like ships that have the same color as I have, like this...	NA	0	NA	NA	139	green	lann	NA	NA
+3	NA	NA	NONE	On our planet, many aliens fly ships like this...	NA	1	NA	NA	140	scrib	green	NA	NA
+3	NA	NA	lann	For long distances, I use saucers. The best one is this...	NA	1	NA	NA	141	lann	blue	NA	NA
+3	NA	NA	blue	What a nice color. I like flying this...	NA	1	NA	NA	142	scrib	blue	NA	NA
+3	NA	NA	scrib	Wow, so many fins &#8210; I like this...	NA	1	NA	NA	143	scrib	red	NA	NA
+3	NA	NA	lann	My first ship had the same shape as this...	NA	0	NA	NA	144	blue	lann	NA	NA
+3	NA	NA	scrib	I really don&quotechart like ships with many spikes, like this...	NA	1	NA	NA	145	lann	scrib	NA	NA
+3	NA	NA	scrib	Ugh, too many fins &#8210; I hate flying this...	NA	0	NA	NA	146	green	scrib	NA	NA
+3	NA	NA	NA	NA	NA	0	NA	NA	148	big	blue	NA	NA
+3	NA	NA	NA	NA	NA	0	NA	NA	149	small	lann	NA	NA
+3	NA	NA	NA	NA	NA	0	NA	NA	150	small	red	NA	NA
+3	NA	NA	NA	NA	NA	1	NA	NA	151	scrib	small	NA	NA
+3	NA	NA	NA	NA	NA	1	NA	NA	152	lann	red	NA	NA
+3	NA	NA	NA	NA	NA	1	NA	NA	153	lann	big	NA	NA
+3	NA	NA	NA	NA	NA	1	NA	NA	154	scrib	red	NA	NA
+3	NA	NA	NA	NA	NA	1	NA	NA	155	lann	blue	NA	NA
+3	NA	NA	NA	NA	NA	0	NA	NA	156	big	scrib	NA	NA
+3	NA	NA	NA	NA	NA	1	NA	NA	157	scrib	blue	NA	NA
+3	NA	NA	NA	NA	NA	1	NA	NA	158	lann	green	NA	NA
+3	NA	NA	NA	NA	NA	0	NA	NA	159	green	scrib	NA	NA
+3	NA	NA	NA	NA	NA	1	NA	NA	160	red	small	NA	NA
+3	NA	NA	NA	NA	NA	0	NA	NA	161	scrib	lann	NA	NA
+3	NA	NA	NA	NA	NA	NA	NA	flat	162	NA	NA	NA	sharp
+4	kolch	second	NA	NA	NA	NA	second	NA	6	NA	NA	NA	NA
+4	yunt	first	NA	NA	NA	NA	first	NA	7	NA	NA	NA	NA
+4	kolch	second	NA	NA	NA	NA	second	NA	8	NA	NA	NA	NA
+4	kolch	second	NA	NA	NA	NA	second	NA	9	NA	NA	NA	NA
+4	kolch	second	NA	NA	NA	NA	second	NA	10	NA	NA	NA	NA
+4	yunt	first	NA	NA	NA	NA	first	NA	11	NA	NA	NA	NA
+4	yunt	first	NA	NA	NA	NA	second	NA	12	NA	NA	NA	NA
+4	yunt	second	NA	NA	NA	NA	second	NA	13	NA	NA	NA	NA
+4	yunt	first	NA	NA	NA	NA	first	NA	14	NA	NA	NA	NA
+4	kolch	first	NA	NA	NA	NA	first	NA	15	NA	NA	NA	NA
+4	kolch	first	NA	NA	NA	NA	first	NA	16	NA	NA	NA	NA
+4	kolch	second	NA	NA	NA	NA	first	NA	17	NA	NA	NA	NA
+4	kolch	second	NA	NA	NA	NA	second	NA	18	NA	NA	NA	NA
+4	yunt	second	NA	NA	NA	NA	second	NA	19	NA	NA	NA	NA
+4	yunt	second	NA	NA	NA	NA	second	NA	20	NA	NA	NA	NA
+4	yunt	first	NA	NA	NA	NA	first	NA	21	NA	NA	NA	NA
+4	kolch	second	NA	NA	NA	NA	second	NA	22	NA	NA	NA	NA
+4	yunt	second	NA	NA	NA	NA	second	NA	23	NA	NA	NA	NA
+4	yunt	second	NA	NA	NA	NA	second	NA	24	NA	NA	NA	NA
+4	kolch	second	NA	NA	NA	NA	second	NA	25	NA	NA	NA	NA
+4	yunt	second	NA	NA	NA	NA	second	NA	26	NA	NA	NA	NA
+4	yunt	second	NA	NA	NA	NA	second	NA	27	NA	NA	NA	NA
+4	yunt	second	NA	NA	NA	NA	second	NA	28	NA	NA	NA	NA
+4	yunt	first	NA	NA	NA	NA	first	NA	29	NA	NA	NA	NA
+4	kolch	first	NA	NA	NA	NA	first	NA	30	NA	NA	NA	NA
+4	kolch	first	NA	NA	NA	NA	first	NA	31	NA	NA	NA	NA
+4	kolch	second	NA	NA	NA	NA	second	NA	32	NA	NA	NA	NA
+4	kolch	first	NA	NA	NA	NA	first	NA	33	NA	NA	NA	NA
+4	yunt	second	NA	NA	NA	NA	second	NA	34	NA	NA	NA	NA
+4	yunt	second	NA	NA	NA	NA	second	NA	35	NA	NA	NA	NA
+4	kolch	first	NA	NA	NA	NA	first	NA	36	NA	NA	NA	NA
+4	kolch	first	NA	NA	NA	NA	first	NA	37	NA	NA	NA	NA
+4	yunt	second	NA	NA	NA	NA	second	NA	38	NA	NA	NA	NA
+4	kolch	second	NA	NA	NA	NA	second	NA	39	NA	NA	NA	NA
+4	kolch	first	NA	NA	NA	NA	first	NA	40	NA	NA	NA	NA
+4	yunt	second	NA	NA	NA	NA	second	NA	41	NA	NA	NA	NA
+4	yunt	second	NA	NA	NA	NA	second	NA	42	NA	NA	NA	NA
+4	yunt	first	NA	NA	NA	NA	first	NA	43	NA	NA	NA	NA
+4	yunt	first	NA	NA	NA	NA	first	NA	44	NA	NA	NA	NA
+4	kolch	second	NA	NA	NA	NA	second	NA	45	NA	NA	NA	NA
+4	kolch	second	NA	NA	NA	NA	second	NA	46	NA	NA	NA	NA
+4	kolch	first	NA	NA	NA	NA	first	NA	47	NA	NA	NA	NA
+4	kolch	first	NA	NA	NA	NA	first	NA	48	NA	NA	NA	NA
+4	kolch	first	NA	NA	NA	NA	first	NA	49	NA	NA	NA	NA
+4	yunt	second	NA	NA	NA	NA	second	NA	50	NA	NA	NA	NA
+4	kolch	second	NA	NA	NA	NA	second	NA	51	NA	NA	NA	NA
+4	yunt	second	NA	NA	NA	NA	second	NA	52	NA	NA	NA	NA
+4	yunt	first	NA	NA	NA	NA	first	NA	53	NA	NA	NA	NA
+4	NA	NA	NA	NA	red    	NA	NA	NA	55	NA	NA	correct	NA
+4	NA	NA	NA	NA	kolch    	NA	NA	NA	56	NA	NA	correct	NA
+4	NA	NA	NA	NA	kolch yunt   	NA	NA	NA	57	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue kolch yunt  	NA	NA	NA	58	NA	NA	correct	NA
+4	NA	NA	NA	NA	green kolch yunt  	NA	NA	NA	59	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue    	NA	NA	NA	60	NA	NA	inconsistent	NA
+4	NA	NA	NA	NA	green    	NA	NA	NA	61	NA	NA	correct	NA
+4	NA	NA	NA	NA	kolch yunt   	NA	NA	NA	62	NA	NA	correct	NA
+4	NA	NA	NA	NA	kolch red   	NA	NA	NA	63	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue kolch yunt  	NA	NA	NA	64	NA	NA	correct	NA
+4	NA	NA	NA	NA	red kolch yunt  	NA	NA	NA	65	NA	NA	correct	NA
+4	NA	NA	NA	NA	green spaceship yunt  	NA	NA	NA	66	NA	NA	underspecified	NA
+4	NA	NA	NA	NA	blue kolch   	NA	NA	NA	67	NA	NA	inconsistent	NA
+4	NA	NA	NA	NA	red kolch yunt  	NA	NA	NA	68	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue kolch yunt  	NA	NA	NA	69	NA	NA	correct	NA
+4	NA	NA	NA	NA	green kolch   	NA	NA	NA	70	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue kolch   	NA	NA	NA	71	NA	NA	correct	NA
+4	NA	NA	NA	NA	green kolch yunt  	NA	NA	NA	72	NA	NA	correct	NA
+4	NA	NA	NA	NA	red kolch   	NA	NA	NA	73	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue kolch   	NA	NA	NA	74	NA	NA	correct	NA
+4	NA	NA	NA	NA	spaceship red yunt  	NA	NA	NA	75	NA	NA	correct	NA
+4	NA	NA	NA	NA	red kolch   	NA	NA	NA	76	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue kolch yunt  	NA	NA	NA	77	NA	NA	correct	NA
+4	NA	NA	NA	NA	red spaceship yunt  	NA	NA	NA	78	NA	NA	correct	NA
+4	NA	NA	NA	NA	green kolch yunt  	NA	NA	NA	79	NA	NA	correct	NA
+4	NA	NA	NA	NA	green kolch yunt  	NA	NA	NA	80	NA	NA	correct	NA
+4	NA	NA	NA	NA	kolch	NA	NA	NA	82	NA	NA	correct	NA
+4	NA	NA	NA	NA	the green ship	NA	NA	NA	83	NA	NA	correct	NA
+4	NA	NA	NA	NA	red ship	NA	NA	NA	84	NA	NA	correct	NA
+4	NA	NA	NA	NA	green kolch yunt	NA	NA	NA	85	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue ship	NA	NA	NA	86	NA	NA	correct	NA
+4	NA	NA	NA	NA	green kolch	NA	NA	NA	87	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue kolch	NA	NA	NA	88	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue kolch yunt	NA	NA	NA	89	NA	NA	correct	NA
+4	NA	NA	NA	NA	red kolch 	NA	NA	NA	90	NA	NA	correct	NA
+4	NA	NA	NA	NA	green kolch	NA	NA	NA	91	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue kolch	NA	NA	NA	92	NA	NA	correct	NA
+4	NA	NA	NA	NA	green kolch yunt	NA	NA	NA	93	NA	NA	correct	NA
+4	NA	NA	NA	NA	red kolch 	NA	NA	NA	94	NA	NA	correct	NA
+4	NA	NA	NA	NA	red ship yunt	NA	NA	NA	95	NA	NA	correct	NA
+4	NA	NA	NA	NA	green spaceship yunt	NA	NA	NA	96	NA	NA	correct	NA
+4	NA	NA	NA	NA	red kolch yunt	NA	NA	NA	97	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue kolch yunt	NA	NA	NA	98	NA	NA	correct	NA
+4	NA	NA	NA	NA	red kolch yunt	NA	NA	NA	99	NA	NA	correct	NA
+4	NA	NA	NA	NA	red kolch	NA	NA	NA	100	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue kolch 	NA	NA	NA	101	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue kolch	NA	NA	NA	102	NA	NA	correct	NA
+4	NA	NA	NA	NA	red kolch yunt	NA	NA	NA	103	NA	NA	correct	NA
+4	NA	NA	NA	NA	green kolch yunt	NA	NA	NA	104	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue kolch 	NA	NA	NA	105	NA	NA	correct	NA
+4	NA	NA	NA	NA	green kolch yunt	NA	NA	NA	106	NA	NA	correct	NA
+4	NA	NA	NA	NA	red spaceship yunt 	NA	NA	NA	107	NA	NA	correct	NA
+4	NA	NA	NA	NA	blue kolch	NA	NA	NA	109	NA	NA	correct	NA
+4	NA	NA	blue	I like ships that have the same color as I have, like this...	NA	0	NA	NA	136	kolch	blue	NA	NA
+4	NA	NA	yunt	Wow, so many fins &#8210; I like this...	NA	1	NA	NA	137	blue	yunt	NA	NA
+4	NA	NA	kolch	For long distances, I use rockets. The best one is this...	NA	0	NA	NA	138	red	kolch	NA	NA
+4	NA	NA	kolch	Humans think all our ships look like rockets, like this...	NA	0.96	NA	NA	139	kolch	green	NA	NA
+4	NA	NA	NONE	My friend used to fly this...	NA	1	NA	NA	140	kolch	blue	NA	NA
+4	NA	NA	yunt	Ugh, too many fins &#8210; I hate flying this...	NA	0	NA	NA	141	green	yunt	NA	NA
+4	NA	NA	yunt	The more spikes, the better. My favorite one is this...	NA	0	NA	NA	142	kolch	yunt	NA	NA
+4	NA	NA	kolch	My first ship had the same shape as this...	NA	0	NA	NA	143	green	kolch	NA	NA
+4	NA	NA	NONE	On our planet, many aliens fly ships like this...	NA	0	NA	NA	144	yunt	blue	NA	NA
+4	NA	NA	green	What a nice color. I like flying this...	NA	1	NA	NA	145	yunt	green	NA	NA
+4	NA	NA	yunt	I really don&quotechart like ships with many spikes, like this...	NA	1	NA	NA	146	yunt	kolch	NA	NA
+4	NA	NA	NA	NA	NA	1	NA	NA	148	yunt	red	NA	NA
+4	NA	NA	NA	NA	NA	1	NA	NA	149	blue	small	NA	NA
+4	NA	NA	NA	NA	NA	0	NA	NA	150	green	kolch	NA	NA
+4	NA	NA	NA	NA	NA	0	NA	NA	151	big	kolch	NA	NA
+4	NA	NA	NA	NA	NA	0	NA	NA	152	big	blue	NA	NA
+4	NA	NA	NA	NA	NA	1	NA	NA	153	yunt	small	NA	NA
+4	NA	NA	NA	NA	NA	1	NA	NA	154	kolch	small	NA	NA
+4	NA	NA	NA	NA	NA	1	NA	NA	155	blue	small	NA	NA
+4	NA	NA	NA	NA	NA	0.03	NA	NA	156	yunt	kolch	NA	NA
+4	NA	NA	NA	NA	NA	1	NA	NA	157	yunt	green	NA	NA
+4	NA	NA	NA	NA	NA	0	NA	NA	158	big	yunt	NA	NA
+4	NA	NA	NA	NA	NA	0	NA	NA	159	red	kolch	NA	NA
+4	NA	NA	NA	NA	NA	0	NA	NA	160	blue	kolch	NA	NA
+4	NA	NA	NA	NA	NA	1	NA	NA	161	yunt	blue	NA	NA
+4	NA	NA	NA	NA	NA	NA	NA	rocket	162	NA	NA	NA	many

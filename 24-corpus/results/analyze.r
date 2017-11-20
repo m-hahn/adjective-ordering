@@ -50,6 +50,26 @@ dataAgg = merge(dataAgg, dataSubj, by=c("adjective"))
 write.csv(dataAgg, file="24_aggregate_data.csv")
 
 
+library(ggplot2)
+
+library(tidyverse)
+
+agr = data %>% 
+  select(response_0, response_1, response_2, response_3, response_4, response_5) %>%
+  rename("Question 1" = response_0,"Question 2" = response_1,"Question 3" = response_2,"Question 4" = response_3,"Question 5" = response_4,"Question 6" = response_5) %>%
+  gather(species, val) #%>% 
+#  slice(rep(row_number(), val)) %>% 
+ # select(-val)
+
+agr$species = as.factor(agr$species)
+
+# violin plots
+plot = ggplot(agr, aes(x=species,y=val)) +
+  geom_violin(draw_quantiles=c(0.25,0.5,0.75)) + ylab(NULL) + xlab(NULL)
+ggsave('plots/responses_violin.pdf', plot=plot)
+
+
+
 
 
 
@@ -61,8 +81,55 @@ library(tidyverse)
 data = merge(data, dataSubj, by=c("adjective"))
 
 
+library(lme4)
+summary(lmer(response_0 ~ subjectivity + (1|workerid) + (1|item), data=data))
+summary(lmer(response_1 ~ subjectivity + (1|workerid) + (1|item), data=data))
+summary(lmer(response_2 ~ subjectivity + (1|workerid) + (1|item), data=data))
+summary(lmer(response_3 ~ subjectivity + (1|workerid) + (1|item), data=data))
+summary(lmer(response_4 ~ subjectivity + (1|workerid) + (1|item), data=data))
+summary(lmer(response_5 ~ subjectivity + (1|workerid) + (1|item), data=data))
+
+
+
 byClass = aggregate(c(data["response_0"], data["response_1"], data["response_2"], data["response_3"], data["response_4"], data["response_5"], data["subjectivity"]), by=c(data["class"]), mean)
 byClass = byClass[order(byClass$subjectivity),]
+
+
+
+detach("package:data.table", unload=TRUE)
+source('helpers.R')
+#source("rlang")
+data$response_6 = data$subjectivity
+for(i in (0:6)) {
+   name = paste("response_",i,sep="") # sym(...)
+   agr = data %>%
+     rename_(.dots = list(value = name)) %>%
+     group_by(class) %>%
+     summarise(Mean = mean(value), CILow = ci.low(value), CIHigh = ci.high(value))
+   dodge = position_dodge(.9)
+   
+   #agr = agr[order(agr$classId),]
+   
+   # make sure classes are ordered by increasing subjectivity
+   agr$class = factor(agr$class, levels=byClass$class)
+   
+   plot = ggplot(agr, aes(x=class,y=Mean)) +
+     geom_bar(stat="identity",position=dodge) +
+     geom_errorbar(aes(ymin=Mean-CILow,ymax=Mean+CIHigh),position=dodge,width=.25) +
+   scale_x_discrete( labels = function( labels ) { # user aaiezza on https://stackoverflow.com/questions/19567986/overlapping-axis-labels-in-r
+                              fixedLabels <- c() 
+                              for ( l in 1:length( labels ) ) { 
+                                        fixedLabels <- c( fixedLabels, paste0( ifelse( l %% 2 == 0, '', '\n' ), labels[l] ) ) 
+                              }
+                               return( fixedLabels ) } ) +xlab(NULL) + ylab(NULL)
+   
+   ggsave(paste('plots/response_',i,'_by_class.pdf',sep=""), plot=plot, width=7, height=4)
+}
+
+
+
+
+
 
 
 

@@ -27,7 +27,7 @@ dataS = dataS %>% rename(subjective_adjective = adjective1, objective_adjective 
 data$correctQuiz = (data$correct_response == data$quiz_response)
 correctByWorker = aggregate(data["correctQuiz"], by=c(data["workerid"]), mean, na.rm=TRUE)
 dataS = merge(dataS, correctByWorker)
-dataS = dataS[dataS$correctQuiz > 0.85,]
+#dataS = dataS[dataS$correctQuiz > 0.85,]
 
 ########################################################
 # look at whether the manipulation worked
@@ -135,15 +135,18 @@ ggsave('plots/alien_pairs_merged.pdf', plot=plot)
 ###############
 dataAA$subjectiveFirst.Label = (ifelse(dataAA$subjectiveFirst, "Subjective First", "Objective First"))
 
-# plot by manipulation effect strength
-dataAA$manipulationEffect = ifelse(dataAA$subjDiff < 0.0, "0 Opposite", ifelse(dataAA$subjDiff < 0.4, "1 Small", "2 Big"))
+# plot by Manipulation effect strength
+dataAA$ManipulationEffect = ifelse(dataAA$subjDiff < 0.0, "0 Opposite", ifelse(dataAA$subjDiff < 0.4, "1 Small", "2 Big"))
+#agr = dataAA %>%
+#  group_by(ManipulationEffect, subjectiveFirst.Label) %>%
+#  summarise(Mean = mean(response), CILow = ci.low(response), CIHigh = ci.high(response))
 agr = dataAA %>%
-  group_by(manipulationEffect, subjectiveFirst.Label) %>%
+  group_by(ManipulationEffect, subjectiveFirst.Label) %>%
   summarise(Mean = mean(response), CILow = ci.low.grouped(dataAA$response, dataAA$workerid, (1:nrow(dataAA))), CIHigh = ci.high.grouped(dataAA$response, dataAA$workerid, (1:nrow(dataAA))))
 dodge = position_dodge(.9)
 
 pdf('plots/alien-pairs-order-ratings-by-manipulation-effect.pdf')
-ggplot(agr, aes(x=subjectiveFirst.Label,y=Mean, fill=manipulationEffect)) +
+ggplot(agr, aes(x=subjectiveFirst.Label,y=Mean, fill=ManipulationEffect)) +
   geom_bar(stat="identity",position=dodge) +
   geom_errorbar(aes(ymin=Mean-CILow,ymax=Mean+CIHigh),position=dodge,width=.25) +
   ylab('Rating') +
@@ -165,6 +168,23 @@ ggplot(agr, aes(x=subjectiveFirst.Label,y=Mean, fill=manipulationEffectFaultless
   ylab('Rating') +
   xlab('Ordering of Alien Adjectives')
 dev.off()
+
+
+
+agr = dataAA %>%
+  group_by(subjectiveFirst.Label) %>%
+  summarise(Mean = mean(response), CILow = ci.low(dataAA$response), CIHigh = ci.high(dataAA$response))
+dodge = position_dodge(.9)
+
+pdf('plots/alien-pairs-order-ratings.pdf')
+ggplot(agr, aes(x=subjectiveFirst.Label,y=Mean)) +
+  geom_bar(stat="identity",position=dodge) +
+  geom_errorbar(aes(ymin=Mean-CILow,ymax=Mean+CIHigh),position=dodge,width=.25) +
+  ylab("Order Rating") +
+  xlab("Order of Adjectives") + theme(panel.background = element_blank(), axis.text=element_text(size=18, colour="black"), axis.title=element_text(size=18, colour="black"))
+dev.off()
+
+
 
 
 
@@ -395,10 +415,13 @@ agr = d_subj %>%
   mutate(YMin=MeanSubjectivity-CILow,YMax=MeanSubjectivity+CIHigh)
 dodge = position_dodge(.9)
 
+pdf('plots/subjectivity-by-subject.pdf')
 ggplot(agr, aes(x=AdjType, y=MeanSubjectivity)) +
   geom_bar(stat="identity",position=dodge) +
   geom_errorbar(aes(ymin=YMin,ymax=YMax),position=dodge,width=.25) +
-  geom_line(data=d_subj,aes(group=workerid,y=Subjectivity), alpha=.3)
+  geom_line(data=d_subj,aes(group=workerid,y=Subjectivity), alpha=.3) + xlab("Adjective Type") + ylab("Subjectivity Rating") +
+  theme(panel.background = element_blank(), axis.text=element_text(size=18, colour="black"), axis.title=element_text(size=18, colour="black"))
+dev.off()
 
 ##################################
 

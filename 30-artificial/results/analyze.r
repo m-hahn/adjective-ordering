@@ -14,7 +14,7 @@ dataS = read.csv("../Submiterator-master/order-preference-subject_information.ts
 #dataS = dataS[FALSE,]
 #data = data[FALSE,]
 
-for(i in (2:5)) {
+for(i in (2:7)) {
   dataNew = read.csv(paste("../Submiterator-master/order-preference-",i,"-trials-postprocessed.tsv",sep=""), sep="\t")
   dataNew$workerid = as.numeric(dataNew$workerid) + i*9
   data = rbind(data, dataNew)
@@ -81,6 +81,7 @@ summary(lmer(response ~ subjectiveFirst.Centered*inContext.Centered + preference
 # per-pair visualization
 
 library('tidyverse')
+source('helpers.R')
 dataAOpposite = data7 %>% rename(pred1 = predicate2, pred2 = predicate1) %>% rename(predicate1 = pred1, predicate2 = pred2)
 dataAOpposite$response = 1-dataAOpposite$response
 
