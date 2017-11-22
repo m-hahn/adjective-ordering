@@ -7,7 +7,7 @@ library(ggplot2)
 data = read.csv("../Submiterator-master/order-preference-trials-postprocessed.tsv", sep="\t")
 dataS = read.csv("../Submiterator-master/order-preference-subject_information.tsv", sep="\t")
 
-for(i in c(2:5)) {
+for(i in c(2:8)) {
   dataNew = read.csv(paste("../Submiterator-master/order-preference-",i,"-trials-postprocessed.tsv",sep=""), sep="\t")
   dataNew$workerid = as.numeric(dataNew$workerid) + i*9
   data = rbind(data, dataNew)
