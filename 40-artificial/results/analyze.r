@@ -39,7 +39,7 @@ subjAgr$subjDiff = subjAgr$adj1_subj - subjAgr$adj2_subj
 data$adj1_subj = NULL
 data$adj2_subj = NULL
 data$adj1_disagreement = NULL
-data$adj1_disagreement = NULL
+data$adj2_disagreement = NULL
 
 dataS = merge(dataS, subjAgr, by=c("workerid"))
 
