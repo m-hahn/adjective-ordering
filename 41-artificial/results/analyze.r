@@ -39,7 +39,7 @@ subjAgr$subjDiff = subjAgr$adj1_subj - subjAgr$adj2_subj
 data$adj1_subj = NULL
 data$adj2_subj = NULL
 data$adj1_disagreement = NULL
-data$adj1_disagreement = NULL
+data$adj2_disagreement = NULL
 
 dataS = merge(dataS, subjAgr, by=c("workerid"))
 
@@ -100,12 +100,12 @@ dataAA = centerColumn(dataAA, "subjectiveFirst")
 
 # Analysis
 # The prediction is that the effect of subjectiveFirst is positive.
-m = lmer(response ~ subjectiveFirst + (1|workerid) + (1|predicate1) + (1|predicate2), data=dataAA)
+m = lmer(response ~ subjectiveFirst + (subjectiveFirst|workerid) + (1|workerid) + (1|predicate1) + (1|predicate2), data=dataAA)
 summary(m)
 
 dataAA = centerColumn(dataAA, "subjDiff")
 dataAA = centerColumn(dataAA, "disagrDiff")
-m = lmer(response ~ subjectiveFirst.Centered*subjDiff.Centered + (1|workerid) + (1|predicate1) + (1|predicate2), data=dataAA)
+m = lmer(response ~ subjectiveFirst.Centered*subjDiff.Centered +(subjectiveFirst|workerid) + (1|workerid) + (1|predicate1) + (1|predicate2), data=dataAA)
 summary(m)
 
 
@@ -140,9 +140,10 @@ dataAA$ManipulationEffect = ifelse(dataAA$subjDiff < 0.0, "0 Opposite", ifelse(d
 #agr = dataAA %>%
 #  group_by(ManipulationEffect, subjectiveFirst.Label) %>%
 #  summarise(Mean = mean(response), CILow = ci.low(response), CIHigh = ci.high(response))
+dataAA$item = (1:nrow(dataAA))
 agr = dataAA %>%
   group_by(ManipulationEffect, subjectiveFirst.Label) %>%
-  summarise(Mean = mean(response), CILow = ci.low.grouped(dataAA$response, dataAA$workerid, (1:nrow(dataAA))), CIHigh = ci.high.grouped(dataAA$response, dataAA$workerid, (1:nrow(dataAA))))
+  summarise(Mean = mean(response), CILow = ci.low.grouped(response, workerid, item), CIHigh = ci.high.grouped(response, workerid, item))
 dodge = position_dodge(.9)
 
 pdf('plots/alien-pairs-order-ratings-by-manipulation-effect.pdf')
@@ -158,7 +159,7 @@ dev.off()
 dataAA$manipulationEffectFaultless = ifelse(dataAA$subjDiff < 0.0, "0 Opposite", ifelse(dataAA$subjDiff < 0.4, "1 Small", "2 Big"))
 agr = dataAA %>%
   group_by(manipulationEffectFaultless, subjectiveFirst.Label) %>%
-  summarise(Mean = mean(response), CILow = ci.low.grouped(dataAA$response, dataAA$workerid, (1:nrow(dataAA))), CIHigh = ci.high.grouped(dataAA$response, dataAA$workerid, (1:nrow(dataAA))))
+  summarise(Mean = mean(response), CILow = ci.low.grouped(response, workerid, item), CIHigh = ci.high.grouped(response, workerid, item))
 dodge = position_dodge(.9)
 
 pdf('plots/alien-pairs-order-ratings-by-manipulation-effect-faultless.pdf')
@@ -170,10 +171,10 @@ ggplot(agr, aes(x=subjectiveFirst.Label,y=Mean, fill=manipulationEffectFaultless
 dev.off()
 
 
-
+dataAA$item = (1:nrow(dataAA))
 agr = dataAA %>%
   group_by(subjectiveFirst.Label) %>%
-  summarise(Mean = mean(response), CILow = ci.low(dataAA$response), CIHigh = ci.high(dataAA$response))
+  summarise(Mean = mean(response), CILow = ci.low.grouped(response, workerid, item), CIHigh = ci.high.grouped(response, workerid, item))
 dodge = position_dodge(.9)
 
 pdf('plots/alien-pairs-order-ratings.pdf')
@@ -263,9 +264,10 @@ data5$nonAlienAdjectiveIsColor.Label = ifelse(data5$nonAlienAdjectiveIsColor, "C
 data5$inContext.Label = ifelse(data5$inContext, "In Context", "Out of Context")
 data5$containsSubjectiveAdjective.Label = ifelse(data5$containsSubjectiveAdjective, "scalar", "objective")
 
+data5$item = (1:nrow(data5))
 agr = data5 %>%
   group_by(containsSubjectiveAdjective.Label, nonAlienAdjectiveIsColor.Label, inContext.Label) %>%
-  summarise(Mean = mean(responseAlienFirst), CILow = ci.low.grouped(data5$responseAlienFirst, data5$workerid, (1:nrow(data5))), CIHigh = ci.high.grouped(data5$responseAlienFirst, data5$workerid, (1:nrow(data5))))
+  summarise(Mean = mean(responseAlienFirst), CILow = ci.low.grouped(responseAlienFirst, workerid, item), CIHigh = ci.high.grouped(responseAlienFirst, workerid, item))
 dodge = position_dodge(.9)
 
 pdf('plots/order-ratings.pdf')
@@ -279,9 +281,10 @@ dev.off()
 
 # plot by effect strength of manipulation
 data5$manipulationEffect = ifelse(data5$subjDiff < 0.0, "0 Opposite", ifelse(data5$subjDiff < 0.4, "1 Small", "2 Big"))
+data5$item = (1:nrow(data5))
 agr = data5 %>%
   group_by(manipulationEffect, containsSubjectiveAdjective.Label, nonAlienAdjectiveIsColor.Label, inContext.Label) %>%
-  summarise(Mean = mean(responseAlienFirst), CILow = ci.low.grouped(data5$responseAlienFirst, data5$workerid, (1:nrow(data5))), CIHigh = ci.high.grouped(data5$responseAlienFirst, data5$workerid, (1:nrow(data5))))
+  summarise(Mean = mean(responseAlienFirst), CILow = ci.low.grouped(responseAlienFirst, workerid, item), CIHigh = ci.high.grouped(responseAlienFirst, workerid, item))
 dodge = position_dodge(.9)
 
 pdf('plots/order-ratings-by-manipulation-effect.pdf')
@@ -293,10 +296,13 @@ ggplot(agr, aes(x=containsSubjectiveAdjective.Label,y=Mean, fill=manipulationEff
   xlab('Type of Alien Adjective')
 dev.off()
 
+
+
 data5$manipulationEffectFaultless = ifelse(data5$subjDiff < 0.0, "0 Opposite", ifelse(data5$subjDiff < 0.4, "1 Small", "2 Big"))
+data5$item = (1:nrow(data5))
 agr = data5 %>%
   group_by(manipulationEffectFaultless, containsSubjectiveAdjective.Label, nonAlienAdjectiveIsColor.Label, inContext.Label) %>%
-  summarise(Mean = mean(responseAlienFirst), CILow = ci.low.grouped(data5$responseAlienFirst, data5$workerid, (1:nrow(data5))), CIHigh = ci.high.grouped(data5$responseAlienFirst, data5$workerid, (1:nrow(data5))))
+  summarise(Mean = mean(responseAlienFirst), CILow = ci.low.grouped(responseAlienFirst, workerid, item), CIHigh = ci.high.grouped(responseAlienFirst, workerid, item))
 dodge = position_dodge(.9)
 
 pdf('plots/order-ratings-by-manipulation-effect-faultless.pdf')
@@ -376,15 +382,15 @@ dataProduction = rbind(data.free, data.click)
 dataProduction$subjective.vs.color = dataProduction$ADJ1OrColorFirst.Transformed
 dataProduction$objective.vs.color = dataProduction$ADJ2OrColorFirst.Transformed
 
-
+dataProduction$item = (1:nrow(dataProduction))
 agr = dataProduction %>%
   group_by(section) %>%
-  summarise(Mean = mean(subjective.vs.color, na.rm=TRUE), CILow = ci.low.grouped(dataProduction$subjective.vs.color, dataProduction$workerid, (1:length(dataProduction$subjective.vs.color))), CIHigh = ci.high.grouped(dataProduction$subjective.vs.color, dataProduction$workerid, (1:length(dataProduction$subjective.vs.color))))
+  summarise(Mean = mean(subjective.vs.color, na.rm=TRUE), CILow = ci.low.grouped(subjective.vs.color, workerid, item), CIHigh = ci.high.grouped(subjective.vs.color, workerid, item))
 agr$alien = "subjective"
 
 agr2 = dataProduction %>%
   group_by(section) %>%
-  summarise(Mean = mean(objective.vs.color, na.rm=TRUE), CILow = ci.low.grouped(dataProduction$objective.vs.color, dataProduction$workerid, (1:length(dataProduction$objective.vs.color))), CIHigh = ci.high.grouped(dataProduction$objective.vs.color, dataProduction$workerid, (1:length(dataProduction$objective.vs.color))))
+  summarise(Mean = mean(objective.vs.color, na.rm=TRUE), CILow = ci.low.grouped(objective.vs.color, workerid, item), CIHigh = ci.high.grouped(objective.vs.color, workerid, item))
 agr2$alien = "objective"
 
 agr = rbind(agr, agr2)
