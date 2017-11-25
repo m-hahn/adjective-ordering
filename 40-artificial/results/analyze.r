@@ -237,6 +237,33 @@ summary(m)
 m = lmer(responseAlienFirst ~ containsSubjectiveAdjective.Centered + preference1 + preference2 + (1|workerid), data=data5)
 summary(m)
 
+################################################################################################
+# do (mixed-effects) Beta regression: fits the response distribution much better, and seems to give same results
+
+# make sure no response is at 0, 1
+data5$responseAlienFirst = (data5$responseAlienFirst * (nrow(data5)-1) + 0.5) / nrow(data5)
+
+data5.Complete = data5[complete.cases(data5[,c("containsSubjectiveAdjective.Centered","workerid","predicate1","predicate2","responseAlienFirst")]),]
+data5.Complete = createUniqueItemIDs(data5.Complete, "workerid")
+data5.Complete = createUniqueItemIDs(data5.Complete, "predicate1")
+data5.Complete = createUniqueItemIDs(data5.Complete, "predicate2")
+data5.Complete = centerColumn(data5.Complete,"containsSubjectiveAdjective")
+data5.Complete = centerColumn(data5.Complete,"responseAlienFirst")
+stanDat <- list(containsSubjectiveAdjective = data5.Complete$containsSubjectiveAdjective.Centered , responseAlienFirst = data5.Complete$responseAlienFirst,workerid = data5.Complete$workerid.Renumbered , adjective1 = data5.Complete$predicate1.Renumbered , adjective2 = data5.Complete$predicate2.Renumbered , N = nrow(data5.Complete) , M = max(data5.Complete$predicate1.Renumbered) , L = max(data5.Complete$workerid.Renumbered))
+library(rstan)
+rstan_options(auto_write = TRUE)
+options(mc.cores = parallel::detectCores())
+fixMCMC <- stan(file = "model-beta-alien-english.stan", data = stanDat, iter = 2000, warmup=1000,chains = 2, control=list(adapt_delta=0.7) )
+
+print(fixMCMC, pars=c("alpha", "beta1"), probs = c(0.05,  0.95), digits_summary=3)
+
+fittedModel = extract(fixMCMC)
+cat(paste("alpha",mean(fittedModel$alpha<0),mean(fittedModel$alpha>0),sep="\t"),sep="\n")
+cat(paste("beta1",mean(fittedModel$beta1<0),mean(fittedModel$beta1>0),sep="\t"),sep="\n")
+
+################################################################################################
+
+
 
 ################ Further analysis
 ## integrate subjectivity and faultless disagreement scores for the two Alien adjectives, from the final questionnaire
