@@ -83,6 +83,20 @@ data$containsSubjectiveAdjective = ((as.character(data$predicate1) == as.charact
 
 
 
+# TODO for now, removed these, since only some adjectives appeared in 35/36
+# read order ratings (aggregated by individual adjectives) from norming study as a control predictor
+#orderNorm = read.csv("../../45-artificial/results/alien-order-norm.tsv")
+#oNorm1 = orderNorm %>% rename(predicate1 = predicate, preference1 = response)
+#oNorm2 = orderNorm %>% rename(predicate2 = predicate, preference2 = response)
+#oNorm2$preference2 = 1-oNorm2$preference2
+#data = merge(data, oNorm1, by=c("predicate1"))
+#data = merge(data, oNorm2, by=c("predicate2"))
+
+data$preference1 = 0
+data$preference2 = 0
+
+
+
 #######################################
 #######################################
 # ANALYSIS I: analyze items where both adjectives are alien words
@@ -100,7 +114,7 @@ dataAA = centerColumn(dataAA, "subjectiveFirst")
 
 # Analysis
 # The prediction is that the effect of subjectiveFirst is positive.
-m = lmer(response ~ subjectiveFirst + (subjectiveFirst|workerid) + (1|workerid) + (1|predicate1) + (1|predicate2), data=dataAA)
+m = lmer(response ~ subjectiveFirst + preference1 + preference2 + (subjectiveFirst|workerid) + (1|workerid) + (1|predicate1) + (1|predicate2), data=dataAA)
 summary(m)
 
 dataAA = centerColumn(dataAA, "subjDiff")
@@ -201,19 +215,11 @@ data2$alienWordIsFirst = data2$a # is the first adjective the alien one?
 # for each trial, compute the response for the version where the alien adjective comes first
 data2$responseAlienFirst = (data2$alienWordIsFirst == 1) * data2$response + (data2$alienWordIsFirst == -1) * (1-data2$response)
 
+data2$preferenceAlien = ifelse(data2$alienWordIsFirst == 1, data2$preference1, data2$preference2)
+data2$preferenceEnglish = ifelse(data2$alienWordIsFirst == 1, data2$preference2, data2$preference1)
+
 library(tidyverse)
 
-data2$preference1 = 0
-data2$preference2 = 0
-
-# TODO for now, removed these, since only some adjectives appeared in 35/36
-# read order ratings (aggregated by individual adjectives) from norming study as a control predictor
-#orderNorm = read.csv("../../36-artificial/results/alien-order-norm.tsv")
-#oNorm1 = orderNorm %>% rename(predicate1 = predicate, preference1 = response)
-#oNorm2 = orderNorm %>% rename(predicate2 = predicate, preference2 = response)
-#oNorm2$preference2 = 1-oNorm2$preference2
-#data2 = merge(data2, oNorm1, by=c("predicate1"))
-#data2 = merge(data2, oNorm2, by=c("predicate2"))
 
 # select the alien adjective
 data2$nonAlienAdjective = ifelse(data2$a1, as.character(data2$predicate2), as.character(data2$predicate1))
@@ -232,10 +238,10 @@ data5 = centerColumn(data5, "subjDiff")
 # The prediction is that the effect of containsSubjectiveAdjective on responseAlienFirst is positive
 # (i.e., ratings for alien-first increase when the alien adjective is subjective)
 # Unlike Experiment 30, this effect is not shown here.
-m = lmer(responseAlienFirst ~ nonAlienAdjectiveIsColor.Centered*inContext.Centered*containsSubjectiveAdjective.Centered + preference1 + preference2 + (1|workerid), data=data5)
+m = lmer(responseAlienFirst ~ nonAlienAdjectiveIsColor.Centered*inContext.Centered*containsSubjectiveAdjective.Centered + preferenceAlien + preferenceEnglish + (1|workerid), data=data5)
 summary(m)
 
-m = lmer(responseAlienFirst ~ containsSubjectiveAdjective.Centered + preference1 + preference2 + (1|workerid), data=data5)
+m = lmer(responseAlienFirst ~ containsSubjectiveAdjective.Centered + preferenceAlien + preferenceEnglish + (1|workerid), data=data5)
 summary(m)
 
 
@@ -262,7 +268,7 @@ summary(m)
 
 data5$nonAlienAdjectiveIsColor.Label = ifelse(data5$nonAlienAdjectiveIsColor, "Color", "Size")
 data5$inContext.Label = ifelse(data5$inContext, "In Context", "Out of Context")
-data5$containsSubjectiveAdjective.Label = ifelse(data5$containsSubjectiveAdjective, "scalar", "objective")
+data5$containsSubjectiveAdjective.Label = ifelse(data5$containsSubjectiveAdjective, "subjective", "objective")
 
 data5$item = (1:nrow(data5))
 agr = data5 %>%
@@ -278,6 +284,24 @@ ggplot(agr, aes(x=containsSubjectiveAdjective.Label,y=Mean,fill=containsSubjecti
   ylab('Rating for Alien First') +
   xlab('Type of Alien Adjective')
 dev.off()
+
+
+agr = data5 %>%
+  group_by(containsSubjectiveAdjective.Label) %>%
+  summarise(Mean = mean(responseAlienFirst), CILow = ci.low(responseAlienFirst), CIHigh = ci.high(responseAlienFirst))
+dodge = position_dodge(.9)
+
+plot = ggplot(agr, aes(x=containsSubjectiveAdjective.Label,y=Mean)) +
+  geom_bar(stat="identity",position=dodge) +
+  geom_errorbar(aes(ymin=Mean-CILow,ymax=Mean+CIHigh),position=dodge,width=.25) +
+  ylab('Rating for Alien First') +
+  xlab('Type of Alien Adjective') + theme(panel.background = element_blank(), text = element_text(size=20))
+pdf('plots/order-ratings-summary.pdf')
+print(plot)
+dev.off()
+
+
+
 
 # plot by effect strength of manipulation
 data5$manipulationEffect = ifelse(data5$subjDiff < 0.0, "0 Opposite", ifelse(data5$subjDiff < 0.4, "1 Small", "2 Big"))
