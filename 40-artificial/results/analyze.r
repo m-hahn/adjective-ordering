@@ -7,7 +7,7 @@ library(ggplot2)
 data = read.csv("../Submiterator-master/order-preference-trials-postprocessed.tsv", sep="\t")
 dataS = read.csv("../Submiterator-master/order-preference-subject_information.tsv", sep="\t")
 
-for(i in c(2:8)) {
+for(i in c(2:4)) {
   dataNew = read.csv(paste("../Submiterator-master/order-preference-",i,"-trials-postprocessed.tsv",sep=""), sep="\t")
   dataNew$workerid = as.numeric(dataNew$workerid) + i*9
   data = rbind(data, dataNew)
@@ -28,6 +28,12 @@ data$correctQuiz = (data$correct_response == data$quiz_response)
 correctByWorker = aggregate(data["correctQuiz"], by=c(data["workerid"]), mean, na.rm=TRUE)
 dataS = merge(dataS, correctByWorker)
 dataS = dataS[dataS$correctQuiz > 0.85,]
+
+
+#> aggregate(dataS["workerid"], by=c(dataS["objective_adjective"], dataS["subjective_adjective"]), NROW)
+#> dataS$adj1 = pmax(as.character(dataS$objective_adjective), as.character(dataS$subjective_adjective))
+#> dataS$adj2 = pmin(as.character(dataS$objective_adjective), as.character(dataS$subjective_adjective))
+
 
 ########################################################
 # look at whether the manipulation worked
@@ -91,6 +97,15 @@ data$containsSubjectiveAdjective = ((as.character(data$predicate1) == as.charact
 #oNorm2$preference2 = 1-oNorm2$preference2
 #data = merge(data, oNorm1, by=c("predicate1"))
 #data = merge(data, oNorm2, by=c("predicate2"))
+
+posNorm = read.csv("../../46-artificial/results/pos-ratings.tsv")
+oNorm1 = posNorm %>% rename(predicate1 = predicate, adjective_intercept1 = adjective_intercept, noun_intercept1 = noun_intercept, verb_intercept1 = verb_intercept )
+oNorm2 = posNorm %>% rename(predicate2 = predicate, adjective_intercept2 = adjective_intercept, noun_intercept2 = noun_intercept, verb_intercept2 = verb_intercept )
+#oNorm2$preference2 = 1-oNorm2$preference2
+data = merge(data, oNorm1, by=c("predicate1"), all=TRUE)
+data = merge(data, oNorm2, by=c("predicate2"), all=TRUE)
+
+
 
 data$preference1 = 0
 data$preference2 = 0
@@ -249,6 +264,11 @@ data2$responseAlienFirst = (data2$alienWordIsFirst == 1) * data2$response + (dat
 data2$preferenceAlien = ifelse(data2$alienWordIsFirst == 1, data2$preference1, data2$preference2)
 data2$preferenceEnglish = ifelse(data2$alienWordIsFirst == 1, data2$preference2, data2$preference1)
 
+data2$adjective_intercept = ifelse(data2$alienWordIsFirst == 1, data2$adjective_intercept1, data2$adjective_intercept2)
+data2$noun_intercept = ifelse(data2$alienWordIsFirst == 1, data2$noun_intercept1, data2$noun_intercept2)
+data2$verb_intercept = ifelse(data2$alienWordIsFirst == 1, data2$verb_intercept1, data2$verb_intercept2)
+
+
 library(tidyverse)
 
 
@@ -264,6 +284,15 @@ data5 = centerColumn(data5, "alienWordIsFirst")
 data5 = centerColumn(data5, "nonAlienAdjectiveIsColor")
 data5 = centerColumn(data5, "subjDiff")
 
+
+data5 = centerColumn(data5, "adjective_intercept")
+data5 = centerColumn(data5, "noun_intercept")
+data5 = centerColumn(data5, "verb_intercept")
+
+
+
+
+
 # MAIN ANALYSIS
 # Analysis: predict rating for `alien first' based on containsSubjectiveAdjective
 # The prediction is that the effect of containsSubjectiveAdjective on responseAlienFirst is positive
@@ -274,6 +303,39 @@ summary(m)
 
 m = lmer(responseAlienFirst ~ containsSubjectiveAdjective.Centered + preferenceAlien + preferenceEnglish + (1|workerid), data=data5)
 summary(m)
+
+
+# incorporate data from 46 (POS ratings)
+summary(lmer(responseAlienFirst ~ containsSubjectiveAdjective.Centered * adjective_intercept.Centered + (1|workerid), data=data5))
+summary(lmer(responseAlienFirst ~ containsSubjectiveAdjective.Centered * noun_intercept.Centered + (1|workerid), data=data5))
+summary(lmer(responseAlienFirst ~ containsSubjectiveAdjective.Centered * verb_intercept.Centered + (1|workerid), data=data5))
+
+######################################
+createUniqueItemIDs = function(data, columnName) {
+   newName = (paste(columnName,"Renumbered",sep="."))
+   data[,newName] = as.integer(factor(data[,columnName]))
+   return (data)
+}
+data5 = createUniqueItemIDs(data5, "workerid")
+m = lmer(responseAlienFirst ~ containsSubjectiveAdjective.Centered + (1|workerid.Renumbered) + (containsSubjectiveAdjective.Centered|workerid.Renumbered), data=data5)
+bySubjectSlopes = (coef(m)$workerid.Renumbered)$containsSubjectiveAdjective.Centered
+
+#a = frame()
+# a$slopes = bySubjectSlopes
+# a$workerid.Renumbered = (1:67)
+# a = merge(data5, a, by=c("workerid.Renumbered"))
+#
+# slopesByAdjs = aggregate(a["slopes"], by=c(a["subjective_adjective"], a["objective_adjective"]), mean)
+# slopesByAdjs[order(slopesByAdjs$slopes),]
+
+
+
+
+# NOTE there is actually some interaction with subjectivity ratings:
+m = lmer(responseAlienFirst ~ containsSubjectiveAdjective.Centered*adj1_subj.Centered + containsSubjectiveAdjective.Centered*adj2_subj.Centered + (1|workerid), data=data5)
+m = lmer(responseAlienFirst ~ containsSubjectiveAdjective.Centered*adj1_disagreement.Centered + containsSubjectiveAdjective.Centered*adj2_disagreement.Centered + containsSubjectiveAdjective.Centered*adj1_subj.Centered + containsSubjectiveAdjective.Centered*adj2_subj.Centered + (1|workerid), data=data5)
+
+
 
 ################################################################################################
 # do (mixed-effects) Beta regression: fits the response distribution much better, and seems to give same results
@@ -346,6 +408,29 @@ ggplot(agr, aes(x=containsSubjectiveAdjective.Label,y=Mean,fill=containsSubjecti
 dev.off()
 
 
+
+agr = data5 %>%
+#  filter(nonAlienAdjectiveIsColor) %>%
+  group_by(containsSubjectiveAdjective.Label,nonAlienAdjectiveIsColor.Label) %>%
+  summarise(Mean = mean(responseAlienFirst), CILow = ci.low(responseAlienFirst), CIHigh = ci.high(responseAlienFirst))
+dodge = position_dodge(.9)
+
+plot = ggplot(agr, aes(x=containsSubjectiveAdjective.Label,y=Mean)) +
+  geom_bar(stat="identity",position=dodge) +
+  geom_errorbar(aes(ymin=Mean-CILow,ymax=Mean+CIHigh),position=dodge,width=.25) +
+  facet_wrap(~nonAlienAdjectiveIsColor.Label)+
+  ylab('Rating for Alien First') +
+  xlab('Type of Alien Adjective') + theme(panel.background = element_blank(), text = element_text(size=20))
+pdf('plots/order-ratings-alien-english.pdf')
+print(plot)
+dev.off()
+
+
+
+
+
+
+
 agr = data5 %>%
   group_by(containsSubjectiveAdjective.Label) %>%
   summarise(Mean = mean(responseAlienFirst), CILow = ci.low(responseAlienFirst), CIHigh = ci.high(responseAlienFirst))
@@ -375,6 +460,28 @@ plot = ggplot(agr, aes(x=containsSubjectiveAdjective.Label,y=Mean)) +
   xlab('Type of Alien Adjective') + theme(panel.background = element_blank(), text = element_text(size=20))
 pdf('plots/order-ratings-summary-by-workers.pdf')
 print(plot)
+dev.off()
+
+
+
+# plot by effect strength of manipulation
+data5$manipulationEffect = ifelse(data5$subjDiff < 0.0, "0 Opposite", ifelse(data5$subjDiff < 0.3, "1 Small", "2 Big"))
+data5$item = (1:nrow(data5))
+#agr = data5 %>%
+#  group_by(manipulationEffect, containsSubjectiveAdjective.Label, nonAlienAdjectiveIsColor.Label) %>%
+#  summarise(Mean = mean(responseAlienFirst), CILow = ci.low.grouped(responseAlienFirst, workerid, item), CIHigh = ci.high.grouped(responseAlienFirst, workerid, item))
+agr = data5 %>%
+  group_by(manipulationEffect, containsSubjectiveAdjective.Label, nonAlienAdjectiveIsColor.Label) %>%
+  summarise(Mean = mean(responseAlienFirst), CILow = ci.low(responseAlienFirst), CIHigh = ci.high(responseAlienFirst))
+dodge = position_dodge(.9)
+
+pdf('plots/order-ratings-summary-by-manipulation-effect.pdf')
+ggplot(agr, aes(x=containsSubjectiveAdjective.Label,y=Mean, fill=manipulationEffect)) +
+  geom_bar(stat="identity",position=dodge) +
+  geom_errorbar(aes(ymin=Mean-CILow,ymax=Mean+CIHigh),position=dodge,width=.25) +
+  facet_wrap(~nonAlienAdjectiveIsColor.Label)+
+  ylab('Rating for Alien First') +
+  xlab('Type of Alien Adjective')
 dev.off()
 
 
@@ -526,12 +633,13 @@ agr = d_subj %>%
   mutate(YMin=MeanSubjectivity-CILow,YMax=MeanSubjectivity+CIHigh)
 dodge = position_dodge(.9)
 
-pdf('plots/subjectivity-by-subject.pdf')
-ggplot(agr, aes(x=AdjType, y=MeanSubjectivity)) +
+plot = ggplot(agr, aes(x=AdjType, y=MeanSubjectivity)) +
   geom_bar(stat="identity",position=dodge) +
   geom_errorbar(aes(ymin=YMin,ymax=YMax),position=dodge,width=.25) +
   geom_line(data=d_subj,aes(group=workerid,y=Subjectivity), alpha=.3) + xlab("Adjective Type") + ylab("Subjectivity Rating") +
   theme(panel.background = element_blank(), axis.text=element_text(size=18, colour="black"), axis.title=element_text(size=18, colour="black"))
+pdf('plots/subjectivity-by-subject.pdf')
+print(plot)
 dev.off()
 
 ##################################
@@ -552,10 +660,16 @@ agr = d_disagreement %>%
   mutate(YMin=MeanFaultlessDisagreement-CILow,YMax=MeanFaultlessDisagreement+CIHigh)
 dodge = position_dodge(.9)
 
-ggplot(agr, aes(x=AdjType, y=MeanFaultlessDisagreement)) +
+plot = ggplot(agr, aes(x=AdjType, y=MeanFaultlessDisagreement)) +
   geom_bar(stat="identity",position=dodge) +
   geom_errorbar(aes(ymin=YMin,ymax=YMax),position=dodge,width=.25) +
-  geom_line(data=d_disagreement,aes(group=workerid,y=FaultlessDisagreement), alpha=.3)
+  geom_line(data=d_disagreement,aes(group=workerid,y=FaultlessDisagreement), alpha=.3) + xlab("Adjective Type") + ylab("Faultless Disagreement Rating") +
+  theme(panel.background = element_blank(), axis.text=element_text(size=18, colour="black"), axis.title=element_text(size=18, colour="black"))
+
+pdf('plots/faultless-disagreement-by-subject.pdf')
+print(plot)
+dev.off()
+
 
 
 
