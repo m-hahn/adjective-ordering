@@ -425,6 +425,46 @@ dev.off()
 
 
 agr = data5 %>%
+  group_by(containsSubjectiveAdjective.Label, tutorial) %>%
+  summarise(Mean = mean(responseAlienFirst), CILow = ci.low(responseAlienFirst), CIHigh = ci.high(responseAlienFirst))
+dodge = position_dodge(.9)
+
+plot = ggplot(agr, aes(x=containsSubjectiveAdjective.Label,y=Mean)) +
+  geom_bar(stat="identity",position=dodge) +
+  geom_errorbar(aes(ymin=Mean-CILow,ymax=Mean+CIHigh),position=dodge,width=.25) +
+  facet_wrap(~tutorial)+
+  ylab('Rating for Alien First') +
+  xlab('Type of Alien Adjective') + theme(panel.background = element_blank(), text = element_text(size=20))
+pdf('plots/order-ratings-summary-by-tutorial-order.pdf')
+print(plot)
+dev.off()
+
+
+
+data5$context_first.Label = ifelse(data5$context_first == 1, "In-Context _first", "Out-of-Context _first")
+
+agr = data5 %>%
+  group_by(containsSubjectiveAdjective.Label, context_first.Label) %>%
+  summarise(Mean = mean(responseAlienFirst), CILow = ci.low(responseAlienFirst), CIHigh = ci.high(responseAlienFirst))
+dodge = position_dodge(.9)
+
+plot = ggplot(agr, aes(x=containsSubjectiveAdjective.Label,y=Mean)) +
+  geom_bar(stat="identity",position=dodge) +
+  geom_errorbar(aes(ymin=Mean-CILow,ymax=Mean+CIHigh),position=dodge,width=.25) +
+  facet_wrap(~context_first.Label)+
+  ylab('Rating for Alien First') +
+  xlab('Type of Alien Adjective') + theme(panel.background = element_blank(), text = element_text(size=20))
+pdf('plots/order-ratings-summary-by-ratings-order.pdf')
+print(plot)
+dev.off()
+
+
+
+
+
+
+
+agr = data5 %>%
   group_by(containsSubjectiveAdjective.Label) %>%
   summarise(Mean = mean(responseAlienFirst), CILow = ci.low.grouped.1D(responseAlienFirst,workerid), CIHigh = ci.high.grouped.1D(responseAlienFirst,workerid))
 dodge = position_dodge(.9)
