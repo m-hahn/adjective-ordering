@@ -1,0 +1,1033 @@
+workerid	adjective	quiz_response	adj2_disagreement	relevant_adjective	adj2_subj	text	enteredText	order_questionnaires	adj1_disagreement	response	correct_response	adj1_subj	adj1_response	slide_number	predicate2	predicate1	correct	adj2_response	ADJ2OrADJ1First	ADJ2OrColorFirst	ADJ1OrColorFirst
+0	spyck	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	6	NA	NA	NA	NA	NA	NA	NA
+0	kolch	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	7	NA	NA	NA	NA	NA	NA	NA
+0	spyck	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	8	NA	NA	NA	NA	NA	NA	NA
+0	kolch	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	9	NA	NA	NA	NA	NA	NA	NA
+0	spyck	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	10	NA	NA	NA	NA	NA	NA	NA
+0	kolch	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	11	NA	NA	NA	NA	NA	NA	NA
+0	kolch	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	12	NA	NA	NA	NA	NA	NA	NA
+0	spyck	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	13	NA	NA	NA	NA	NA	NA	NA
+0	spyck	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	14	NA	NA	NA	NA	NA	NA	NA
+0	spyck	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	15	NA	NA	NA	NA	NA	NA	NA
+0	kolch	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	16	NA	NA	NA	NA	NA	NA	NA
+0	spyck	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	17	NA	NA	NA	NA	NA	NA	NA
+0	spyck	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	18	NA	NA	NA	NA	NA	NA	NA
+0	kolch	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	19	NA	NA	NA	NA	NA	NA	NA
+0	kolch	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	20	NA	NA	NA	NA	NA	NA	NA
+0	spyck	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	21	NA	NA	NA	NA	NA	NA	NA
+0	kolch	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	22	NA	NA	NA	NA	NA	NA	NA
+0	spyck	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	23	NA	NA	NA	NA	NA	NA	NA
+0	kolch	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	24	NA	NA	NA	NA	NA	NA	NA
+0	kolch	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	25	NA	NA	NA	NA	NA	NA	NA
+0	spyck	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	26	NA	NA	NA	NA	NA	NA	NA
+0	kolch	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	27	NA	NA	NA	NA	NA	NA	NA
+0	kolch	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	28	NA	NA	NA	NA	NA	NA	NA
+0	spyck	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	29	NA	NA	NA	NA	NA	NA	NA
+0	kolch	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	30	NA	NA	NA	NA	NA	NA	NA
+0	kolch	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	31	NA	NA	NA	NA	NA	NA	NA
+0	spyck	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	32	NA	NA	NA	NA	NA	NA	NA
+0	spyck	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	33	NA	NA	NA	NA	NA	NA	NA
+0	spyck	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	34	NA	NA	NA	NA	NA	NA	NA
+0	kolch	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	35	NA	NA	NA	NA	NA	NA	NA
+0	kolch	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	36	NA	NA	NA	NA	NA	NA	NA
+0	kolch	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	37	NA	NA	NA	NA	NA	NA	NA
+0	spyck	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	38	NA	NA	NA	NA	NA	NA	NA
+0	kolch	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	39	NA	NA	NA	NA	NA	NA	NA
+0	spyck	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	40	NA	NA	NA	NA	NA	NA	NA
+0	kolch	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	41	NA	NA	NA	NA	NA	NA	NA
+0	kolch	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	42	NA	NA	NA	NA	NA	NA	NA
+0	spyck	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	43	NA	NA	NA	NA	NA	NA	NA
+0	kolch	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	44	NA	NA	NA	NA	NA	NA	NA
+0	kolch	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	45	NA	NA	NA	NA	NA	NA	NA
+0	spyck	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	46	NA	NA	NA	NA	NA	NA	NA
+0	spyck	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	47	NA	NA	NA	NA	NA	NA	NA
+0	spyck	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	48	NA	NA	NA	NA	NA	NA	NA
+0	spyck	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	49	NA	NA	NA	NA	NA	NA	NA
+0	kolch	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	50	NA	NA	NA	NA	NA	NA	NA
+0	spyck	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	51	NA	NA	NA	NA	NA	NA	NA
+0	spyck	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	52	NA	NA	NA	NA	NA	NA	NA
+0	kolch	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	53	NA	NA	NA	NA	NA	NA	NA
+0	NA	NA	NA	NA	NA	NA	kolch blue spaceship  	NA	NA	NA	NA	NA	NA	55	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_ADJ1_COLOR
+0	NA	NA	NA	NA	NA	NA	spaceship red kolch  	NA	NA	NA	NA	NA	NA	56	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship red spyck  	NA	NA	NA	NA	NA	NA	57	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+0	NA	NA	NA	NA	NA	NA	green spaceship spyck  	NA	NA	NA	NA	NA	NA	58	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+0	NA	NA	NA	NA	NA	NA	spaceship green kolch  	NA	NA	NA	NA	NA	NA	59	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship red kolch  	NA	NA	NA	NA	NA	NA	60	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship blue spyck kolch 	NA	NA	NA	NA	NA	NA	61	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship green spyck kolch 	NA	NA	NA	NA	NA	NA	62	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship green kolch  	NA	NA	NA	NA	NA	NA	63	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship green spyck kolch 	NA	NA	NA	NA	NA	NA	64	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship green spyck kolch 	NA	NA	NA	NA	NA	NA	65	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship blue spyck kolch 	NA	NA	NA	NA	NA	NA	66	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship red spyck kolch 	NA	NA	NA	NA	NA	NA	67	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship blue   	NA	NA	NA	NA	NA	NA	68	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+0	NA	NA	NA	NA	NA	NA	spaceship blue spyck kolch 	NA	NA	NA	NA	NA	NA	69	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship blue spyck kolch 	NA	NA	NA	NA	NA	NA	70	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship red spyck kolch 	NA	NA	NA	NA	NA	NA	71	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship red kolch  	NA	NA	NA	NA	NA	NA	72	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship blue spyck kolch 	NA	NA	NA	NA	NA	NA	73	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship red spyck  	NA	NA	NA	NA	NA	NA	74	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+0	NA	NA	NA	NA	NA	NA	spaceship green spyck kolch 	NA	NA	NA	NA	NA	NA	75	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship blue kolch  	NA	NA	NA	NA	NA	NA	76	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship green spyck kolch 	NA	NA	NA	NA	NA	NA	77	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship red spyck  	NA	NA	NA	NA	NA	NA	78	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+0	NA	NA	NA	NA	NA	NA	spaceship blue spyck kolch 	NA	NA	NA	NA	NA	NA	79	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship red spyck  	NA	NA	NA	NA	NA	NA	80	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+0	NA	NA	NA	NA	NA	NA	blue spaceship kolch	NA	NA	NA	NA	NA	NA	82	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship red spyck	NA	NA	NA	NA	NA	NA	83	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+0	NA	NA	NA	NA	NA	NA	spaceship green spyck	NA	NA	NA	NA	NA	NA	84	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+0	NA	NA	NA	NA	NA	NA	spaceship red kolch	NA	NA	NA	NA	NA	NA	85	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship green spyck kolch	NA	NA	NA	NA	NA	NA	86	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship blue spyck kolch	NA	NA	NA	NA	NA	NA	87	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship blue spyck kolch	NA	NA	NA	NA	NA	NA	88	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship green spyck kolch	NA	NA	NA	NA	NA	NA	89	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship red kolch	NA	NA	NA	NA	NA	NA	90	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship blue kolch	NA	NA	NA	NA	NA	NA	91	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship green kolch	NA	NA	NA	NA	NA	NA	92	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship blue spyck kolch	NA	NA	NA	NA	NA	NA	93	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship blue spyck kolch	NA	NA	NA	NA	NA	NA	94	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship red kolch	NA	NA	NA	NA	NA	NA	95	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship green spyck kolch	NA	NA	NA	NA	NA	NA	96	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship red spyck	NA	NA	NA	NA	NA	NA	97	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+0	NA	NA	NA	NA	NA	NA	spaceship green spyck kolch	NA	NA	NA	NA	NA	NA	98	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship red spyck kolch	NA	NA	NA	NA	NA	NA	99	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship green spyck kolch	NA	NA	NA	NA	NA	NA	100	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship red spyck kolch	NA	NA	NA	NA	NA	NA	101	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship blue spyck kolch	NA	NA	NA	NA	NA	NA	102	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship blue spyck kolch	NA	NA	NA	NA	NA	NA	103	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship red spyck	NA	NA	NA	NA	NA	NA	104	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+0	NA	NA	NA	NA	NA	NA	spaceship red spyck	NA	NA	NA	NA	NA	NA	105	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+0	NA	NA	NA	NA	NA	NA	spaceship green kolch	NA	NA	NA	NA	NA	NA	106	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	spaceship blue	NA	NA	NA	NA	NA	NA	107	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+0	NA	NA	NA	NA	NA	NA	spaceship red kolch	NA	NA	NA	NA	NA	NA	109	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+0	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	136	big	kolch	NA	NA	NA	NA	NA
+0	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.98	NA	NA	NA	137	blue	small	NA	NA	NA	NA	NA
+0	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.99	NA	NA	NA	138	blue	kolch	NA	NA	NA	NA	NA
+0	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	139	big	spyck	NA	NA	NA	NA	NA
+0	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.99	NA	NA	NA	140	spyck	kolch	NA	NA	NA	NA	NA
+0	NA	NA	NA	NA	NA	NA	NA	NA	NA	1	NA	NA	NA	141	green	kolch	NA	NA	NA	NA	NA
+0	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.98	NA	NA	NA	142	spyck	small	NA	NA	NA	NA	NA
+0	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.99	NA	NA	NA	143	spyck	red	NA	NA	NA	NA	NA
+0	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.99	NA	NA	NA	144	red	small	NA	NA	NA	NA	NA
+0	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.02	NA	NA	NA	145	green	spyck	NA	NA	NA	NA	NA
+0	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.01	NA	NA	NA	146	big	red	NA	NA	NA	NA	NA
+0	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.02	NA	NA	NA	147	kolch	red	NA	NA	NA	NA	NA
+0	NA	NA	NA	NA	NA	NA	NA	NA	NA	1	NA	NA	NA	148	spyck	blue	NA	NA	NA	NA	NA
+0	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.99	NA	NA	NA	149	kolch	small	NA	NA	NA	NA	NA
+0	NA	NA	NA	spyck	NA	Wow -- I like this...	NA	NA	NA	0.03	NA	NA	NA	151	blue	spyck	NA	NA	NA	NA	NA
+0	NA	NA	NA	NONE	NA	My friend used to fly this...	NA	NA	NA	0.98	NA	NA	NA	152	spyck	red	NA	NA	NA	NA	NA
+0	NA	NA	NA	kolch	NA	Humans think all of our ships look like this...	NA	NA	NA	1	NA	NA	NA	153	green	kolch	NA	NA	NA	NA	NA
+0	NA	NA	NA	spyck	NA	Ugh, I hate flying this...	NA	NA	NA	0.01	NA	NA	NA	154	red	spyck	NA	NA	NA	NA	NA
+0	NA	NA	NA	kolch	NA	For long distances, I use this...	NA	NA	NA	0.97	NA	NA	NA	155	red	kolch	NA	NA	NA	NA	NA
+0	NA	NA	NA	NONE	NA	On our planet, many aliens fly ships like this...	NA	NA	NA	0.99	NA	NA	NA	156	blue	kolch	NA	NA	NA	NA	NA
+0	NA	NA	NA	green	NA	I like ships that have the same color as I have, like this...	NA	NA	NA	0.98	NA	NA	NA	157	green	kolch	NA	NA	NA	NA	NA
+0	NA	NA	NA	kolch	NA	My first ship had the same shape as this...	NA	NA	NA	0.99	NA	NA	NA	158	red	kolch	NA	NA	NA	NA	NA
+0	NA	NA	NA	spyck	NA	I like ships of this type. My favorite one is this...	NA	NA	NA	0	NA	NA	NA	159	kolch	spyck	NA	NA	NA	NA	NA
+0	NA	NA	NA	blue	NA	What a nice color. I like flying this...	NA	NA	NA	0.98	NA	NA	NA	160	spyck	blue	NA	NA	NA	NA	NA
+0	NA	NA	NA	spyck	NA	I really don&quotechart like ships like this...	NA	NA	NA	0.02	NA	NA	NA	161	kolch	spyck	NA	NA	NA	NA	NA
+0	NA	NA	NA	NA	0.01	NA	NA	[1, 0]	NA	NA	NA	0.84	NA	162	NA	NA	NA	NA	NA	NA	NA
+0	NA	NA	0.01	NA	NA	NA	NA	[1, 0]	0.88	NA	NA	NA	NA	163	NA	NA	NA	NA	NA	NA	NA
+0	NA	NA	NA	NA	NA	NA	NA	[1, 0]	NA	NA	NA	NA	not spiked	164	NA	NA	NA	tall	NA	NA	NA
+1	twad	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	6	NA	NA	NA	NA	NA	NA	NA
+1	lised	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	7	NA	NA	NA	NA	NA	NA	NA
+1	twad	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	8	NA	NA	NA	NA	NA	NA	NA
+1	twad	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	9	NA	NA	NA	NA	NA	NA	NA
+1	twad	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	10	NA	NA	NA	NA	NA	NA	NA
+1	twad	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	11	NA	NA	NA	NA	NA	NA	NA
+1	lised	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	12	NA	NA	NA	NA	NA	NA	NA
+1	lised	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	13	NA	NA	NA	NA	NA	NA	NA
+1	twad	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	14	NA	NA	NA	NA	NA	NA	NA
+1	lised	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	15	NA	NA	NA	NA	NA	NA	NA
+1	lised	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	16	NA	NA	NA	NA	NA	NA	NA
+1	twad	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	17	NA	NA	NA	NA	NA	NA	NA
+1	lised	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	18	NA	NA	NA	NA	NA	NA	NA
+1	twad	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	19	NA	NA	NA	NA	NA	NA	NA
+1	twad	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	20	NA	NA	NA	NA	NA	NA	NA
+1	lised	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	21	NA	NA	NA	NA	NA	NA	NA
+1	twad	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	22	NA	NA	NA	NA	NA	NA	NA
+1	lised	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	23	NA	NA	NA	NA	NA	NA	NA
+1	lised	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	24	NA	NA	NA	NA	NA	NA	NA
+1	twad	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	25	NA	NA	NA	NA	NA	NA	NA
+1	lised	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	26	NA	NA	NA	NA	NA	NA	NA
+1	lised	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	27	NA	NA	NA	NA	NA	NA	NA
+1	lised	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	28	NA	NA	NA	NA	NA	NA	NA
+1	twad	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	29	NA	NA	NA	NA	NA	NA	NA
+1	lised	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	30	NA	NA	NA	NA	NA	NA	NA
+1	twad	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	31	NA	NA	NA	NA	NA	NA	NA
+1	twad	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	32	NA	NA	NA	NA	NA	NA	NA
+1	lised	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	33	NA	NA	NA	NA	NA	NA	NA
+1	twad	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	34	NA	NA	NA	NA	NA	NA	NA
+1	lised	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	35	NA	NA	NA	NA	NA	NA	NA
+1	twad	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	36	NA	NA	NA	NA	NA	NA	NA
+1	lised	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	37	NA	NA	NA	NA	NA	NA	NA
+1	lised	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	38	NA	NA	NA	NA	NA	NA	NA
+1	twad	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	39	NA	NA	NA	NA	NA	NA	NA
+1	lised	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	40	NA	NA	NA	NA	NA	NA	NA
+1	lised	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	41	NA	NA	NA	NA	NA	NA	NA
+1	twad	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	42	NA	NA	NA	NA	NA	NA	NA
+1	twad	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	43	NA	NA	NA	NA	NA	NA	NA
+1	lised	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	44	NA	NA	NA	NA	NA	NA	NA
+1	twad	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	45	NA	NA	NA	NA	NA	NA	NA
+1	twad	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	46	NA	NA	NA	NA	NA	NA	NA
+1	lised	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	47	NA	NA	NA	NA	NA	NA	NA
+1	twad	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	48	NA	NA	NA	NA	NA	NA	NA
+1	twad	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	49	NA	NA	NA	NA	NA	NA	NA
+1	twad	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	50	NA	NA	NA	NA	NA	NA	NA
+1	lised	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	51	NA	NA	NA	NA	NA	NA	NA
+1	lised	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	52	NA	NA	NA	NA	NA	NA	NA
+1	lised	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	53	NA	NA	NA	NA	NA	NA	NA
+1	NA	NA	NA	NA	NA	NA	the spaceship twad blue 	NA	NA	NA	NA	NA	NA	55	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_ADJ1_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship twad lised red	NA	NA	NA	NA	NA	NA	56	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_ADJ2_COLOR	S_ADJ1_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship twad blue 	NA	NA	NA	NA	NA	NA	57	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_ADJ1_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship twad green 	NA	NA	NA	NA	NA	NA	58	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_ADJ1_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship twad red 	NA	NA	NA	NA	NA	NA	59	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_ADJ1_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship twad lised blue	NA	NA	NA	NA	NA	NA	60	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_ADJ2_COLOR	S_ADJ1_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship lised red 	NA	NA	NA	NA	NA	NA	61	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+1	NA	NA	NA	NA	NA	NA	spaceship the twad lised green	NA	NA	NA	NA	NA	NA	62	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_ADJ2_COLOR	S_ADJ1_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship twad green 	NA	NA	NA	NA	NA	NA	63	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_ADJ1_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship lised green 	NA	NA	NA	NA	NA	NA	64	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship lised red 	NA	NA	NA	NA	NA	NA	65	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship lised blue 	NA	NA	NA	NA	NA	NA	66	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship twad lised green	NA	NA	NA	NA	NA	NA	67	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_ADJ2_COLOR	S_ADJ1_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship twad lised blue	NA	NA	NA	NA	NA	NA	68	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_ADJ2_COLOR	S_ADJ1_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship twad lised green	NA	NA	NA	NA	NA	NA	69	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_ADJ2_COLOR	S_ADJ1_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship twad lised green	NA	NA	NA	NA	NA	NA	70	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_ADJ2_COLOR	S_ADJ1_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship twad lised green	NA	NA	NA	NA	NA	NA	71	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_ADJ2_COLOR	S_ADJ1_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship twad blue 	NA	NA	NA	NA	NA	NA	72	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_ADJ1_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship red  	NA	NA	NA	NA	NA	NA	73	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship twad lised green	NA	NA	NA	NA	NA	NA	74	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_ADJ2_COLOR	S_ADJ1_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship twad lised red	NA	NA	NA	NA	NA	NA	75	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_ADJ2_COLOR	S_ADJ1_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship lised blue 	NA	NA	NA	NA	NA	NA	76	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship twad lised red	NA	NA	NA	NA	NA	NA	77	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_ADJ2_COLOR	S_ADJ1_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship lised green 	NA	NA	NA	NA	NA	NA	78	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship twad lised blue	NA	NA	NA	NA	NA	NA	79	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_ADJ2_COLOR	S_ADJ1_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship twad blue 	NA	NA	NA	NA	NA	NA	80	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_ADJ1_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship twad blue	NA	NA	NA	NA	NA	NA	82	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_ADJ1_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship twad lised red	NA	NA	NA	NA	NA	NA	83	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_ADJ2_COLOR	S_ADJ1_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship twad green	NA	NA	NA	NA	NA	NA	84	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_ADJ1_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship blue twad	NA	NA	NA	NA	NA	NA	85	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+1	NA	NA	NA	NA	NA	NA	the spaceship red twad	NA	NA	NA	NA	NA	NA	86	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+1	NA	NA	NA	NA	NA	NA	the spaceship lised green	NA	NA	NA	NA	NA	NA	87	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship twad blue	NA	NA	NA	NA	NA	NA	88	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_ADJ1_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship green lised twad	NA	NA	NA	NA	NA	NA	89	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+1	NA	NA	NA	NA	NA	NA	the spaceship green lised	NA	NA	NA	NA	NA	NA	90	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship twad blue	NA	NA	NA	NA	NA	NA	91	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_ADJ1_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship red twad lise	NA	NA	NA	NA	NA	NA	92	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+1	NA	NA	NA	NA	NA	NA	the spaceship lised blue	NA	NA	NA	NA	NA	NA	93	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship blue lised	NA	NA	NA	NA	NA	NA	94	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship lised red	NA	NA	NA	NA	NA	NA	95	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship blue lised twad	NA	NA	NA	NA	NA	NA	96	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+1	NA	NA	NA	NA	NA	NA	the spaceship green lised twad	NA	NA	NA	NA	NA	NA	97	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+1	NA	NA	NA	NA	NA	NA	the spaceship green lised twad	NA	NA	NA	NA	NA	NA	98	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+1	NA	NA	NA	NA	NA	NA	the spaceship blue lised twad	NA	NA	NA	NA	NA	NA	99	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+1	NA	NA	NA	NA	NA	NA	the spaceship green lised twad	NA	NA	NA	NA	NA	NA	100	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+1	NA	NA	NA	NA	NA	NA	the spaceship blue lised twad	NA	NA	NA	NA	NA	NA	101	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+1	NA	NA	NA	NA	NA	NA	the spaceship green twad	NA	NA	NA	NA	NA	NA	102	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+1	NA	NA	NA	NA	NA	NA	the spaceship red ised twad	NA	NA	NA	NA	NA	NA	103	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+1	NA	NA	NA	NA	NA	NA	the spaceship red lised 	NA	NA	NA	NA	NA	NA	104	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship green lised twad	NA	NA	NA	NA	NA	NA	105	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+1	NA	NA	NA	NA	NA	NA	the spaceship red	NA	NA	NA	NA	NA	NA	106	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+1	NA	NA	NA	NA	NA	NA	the spaceship green lised twad	NA	NA	NA	NA	NA	NA	107	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+1	NA	NA	NA	NA	NA	NA	the spaceship green twad	NA	NA	NA	NA	NA	NA	109	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+1	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.07	NA	NA	NA	136	twad	red	NA	NA	NA	NA	NA
+1	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.82	NA	NA	NA	137	twad	big	NA	NA	NA	NA	NA
+1	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.13	NA	NA	NA	138	small	twad	NA	NA	NA	NA	NA
+1	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.15	NA	NA	NA	139	small	red	NA	NA	NA	NA	NA
+1	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.85	NA	NA	NA	140	blue	twad	NA	NA	NA	NA	NA
+1	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.12	NA	NA	NA	141	big	lised	NA	NA	NA	NA	NA
+1	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.13	NA	NA	NA	142	big	green	NA	NA	NA	NA	NA
+1	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.2	NA	NA	NA	143	twad	lised	NA	NA	NA	NA	NA
+1	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.15	NA	NA	NA	144	small	lised	NA	NA	NA	NA	NA
+1	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.81	NA	NA	NA	145	green	lised	NA	NA	NA	NA	NA
+1	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.79	NA	NA	NA	146	blue	lised	NA	NA	NA	NA	NA
+1	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.76	NA	NA	NA	147	green	twad	NA	NA	NA	NA	NA
+1	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.14	NA	NA	NA	148	lised	red	NA	NA	NA	NA	NA
+1	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.81	NA	NA	NA	149	blue	big	NA	NA	NA	NA	NA
+1	NA	NA	NA	NONE	NA	On our planet, many aliens fly ships like this...	NA	NA	NA	0.79	NA	NA	NA	151	blue	twad	NA	NA	NA	NA	NA
+1	NA	NA	NA	lised	NA	Ugh, I hate flying this...	NA	NA	NA	0.71	NA	NA	NA	152	blue	lised	NA	NA	NA	NA	NA
+1	NA	NA	NA	twad	NA	For long distances, I use this...	NA	NA	NA	0.16	NA	NA	NA	153	twad	red	NA	NA	NA	NA	NA
+1	NA	NA	NA	twad	NA	Humans think all of our ships look like this...	NA	NA	NA	0.15	NA	NA	NA	154	twad	red	NA	NA	NA	NA	NA
+1	NA	NA	NA	lised	NA	Wow -- I like this...	NA	NA	NA	0.19	NA	NA	NA	155	lised	green	NA	NA	NA	NA	NA
+1	NA	NA	NA	blue	NA	What a nice color. I like flying this...	NA	NA	NA	0.2	NA	NA	NA	156	lised	blue	NA	NA	NA	NA	NA
+1	NA	NA	NA	twad	NA	My first ship had the same shape as this...	NA	NA	NA	0.14	NA	NA	NA	157	twad	red	NA	NA	NA	NA	NA
+1	NA	NA	NA	green	NA	I like ships that have the same color as I have, like this...	NA	NA	NA	0.16	NA	NA	NA	158	green	twad	NA	NA	NA	NA	NA
+1	NA	NA	NA	lised	NA	I like ships of this type. My favorite one is this...	NA	NA	NA	0.24	NA	NA	NA	159	twad	lised	NA	NA	NA	NA	NA
+1	NA	NA	NA	lised	NA	I really don&quotechart like ships like this...	NA	NA	NA	0.21	NA	NA	NA	160	twad	lised	NA	NA	NA	NA	NA
+1	NA	NA	NA	NONE	NA	My friend used to fly this...	NA	NA	NA	0.25	NA	NA	NA	161	lised	green	NA	NA	NA	NA	NA
+1	NA	NA	0.71	NA	NA	NA	NA	[0, 1]	0.75	NA	NA	NA	NA	162	NA	NA	NA	NA	NA	NA	NA
+1	NA	NA	NA	NA	NA	NA	NA	[0, 1]	NA	NA	NA	NA	pointed	163	NA	NA	NA	tall	NA	NA	NA
+1	NA	NA	NA	NA	0.15	NA	NA	[0, 1]	NA	NA	NA	0.65	NA	164	NA	NA	NA	NA	NA	NA	NA
+2	preathe	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	6	NA	NA	NA	NA	NA	NA	NA
+2	preathe	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	7	NA	NA	NA	NA	NA	NA	NA
+2	milbed	second	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	8	NA	NA	NA	NA	NA	NA	NA
+2	preathe	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	9	NA	NA	NA	NA	NA	NA	NA
+2	preathe	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	10	NA	NA	NA	NA	NA	NA	NA
+2	milbed	first	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	11	NA	NA	NA	NA	NA	NA	NA
+2	milbed	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	12	NA	NA	NA	NA	NA	NA	NA
+2	preathe	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	13	NA	NA	NA	NA	NA	NA	NA
+2	milbed	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	14	NA	NA	NA	NA	NA	NA	NA
+2	preathe	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	15	NA	NA	NA	NA	NA	NA	NA
+2	milbed	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	16	NA	NA	NA	NA	NA	NA	NA
+2	preathe	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	17	NA	NA	NA	NA	NA	NA	NA
+2	milbed	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	18	NA	NA	NA	NA	NA	NA	NA
+2	preathe	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	19	NA	NA	NA	NA	NA	NA	NA
+2	preathe	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	20	NA	NA	NA	NA	NA	NA	NA
+2	preathe	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	21	NA	NA	NA	NA	NA	NA	NA
+2	milbed	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	22	NA	NA	NA	NA	NA	NA	NA
+2	milbed	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	23	NA	NA	NA	NA	NA	NA	NA
+2	preathe	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	24	NA	NA	NA	NA	NA	NA	NA
+2	milbed	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	25	NA	NA	NA	NA	NA	NA	NA
+2	preathe	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	26	NA	NA	NA	NA	NA	NA	NA
+2	milbed	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	27	NA	NA	NA	NA	NA	NA	NA
+2	preathe	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	28	NA	NA	NA	NA	NA	NA	NA
+2	milbed	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	29	NA	NA	NA	NA	NA	NA	NA
+2	milbed	first	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	30	NA	NA	NA	NA	NA	NA	NA
+2	preathe	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	31	NA	NA	NA	NA	NA	NA	NA
+2	milbed	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	32	NA	NA	NA	NA	NA	NA	NA
+2	preathe	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	33	NA	NA	NA	NA	NA	NA	NA
+2	milbed	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	34	NA	NA	NA	NA	NA	NA	NA
+2	milbed	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	35	NA	NA	NA	NA	NA	NA	NA
+2	preathe	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	36	NA	NA	NA	NA	NA	NA	NA
+2	preathe	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	37	NA	NA	NA	NA	NA	NA	NA
+2	milbed	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	38	NA	NA	NA	NA	NA	NA	NA
+2	milbed	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	39	NA	NA	NA	NA	NA	NA	NA
+2	milbed	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	40	NA	NA	NA	NA	NA	NA	NA
+2	milbed	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	41	NA	NA	NA	NA	NA	NA	NA
+2	preathe	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	42	NA	NA	NA	NA	NA	NA	NA
+2	preathe	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	43	NA	NA	NA	NA	NA	NA	NA
+2	milbed	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	44	NA	NA	NA	NA	NA	NA	NA
+2	preathe	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	45	NA	NA	NA	NA	NA	NA	NA
+2	milbed	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	46	NA	NA	NA	NA	NA	NA	NA
+2	milbed	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	47	NA	NA	NA	NA	NA	NA	NA
+2	milbed	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	48	NA	NA	NA	NA	NA	NA	NA
+2	preathe	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	49	NA	NA	NA	NA	NA	NA	NA
+2	milbed	second	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	50	NA	NA	NA	NA	NA	NA	NA
+2	preathe	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	51	NA	NA	NA	NA	NA	NA	NA
+2	preathe	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	52	NA	NA	NA	NA	NA	NA	NA
+2	preathe	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	53	NA	NA	NA	NA	NA	NA	NA
+2	NA	NA	NA	NA	NA	NA	the milbed spaceship  	NA	NA	NA	NA	NA	NA	55	NA	NA	correct	NA	Q_ADJ2	R_ADJ2	S_
+2	NA	NA	NA	NA	NA	NA	the red milbed spaceship 	NA	NA	NA	NA	NA	NA	56	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+2	NA	NA	NA	NA	NA	NA	the red milbed spaceship 	NA	NA	NA	NA	NA	NA	57	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+2	NA	NA	NA	NA	NA	NA	the green spaceship  	NA	NA	NA	NA	NA	NA	58	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+2	NA	NA	NA	NA	NA	NA	the red preathe milbed spaceship	NA	NA	NA	NA	NA	NA	59	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_COLOR_ADJ1
+2	NA	NA	NA	NA	NA	NA	the green milbed spaceship 	NA	NA	NA	NA	NA	NA	60	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+2	NA	NA	NA	NA	NA	NA	the blue milbed spaceship 	NA	NA	NA	NA	NA	NA	61	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+2	NA	NA	NA	NA	NA	NA	the blue milbed spaceship 	NA	NA	NA	NA	NA	NA	62	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+2	NA	NA	NA	NA	NA	NA	the green milbed spaceship 	NA	NA	NA	NA	NA	NA	63	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+2	NA	NA	NA	NA	NA	NA	the red milbed spaceship 	NA	NA	NA	NA	NA	NA	64	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+2	NA	NA	NA	NA	NA	NA	the red preathe spaceship 	NA	NA	NA	NA	NA	NA	65	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+2	NA	NA	NA	NA	NA	NA	the green preathe spaceship 	NA	NA	NA	NA	NA	NA	66	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+2	NA	NA	NA	NA	NA	NA	the blue preathe milbed spaceship	NA	NA	NA	NA	NA	NA	67	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_COLOR_ADJ1
+2	NA	NA	NA	NA	NA	NA	the blue preathe spaceship 	NA	NA	NA	NA	NA	NA	68	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+2	NA	NA	NA	NA	NA	NA	the red milbed spaceship 	NA	NA	NA	NA	NA	NA	69	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+2	NA	NA	NA	NA	NA	NA	the green milbed spaceship 	NA	NA	NA	NA	NA	NA	70	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+2	NA	NA	NA	NA	NA	NA	the green spaceship  	NA	NA	NA	NA	NA	NA	71	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+2	NA	NA	NA	NA	NA	NA	the blue milbed preathe spaceship	NA	NA	NA	NA	NA	NA	72	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+2	NA	NA	NA	NA	NA	NA	the red preathe milbed spaceship	NA	NA	NA	NA	NA	NA	73	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_COLOR_ADJ1
+2	NA	NA	NA	NA	NA	NA	the red milbed spaceship 	NA	NA	NA	NA	NA	NA	74	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+2	NA	NA	NA	NA	NA	NA	the blue preathe spaceship 	NA	NA	NA	NA	NA	NA	75	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+2	NA	NA	NA	NA	NA	NA	the green milbed spaceship 	NA	NA	NA	NA	NA	NA	76	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+2	NA	NA	NA	NA	NA	NA	the red milbed preathe spaceship	NA	NA	NA	NA	NA	NA	77	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+2	NA	NA	NA	NA	NA	NA	the green milbed preathe spaceship	NA	NA	NA	NA	NA	NA	78	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+2	NA	NA	NA	NA	NA	NA	the red milbed spaceship 	NA	NA	NA	NA	NA	NA	79	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+2	NA	NA	NA	NA	NA	NA	the blue milbed spaceship 	NA	NA	NA	NA	NA	NA	80	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+2	NA	NA	NA	NA	NA	NA	the blue milbed spaceship	NA	NA	NA	NA	NA	NA	82	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+2	NA	NA	NA	NA	NA	NA	the green spaceship	NA	NA	NA	NA	NA	NA	83	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+2	NA	NA	NA	NA	NA	NA	the red spaceship	NA	NA	NA	NA	NA	NA	84	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+2	NA	NA	NA	NA	NA	NA	the red spaceship	NA	NA	NA	NA	NA	NA	85	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+2	NA	NA	NA	NA	NA	NA	the blue spaceship	NA	NA	NA	NA	NA	NA	86	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+2	NA	NA	NA	NA	NA	NA	the green milbed spaceship	NA	NA	NA	NA	NA	NA	87	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+2	NA	NA	NA	NA	NA	NA	the green milbed ship	NA	NA	NA	NA	NA	NA	88	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+2	NA	NA	NA	NA	NA	NA	the green milbed spaceship	NA	NA	NA	NA	NA	NA	89	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+2	NA	NA	NA	NA	NA	NA	the red milbed spaceship	NA	NA	NA	NA	NA	NA	90	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+2	NA	NA	NA	NA	NA	NA	the blue preathe milbed spaceship	NA	NA	NA	NA	NA	NA	91	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_COLOR_ADJ1
+2	NA	NA	NA	NA	NA	NA	the red preathe milbed spaceship	NA	NA	NA	NA	NA	NA	92	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_COLOR_ADJ1
+2	NA	NA	NA	NA	NA	NA	the blue milbed spaceship	NA	NA	NA	NA	NA	NA	93	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+2	NA	NA	NA	NA	NA	NA	the red milbed spaceship	NA	NA	NA	NA	NA	NA	94	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+2	NA	NA	NA	NA	NA	NA	the red preathe milbed spaceship	NA	NA	NA	NA	NA	NA	95	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_COLOR_ADJ1
+2	NA	NA	NA	NA	NA	NA	the green preathe milbed spaceship	NA	NA	NA	NA	NA	NA	96	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_COLOR_ADJ1
+2	NA	NA	NA	NA	NA	NA	the red preathe spaceship	NA	NA	NA	NA	NA	NA	97	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+2	NA	NA	NA	NA	NA	NA	the green milbed spaceship	NA	NA	NA	NA	NA	NA	98	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+2	NA	NA	NA	NA	NA	NA	he blue preathe spaceship  	NA	NA	NA	NA	NA	NA	99	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+2	NA	NA	NA	NA	NA	NA	the red preathe milbed spaceship	NA	NA	NA	NA	NA	NA	100	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_COLOR_ADJ1
+2	NA	NA	NA	NA	NA	NA	the red milbed spaceship	NA	NA	NA	NA	NA	NA	101	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+2	NA	NA	NA	NA	NA	NA	the blue milbed spaceship	NA	NA	NA	NA	NA	NA	102	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+2	NA	NA	NA	NA	NA	NA	the blue milbed spaceship	NA	NA	NA	NA	NA	NA	103	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+2	NA	NA	NA	NA	NA	NA	the blue preathe milbed spaceship	NA	NA	NA	NA	NA	NA	104	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_COLOR_ADJ1
+2	NA	NA	NA	NA	NA	NA	the red preathe milbed spaceship	NA	NA	NA	NA	NA	NA	105	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_COLOR_ADJ1
+2	NA	NA	NA	NA	NA	NA	the green spaceship	NA	NA	NA	NA	NA	NA	106	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+2	NA	NA	NA	NA	NA	NA	the green preathe spaceship	NA	NA	NA	NA	NA	NA	107	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+2	NA	NA	NA	NA	NA	NA	the red spaceship	NA	NA	NA	NA	NA	NA	109	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+2	NA	NA	NA	NA	NA	NA	NA	NA	NA	1	NA	NA	NA	136	preathe	red	NA	NA	NA	NA	NA
+2	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	137	red	milbed	NA	NA	NA	NA	NA
+2	NA	NA	NA	NA	NA	NA	NA	NA	NA	1	NA	NA	NA	138	preathe	small	NA	NA	NA	NA	NA
+2	NA	NA	NA	NA	NA	NA	NA	NA	NA	1	NA	NA	NA	139	red	big	NA	NA	NA	NA	NA
+2	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	140	preathe	milbed	NA	NA	NA	NA	NA
+2	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	141	blue	milbed	NA	NA	NA	NA	NA
+2	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	142	big	green	NA	NA	NA	NA	NA
+2	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	143	blue	preathe	NA	NA	NA	NA	NA
+2	NA	NA	NA	NA	NA	NA	NA	NA	NA	1	NA	NA	NA	144	milbed	green	NA	NA	NA	NA	NA
+2	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	145	small	red	NA	NA	NA	NA	NA
+2	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	146	small	milbed	NA	NA	NA	NA	NA
+2	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	147	green	preathe	NA	NA	NA	NA	NA
+2	NA	NA	NA	NA	NA	NA	NA	NA	NA	1	NA	NA	NA	148	milbed	big	NA	NA	NA	NA	NA
+2	NA	NA	NA	NA	NA	NA	NA	NA	NA	1	NA	NA	NA	149	preathe	big	NA	NA	NA	NA	NA
+2	NA	NA	NA	preathe	NA	My first ship had the same shape as this...	NA	NA	NA	0	NA	NA	NA	151	blue	preathe	NA	NA	NA	NA	NA
+2	NA	NA	NA	preathe	NA	Humans think all of our ships look like this...	NA	NA	NA	0	NA	NA	NA	152	green	preathe	NA	NA	NA	NA	NA
+2	NA	NA	NA	milbed	NA	I really don&quotechart like ships like this...	NA	NA	NA	0	NA	NA	NA	153	preathe	milbed	NA	NA	NA	NA	NA
+2	NA	NA	NA	NONE	NA	My friend used to fly this...	NA	NA	NA	0	NA	NA	NA	154	blue	milbed	NA	NA	NA	NA	NA
+2	NA	NA	NA	blue	NA	I like ships that have the same color as I have, like this...	NA	NA	NA	0	NA	NA	NA	155	blue	preathe	NA	NA	NA	NA	NA
+2	NA	NA	NA	milbed	NA	Ugh, I hate flying this...	NA	NA	NA	0	NA	NA	NA	156	blue	milbed	NA	NA	NA	NA	NA
+2	NA	NA	NA	NONE	NA	On our planet, many aliens fly ships like this...	NA	NA	NA	0	NA	NA	NA	157	red	preathe	NA	NA	NA	NA	NA
+2	NA	NA	NA	milbed	NA	Wow -- I like this...	NA	NA	NA	0	NA	NA	NA	158	red	milbed	NA	NA	NA	NA	NA
+2	NA	NA	NA	milbed	NA	I like ships of this type. My favorite one is this...	NA	NA	NA	0	NA	NA	NA	159	preathe	milbed	NA	NA	NA	NA	NA
+2	NA	NA	NA	green	NA	What a nice color. I like flying this...	NA	NA	NA	0	NA	NA	NA	160	green	milbed	NA	NA	NA	NA	NA
+2	NA	NA	NA	preathe	NA	For long distances, I use this...	NA	NA	NA	0	NA	NA	NA	161	green	preathe	NA	NA	NA	NA	NA
+2	NA	NA	NA	NA	NA	NA	NA	[0, 1]	NA	NA	NA	NA	smooth	162	NA	NA	NA	vertical	NA	NA	NA
+2	NA	NA	0	NA	NA	NA	NA	[0, 1]	0	NA	NA	NA	NA	163	NA	NA	NA	NA	NA	NA	NA
+2	NA	NA	NA	NA	0	NA	NA	[0, 1]	NA	NA	NA	0	NA	164	NA	NA	NA	NA	NA	NA	NA
+3	milbed	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	6	NA	NA	NA	NA	NA	NA	NA
+3	milbed	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	7	NA	NA	NA	NA	NA	NA	NA
+3	twell	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	8	NA	NA	NA	NA	NA	NA	NA
+3	milbed	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	9	NA	NA	NA	NA	NA	NA	NA
+3	milbed	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	10	NA	NA	NA	NA	NA	NA	NA
+3	twell	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	11	NA	NA	NA	NA	NA	NA	NA
+3	twell	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	12	NA	NA	NA	NA	NA	NA	NA
+3	twell	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	13	NA	NA	NA	NA	NA	NA	NA
+3	twell	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	14	NA	NA	NA	NA	NA	NA	NA
+3	twell	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	15	NA	NA	NA	NA	NA	NA	NA
+3	twell	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	16	NA	NA	NA	NA	NA	NA	NA
+3	twell	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	17	NA	NA	NA	NA	NA	NA	NA
+3	twell	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	18	NA	NA	NA	NA	NA	NA	NA
+3	milbed	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	19	NA	NA	NA	NA	NA	NA	NA
+3	milbed	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	20	NA	NA	NA	NA	NA	NA	NA
+3	milbed	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	21	NA	NA	NA	NA	NA	NA	NA
+3	milbed	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	22	NA	NA	NA	NA	NA	NA	NA
+3	twell	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	23	NA	NA	NA	NA	NA	NA	NA
+3	milbed	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	24	NA	NA	NA	NA	NA	NA	NA
+3	milbed	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	25	NA	NA	NA	NA	NA	NA	NA
+3	milbed	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	26	NA	NA	NA	NA	NA	NA	NA
+3	twell	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	27	NA	NA	NA	NA	NA	NA	NA
+3	milbed	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	28	NA	NA	NA	NA	NA	NA	NA
+3	milbed	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	29	NA	NA	NA	NA	NA	NA	NA
+3	milbed	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	30	NA	NA	NA	NA	NA	NA	NA
+3	milbed	first	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	31	NA	NA	NA	NA	NA	NA	NA
+3	twell	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	32	NA	NA	NA	NA	NA	NA	NA
+3	twell	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	33	NA	NA	NA	NA	NA	NA	NA
+3	twell	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	34	NA	NA	NA	NA	NA	NA	NA
+3	milbed	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	35	NA	NA	NA	NA	NA	NA	NA
+3	milbed	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	36	NA	NA	NA	NA	NA	NA	NA
+3	milbed	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	37	NA	NA	NA	NA	NA	NA	NA
+3	twell	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	38	NA	NA	NA	NA	NA	NA	NA
+3	twell	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	39	NA	NA	NA	NA	NA	NA	NA
+3	twell	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	40	NA	NA	NA	NA	NA	NA	NA
+3	twell	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	41	NA	NA	NA	NA	NA	NA	NA
+3	milbed	second	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	42	NA	NA	NA	NA	NA	NA	NA
+3	twell	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	43	NA	NA	NA	NA	NA	NA	NA
+3	twell	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	44	NA	NA	NA	NA	NA	NA	NA
+3	milbed	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	45	NA	NA	NA	NA	NA	NA	NA
+3	twell	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	46	NA	NA	NA	NA	NA	NA	NA
+3	milbed	second	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	47	NA	NA	NA	NA	NA	NA	NA
+3	milbed	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	48	NA	NA	NA	NA	NA	NA	NA
+3	milbed	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	49	NA	NA	NA	NA	NA	NA	NA
+3	milbed	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	50	NA	NA	NA	NA	NA	NA	NA
+3	twell	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	51	NA	NA	NA	NA	NA	NA	NA
+3	twell	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	52	NA	NA	NA	NA	NA	NA	NA
+3	twell	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	53	NA	NA	NA	NA	NA	NA	NA
+3	NA	NA	NA	NA	NA	NA	milbed    	NA	NA	NA	NA	NA	NA	55	NA	NA	correct	NA	Q_ADJ2	R_ADJ2	S_
+3	NA	NA	NA	NA	NA	NA	milbed milbed   	NA	NA	NA	NA	NA	NA	56	NA	NA	correct	NA	Q_ADJ2_ADJ2	R_ADJ2_ADJ2	S_
+3	NA	NA	NA	NA	NA	NA	green    	NA	NA	NA	NA	NA	NA	57	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+3	NA	NA	NA	NA	NA	NA	twell red   	NA	NA	NA	NA	NA	NA	58	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_ADJ1_COLOR
+3	NA	NA	NA	NA	NA	NA	twell milbed   	NA	NA	NA	NA	NA	NA	59	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_ADJ2	S_ADJ1
+3	NA	NA	NA	NA	NA	NA	milbed blue   	NA	NA	NA	NA	NA	NA	60	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+3	NA	NA	NA	NA	NA	NA	blue    	NA	NA	NA	NA	NA	NA	61	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+3	NA	NA	NA	NA	NA	NA	red milbed   	NA	NA	NA	NA	NA	NA	62	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+3	NA	NA	NA	NA	NA	NA	red milbed   	NA	NA	NA	NA	NA	NA	63	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+3	NA	NA	NA	NA	NA	NA	twell green   	NA	NA	NA	NA	NA	NA	64	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_ADJ1_COLOR
+3	NA	NA	NA	NA	NA	NA	twell milbed   	NA	NA	NA	NA	NA	NA	65	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_ADJ2	S_ADJ1
+3	NA	NA	NA	NA	NA	NA	red twell   	NA	NA	NA	NA	NA	NA	66	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+3	NA	NA	NA	NA	NA	NA	red milbed   	NA	NA	NA	NA	NA	NA	67	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+3	NA	NA	NA	NA	NA	NA	milbed twell   	NA	NA	NA	NA	NA	NA	68	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_ADJ2	S_ADJ1
+3	NA	NA	NA	NA	NA	NA	twell milbed   	NA	NA	NA	NA	NA	NA	69	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_ADJ2	S_ADJ1
+3	NA	NA	NA	NA	NA	NA	milbed twell   	NA	NA	NA	NA	NA	NA	70	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_ADJ2	S_ADJ1
+3	NA	NA	NA	NA	NA	NA	milbed    	NA	NA	NA	NA	NA	NA	71	NA	NA	correct	NA	Q_ADJ2	R_ADJ2	S_
+3	NA	NA	NA	NA	NA	NA	green milbed   	NA	NA	NA	NA	NA	NA	72	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+3	NA	NA	NA	NA	NA	NA	green milbed   	NA	NA	NA	NA	NA	NA	73	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+3	NA	NA	NA	NA	NA	NA	twell    	NA	NA	NA	NA	NA	NA	74	NA	NA	correct	NA	Q_ADJ1	R_	S_ADJ1
+3	NA	NA	NA	NA	NA	NA	blue twell   	NA	NA	NA	NA	NA	NA	75	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+3	NA	NA	NA	NA	NA	NA	blue twell   	NA	NA	NA	NA	NA	NA	76	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+3	NA	NA	NA	NA	NA	NA	twell milbed   	NA	NA	NA	NA	NA	NA	77	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_ADJ2	S_ADJ1
+3	NA	NA	NA	NA	NA	NA	red twell   	NA	NA	NA	NA	NA	NA	78	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+3	NA	NA	NA	NA	NA	NA	twell milbed   	NA	NA	NA	NA	NA	NA	79	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_ADJ2	S_ADJ1
+3	NA	NA	NA	NA	NA	NA	blue milbed   	NA	NA	NA	NA	NA	NA	80	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+3	NA	NA	NA	NA	NA	NA	blue twell milbed	NA	NA	NA	NA	NA	NA	82	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_COLOR_ADJ1
+3	NA	NA	NA	NA	NA	NA	milbed	NA	NA	NA	NA	NA	NA	83	NA	NA	correct	NA	Q_ADJ2	R_ADJ2	S_
+3	NA	NA	NA	NA	NA	NA	green	NA	NA	NA	NA	NA	NA	84	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+3	NA	NA	NA	NA	NA	NA	milbed	NA	NA	NA	NA	NA	NA	85	NA	NA	correct	NA	Q_ADJ2	R_ADJ2	S_
+3	NA	NA	NA	NA	NA	NA	milbed twell	NA	NA	NA	NA	NA	NA	86	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_ADJ2	S_ADJ1
+3	NA	NA	NA	NA	NA	NA	twell red	NA	NA	NA	NA	NA	NA	87	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_ADJ1_COLOR
+3	NA	NA	NA	NA	NA	NA	blue milbed	NA	NA	NA	NA	NA	NA	88	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+3	NA	NA	NA	NA	NA	NA	green milbed	NA	NA	NA	NA	NA	NA	89	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+3	NA	NA	NA	NA	NA	NA	blue milbed	NA	NA	NA	NA	NA	NA	90	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+3	NA	NA	NA	NA	NA	NA	twell	NA	NA	NA	NA	NA	NA	91	NA	NA	correct	NA	Q_ADJ1	R_	S_ADJ1
+3	NA	NA	NA	NA	NA	NA	red 	NA	NA	NA	NA	NA	NA	92	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+3	NA	NA	NA	NA	NA	NA	blue	NA	NA	NA	NA	NA	NA	93	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+3	NA	NA	NA	NA	NA	NA	green twell	NA	NA	NA	NA	NA	NA	94	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+3	NA	NA	NA	NA	NA	NA	twell milbed	NA	NA	NA	NA	NA	NA	95	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_ADJ2	S_ADJ1
+3	NA	NA	NA	NA	NA	NA	twell milbed	NA	NA	NA	NA	NA	NA	96	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_ADJ2	S_ADJ1
+3	NA	NA	NA	NA	NA	NA	milbed	NA	NA	NA	NA	NA	NA	97	NA	NA	correct	NA	Q_ADJ2	R_ADJ2	S_
+3	NA	NA	NA	NA	NA	NA	milbed green	NA	NA	NA	NA	NA	NA	98	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+3	NA	NA	NA	NA	NA	NA	blue twell	NA	NA	NA	NA	NA	NA	99	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+3	NA	NA	NA	NA	NA	NA	red milbed	NA	NA	NA	NA	NA	NA	100	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+3	NA	NA	NA	NA	NA	NA	twell milbed	NA	NA	NA	NA	NA	NA	101	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_ADJ2	S_ADJ1
+3	NA	NA	NA	NA	NA	NA	green twell	NA	NA	NA	NA	NA	NA	102	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+3	NA	NA	NA	NA	NA	NA	twell milbed	NA	NA	NA	NA	NA	NA	103	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_ADJ2	S_ADJ1
+3	NA	NA	NA	NA	NA	NA	twell blue	NA	NA	NA	NA	NA	NA	104	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_ADJ1_COLOR
+3	NA	NA	NA	NA	NA	NA	red milbed	NA	NA	NA	NA	NA	NA	105	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+3	NA	NA	NA	NA	NA	NA	twell red	NA	NA	NA	NA	NA	NA	106	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_ADJ1_COLOR
+3	NA	NA	NA	NA	NA	NA	twell milbed	NA	NA	NA	NA	NA	NA	107	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_ADJ2	S_ADJ1
+3	NA	NA	NA	NA	NA	NA	twell milbed	NA	NA	NA	NA	NA	NA	109	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_ADJ2	S_ADJ1
+3	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.03	NA	NA	NA	136	big	red	NA	NA	NA	NA	NA
+3	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.04	NA	NA	NA	137	big	milbed	NA	NA	NA	NA	NA
+3	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.02	NA	NA	NA	138	small	milbed	NA	NA	NA	NA	NA
+3	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.96	NA	NA	NA	139	twell	red	NA	NA	NA	NA	NA
+3	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.03	NA	NA	NA	140	small	twell	NA	NA	NA	NA	NA
+3	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.96	NA	NA	NA	141	milbed	red	NA	NA	NA	NA	NA
+3	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.98	NA	NA	NA	142	milbed	green	NA	NA	NA	NA	NA
+3	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.05	NA	NA	NA	143	twell	milbed	NA	NA	NA	NA	NA
+3	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.96	NA	NA	NA	144	green	big	NA	NA	NA	NA	NA
+3	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.05	NA	NA	NA	145	big	twell	NA	NA	NA	NA	NA
+3	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.04	NA	NA	NA	146	blue	milbed	NA	NA	NA	NA	NA
+3	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.05	NA	NA	NA	147	blue	twell	NA	NA	NA	NA	NA
+3	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.96	NA	NA	NA	148	twell	green	NA	NA	NA	NA	NA
+3	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.01	NA	NA	NA	149	red	small	NA	NA	NA	NA	NA
+3	NA	NA	NA	twell	NA	Humans think all of our ships look like this...	NA	NA	NA	0.97	NA	NA	NA	151	twell	blue	NA	NA	NA	NA	NA
+3	NA	NA	NA	NONE	NA	My friend used to fly this...	NA	NA	NA	0	NA	NA	NA	152	green	milbed	NA	NA	NA	NA	NA
+3	NA	NA	NA	twell	NA	For long distances, I use this...	NA	NA	NA	0.02	NA	NA	NA	153	blue	twell	NA	NA	NA	NA	NA
+3	NA	NA	NA	milbed	NA	Ugh, I hate flying this...	NA	NA	NA	0.97	NA	NA	NA	154	milbed	blue	NA	NA	NA	NA	NA
+3	NA	NA	NA	green	NA	What a nice color. I like flying this...	NA	NA	NA	0.02	NA	NA	NA	155	green	milbed	NA	NA	NA	NA	NA
+3	NA	NA	NA	milbed	NA	I really don&quotechart like ships like this...	NA	NA	NA	0.97	NA	NA	NA	156	milbed	twell	NA	NA	NA	NA	NA
+3	NA	NA	NA	NONE	NA	On our planet, many aliens fly ships like this...	NA	NA	NA	0.98	NA	NA	NA	157	twell	green	NA	NA	NA	NA	NA
+3	NA	NA	NA	milbed	NA	Wow -- I like this...	NA	NA	NA	0.02	NA	NA	NA	158	green	milbed	NA	NA	NA	NA	NA
+3	NA	NA	NA	milbed	NA	I like ships of this type. My favorite one is this...	NA	NA	NA	0.04	NA	NA	NA	159	twell	milbed	NA	NA	NA	NA	NA
+3	NA	NA	NA	twell	NA	My first ship had the same shape as this...	NA	NA	NA	0.97	NA	NA	NA	160	twell	green	NA	NA	NA	NA	NA
+3	NA	NA	NA	blue	NA	I like ships that have the same color as I have, like this...	NA	NA	NA	0.02	NA	NA	NA	161	blue	twell	NA	NA	NA	NA	NA
+3	NA	NA	0.96	NA	NA	NA	NA	[0, 1]	0.96	NA	NA	NA	NA	162	NA	NA	NA	NA	NA	NA	NA
+3	NA	NA	NA	NA	0.01	NA	NA	[0, 1]	NA	NA	NA	0.01	NA	163	NA	NA	NA	NA	NA	NA	NA
+3	NA	NA	NA	NA	NA	NA	NA	[0, 1]	NA	NA	NA	NA	Thorn like	164	NA	NA	NA	Pointed	NA	NA	NA
+4	lised	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	6	NA	NA	NA	NA	NA	NA	NA
+4	lised	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	7	NA	NA	NA	NA	NA	NA	NA
+4	trunce	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	8	NA	NA	NA	NA	NA	NA	NA
+4	lised	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	9	NA	NA	NA	NA	NA	NA	NA
+4	lised	first	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	10	NA	NA	NA	NA	NA	NA	NA
+4	trunce	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	11	NA	NA	NA	NA	NA	NA	NA
+4	lised	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	12	NA	NA	NA	NA	NA	NA	NA
+4	lised	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	13	NA	NA	NA	NA	NA	NA	NA
+4	trunce	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	14	NA	NA	NA	NA	NA	NA	NA
+4	lised	second	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	15	NA	NA	NA	NA	NA	NA	NA
+4	trunce	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	16	NA	NA	NA	NA	NA	NA	NA
+4	trunce	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	17	NA	NA	NA	NA	NA	NA	NA
+4	lised	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	18	NA	NA	NA	NA	NA	NA	NA
+4	lised	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	19	NA	NA	NA	NA	NA	NA	NA
+4	trunce	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	20	NA	NA	NA	NA	NA	NA	NA
+4	trunce	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	21	NA	NA	NA	NA	NA	NA	NA
+4	trunce	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	22	NA	NA	NA	NA	NA	NA	NA
+4	lised	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	23	NA	NA	NA	NA	NA	NA	NA
+4	trunce	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	24	NA	NA	NA	NA	NA	NA	NA
+4	trunce	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	25	NA	NA	NA	NA	NA	NA	NA
+4	lised	first	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	26	NA	NA	NA	NA	NA	NA	NA
+4	trunce	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	27	NA	NA	NA	NA	NA	NA	NA
+4	lised	first	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	28	NA	NA	NA	NA	NA	NA	NA
+4	lised	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	29	NA	NA	NA	NA	NA	NA	NA
+4	trunce	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	30	NA	NA	NA	NA	NA	NA	NA
+4	trunce	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	31	NA	NA	NA	NA	NA	NA	NA
+4	lised	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	32	NA	NA	NA	NA	NA	NA	NA
+4	trunce	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	33	NA	NA	NA	NA	NA	NA	NA
+4	trunce	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	34	NA	NA	NA	NA	NA	NA	NA
+4	trunce	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	35	NA	NA	NA	NA	NA	NA	NA
+4	lised	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	36	NA	NA	NA	NA	NA	NA	NA
+4	lised	second	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	37	NA	NA	NA	NA	NA	NA	NA
+4	trunce	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	38	NA	NA	NA	NA	NA	NA	NA
+4	trunce	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	39	NA	NA	NA	NA	NA	NA	NA
+4	lised	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	40	NA	NA	NA	NA	NA	NA	NA
+4	lised	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	41	NA	NA	NA	NA	NA	NA	NA
+4	trunce	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	42	NA	NA	NA	NA	NA	NA	NA
+4	lised	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	43	NA	NA	NA	NA	NA	NA	NA
+4	trunce	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	44	NA	NA	NA	NA	NA	NA	NA
+4	trunce	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	45	NA	NA	NA	NA	NA	NA	NA
+4	trunce	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	46	NA	NA	NA	NA	NA	NA	NA
+4	lised	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	47	NA	NA	NA	NA	NA	NA	NA
+4	lised	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	48	NA	NA	NA	NA	NA	NA	NA
+4	lised	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	49	NA	NA	NA	NA	NA	NA	NA
+4	trunce	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	50	NA	NA	NA	NA	NA	NA	NA
+4	lised	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	51	NA	NA	NA	NA	NA	NA	NA
+4	lised	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	52	NA	NA	NA	NA	NA	NA	NA
+4	trunce	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	53	NA	NA	NA	NA	NA	NA	NA
+4	NA	NA	NA	NA	NA	NA	the trunce spaceship  	NA	NA	NA	NA	NA	NA	55	NA	NA	correct	NA	Q_ADJ2	R_ADJ2	S_
+4	NA	NA	NA	NA	NA	NA	the lised spaceship  	NA	NA	NA	NA	NA	NA	56	NA	NA	correct	NA	Q_ADJ1	R_	S_ADJ1
+4	NA	NA	NA	NA	NA	NA	the green spaceship  	NA	NA	NA	NA	NA	NA	57	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+4	NA	NA	NA	NA	NA	NA	the red spaceship  	NA	NA	NA	NA	NA	NA	58	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+4	NA	NA	NA	NA	NA	NA	the trunce spaceship  	NA	NA	NA	NA	NA	NA	59	NA	NA	correct	NA	Q_ADJ2	R_ADJ2	S_
+4	NA	NA	NA	NA	NA	NA	the lised spaceship  	NA	NA	NA	NA	NA	NA	60	NA	NA	correct	NA	Q_ADJ1	R_	S_ADJ1
+4	NA	NA	NA	NA	NA	NA	the red lised spaceship 	NA	NA	NA	NA	NA	NA	61	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+4	NA	NA	NA	NA	NA	NA	the red trunce spaceship 	NA	NA	NA	NA	NA	NA	62	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+4	NA	NA	NA	NA	NA	NA	the red lised spaceship 	NA	NA	NA	NA	NA	NA	63	NA	NA	underspecified	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+4	NA	NA	NA	NA	NA	NA	the red lised spaceship 	NA	NA	NA	NA	NA	NA	64	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+4	NA	NA	NA	NA	NA	NA	the green trunce spaceship 	NA	NA	NA	NA	NA	NA	65	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+4	NA	NA	NA	NA	NA	NA	the green lised spaceship 	NA	NA	NA	NA	NA	NA	66	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+4	NA	NA	NA	NA	NA	NA	the blue lised spaceship 	NA	NA	NA	NA	NA	NA	67	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+4	NA	NA	NA	NA	NA	NA	the blue trunce spaceship 	NA	NA	NA	NA	NA	NA	68	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+4	NA	NA	NA	NA	NA	NA	the green lised spaceship 	NA	NA	NA	NA	NA	NA	69	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+4	NA	NA	NA	NA	NA	NA	the green trunce spaceship 	NA	NA	NA	NA	NA	NA	70	NA	NA	underspecified	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+4	NA	NA	NA	NA	NA	NA	the green lised spaceship 	NA	NA	NA	NA	NA	NA	71	NA	NA	underspecified	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+4	NA	NA	NA	NA	NA	NA	the blue lised spaceship 	NA	NA	NA	NA	NA	NA	72	NA	NA	underspecified	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+4	NA	NA	NA	NA	NA	NA	the blue lised spaceship 	NA	NA	NA	NA	NA	NA	73	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+4	NA	NA	NA	NA	NA	NA	the red trunce spaceship 	NA	NA	NA	NA	NA	NA	74	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+4	NA	NA	NA	NA	NA	NA	the green trunce spaceship 	NA	NA	NA	NA	NA	NA	75	NA	NA	underspecified	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+4	NA	NA	NA	NA	NA	NA	the blue lised spaceship 	NA	NA	NA	NA	NA	NA	76	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+4	NA	NA	NA	NA	NA	NA	the blue spaceship  	NA	NA	NA	NA	NA	NA	77	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+4	NA	NA	NA	NA	NA	NA	the red spaceship  	NA	NA	NA	NA	NA	NA	78	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+4	NA	NA	NA	NA	NA	NA	the green spaceship  	NA	NA	NA	NA	NA	NA	79	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+4	NA	NA	NA	NA	NA	NA	the green lised spaceship 	NA	NA	NA	NA	NA	NA	80	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+4	NA	NA	NA	NA	NA	NA	the lised spaceship	NA	NA	NA	NA	NA	NA	82	NA	NA	correct	NA	Q_ADJ1	R_	S_ADJ1
+4	NA	NA	NA	NA	NA	NA	the red trunce spaceship	NA	NA	NA	NA	NA	NA	83	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+4	NA	NA	NA	NA	NA	NA	the blue lised spaceship	NA	NA	NA	NA	NA	NA	84	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+4	NA	NA	NA	NA	NA	NA	the red spaceship	NA	NA	NA	NA	NA	NA	85	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+4	NA	NA	NA	NA	NA	NA	the trunce spaceship	NA	NA	NA	NA	NA	NA	86	NA	NA	correct	NA	Q_ADJ2	R_ADJ2	S_
+4	NA	NA	NA	NA	NA	NA	the green spaceship	NA	NA	NA	NA	NA	NA	87	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+4	NA	NA	NA	NA	NA	NA	the green lised spaceship	NA	NA	NA	NA	NA	NA	88	NA	NA	underspecified	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+4	NA	NA	NA	NA	NA	NA	the red lised spaceship	NA	NA	NA	NA	NA	NA	89	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+4	NA	NA	NA	NA	NA	NA	the red lised spaceship	NA	NA	NA	NA	NA	NA	90	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+4	NA	NA	NA	NA	NA	NA	the green lised spaceship	NA	NA	NA	NA	NA	NA	91	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+4	NA	NA	NA	NA	NA	NA	the green lised spaceship	NA	NA	NA	NA	NA	NA	92	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+4	NA	NA	NA	NA	NA	NA	the red trunce spaceship	NA	NA	NA	NA	NA	NA	93	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+4	NA	NA	NA	NA	NA	NA	the red trunce spaceship	NA	NA	NA	NA	NA	NA	94	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+4	NA	NA	NA	NA	NA	NA	the green lised trunce spacehip	NA	NA	NA	NA	NA	NA	95	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_COLOR_ADJ1
+4	NA	NA	NA	NA	NA	NA	the blue lised spaceship	NA	NA	NA	NA	NA	NA	96	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+4	NA	NA	NA	NA	NA	NA	the red lised trunce spaceship	NA	NA	NA	NA	NA	NA	97	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_COLOR_ADJ1
+4	NA	NA	NA	NA	NA	NA	the blue spaceship	NA	NA	NA	NA	NA	NA	98	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+4	NA	NA	NA	NA	NA	NA	the blue lised trunce spaceship	NA	NA	NA	NA	NA	NA	99	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_COLOR_ADJ1
+4	NA	NA	NA	NA	NA	NA	the blue trunce spaceship	NA	NA	NA	NA	NA	NA	100	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+4	NA	NA	NA	NA	NA	NA	the blue lised spaceship	NA	NA	NA	NA	NA	NA	101	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+4	NA	NA	NA	NA	NA	NA	the blue lised spaceship	NA	NA	NA	NA	NA	NA	102	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+4	NA	NA	NA	NA	NA	NA	the green lised trunce spaceship	NA	NA	NA	NA	NA	NA	103	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_COLOR_ADJ1
+4	NA	NA	NA	NA	NA	NA	the green spaceship	NA	NA	NA	NA	NA	NA	104	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+4	NA	NA	NA	NA	NA	NA	the red spaceship	NA	NA	NA	NA	NA	NA	105	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+4	NA	NA	NA	NA	NA	NA	the green lised spaceship	NA	NA	NA	NA	NA	NA	106	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+4	NA	NA	NA	NA	NA	NA	the green trunce spaceship	NA	NA	NA	NA	NA	NA	107	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+4	NA	NA	NA	NA	NA	NA	the blue trunce spaceship	NA	NA	NA	NA	NA	NA	109	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+4	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.96	NA	NA	NA	136	lised	blue	NA	NA	NA	NA	NA
+4	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	137	big	red	NA	NA	NA	NA	NA
+4	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	138	small	lised	NA	NA	NA	NA	NA
+4	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	139	small	trunce	NA	NA	NA	NA	NA
+4	NA	NA	NA	NA	NA	NA	NA	NA	NA	1	NA	NA	NA	140	lised	red	NA	NA	NA	NA	NA
+4	NA	NA	NA	NA	NA	NA	NA	NA	NA	1	NA	NA	NA	141	red	small	NA	NA	NA	NA	NA
+4	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	142	red	trunce	NA	NA	NA	NA	NA
+4	NA	NA	NA	NA	NA	NA	NA	NA	NA	1	NA	NA	NA	143	blue	small	NA	NA	NA	NA	NA
+4	NA	NA	NA	NA	NA	NA	NA	NA	NA	1	NA	NA	NA	144	trunce	blue	NA	NA	NA	NA	NA
+4	NA	NA	NA	NA	NA	NA	NA	NA	NA	1	NA	NA	NA	145	trunce	big	NA	NA	NA	NA	NA
+4	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	146	lised	trunce	NA	NA	NA	NA	NA
+4	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	147	green	lised	NA	NA	NA	NA	NA
+4	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	148	green	trunce	NA	NA	NA	NA	NA
+4	NA	NA	NA	NA	NA	NA	NA	NA	NA	1	NA	NA	NA	149	lised	big	NA	NA	NA	NA	NA
+4	NA	NA	NA	trunce	NA	I really don&quotechart like ships like this...	NA	NA	NA	1	NA	NA	NA	151	lised	trunce	NA	NA	NA	NA	NA
+4	NA	NA	NA	green	NA	What a nice color. I like flying this...	NA	NA	NA	1	NA	NA	NA	152	trunce	green	NA	NA	NA	NA	NA
+4	NA	NA	NA	NONE	NA	On our planet, many aliens fly ships like this...	NA	NA	NA	0	NA	NA	NA	153	blue	lised	NA	NA	NA	NA	NA
+4	NA	NA	NA	blue	NA	I like ships that have the same color as I have, like this...	NA	NA	NA	1	NA	NA	NA	154	lised	blue	NA	NA	NA	NA	NA
+4	NA	NA	NA	lised	NA	Humans think all of our ships look like this...	NA	NA	NA	1	NA	NA	NA	155	lised	blue	NA	NA	NA	NA	NA
+4	NA	NA	NA	trunce	NA	Ugh, I hate flying this...	NA	NA	NA	1	NA	NA	NA	156	trunce	red	NA	NA	NA	NA	NA
+4	NA	NA	NA	trunce	NA	Wow -- I like this...	NA	NA	NA	1	NA	NA	NA	157	trunce	red	NA	NA	NA	NA	NA
+4	NA	NA	NA	lised	NA	For long distances, I use this...	NA	NA	NA	0	NA	NA	NA	158	green	lised	NA	NA	NA	NA	NA
+4	NA	NA	NA	NONE	NA	My friend used to fly this...	NA	NA	NA	1	NA	NA	NA	159	trunce	blue	NA	NA	NA	NA	NA
+4	NA	NA	NA	trunce	NA	I like ships of this type. My favorite one is this...	NA	NA	NA	1	NA	NA	NA	160	trunce	lised	NA	NA	NA	NA	NA
+4	NA	NA	NA	lised	NA	My first ship had the same shape as this...	NA	NA	NA	0	NA	NA	NA	161	blue	lised	NA	NA	NA	NA	NA
+4	NA	NA	0.96	NA	NA	NA	NA	[0, 1]	1	NA	NA	NA	NA	162	NA	NA	NA	NA	NA	NA	NA
+4	NA	NA	NA	NA	0.22	NA	NA	[0, 1]	NA	NA	NA	0.61	NA	163	NA	NA	NA	NA	NA	NA	NA
+4	NA	NA	NA	NA	NA	NA	NA	[0, 1]	NA	NA	NA	NA	Accessorized 	164	NA	NA	NA	Narrow	NA	NA	NA
+5	spyck	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	6	NA	NA	NA	NA	NA	NA	NA
+5	scorcs	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	7	NA	NA	NA	NA	NA	NA	NA
+5	spyck	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	8	NA	NA	NA	NA	NA	NA	NA
+5	scorcs	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	9	NA	NA	NA	NA	NA	NA	NA
+5	scorcs	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	10	NA	NA	NA	NA	NA	NA	NA
+5	spyck	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	11	NA	NA	NA	NA	NA	NA	NA
+5	spyck	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	12	NA	NA	NA	NA	NA	NA	NA
+5	spyck	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	13	NA	NA	NA	NA	NA	NA	NA
+5	spyck	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	14	NA	NA	NA	NA	NA	NA	NA
+5	scorcs	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	15	NA	NA	NA	NA	NA	NA	NA
+5	scorcs	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	16	NA	NA	NA	NA	NA	NA	NA
+5	spyck	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	17	NA	NA	NA	NA	NA	NA	NA
+5	scorcs	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	18	NA	NA	NA	NA	NA	NA	NA
+5	spyck	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	19	NA	NA	NA	NA	NA	NA	NA
+5	scorcs	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	20	NA	NA	NA	NA	NA	NA	NA
+5	spyck	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	21	NA	NA	NA	NA	NA	NA	NA
+5	spyck	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	22	NA	NA	NA	NA	NA	NA	NA
+5	scorcs	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	23	NA	NA	NA	NA	NA	NA	NA
+5	spyck	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	24	NA	NA	NA	NA	NA	NA	NA
+5	scorcs	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	25	NA	NA	NA	NA	NA	NA	NA
+5	scorcs	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	26	NA	NA	NA	NA	NA	NA	NA
+5	scorcs	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	27	NA	NA	NA	NA	NA	NA	NA
+5	spyck	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	28	NA	NA	NA	NA	NA	NA	NA
+5	spyck	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	29	NA	NA	NA	NA	NA	NA	NA
+5	spyck	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	30	NA	NA	NA	NA	NA	NA	NA
+5	scorcs	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	31	NA	NA	NA	NA	NA	NA	NA
+5	scorcs	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	32	NA	NA	NA	NA	NA	NA	NA
+5	spyck	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	33	NA	NA	NA	NA	NA	NA	NA
+5	spyck	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	34	NA	NA	NA	NA	NA	NA	NA
+5	spyck	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	35	NA	NA	NA	NA	NA	NA	NA
+5	scorcs	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	36	NA	NA	NA	NA	NA	NA	NA
+5	spyck	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	37	NA	NA	NA	NA	NA	NA	NA
+5	scorcs	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	38	NA	NA	NA	NA	NA	NA	NA
+5	spyck	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	39	NA	NA	NA	NA	NA	NA	NA
+5	scorcs	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	40	NA	NA	NA	NA	NA	NA	NA
+5	scorcs	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	41	NA	NA	NA	NA	NA	NA	NA
+5	spyck	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	42	NA	NA	NA	NA	NA	NA	NA
+5	scorcs	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	43	NA	NA	NA	NA	NA	NA	NA
+5	scorcs	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	44	NA	NA	NA	NA	NA	NA	NA
+5	spyck	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	45	NA	NA	NA	NA	NA	NA	NA
+5	spyck	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	46	NA	NA	NA	NA	NA	NA	NA
+5	scorcs	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	47	NA	NA	NA	NA	NA	NA	NA
+5	spyck	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	48	NA	NA	NA	NA	NA	NA	NA
+5	scorcs	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	49	NA	NA	NA	NA	NA	NA	NA
+5	scorcs	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	50	NA	NA	NA	NA	NA	NA	NA
+5	scorcs	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	51	NA	NA	NA	NA	NA	NA	NA
+5	scorcs	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	52	NA	NA	NA	NA	NA	NA	NA
+5	spyck	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	53	NA	NA	NA	NA	NA	NA	NA
+5	NA	NA	NA	NA	NA	NA	scorcs green spaceship  	NA	NA	NA	NA	NA	NA	55	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+5	NA	NA	NA	NA	NA	NA	the spaceship spyck blue scorcs	NA	NA	NA	NA	NA	NA	56	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_ADJ1_COLOR
+5	NA	NA	NA	NA	NA	NA	spyck scorcs blue  	NA	NA	NA	NA	NA	NA	57	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_ADJ2_COLOR	S_ADJ1_COLOR
+5	NA	NA	NA	NA	NA	NA	scorcs red   	NA	NA	NA	NA	NA	NA	58	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+5	NA	NA	NA	NA	NA	NA	green spyck spaceship  	NA	NA	NA	NA	NA	NA	59	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+5	NA	NA	NA	NA	NA	NA	red    	NA	NA	NA	NA	NA	NA	60	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+5	NA	NA	NA	NA	NA	NA	spyck red scorcs  	NA	NA	NA	NA	NA	NA	61	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_ADJ1_COLOR
+5	NA	NA	NA	NA	NA	NA	spyck red   	NA	NA	NA	NA	NA	NA	62	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_ADJ1_COLOR
+5	NA	NA	NA	NA	NA	NA	scorcs spaceship red  	NA	NA	NA	NA	NA	NA	63	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+5	NA	NA	NA	NA	NA	NA	spyck scorcs   	NA	NA	NA	NA	NA	NA	64	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_ADJ2	S_ADJ1
+5	NA	NA	NA	NA	NA	NA	spyck scorcs blue  	NA	NA	NA	NA	NA	NA	65	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_ADJ2_COLOR	S_ADJ1_COLOR
+5	NA	NA	NA	NA	NA	NA	spyck scorcs   	NA	NA	NA	NA	NA	NA	66	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_ADJ2	S_ADJ1
+5	NA	NA	NA	NA	NA	NA	spyck blue   	NA	NA	NA	NA	NA	NA	67	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_ADJ1_COLOR
+5	NA	NA	NA	NA	NA	NA	scorcs red   	NA	NA	NA	NA	NA	NA	68	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+5	NA	NA	NA	NA	NA	NA	blue scorcs   	NA	NA	NA	NA	NA	NA	69	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+5	NA	NA	NA	NA	NA	NA	spyck scorcs   	NA	NA	NA	NA	NA	NA	70	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_ADJ2	S_ADJ1
+5	NA	NA	NA	NA	NA	NA	scorcs green   	NA	NA	NA	NA	NA	NA	71	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+5	NA	NA	NA	NA	NA	NA	spyck green scorcs  	NA	NA	NA	NA	NA	NA	72	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_ADJ1_COLOR
+5	NA	NA	NA	NA	NA	NA	red scorcs spyck  	NA	NA	NA	NA	NA	NA	73	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+5	NA	NA	NA	NA	NA	NA	red spyck scorcs  	NA	NA	NA	NA	NA	NA	74	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_COLOR_ADJ1
+5	NA	NA	NA	NA	NA	NA	green spyck   	NA	NA	NA	NA	NA	NA	75	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+5	NA	NA	NA	NA	NA	NA	red spyck   	NA	NA	NA	NA	NA	NA	76	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+5	NA	NA	NA	NA	NA	NA	green scorcs   	NA	NA	NA	NA	NA	NA	77	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+5	NA	NA	NA	NA	NA	NA	green scorcs   	NA	NA	NA	NA	NA	NA	78	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+5	NA	NA	NA	NA	NA	NA	blue scorcs   	NA	NA	NA	NA	NA	NA	79	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+5	NA	NA	NA	NA	NA	NA	blue scorcs   	NA	NA	NA	NA	NA	NA	80	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+5	NA	NA	NA	NA	NA	NA	The spaceship blue scorcs spyck	NA	NA	NA	NA	NA	NA	82	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+5	NA	NA	NA	NA	NA	NA	blue scorcs spyck	NA	NA	NA	NA	NA	NA	83	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+5	NA	NA	NA	NA	NA	NA	red scorcs	NA	NA	NA	NA	NA	NA	84	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+5	NA	NA	NA	NA	NA	NA	red spyck	NA	NA	NA	NA	NA	NA	85	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+5	NA	NA	NA	NA	NA	NA	green spyck	NA	NA	NA	NA	NA	NA	86	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+5	NA	NA	NA	NA	NA	NA	green scorcs	NA	NA	NA	NA	NA	NA	87	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+5	NA	NA	NA	NA	NA	NA	blue spyck scorcs	NA	NA	NA	NA	NA	NA	88	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_COLOR_ADJ1
+5	NA	NA	NA	NA	NA	NA	blue scorcs	NA	NA	NA	NA	NA	NA	89	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+5	NA	NA	NA	NA	NA	NA	blue spyck	NA	NA	NA	NA	NA	NA	90	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+5	NA	NA	NA	NA	NA	NA	red spyck	NA	NA	NA	NA	NA	NA	91	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+5	NA	NA	NA	NA	NA	NA	green scorcs	NA	NA	NA	NA	NA	NA	92	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+5	NA	NA	NA	NA	NA	NA	green scorcs	NA	NA	NA	NA	NA	NA	93	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+5	NA	NA	NA	NA	NA	NA	blue scorcs spyck	NA	NA	NA	NA	NA	NA	94	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+5	NA	NA	NA	NA	NA	NA	blue spyck scorcs	NA	NA	NA	NA	NA	NA	95	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_COLOR_ADJ1
+5	NA	NA	NA	NA	NA	NA	red scorcs spyck	NA	NA	NA	NA	NA	NA	96	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+5	NA	NA	NA	NA	NA	NA	red scorcs	NA	NA	NA	NA	NA	NA	97	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+5	NA	NA	NA	NA	NA	NA	red spyck scorcs	NA	NA	NA	NA	NA	NA	98	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_COLOR_ADJ1
+5	NA	NA	NA	NA	NA	NA	blue spyck scorcs	NA	NA	NA	NA	NA	NA	99	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_COLOR_ADJ1
+5	NA	NA	NA	NA	NA	NA	red spyck scorcs	NA	NA	NA	NA	NA	NA	100	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_COLOR_ADJ1
+5	NA	NA	NA	NA	NA	NA	blue spyck scorcs	NA	NA	NA	NA	NA	NA	101	NA	NA	inconsistent	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_COLOR_ADJ1
+5	NA	NA	NA	NA	NA	NA	green scorcs spyck	NA	NA	NA	NA	NA	NA	102	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+5	NA	NA	NA	NA	NA	NA	green spyck	NA	NA	NA	NA	NA	NA	103	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+5	NA	NA	NA	NA	NA	NA	red spyck	NA	NA	NA	NA	NA	NA	104	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+5	NA	NA	NA	NA	NA	NA	red scorcs spyck	NA	NA	NA	NA	NA	NA	105	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_COLOR_ADJ2	S_COLOR_ADJ1
+5	NA	NA	NA	NA	NA	NA	green scorcs	NA	NA	NA	NA	NA	NA	106	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+5	NA	NA	NA	NA	NA	NA	red scorcs	NA	NA	NA	NA	NA	NA	107	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+5	NA	NA	NA	NA	NA	NA	red spyck scorcs	NA	NA	NA	NA	NA	NA	109	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_COLOR_ADJ1
+5	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.98	NA	NA	NA	136	spyck	small	NA	NA	NA	NA	NA
+5	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.99	NA	NA	NA	137	blue	small	NA	NA	NA	NA	NA
+5	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.01	NA	NA	NA	138	green	spyck	NA	NA	NA	NA	NA
+5	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.01	NA	NA	NA	139	scorcs	spyck	NA	NA	NA	NA	NA
+5	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.96	NA	NA	NA	140	scorcs	blue	NA	NA	NA	NA	NA
+5	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.02	NA	NA	NA	141	small	green	NA	NA	NA	NA	NA
+5	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.04	NA	NA	NA	142	blue	spyck	NA	NA	NA	NA	NA
+5	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	143	big	scorcs	NA	NA	NA	NA	NA
+5	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.94	NA	NA	NA	144	green	small	NA	NA	NA	NA	NA
+5	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.02	NA	NA	NA	145	red	scorcs	NA	NA	NA	NA	NA
+5	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.97	NA	NA	NA	146	spyck	big	NA	NA	NA	NA	NA
+5	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.95	NA	NA	NA	147	scorcs	small	NA	NA	NA	NA	NA
+5	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.02	NA	NA	NA	148	red	spyck	NA	NA	NA	NA	NA
+5	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.97	NA	NA	NA	149	scorcs	green	NA	NA	NA	NA	NA
+5	NA	NA	NA	NONE	NA	My friend used to fly this...	NA	NA	NA	0.98	NA	NA	NA	151	scorcs	red	NA	NA	NA	NA	NA
+5	NA	NA	NA	spyck	NA	For long distances, I use this...	NA	NA	NA	0.01	NA	NA	NA	152	blue	spyck	NA	NA	NA	NA	NA
+5	NA	NA	NA	scorcs	NA	I like ships of this type. My favorite one is this...	NA	NA	NA	0.95	NA	NA	NA	153	spyck	scorcs	NA	NA	NA	NA	NA
+5	NA	NA	NA	scorcs	NA	I really don&quotechart like ships like this...	NA	NA	NA	0.98	NA	NA	NA	154	spyck	scorcs	NA	NA	NA	NA	NA
+5	NA	NA	NA	NONE	NA	On our planet, many aliens fly ships like this...	NA	NA	NA	0.97	NA	NA	NA	155	spyck	blue	NA	NA	NA	NA	NA
+5	NA	NA	NA	spyck	NA	My first ship had the same shape as this...	NA	NA	NA	0.95	NA	NA	NA	156	spyck	blue	NA	NA	NA	NA	NA
+5	NA	NA	NA	blue	NA	I like ships that have the same color as I have, like this...	NA	NA	NA	0.06	NA	NA	NA	157	blue	spyck	NA	NA	NA	NA	NA
+5	NA	NA	NA	scorcs	NA	Wow -- I like this...	NA	NA	NA	0.94	NA	NA	NA	158	scorcs	blue	NA	NA	NA	NA	NA
+5	NA	NA	NA	green	NA	What a nice color. I like flying this...	NA	NA	NA	0.04	NA	NA	NA	159	green	scorcs	NA	NA	NA	NA	NA
+5	NA	NA	NA	scorcs	NA	Ugh, I hate flying this...	NA	NA	NA	0.98	NA	NA	NA	160	scorcs	blue	NA	NA	NA	NA	NA
+5	NA	NA	NA	spyck	NA	Humans think all of our ships look like this...	NA	NA	NA	0.93	NA	NA	NA	161	spyck	red	NA	NA	NA	NA	NA
+5	NA	NA	0.01	NA	NA	NA	NA	[1, 0]	0.97	NA	NA	NA	NA	162	NA	NA	NA	NA	NA	NA	NA
+5	NA	NA	NA	NA	NA	NA	NA	[1, 0]	NA	NA	NA	NA	without extending arms	163	NA	NA	NA	tall	NA	NA	NA
+5	NA	NA	NA	NA	0.01	NA	NA	[1, 0]	NA	NA	NA	0.97	NA	164	NA	NA	NA	NA	NA	NA	NA
+6	twawls	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	6	NA	NA	NA	NA	NA	NA	NA
+6	twawls	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	7	NA	NA	NA	NA	NA	NA	NA
+6	thomps	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	8	NA	NA	NA	NA	NA	NA	NA
+6	thomps	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	9	NA	NA	NA	NA	NA	NA	NA
+6	twawls	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	10	NA	NA	NA	NA	NA	NA	NA
+6	thomps	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	11	NA	NA	NA	NA	NA	NA	NA
+6	twawls	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	12	NA	NA	NA	NA	NA	NA	NA
+6	thomps	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	13	NA	NA	NA	NA	NA	NA	NA
+6	twawls	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	14	NA	NA	NA	NA	NA	NA	NA
+6	twawls	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	15	NA	NA	NA	NA	NA	NA	NA
+6	twawls	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	16	NA	NA	NA	NA	NA	NA	NA
+6	thomps	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	17	NA	NA	NA	NA	NA	NA	NA
+6	twawls	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	18	NA	NA	NA	NA	NA	NA	NA
+6	thomps	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	19	NA	NA	NA	NA	NA	NA	NA
+6	thomps	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	20	NA	NA	NA	NA	NA	NA	NA
+6	thomps	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	21	NA	NA	NA	NA	NA	NA	NA
+6	twawls	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	22	NA	NA	NA	NA	NA	NA	NA
+6	twawls	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	23	NA	NA	NA	NA	NA	NA	NA
+6	twawls	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	24	NA	NA	NA	NA	NA	NA	NA
+6	twawls	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	25	NA	NA	NA	NA	NA	NA	NA
+6	thomps	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	26	NA	NA	NA	NA	NA	NA	NA
+6	thomps	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	27	NA	NA	NA	NA	NA	NA	NA
+6	twawls	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	28	NA	NA	NA	NA	NA	NA	NA
+6	twawls	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	29	NA	NA	NA	NA	NA	NA	NA
+6	thomps	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	30	NA	NA	NA	NA	NA	NA	NA
+6	thomps	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	31	NA	NA	NA	NA	NA	NA	NA
+6	twawls	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	32	NA	NA	NA	NA	NA	NA	NA
+6	thomps	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	33	NA	NA	NA	NA	NA	NA	NA
+6	thomps	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	34	NA	NA	NA	NA	NA	NA	NA
+6	thomps	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	35	NA	NA	NA	NA	NA	NA	NA
+6	thomps	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	36	NA	NA	NA	NA	NA	NA	NA
+6	twawls	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	37	NA	NA	NA	NA	NA	NA	NA
+6	twawls	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	38	NA	NA	NA	NA	NA	NA	NA
+6	thomps	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	39	NA	NA	NA	NA	NA	NA	NA
+6	thomps	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	40	NA	NA	NA	NA	NA	NA	NA
+6	twawls	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	41	NA	NA	NA	NA	NA	NA	NA
+6	twawls	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	42	NA	NA	NA	NA	NA	NA	NA
+6	thomps	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	43	NA	NA	NA	NA	NA	NA	NA
+6	thomps	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	44	NA	NA	NA	NA	NA	NA	NA
+6	twawls	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	45	NA	NA	NA	NA	NA	NA	NA
+6	thomps	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	46	NA	NA	NA	NA	NA	NA	NA
+6	twawls	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	47	NA	NA	NA	NA	NA	NA	NA
+6	thomps	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	48	NA	NA	NA	NA	NA	NA	NA
+6	twawls	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	49	NA	NA	NA	NA	NA	NA	NA
+6	thomps	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	50	NA	NA	NA	NA	NA	NA	NA
+6	twawls	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	51	NA	NA	NA	NA	NA	NA	NA
+6	twawls	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	52	NA	NA	NA	NA	NA	NA	NA
+6	thomps	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	53	NA	NA	NA	NA	NA	NA	NA
+6	NA	NA	NA	NA	NA	NA	twawls    	NA	NA	NA	NA	NA	NA	55	NA	NA	correct	NA	Q_ADJ2	R_ADJ2	S_
+6	NA	NA	NA	NA	NA	NA	twawls    	NA	NA	NA	NA	NA	NA	56	NA	NA	correct	NA	Q_ADJ2	R_ADJ2	S_
+6	NA	NA	NA	NA	NA	NA	thomps    	NA	NA	NA	NA	NA	NA	57	NA	NA	correct	NA	Q_ADJ1	R_	S_ADJ1
+6	NA	NA	NA	NA	NA	NA	thomps    	NA	NA	NA	NA	NA	NA	58	NA	NA	correct	NA	Q_ADJ1	R_	S_ADJ1
+6	NA	NA	NA	NA	NA	NA	twawls red   	NA	NA	NA	NA	NA	NA	59	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+6	NA	NA	NA	NA	NA	NA	twawls    	NA	NA	NA	NA	NA	NA	60	NA	NA	correct	NA	Q_ADJ2	R_ADJ2	S_
+6	NA	NA	NA	NA	NA	NA	thomps    	NA	NA	NA	NA	NA	NA	61	NA	NA	correct	NA	Q_ADJ1	R_	S_ADJ1
+6	NA	NA	NA	NA	NA	NA	twawls    	NA	NA	NA	NA	NA	NA	62	NA	NA	correct	NA	Q_ADJ2	R_ADJ2	S_
+6	NA	NA	NA	NA	NA	NA	twawls    	NA	NA	NA	NA	NA	NA	63	NA	NA	correct	NA	Q_ADJ2	R_ADJ2	S_
+6	NA	NA	NA	NA	NA	NA	thomps green   	NA	NA	NA	NA	NA	NA	64	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_ADJ1_COLOR
+6	NA	NA	NA	NA	NA	NA	twawls red   	NA	NA	NA	NA	NA	NA	65	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+6	NA	NA	NA	NA	NA	NA	twawls red   	NA	NA	NA	NA	NA	NA	66	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+6	NA	NA	NA	NA	NA	NA	thomps red twawls  	NA	NA	NA	NA	NA	NA	67	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_ADJ1_COLOR
+6	NA	NA	NA	NA	NA	NA	thomps twawls green  	NA	NA	NA	NA	NA	NA	68	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_ADJ2_COLOR	S_ADJ1_COLOR
+6	NA	NA	NA	NA	NA	NA	thomps blue   	NA	NA	NA	NA	NA	NA	69	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_ADJ1_COLOR
+6	NA	NA	NA	NA	NA	NA	thomps red   	NA	NA	NA	NA	NA	NA	70	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_ADJ1_COLOR
+6	NA	NA	NA	NA	NA	NA	twawls green   	NA	NA	NA	NA	NA	NA	71	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+6	NA	NA	NA	NA	NA	NA	twawls red   	NA	NA	NA	NA	NA	NA	72	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+6	NA	NA	NA	NA	NA	NA	twawls green   	NA	NA	NA	NA	NA	NA	73	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+6	NA	NA	NA	NA	NA	NA	twawls green thomps  	NA	NA	NA	NA	NA	NA	74	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_ADJ2_COLOR	S_COLOR_ADJ1
+6	NA	NA	NA	NA	NA	NA	twawls blue   	NA	NA	NA	NA	NA	NA	75	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+6	NA	NA	NA	NA	NA	NA	twawls green thomps  	NA	NA	NA	NA	NA	NA	76	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_ADJ2_COLOR	S_COLOR_ADJ1
+6	NA	NA	NA	NA	NA	NA	twawls green   	NA	NA	NA	NA	NA	NA	77	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+6	NA	NA	NA	NA	NA	NA	twawls blue   	NA	NA	NA	NA	NA	NA	78	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+6	NA	NA	NA	NA	NA	NA	twawls green thomps  	NA	NA	NA	NA	NA	NA	79	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_ADJ2_COLOR	S_COLOR_ADJ1
+6	NA	NA	NA	NA	NA	NA	thomps blue   	NA	NA	NA	NA	NA	NA	80	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_ADJ1_COLOR
+6	NA	NA	NA	NA	NA	NA	twawls green	NA	NA	NA	NA	NA	NA	82	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+6	NA	NA	NA	NA	NA	NA	twawls red	NA	NA	NA	NA	NA	NA	83	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+6	NA	NA	NA	NA	NA	NA	twawls green thomps	NA	NA	NA	NA	NA	NA	84	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_ADJ2_COLOR	S_COLOR_ADJ1
+6	NA	NA	NA	NA	NA	NA	twawls red	NA	NA	NA	NA	NA	NA	85	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+6	NA	NA	NA	NA	NA	NA	thomps	NA	NA	NA	NA	NA	NA	86	NA	NA	correct	NA	Q_ADJ1	R_	S_ADJ1
+6	NA	NA	NA	NA	NA	NA	twawls 	NA	NA	NA	NA	NA	NA	87	NA	NA	correct	NA	Q_ADJ2	R_ADJ2	S_
+6	NA	NA	NA	NA	NA	NA	twawls	NA	NA	NA	NA	NA	NA	88	NA	NA	correct	NA	Q_ADJ2	R_ADJ2	S_
+6	NA	NA	NA	NA	NA	NA	twawls	NA	NA	NA	NA	NA	NA	89	NA	NA	correct	NA	Q_ADJ2	R_ADJ2	S_
+6	NA	NA	NA	NA	NA	NA	twawls	NA	NA	NA	NA	NA	NA	90	NA	NA	correct	NA	Q_ADJ2	R_ADJ2	S_
+6	NA	NA	NA	NA	NA	NA	twawls green thomps	NA	NA	NA	NA	NA	NA	91	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_ADJ2_COLOR	S_COLOR_ADJ1
+6	NA	NA	NA	NA	NA	NA	twawls red thomps	NA	NA	NA	NA	NA	NA	92	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_ADJ2_COLOR	S_COLOR_ADJ1
+6	NA	NA	NA	NA	NA	NA	thomps red	NA	NA	NA	NA	NA	NA	93	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_ADJ1_COLOR
+6	NA	NA	NA	NA	NA	NA	twawls blue	NA	NA	NA	NA	NA	NA	94	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+6	NA	NA	NA	NA	NA	NA	twawls blue	NA	NA	NA	NA	NA	NA	95	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+6	NA	NA	NA	NA	NA	NA	twawls red thomps	NA	NA	NA	NA	NA	NA	96	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_ADJ2_COLOR	S_COLOR_ADJ1
+6	NA	NA	NA	NA	NA	NA	twawls red thomps	NA	NA	NA	NA	NA	NA	97	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_ADJ2_COLOR	S_COLOR_ADJ1
+6	NA	NA	NA	NA	NA	NA	twawls	NA	NA	NA	NA	NA	NA	98	NA	NA	correct	NA	Q_ADJ2	R_ADJ2	S_
+6	NA	NA	NA	NA	NA	NA	twawls green	NA	NA	NA	NA	NA	NA	99	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+6	NA	NA	NA	NA	NA	NA	twawls green thomps	NA	NA	NA	NA	NA	NA	100	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_ADJ2_COLOR	S_COLOR_ADJ1
+6	NA	NA	NA	NA	NA	NA	thomps blue	NA	NA	NA	NA	NA	NA	101	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_ADJ1_COLOR
+6	NA	NA	NA	NA	NA	NA	twawls green thomps	NA	NA	NA	NA	NA	NA	102	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_ADJ2_COLOR	S_COLOR_ADJ1
+6	NA	NA	NA	NA	NA	NA	twawls red	NA	NA	NA	NA	NA	NA	103	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+6	NA	NA	NA	NA	NA	NA	twawls green thomps	NA	NA	NA	NA	NA	NA	104	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_ADJ2_COLOR	S_COLOR_ADJ1
+6	NA	NA	NA	NA	NA	NA	twawls green	NA	NA	NA	NA	NA	NA	105	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+6	NA	NA	NA	NA	NA	NA	twawls blue	NA	NA	NA	NA	NA	NA	106	NA	NA	correct	NA	Q_ADJ2	R_ADJ2_COLOR	S_COLOR
+6	NA	NA	NA	NA	NA	NA	twawls green thomps	NA	NA	NA	NA	NA	NA	107	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_ADJ2_COLOR	S_COLOR_ADJ1
+6	NA	NA	NA	NA	NA	NA	twawls green thomps	NA	NA	NA	NA	NA	NA	109	NA	NA	correct	NA	Q_ADJ2_ADJ1	R_ADJ2_COLOR	S_COLOR_ADJ1
+6	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	136	red	twawls	NA	NA	NA	NA	NA
+6	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.81	NA	NA	NA	137	blue	small	NA	NA	NA	NA	NA
+6	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.91	NA	NA	NA	138	twawls	blue	NA	NA	NA	NA	NA
+6	NA	NA	NA	NA	NA	NA	NA	NA	NA	1	NA	NA	NA	139	twawls	big	NA	NA	NA	NA	NA
+6	NA	NA	NA	NA	NA	NA	NA	NA	NA	1	NA	NA	NA	140	red	big	NA	NA	NA	NA	NA
+6	NA	NA	NA	NA	NA	NA	NA	NA	NA	1	NA	NA	NA	141	twawls	small	NA	NA	NA	NA	NA
+6	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	142	green	thomps	NA	NA	NA	NA	NA
+6	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.01	NA	NA	NA	143	small	thomps	NA	NA	NA	NA	NA
+6	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	144	green	twawls	NA	NA	NA	NA	NA
+6	NA	NA	NA	NA	NA	NA	NA	NA	NA	1	NA	NA	NA	145	twawls	thomps	NA	NA	NA	NA	NA
+6	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	146	small	red	NA	NA	NA	NA	NA
+6	NA	NA	NA	NA	NA	NA	NA	NA	NA	1	NA	NA	NA	147	thomps	blue	NA	NA	NA	NA	NA
+6	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	148	red	thomps	NA	NA	NA	NA	NA
+6	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	149	big	thomps	NA	NA	NA	NA	NA
+6	NA	NA	NA	NONE	NA	On our planet, many aliens fly ships like this...	NA	NA	NA	1	NA	NA	NA	151	thomps	red	NA	NA	NA	NA	NA
+6	NA	NA	NA	thomps	NA	Humans think all of our ships look like this...	NA	NA	NA	1	NA	NA	NA	152	thomps	blue	NA	NA	NA	NA	NA
+6	NA	NA	NA	red	NA	What a nice color. I like flying this...	NA	NA	NA	0	NA	NA	NA	153	red	twawls	NA	NA	NA	NA	NA
+6	NA	NA	NA	thomps	NA	For long distances, I use this...	NA	NA	NA	0	NA	NA	NA	154	red	thomps	NA	NA	NA	NA	NA
+6	NA	NA	NA	thomps	NA	My first ship had the same shape as this...	NA	NA	NA	0	NA	NA	NA	155	blue	thomps	NA	NA	NA	NA	NA
+6	NA	NA	NA	twawls	NA	I really don&quotechart like ships like this...	NA	NA	NA	1	NA	NA	NA	156	twawls	thomps	NA	NA	NA	NA	NA
+6	NA	NA	NA	twawls	NA	Wow -- I like this...	NA	NA	NA	0	NA	NA	NA	157	green	twawls	NA	NA	NA	NA	NA
+6	NA	NA	NA	green	NA	I like ships that have the same color as I have, like this...	NA	NA	NA	1	NA	NA	NA	158	thomps	green	NA	NA	NA	NA	NA
+6	NA	NA	NA	twawls	NA	Ugh, I hate flying this...	NA	NA	NA	0	NA	NA	NA	159	red	twawls	NA	NA	NA	NA	NA
+6	NA	NA	NA	NONE	NA	My friend used to fly this...	NA	NA	NA	1	NA	NA	NA	160	twawls	red	NA	NA	NA	NA	NA
+6	NA	NA	NA	twawls	NA	I like ships of this type. My favorite one is this...	NA	NA	NA	0	NA	NA	NA	161	thomps	twawls	NA	NA	NA	NA	NA
+6	NA	NA	NA	NA	0.26	NA	NA	[1, 0]	NA	NA	NA	0.09	NA	162	NA	NA	NA	NA	NA	NA	NA
+6	NA	NA	0	NA	NA	NA	NA	[1, 0]	0	NA	NA	NA	NA	163	NA	NA	NA	NA	NA	NA	NA
+6	NA	NA	NA	NA	NA	NA	NA	[1, 0]	NA	NA	NA	NA	spikey	164	NA	NA	NA	elongated	NA	NA	NA
+7	rhould	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	6	NA	NA	NA	NA	NA	NA	NA
+7	rhould	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	7	NA	NA	NA	NA	NA	NA	NA
+7	rhould	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	8	NA	NA	NA	NA	NA	NA	NA
+7	broff	first	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	9	NA	NA	NA	NA	NA	NA	NA
+7	broff	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	10	NA	NA	NA	NA	NA	NA	NA
+7	broff	second	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	11	NA	NA	NA	NA	NA	NA	NA
+7	rhould	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	12	NA	NA	NA	NA	NA	NA	NA
+7	broff	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	13	NA	NA	NA	NA	NA	NA	NA
+7	rhould	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	14	NA	NA	NA	NA	NA	NA	NA
+7	broff	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	15	NA	NA	NA	NA	NA	NA	NA
+7	rhould	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	16	NA	NA	NA	NA	NA	NA	NA
+7	rhould	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	17	NA	NA	NA	NA	NA	NA	NA
+7	broff	first	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	18	NA	NA	NA	NA	NA	NA	NA
+7	broff	first	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	19	NA	NA	NA	NA	NA	NA	NA
+7	broff	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	20	NA	NA	NA	NA	NA	NA	NA
+7	broff	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	21	NA	NA	NA	NA	NA	NA	NA
+7	broff	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	22	NA	NA	NA	NA	NA	NA	NA
+7	rhould	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	23	NA	NA	NA	NA	NA	NA	NA
+7	broff	second	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	24	NA	NA	NA	NA	NA	NA	NA
+7	rhould	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	25	NA	NA	NA	NA	NA	NA	NA
+7	rhould	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	26	NA	NA	NA	NA	NA	NA	NA
+7	rhould	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	27	NA	NA	NA	NA	NA	NA	NA
+7	broff	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	28	NA	NA	NA	NA	NA	NA	NA
+7	rhould	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	29	NA	NA	NA	NA	NA	NA	NA
+7	rhould	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	30	NA	NA	NA	NA	NA	NA	NA
+7	broff	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	31	NA	NA	NA	NA	NA	NA	NA
+7	broff	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	32	NA	NA	NA	NA	NA	NA	NA
+7	rhould	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	33	NA	NA	NA	NA	NA	NA	NA
+7	rhould	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	34	NA	NA	NA	NA	NA	NA	NA
+7	rhould	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	35	NA	NA	NA	NA	NA	NA	NA
+7	broff	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	36	NA	NA	NA	NA	NA	NA	NA
+7	rhould	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	37	NA	NA	NA	NA	NA	NA	NA
+7	broff	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	38	NA	NA	NA	NA	NA	NA	NA
+7	broff	first	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	39	NA	NA	NA	NA	NA	NA	NA
+7	broff	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	40	NA	NA	NA	NA	NA	NA	NA
+7	broff	first	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	41	NA	NA	NA	NA	NA	NA	NA
+7	broff	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	42	NA	NA	NA	NA	NA	NA	NA
+7	rhould	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	43	NA	NA	NA	NA	NA	NA	NA
+7	rhould	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	44	NA	NA	NA	NA	NA	NA	NA
+7	broff	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	45	NA	NA	NA	NA	NA	NA	NA
+7	rhould	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	46	NA	NA	NA	NA	NA	NA	NA
+7	rhould	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	47	NA	NA	NA	NA	NA	NA	NA
+7	broff	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	48	NA	NA	NA	NA	NA	NA	NA
+7	rhould	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	49	NA	NA	NA	NA	NA	NA	NA
+7	rhould	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	50	NA	NA	NA	NA	NA	NA	NA
+7	broff	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	51	NA	NA	NA	NA	NA	NA	NA
+7	rhould	first	NA	NA	NA	NA	NA	NA	NA	NA	first	NA	NA	52	NA	NA	NA	NA	NA	NA	NA
+7	broff	second	NA	NA	NA	NA	NA	NA	NA	NA	second	NA	NA	53	NA	NA	NA	NA	NA	NA	NA
+7	NA	NA	NA	NA	NA	NA	red spaceship the  	NA	NA	NA	NA	NA	NA	55	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+7	NA	NA	NA	NA	NA	NA	the spaceship green  	NA	NA	NA	NA	NA	NA	56	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+7	NA	NA	NA	NA	NA	NA	the red spaceship  	NA	NA	NA	NA	NA	NA	57	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+7	NA	NA	NA	NA	NA	NA	the green spaceship broff 	NA	NA	NA	NA	NA	NA	58	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+7	NA	NA	NA	NA	NA	NA	the red spaceship  	NA	NA	NA	NA	NA	NA	59	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+7	NA	NA	NA	NA	NA	NA	    	NA	NA	NA	NA	NA	NA	60	NA	NA	underspecified	NA	Q_	R_	S_
+7	NA	NA	NA	NA	NA	NA	the blue rhould spaceship 	NA	NA	NA	NA	NA	NA	61	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+7	NA	NA	NA	NA	NA	NA	the red rhould spaceship 	NA	NA	NA	NA	NA	NA	62	NA	NA	underspecified	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+7	NA	NA	NA	NA	NA	NA	the blue spaceship  	NA	NA	NA	NA	NA	NA	63	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+7	NA	NA	NA	NA	NA	NA	the red broff spaceship 	NA	NA	NA	NA	NA	NA	64	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+7	NA	NA	NA	NA	NA	NA	the blue broff spaceship 	NA	NA	NA	NA	NA	NA	65	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+7	NA	NA	NA	NA	NA	NA	the red rhould spaceship 	NA	NA	NA	NA	NA	NA	66	NA	NA	underspecified	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+7	NA	NA	NA	NA	NA	NA	the green rhould  	NA	NA	NA	NA	NA	NA	67	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+7	NA	NA	NA	NA	NA	NA	the blue rhould  	NA	NA	NA	NA	NA	NA	68	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+7	NA	NA	NA	NA	NA	NA	the green rhould  	NA	NA	NA	NA	NA	NA	69	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+7	NA	NA	NA	NA	NA	NA	the blue rhould  	NA	NA	NA	NA	NA	NA	70	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+7	NA	NA	NA	NA	NA	NA	the green rhould  	NA	NA	NA	NA	NA	NA	71	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+7	NA	NA	NA	NA	NA	NA	the red rhould  	NA	NA	NA	NA	NA	NA	72	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+7	NA	NA	NA	NA	NA	NA	the red broff rhould 	NA	NA	NA	NA	NA	NA	73	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_COLOR_ADJ1
+7	NA	NA	NA	NA	NA	NA	the red broff rhould 	NA	NA	NA	NA	NA	NA	74	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_COLOR_ADJ1
+7	NA	NA	NA	NA	NA	NA	the red rhould  	NA	NA	NA	NA	NA	NA	75	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+7	NA	NA	NA	NA	NA	NA	the blue broff rhould 	NA	NA	NA	NA	NA	NA	76	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_COLOR_ADJ1
+7	NA	NA	NA	NA	NA	NA	the blue rhould  	NA	NA	NA	NA	NA	NA	77	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+7	NA	NA	NA	NA	NA	NA	the blue spaceship  	NA	NA	NA	NA	NA	NA	78	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+7	NA	NA	NA	NA	NA	NA	the green rhould  	NA	NA	NA	NA	NA	NA	79	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+7	NA	NA	NA	NA	NA	NA	the green broff  	NA	NA	NA	NA	NA	NA	80	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+7	NA	NA	NA	NA	NA	NA	the green spaceship	NA	NA	NA	NA	NA	NA	82	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+7	NA	NA	NA	NA	NA	NA	the red 	NA	NA	NA	NA	NA	NA	83	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+7	NA	NA	NA	NA	NA	NA	the red	NA	NA	NA	NA	NA	NA	84	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+7	NA	NA	NA	NA	NA	NA	the red	NA	NA	NA	NA	NA	NA	85	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+7	NA	NA	NA	NA	NA	NA	green broff	NA	NA	NA	NA	NA	NA	86	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+7	NA	NA	NA	NA	NA	NA	green rhould	NA	NA	NA	NA	NA	NA	87	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+7	NA	NA	NA	NA	NA	NA	green rhould	NA	NA	NA	NA	NA	NA	88	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+7	NA	NA	NA	NA	NA	NA	blue rhould	NA	NA	NA	NA	NA	NA	89	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+7	NA	NA	NA	NA	NA	NA	red rhould	NA	NA	NA	NA	NA	NA	90	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+7	NA	NA	NA	NA	NA	NA	blue broff	NA	NA	NA	NA	NA	NA	91	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+7	NA	NA	NA	NA	NA	NA	green broff rhould	NA	NA	NA	NA	NA	NA	92	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_COLOR_ADJ1
+7	NA	NA	NA	NA	NA	NA	red broff rhould	NA	NA	NA	NA	NA	NA	93	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_COLOR_ADJ1
+7	NA	NA	NA	NA	NA	NA	green rhould	NA	NA	NA	NA	NA	NA	94	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+7	NA	NA	NA	NA	NA	NA	green rhould	NA	NA	NA	NA	NA	NA	95	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+7	NA	NA	NA	NA	NA	NA	blue rhould	NA	NA	NA	NA	NA	NA	96	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+7	NA	NA	NA	NA	NA	NA	blue broff rhould	NA	NA	NA	NA	NA	NA	97	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_COLOR_ADJ1
+7	NA	NA	NA	NA	NA	NA	red broff rhould	NA	NA	NA	NA	NA	NA	98	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_COLOR_ADJ1
+7	NA	NA	NA	NA	NA	NA	blue rhould	NA	NA	NA	NA	NA	NA	99	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+7	NA	NA	NA	NA	NA	NA	blue rhould	NA	NA	NA	NA	NA	NA	100	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+7	NA	NA	NA	NA	NA	NA	red broff rhould	NA	NA	NA	NA	NA	NA	101	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_COLOR_ADJ1
+7	NA	NA	NA	NA	NA	NA	blue rhould	NA	NA	NA	NA	NA	NA	102	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+7	NA	NA	NA	NA	NA	NA	red broff	NA	NA	NA	NA	NA	NA	103	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+7	NA	NA	NA	NA	NA	NA	red broff rhould	NA	NA	NA	NA	NA	NA	104	NA	NA	correct	NA	Q_ADJ1_ADJ2	R_COLOR_ADJ2	S_COLOR_ADJ1
+7	NA	NA	NA	NA	NA	NA	red rhould	NA	NA	NA	NA	NA	NA	105	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+7	NA	NA	NA	NA	NA	NA	green broff	NA	NA	NA	NA	NA	NA	106	NA	NA	correct	NA	Q_ADJ1	R_COLOR	S_COLOR_ADJ1
+7	NA	NA	NA	NA	NA	NA	blue rhould	NA	NA	NA	NA	NA	NA	107	NA	NA	correct	NA	Q_ADJ2	R_COLOR_ADJ2	S_COLOR
+7	NA	NA	NA	NA	NA	NA	green spaceship	NA	NA	NA	NA	NA	NA	109	NA	NA	correct	NA	Q_	R_COLOR	S_COLOR
+7	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.14	NA	NA	NA	136	blue	rhould	NA	NA	NA	NA	NA
+7	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	137	big	rhould	NA	NA	NA	NA	NA
+7	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	138	big	red	NA	NA	NA	NA	NA
+7	NA	NA	NA	NA	NA	NA	NA	NA	NA	1	NA	NA	NA	139	red	big	NA	NA	NA	NA	NA
+7	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.89	NA	NA	NA	140	rhould	green	NA	NA	NA	NA	NA
+7	NA	NA	NA	NA	NA	NA	NA	NA	NA	1	NA	NA	NA	141	broff	red	NA	NA	NA	NA	NA
+7	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.92	NA	NA	NA	142	rhould	small	NA	NA	NA	NA	NA
+7	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.03	NA	NA	NA	143	red	rhould	NA	NA	NA	NA	NA
+7	NA	NA	NA	NA	NA	NA	NA	NA	NA	1	NA	NA	NA	144	broff	big	NA	NA	NA	NA	NA
+7	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.94	NA	NA	NA	145	broff	green	NA	NA	NA	NA	NA
+7	NA	NA	NA	NA	NA	NA	NA	NA	NA	0	NA	NA	NA	146	big	blue	NA	NA	NA	NA	NA
+7	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.02	NA	NA	NA	147	small	broff	NA	NA	NA	NA	NA
+7	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.97	NA	NA	NA	148	broff	blue	NA	NA	NA	NA	NA
+7	NA	NA	NA	NA	NA	NA	NA	NA	NA	0.26	NA	NA	NA	149	broff	rhould	NA	NA	NA	NA	NA
+7	NA	NA	NA	rhould	NA	I like ships of this type. My favorite one is this...	NA	NA	NA	0.69	NA	NA	NA	151	rhould	broff	NA	NA	NA	NA	NA
+7	NA	NA	NA	broff	NA	For long distances, I use this...	NA	NA	NA	0	NA	NA	NA	152	blue	broff	NA	NA	NA	NA	NA
+7	NA	NA	NA	rhould	NA	Wow -- I like this...	NA	NA	NA	0.98	NA	NA	NA	153	rhould	red	NA	NA	NA	NA	NA
+7	NA	NA	NA	broff	NA	Humans think all of our ships look like this...	NA	NA	NA	0.02	NA	NA	NA	154	red	broff	NA	NA	NA	NA	NA
+7	NA	NA	NA	NONE	NA	On our planet, many aliens fly ships like this...	NA	NA	NA	0.97	NA	NA	NA	155	broff	green	NA	NA	NA	NA	NA
+7	NA	NA	NA	broff	NA	My first ship had the same shape as this...	NA	NA	NA	0.99	NA	NA	NA	156	broff	red	NA	NA	NA	NA	NA
+7	NA	NA	NA	rhould	NA	I really don&quotechart like ships like this...	NA	NA	NA	0.31	NA	NA	NA	157	broff	rhould	NA	NA	NA	NA	NA
+7	NA	NA	NA	rhould	NA	Ugh, I hate flying this...	NA	NA	NA	0.03	NA	NA	NA	158	green	rhould	NA	NA	NA	NA	NA
+7	NA	NA	NA	green	NA	I like ships that have the same color as I have, like this...	NA	NA	NA	0.96	NA	NA	NA	159	broff	green	NA	NA	NA	NA	NA
+7	NA	NA	NA	blue	NA	What a nice color. I like flying this...	NA	NA	NA	0	NA	NA	NA	160	blue	rhould	NA	NA	NA	NA	NA
+7	NA	NA	NA	NONE	NA	My friend used to fly this...	NA	NA	NA	0.96	NA	NA	NA	161	rhould	green	NA	NA	NA	NA	NA
+7	NA	NA	NA	NA	0.96	NA	NA	[0, 1]	NA	NA	NA	0	NA	162	NA	NA	NA	NA	NA	NA	NA
+7	NA	NA	0	NA	NA	NA	NA	[0, 1]	1	NA	NA	NA	NA	163	NA	NA	NA	NA	NA	NA	NA
+7	NA	NA	NA	NA	NA	NA	NA	[0, 1]	NA	NA	NA	NA	means that the ship has legs	164	NA	NA	NA	this means a description of the ships shape	NA	NA	NA
