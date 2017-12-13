@@ -1,6 +1,9 @@
 // CURRENTLY this version is in use
 
-// Speaker and listener have common objects, speaker wants to communicate attitudes/descriptions.
+// Different from 10:
+// nouns are a type of adjectives, do not point to referents
+// Listeners try to identify the referent, by doing inferences over speaker attitudes
+
 
 // HERE the main driver of the effect is FAULTLESS DISAGREEMENT
 
@@ -57,15 +60,9 @@ var world_prior = function() {
  return [map(prior_adj(agreement[0]), _.range(n_adj)),map(prior_adj(agreement[1]), _.range(n_adj)),map(prior_adj(agreement[0]), _.range(n_adj)),map(prior_adj(agreement[1]), _.range(n_adj))];
 }
 
-// for complete utterances without loss
 var meaning = function(utterance, world, person) {
-     if(world[utterance[0]][utterance[2]][person] == false) {
-       return 0;
-     }
-     if(world[utterance[1]][utterance[2]][person] == false) {
-       return 0;
-     }
-     return 1;
+     var denotation = filter(function(x) { world[utterance[0]][x][person] && world[utterance[1]][x][person] && world[utterance[2]][x][person]}, _.range(n_obj))
+     return (denotation.length > 0 ? 1 : 0)
 }
 
 var corrupt = function(utterance) {
@@ -176,24 +173,83 @@ var listenerAboutObject = Infer({method: 'rejection', samples : 100, incremental
      }})
 console.log(listenerAboutObject)
 
+// The other setting. Here, speaker and listener each have their picture of the world, and they only partially correlate.
+// Listener tries to identify object named by the speaker
+// this would need to be changed, listener needs to make (basic) inference about what the speaker meant
+
+// This probably also requires nouns? (treat them like very objective adjectives)
+
+// How about:
+// - sample a world
+// - sample a conforming utterance
+// - sample a conforming (for the speaker) entity
+
+// Then: listener obtains a distribution over entities: look at posterior distribution over speaker attitudes
+console.log("..............::")
+var real_world = world_prior()
+var compatible_utterances = filter(function(x) { meaning(x, real_world, 0) }, utterances)
+console.log(real_world)
+console.log(compatible_utterances)
+var utterance = compatible_utterances[sample(RandomInteger({n : compatible_utterances.length}))]
+console.log(utterance)
 
 
-//
-//var listenerChoosesCorrectObject = Infer({method : 'rejection', samples : 100, incremental:true,
-//    model() {
-//        var model = sample(listenerPosterior)
-//        var object = sample(RandomInteger({n : n_obj}))
-//        factor(meaning([sentence[0], sentence[1], object], model, 1) ? 0 : -Infinity)
-//        return (object == sentence[2])
-//    }})
-//console.log(listenerChoosesCorrectObject)
+var worldIsCompatible = function(world, real_word) {
+    return all(function(x) { return all(...), zip(world, real_word)  TODO )
+}
+
+
+var firstL = cache(function(prefix) {
+   Infer({method : 'rejection', samples:1000, incremental:true,
+       model() {
+       // this is probably extremely inefficient, will probably need to be replaced with something directly generating compatible worlds by simulating what the world prior does
+       var world = world_prior()
+       factor(worldIsCompatible(world, real_world) ? 0 : -Infinity)       
+
+      var corruption1 = corrupt([prefix[0]])
+      var compatible1 = compatible_utterances(corruption1)
+      var compatibleSatisfying = any(function(x) { return meaning(x, world, 0) }, compatible1)
+      factor(compatibleSatisfying ? 0 : -Infinity)
+      return world;
+     }})})
+
+
+var secondL = cache(function(prefix) {
+   Infer({method : 'rejection', samples:1000, incremental:true,
+       model() {
+       var world = sample(first([prefix[0]]))
+      var corruption2 = corrupt([prefix[0], prefix[1]])
+      var compatible2 = compatible_utterances(corruption2)
+      var compatibleSatisfying = any(function(x) { return meaning(x, world, 0) }, compatible2)
+      factor(compatibleSatisfying ? 0 : -Infinity)
+      return world;
+     }})})
 
 
 
-//////////////////////////////////////////////////////////////////////////
-// Inspect the posterior by looking at the coordinate-wise marginals
-//////////////////////////////////////////////////////////////////////////
+var thirdL = cache(function(utterance) {
+   Infer({method : 'rejection', samples:1000, incremental:true,
+       model() {
+       var world = sample(second([utterance[0], utterance[1]]))
+      var corruption3 = corrupt([utterance[0], utterance[1], utterance[2]])
+      var compatible3 = compatible_utterances(corruption3)
+      var compatibleSatisfying = any(function(x) { return meaning(x, world, 0) }, compatible3)
+      factor(compatibleSatisfying ? 0 : -Infinity)
+      return world;
+     }})})
 
+
+
+
+
+var listenerChoosesCorrectObject = Infer({method : 'rejection', samples : 100, incremental:true,
+    model() {
+        var model = sample(listenerPosterior)
+        var object = sample(RandomInteger({n : n_obj}))
+        factor(meaning([sentence[0], sentence[1], object], model, 1) ? 0 : -Infinity)
+        return (object == sentence[2])
+    }})
+console.log(listenerChoosesCorrectObject)
 var computeMarginalPerson = function(adj, obj, person) {
    var result = listMean(map(function(x) { return x.value }, marginal1(person, obj, adj).samples))
    return result
