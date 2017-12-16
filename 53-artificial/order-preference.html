@@ -1,0 +1,685 @@
+<html>
+
+<head>
+    <title>Language Study</title>
+
+    <!--JS-->
+
+    <!-- external general utilities -->
+    <script src="../_shared/js/jquery-1.11.1.min.js "></script>
+    <script src="../_shared/full-projects/jquery-ui/jquery-ui.min.js"></script>
+    <script src="../_shared/js/underscore-min.js"></script>
+    <!-- if you want to draw stuff: -->
+    <script src="../_shared/js/raphael-min.js"></script>
+
+    <!-- cocolab experiment logic -->
+    <script src="../_shared/js/exp-V2.js"></script>
+    <script src="../_shared/js/stream-V2.js"></script>
+
+    <!-- cocolab general utilities -->
+    <script src="../_shared/js/mmturkey.js "></script>
+    <script src="../_shared/js/browserCheck.js"></script>
+    <script src="../_shared/js/utils.js"></script>
+    <!-- if you want to draw cute creatures (depends on raphael): -->
+    <!-- <script src="../_shared/js/ecosystem.js"></script> -->
+
+    <!-- experiment specific helper functions -->
+    <!-- <script src="js/local-utils.js"></script> -->
+    <script src="../_shared/preload.js"></script>     
+    
+
+
+
+    <!--CSS-->
+    <link href="../_shared/full-projects/jquery-ui/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../_shared/css/cocolab-style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/local-style.css" rel="stylesheet" type="text/css"/>
+
+    <!-- experiment file -->
+    <script src="js/order-preference.js"></script>
+    <script src="expt-files/corpus.js"></script>
+    <script src="expt-files/names.js"></script>
+
+    <!-- check unique turkers -->
+    <script src="../_shared/js/uniqueturker.js"></script>
+
+<!-- Load consent form -->
+<script> 
+$(function(){
+  $("#consent-form").load("consent.html"); 
+});
+</script> 
+
+
+    <!--<script> 
+      var myimages=new Array("../expt-files/images/context1.1.png","../expt-files/images/context1.3.png","../expt-files/images/context1.3reg.png","../expt-files/images/context2.1.png","../expt-files/images/context2.3.png","../expt-files/images/context2.3reg.png","../expt-files/images/context3.1.png","../expt-files/images/context3.3.png","../expt-files/images/context3.3reg.png","../expt-files/images/context4.1.png","../expt-files/images/context4.3.png","../expt-files/images/context4.3reg.png","../expt-files/images/contextX.2.png")
+      function preloadimages(){
+        for (i=0;i<preloadimages.arguments.length;i++){
+          myimages[i]=new Image()
+          myimages[i].src=preloadimages.arguments[i]
+          }
+          }
+    </script>-->
+    
+</head>
+
+<body onload="init();">
+  <noscript>This task requires JavaScript.</noscript>
+
+  <div class="slide" id="i0" >
+    <!--<img src="../_shared/images/cocologo.png" alt="Stanford Linguistics" id="cocologo"></img>-->
+    <p id="cocolab">Stanford Linguistics</p>
+    <p id="instruct-text">This HIT involves learning a few words and answering questions. The task should take about 25 minutes. Please pay attention. Thanks! <br/>  <br/> We'll be posting a series of similar hits. Please accept only one of these. </p>
+    
+    <button id="start_button" type="button">Start Experiment</button>
+    <p id="legal">Legal information: By answering the following questions, you are participating in a study being performed by cognitive scientists in the Stanford Department of Linguistics. If you have questions about this research, please contact Michael Hahn at <a href="mailto://mhahn2@stanford.edu">mhahn2@stanford.edu</a>. You must be  at least 18 years old to participate. Your participation in this research is voluntary. You may decline to answer any or all of the following questions. You may decline further participation, at any time, without adverse consequences. Your anonymity is assured; the researchers who have requested your participation will not receive any personal information about you.</p>
+  </div>
+
+  <div class="slide" id="instructions1">
+    <h3>Instructions</h3>
+    <p> You will learn Alien words describing different kinds of spaceships.
+</p>
+<p>
+These two friendly aliens will be your tutors:
+</p>
+    <table class="slider_table">
+      <tr><td class="radio_centered" style="width: 150px;">    <img src="images/alien-1.jpg" style="height:100px;">       </td>
+          <td class="radio_centered" style="width: 150px;">    <img src="images/alien-2.png" style="height:100px;">       </td>
+      </tr>
+    </table>
+<p>
+You will see a series of displays, each showing a spaceship, with a description given by one of your tutors.
+</p>
+<p>
+From time to time, we will test your knowledge.
+</p>
+<p>
+If you don't pass a test, the tutors will go through the material again.
+Therefore, if you do well on the tests, the HIT will complete earlier!
+</p>
+    <button onclick="_s.button()">Continue</button>
+  </div>
+
+<div class="slide" id="consent">
+<span id="consent-form">
+<br/><b>PLEASE RETURN THE HIT.</b> <p>There is a technical
+problem and we cannot assure that you are fully aware of the content
+of the consent information. For this reason, you currently cannot
+participate in this study.<p>
+</p> We would appreciate if you could let
+us know about this problem, though this is not required.</p>
+</span>
+</div>
+
+
+  <div class="slide" id="tutorial">
+    <h3>Tutorial</h3>
+    <p>  
+</p>
+    <table class="learning_table">
+      <tr><td>
+         <span class="object_tutorial_1">{{}}</span>
+         <span class="object_tutorial_2">{{}}</span>
+         <span class="object_tutorial_3">{{}}</span>
+         <span class="object_tutorial_4">{{}}</span>
+      </td>
+      </tr><tr>
+<td>
+         <span class="object_tutorial_5">{{}}</span>
+         <span class="object_tutorial_6">{{}}</span>
+         <span class="object_tutorial_7">{{}}</span>
+         <span class="object_tutorial_8">{{}}</span>
+</td>
+
+<td>
+         <span class="description_tutorial">{{}}</span>
+      </td>
+</tr><tr><td>
+         <span class="object_tutorial_9">{{}}</span>
+         <span class="object_tutorial_10">{{}}</span>
+         <span class="object_tutorial_11">{{}}</span>
+         <span class="object_tutorial_12">{{}}</span>
+
+      </td>
+      <td>
+         <span class="alien_tutorial">{{}} </span>
+      </td>
+      </tr>
+    </table>
+
+
+<!--    <table class="learning_table">
+      <tr><td  rowspan="2">
+         <span class="object_tutorial_2">{{}}</span>
+      </td>
+      <td>
+         <span class="description_tutorial_2">These spaceships are <b>plofky</b>:</span>
+      </td></tr><tr>
+      <td>
+         <span class="alien_tutorial_2"><img src="images/alien-2.png" style="height:100px;"> </span>
+      </td>
+      </tr>
+    </table>-->
+
+    <button onclick="_s.button()">Continue</button>
+  </div>
+
+
+
+  <div class="slide" id="instructions2">
+    <h3>Quiz</h3>
+    <p id="quiz_instructions">
+To make sure you're well on track, you'll do a quick quiz.
+<!--It's time to test your knowledge.-->
+<!--You will see a spaceship together with a description. Your task is to find out which of the two aliens might have used the sentence to describe the spaceship. In some cases, both aliens might have said the sentence, in other cases neither of them would use the description.-->
+</p>
+<p>
+Try to answer as accurately as possible. But don't worry if you don't know all the answers.
+</p>
+<br>
+<!--     You will see 30 pairs of short object descriptions.<br>
+    Your task is to decide which description sounds better.<br>
+    If neither option makes sense, please still adjust the slider to indicate a preference.</p>-->
+
+    <!-- <p class="instruction_condition">{{}}</p> -->
+    <button onclick="_s.button()">Continue</button>
+  </div>
+
+
+  <div class="slide" id="instructions3">
+    <h3>Quiz</h3>
+    <p>
+Well done!
+You'll now see a series of spaceships with two descriptions. Your task is to decide which description sounds more natural.
+</p>
+<br>
+    <button onclick="_s.button()">Continue</button>
+  </div>
+
+
+  <div class="slide" id="instructions4">
+    <h3>Quiz</h3>
+    <p>
+Good job. Your tutors will now go with you through some more material.
+</p>
+<br>
+    <button onclick="_s.button()">Continue</button>
+  </div>
+
+
+
+  <div class="slide" id="instructions5">
+    <h3>Quiz</h3>
+    <p>
+There'll be a second quiz, similar to the previous one.
+</p>
+<br>
+    <button onclick="_s.button()">Continue</button>
+  </div>
+
+
+  <div class="slide" id="instructions6">
+  <p class="name_said"></p>
+
+    <h3>Interactive Quiz</h3>
+    <p>
+You will now do an interative quiz.
+<!--We'll now pair you up with another worker to practice your knowledge.-->
+</p><p>
+As in the previous quiz, you will see displays with four spaceships each, with one of them highlighted.
+Your tutor sees the same spaceships, without the highlighting, and in a different arrangement.
+</p><p>Your task is to describe the highlighted spaceship.
+Your tutor will try to figure out which spaceship you were referring to.
+You will score a point if your tutor guessed the right ship &#8210; so try to be precise!
+</p><p>
+You can only use words from the previous quiz. That is, you can use `the', `spaceship', colors, and words from the Alien language. Your tutor won't understand other words.
+</p><p>
+If you're unsure, just try &#8210; you can edit your response and resubmit any number of times.
+<!--If you did not succeed, you can change your response and hit "Try again" to get a point.-->
+Alternatively, you can just press "Skip" to move on.
+</p><p>
+If your score drops too low, the tutors will go through some material again. The HIT will finish earlier if you're doing well.
+</p>
+    <button onclick="_s.button()">Continue</button>
+  </div>
+
+  <div class="slide" id="instructions7">
+  <p class="name_said"></p>
+
+    <h3>Advanced Quiz</h3>
+    <p>
+You're doing a great job. You will now do a more advanced quiz.
+<!--We'll now pair you up with another worker to practice your knowledge.-->
+</p><p>
+You will see displays with four spaceships each, with one of them highlighted.
+Your tutor sees the same spaceships, without the highlighting.
+</p><p>Your task is to describe the highlighted spaceship, by clicking on the words on the right.
+Your tutor will try to figure out which spaceship you were referring to.
+You will score a point if your tutor guessed the right ship &#8210; so try to be precise!
+</p><p>
+Use "Erase" to erase the description.
+</p><p>
+It is possible to describe the spaceships using only the words provided.
+If you're unsure, just try &#8210; you can edit your response and resubmit any number of times.
+<!--If you did not succeed, you can change your response and hit "Try again" to get a point.-->
+Alternatively, you can just press "Skip" to move on.
+</p><p>
+If your score drops too low, the tutors will go through some material again. The HIT will finish earlier if you're doing well.
+</p>
+    <button onclick="_s.button()">Continue</button>
+  </div>
+
+
+<!--  <div class="slide" id="instructions7">
+    <h3>Interaction Game</h3>
+    <p>
+Please wait while we're pairing you up with another worker. This should take less than 30 seconds.
+</p>
+<br>
+  </div>-->
+
+
+
+
+  <div class="slide" id="learning">
+
+  <p class="name_said"></p>
+    <br>
+
+
+   
+
+    <table class="learning_table">
+      <tr><td  rowspan="2">
+         <span class="object">{{}}</span>
+      </td>
+      <td>
+         <span class="description">{{}}</span>
+      </td></tr><tr>
+      <td>
+         <span class="alien">{{}}</span>
+      </td>
+      </tr>
+    </table>
+<br/>
+    <button onclick="_s.button()">Continue</button>
+  </div>
+
+
+
+  <div class="slide" id="speaker_choice">
+  <p class="name_said"></p>
+    <br>
+    <table class="learning_table">
+      <tr><td  rowspan="2">
+         <span class="object">{{}}</span>
+      </td>
+      <td>
+         <span class="description">{{}}</span>
+      </td></tr>
+    </table>
+<br>
+<br>
+    <table id="choose_speaker_table" class="slider_table">
+
+      <tr><td class="radio_centered" id="myimage_first_out" style="width: 150px;">  <span id="myimage_first" class="object1"></span>       </td>
+          <td class="radio_centered" id="myimage_second_out" style="width: 150px;">  <span id="myimage_second" class="object2"></span>   </td>
+     </tr>
+    </table>
+    <p id="speaker_choice_feedback_p"><span id="speaker_choice_feedback">{{}}</span></p>
+    <button id="choice_continue_2" onclick="_s.button_2()">Continue</button>
+  </div>
+
+
+
+
+  <div class="slide" id="disagreement">
+    <p class="name_said"></p>
+   <br/>
+   <p>Imagine that two aliens disagree whether a spaceship is <span id="adjective_1_d">{{}}</span>. Is it possible that neither of the aliens is wrong?</p>
+   <p>
+    <table class="slider_table">
+      <tr><td><span>No, one of them is wrong</span></td><td>
+      <div id="slider_disag_1" class="slider"></div>
+      </td><td><span>Yes, maybe neither is wrong</span></td></tr>
+    </table>
+   </p>
+<br>
+   <p>Imagine that two aliens disagree whether a spaceship is <span id="adjective_2_d">{{}}</span>. Is it possible that neither of the aliens is wrong?</p>
+   <p>
+    <table id="multi_slider_table_subj_2" class="slider_table">
+      <tr><td><span>No, one of them is wrong</span></td><td>
+      <div id="slider_disag_2" class="slider"></div>
+      </td><td><span>Yes, maybe neither is wrong</span></td></tr>
+    </table>
+   </p>
+    <button id="disagreement_continue" onclick="_s.button()">Submit</button>
+    <div class="err">Please adjust the sliders before continuing.</div>
+  </div>
+</div>
+
+  <div class="slide" id="subjectivity">
+    <p class="name_said"></p>
+   <br/>
+   <p>How subjective do you think `<span id="adjective_1_s">{{}}</span>' is?</p>
+   <p>
+    <table id="multi_slider_table_subj_1" class="slider_table">
+      <tr><td>Not Subjective</td><td>
+      <div id="slider_subj_1" class="slider"></div>
+      </td><td>Subjective</td></tr>
+    </table>
+   </p>
+<br>
+   <p>How subjective do you think `<span id="adjective_2_s">{{}}</span>' is?</p>
+   <p>
+    <table id="multi_slider_table_subj_2" class="slider_table">
+      <tr><td>Not Subjective</td><td>
+      <div id="slider_subj_2" class="slider"></div>
+      </td><td>Subjective</td></tr>
+    </table>
+   </p>
+    <button id="subjectivity_continue" onclick="_s.button()">Submit</button>
+    <div class="err">Please adjust the sliders before continuing.</div>
+  </div>
+</div>
+
+
+
+
+  <div class="slide" id="what_things_mean">
+    <p class="name_said"></p>
+   <br/>
+   <p>What do you think does `<span id="adjective_1">{{}}</span>' mean in English?</p>
+   <p>
+        <input type="text" id="glab_input" size="40"  style="font-size: 20pt;"  ></input>
+   </p>
+   <p>What do you think does `<span id="adjective_2">{{}}</span>' mean in English?</p>
+   <p>
+        <input type="text" id="rofky_input" size="40"  style="font-size: 20pt;"  ></input>
+   </p>
+
+    <button id="what_means_continue" onclick="_s.button()">Submit</button>
+    <div class="err">Please answer the questions before continuing.</div>
+  </div>
+</div>
+
+
+
+
+  <div class="slide" id="production">
+    <p class="name_said"></p>
+    <div>
+      <div id="score_div" style="float: left;width : 180px; border: 1px solid black;">
+        <p id="score_field" style="cursor: default;">  </p>
+        <span class="alien_production" id="alien_production">{{}}</span>
+      </div>
+      <div>
+        <table>
+          <tr><td id="object1_td">
+             <span class="object1" id="object1">{{}}</span>
+          </td><td id="object2_td">
+             <span class="object2" id="object2">{{}}</span>
+          </td></tr> <tr>
+           <td id="object3_td">
+             <span class="object3" id="object3">{{}}</span>
+          </td><td id="object4_td">
+             <span class="object4" id="object4">{{}}</span>
+          </td>
+         </tr> </table>
+      </div>
+   <br/>
+   <p>
+        <input type="text" id="production_input" size="40"  style="font-size: 20pt;"  ></input>
+   </p>
+    <button id="prod_continue_1" onclick="_s.button_3()">Submit</button>
+    <button id="prod_continue_2" onclick="_s.button_3()">Try again</button>
+    <button id="prod_continue_3" onclick="_s.button()">Skip</button>
+    <button id="prod_continue_4" onclick="_s.button()">Continue</button>
+    <p id="prod_feedback_p"><span id="prod_feedback">{{}}</span></p>
+  </div>
+</div>
+
+  <div class="slide" id="instructions8">
+  <p class="name_said"></p>
+
+    <h3>Quiz</h3>
+    <p>
+You will see a series of spaceships, with a sentence uttered by one of your tutors.
+For each sentence, you will see two possible continuations.
+</p>
+<p>
+Use the slider to indicate which option sounds better as a continuation.
+</p>
+    <button onclick="_s.button()">Continue</button>
+  </div>
+
+
+
+
+
+
+
+
+  <div class="slide" id="production_click">
+  <p class="name_said"></p>
+    <br>
+<div>
+      <div id="score_div_click" style="float: left;width : 180px; border: 1px solid black;">
+        <p id="score_field_click" style="cursor: default;">  </p>
+        <span class="alien_production" id="alien_production_click">{{}}</span>
+      </div>
+
+        <table style="float: left;">
+          <tr><td id="object1_td_click">
+             <span class="object1" id="object1_click">{{}}</span>
+          </td><td id="object2_td_click">
+             <span class="object2" id="object2_click">{{}}</span>
+          </td></tr> <tr>
+           <td id="object3_td_click">
+             <span class="object3" id="object3_click">{{}}</span>
+          </td><td id="object4_td_click">
+             <span class="object4" id="object4_click">{{}}</span>
+          </td>
+         </tr> </table>
+
+
+  <table>
+          <tr>
+          <td class="radio_centered" style="width: 150px;">  <input type="button" onclick="_s.button_1('the')" id="myimage_none" value="the" style="width: 150px;height:40px;;font-size: 200%; border: 0px solid white; background-color:white;cursor: pointer;"/>    </td>
+</tr><tr>
+          <td class="radio_centered" style="width: 150px;">  <input type="button" onclick="_s.button_1('spaceship')" id="myimage_none" value="spaceship" style="width: 150px;height:40px;;font-size: 200%; border: 0px solid white; background-color:white;cursor: pointer;"/>    </td>
+</tr><tr>
+          <td class="radio_centered" style="width: 150px;">  <input type="button" onclick="_s.button_1('ADJ1')" id="myimage_ADJ1" value="ADJ1" style="width: 150px;height:40px;font-size: 200%; border: 0px solid white; background-color:white;cursor: pointer;"/>    </td>
+</tr><tr>
+          <td class="radio_centered" style="width: 150px;">  <input type="button" onclick="_s.button_1('ADJ2')" id="myimage_ADJ2" value="ADJ2" style="width: 150px;height:40px;;font-size: 200%; border: 0px solid white; background-color:white;cursor: pointer;"/>    </td>
+</tr><tr>
+          <td class="radio_centered" style="width: 150px;">  <input type="button" onclick="_s.button_1('red')" id="myimage_none" value="red"  style="width: 150px;height:40px;;font-size: 200%; border: 0px solid white; background-color:white;cursor: pointer;"/>    </td>
+</tr><tr>
+          <td class="radio_centered" style="width: 150px;">  <input type="button" onclick="_s.button_1('green')" id="myimage_none" value="green" style="width: 150px;height:40px;;font-size: 200%; border: 0px solid white; background-color:white;cursor: pointer;"/>    </td>
+</tr><tr>
+          <td class="radio_centered" style="width: 150px;">  <input type="button" onclick="_s.button_1('blue')" id="myimage_none" value="blue" style="width: 150px;height:40px;;font-size: 200%; border: 0px solid white; background-color:white;cursor: pointer;"/>    </td>
+
+     </tr>
+
+  </table>
+</div>
+
+<br>
+
+<div>
+<div id="div_text1" style="float: left;width: 100px;height: 35px;margin: 1px;padding: 10px;border: 1px solid black;">
+  <p id="textfield1" width="88" height="31" style="cursor: default;">  </p>
+</div>
+<div id="div_text2" style="float: left;width: 100px;height: 35px;margin: 1;padding: 10px;border: 1px solid black;">
+  <p id="textfield2" width="88" height="31" style="cursor: default;">  </p>
+</div>
+<div id="div_text3" style="float: left;width: 100px;height: 35px;margin: 1;padding: 10px;border: 1px solid black;">
+  <p id="textfield3" width="88" height="31" style="cursor: default;">  </p>
+</div>
+<div id="div_text4" style="float: left;width: 100px;height: 35px;margin: 1;padding: 10px;border: 1px solid black;">
+  <p id="textfield4" width="88" height="31" style="cursor: default;">  </p>
+</div>
+<div id="div_text5" style="float: left;width: 100px;height: 35px;margin: 1;padding: 10px;border: 1px solid black;">
+  <p id="textfield5" width="88" height="31" style="cursor: default;">  </p>
+</div>
+</div>
+
+
+<br/>
+
+<br>
+<br>
+    <button id="prod_click_continue_0" onclick="_s.button_2()">Erase</button>
+    <button id="prod_click_continue_1" onclick="_s.button_3()">Submit</button>
+    <button id="prod_click_continue_2" onclick="_s.button_3()">Try again</button>
+    <button id="prod_click_continue_3" onclick="_s.button()">Skip</button>
+    <button id="prod_click_continue_4" onclick="_s.button()">Continue</button>
+    <p id="prod_click_feedback_p"><span id="prod_click_feedback">{{}}</span></p>
+
+  </div>
+
+
+
+<!-- ############################################# -->
+  <div class="slide" id="multi_slider_context">
+  <p class="name_said"></p>
+<table>
+<tr>
+<td style="padding:0 15px 0 15px;">
+         <span class="alien">{{}}</span>
+</td><td style="padding:0 15px 0 80px;">
+         <span class="object">{{}}</span>
+</td>
+</tr>
+<tr>
+<td colspan=2> <span class="alien_utterance">{{}}</span> </td>
+</tr>
+</table>
+    <br>
+    <table id="multi_slider_table_ctxt" class="slider_table">
+      <tr><td><span class="low">{{}}</span></td><td>
+      <div id="slider0_ctxt" class="slider"></div>
+      </td><td><span class="high">{{}}</span></td></tr>
+    </table>
+
+    <p>Adjust the slider to indicate your preference.</p><br>
+
+    <button onclick="_s.button()">Continue</button>
+    <div class="err">Please adjust the slider before continuing.</div>
+  </div>
+
+
+
+
+
+
+  <div class="slide" id="multi_slider">
+
+  <p class="name_said"></p>
+
+         <span class="object">{{}}</span>
+
+    <br>
+
+    <p>Which description of the <span class="noun">{{}}</span> sounds more natural?</p>
+
+    <table id="multi_slider_table" class="slider_table">
+      <tr><td><span class="low">{{}}</span></td><td>
+      <div id="slider0" class="slider"></div>
+      </td><td><span class="high">{{}}</span></td></tr>
+    </table>
+
+    <p>Adjust the slider to indicate your preference.</p><br>
+
+    <button onclick="_s.button()">Continue</button>
+    <div class="err">Please adjust the slider before continuing.</div>
+  </div>
+
+  <div class="slide"  id="subj_info">
+    <div class="long_form">
+      <div class="subj_info_title">Additional information</div>
+      <p class="info">Answering these questions is optional, but will help us understand your answers.</p>
+<!--      <p>Note: We are posting a series of similar HITs. Please do not accept another HIT from this series!</p>-->
+      <p>Did you read the instructions and do you think you did the HIT correctly?</p>
+      <label><input type="radio"  name="assess" value="No"/>No</label>
+      <label><input type="radio"  name="assess" value="Yes"/>Yes</label>
+      <label><input type="radio"  name="assess" value="Confused"/>I was confused</label>
+
+      <p>Gender:
+        <select id="gender">
+          <label><option value=""/></label>
+          <label><option value="Male"/>Male</label>
+          <label><option value="Female"/>Female</label>
+          <label><option value="Other"/>Other</label>
+        </select>
+      </p>
+
+      <p>Age: <input type="text" id="age"/></p>
+
+<!--      <p>Level Of Education:
+        <select id="education">
+          <label><option value="-1"/></label>
+          <label><option value="0"/>Some High School</label>
+          <label><option value="1"/>Graduated High School</label>
+          <label><option value="2"/>Some College</label>
+          <label><option value="3"/>Graduated College</label>
+          <label><option value="4"/>Hold a higher degree</label>
+        </select>
+      </p>-->
+
+      <p>Native Language: <input type="text" id="language"/></p>
+      <label>(the language(s) spoken at home when you were a child)</label>
+
+<!--      <p>Are you color blind?</p>
+      <select id="colorblind">
+        <label><option value="-1"></option></label>
+        <label><option value="0">No</option></label>
+        <label><option value="1" >Yes</option></label>
+      </select>
+-->
+      <p>Did you enjoy the hit?</p>
+      <select id="enjoyment">
+        <label><option value="-1"></option></label>
+        <label><option value="0">Worse than the Average HIT</option></label>
+        <label><option value="1" >An Average HIT</option></label>
+        <label><option value="2">Better than average HIT</option></label>
+      </select>
+
+      <p>How much pay (in $) do you think is appropriate for this HIT?</p>
+      <input type="text" id="suggested_pay"/></p>
+
+      <p>We would be interested in any comments you have about this experiment. Please type them here:</p>
+      <textarea id="comments" rows="3" cols="50"></textarea>
+<!--      <p>Also, please feel free to share your experience on Turkopticon!</p>-->
+      <br/>
+      <button onclick="_s.submit()">Submit</button>
+    </div>
+  </div>
+
+  <div id="thanks" class="slide js" >
+    <p  class="big">Thanks for your time!</p>
+  </div>
+
+  <div class="progress">
+    <span>Progress:</span>
+    <div class="bar-wrapper">
+      <div class="bar" width="0%">
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<script src="https://uniqueturker.myleott.com/lib.js" type="text/javascript"></script>
+<script type="text/javascript">
+(function(){
+    var ut_id = "adjectives-mhahn";
+    if (UTWorkerLimitReached(ut_id)) {
+        $('.slide').html("<br/>You have already completed the maximum number of HITs allowed by this requester. Please click 'Return HIT' to avoid any impact on your approval rating.");
+        document.getElementById('mturk_form').style.display = 'none';
+        alert("You have already completed the maximum number of HITs allowed by this requester. Please click 'Return HIT' to avoid any impact on your approval rating.");
+    }
+})();
+</script>
+
+</html>
