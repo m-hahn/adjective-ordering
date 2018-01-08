@@ -8,13 +8,13 @@ data = read.csv("../Submiterator-master/order-preference-trials-postprocessed.ts
 dataS = read.csv("../Submiterator-master/order-preference-subject_information.tsv", sep="\t")
 
 
-for(i in c(2)) {
+for(i in c(2:4)) {
   dataNew = read.csv(paste("../Submiterator-master/order-preference-",i,"-trials-postprocessed.tsv",sep=""), sep="\t")
-  dataNew$workerid = as.numeric(dataNew$workerid) + i*9
+  dataNew$workerid = as.numeric(as.character(dataNew$workerid)) + i*9
   data = rbind(data, dataNew)
 
   dataSNew = read.csv(paste("../Submiterator-master/order-preference-",i,"-subject_information.tsv", sep=""), sep="\t")
-  dataSNew$workerid = as.numeric(dataSNew$workerid) + i*9
+  dataSNew$workerid = as.numeric(as.character(dataSNew$workerid)) + i*9
   dataS = rbind(dataS, dataSNew)
 }
 
