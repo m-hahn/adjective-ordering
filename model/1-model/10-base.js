@@ -1,5 +1,9 @@
 // CURRENTLY this version is in use
 
+// A variant could be:
+// - nouns are like (very objective) adjectives, so there is only fuzzy referent identification
+
+
 // Speaker and listener have common objects, speaker wants to communicate attitudes/descriptions.
 
 // HERE the main driver of the effect is FAULTLESS DISAGREEMENT
@@ -153,7 +157,7 @@ var third = cache(function(utterance) {
       return world;
      }})})
 
-var sentence = [1,0,1]
+var sentence = [0,1,1]
 var listenerPosterior = third(sentence) //incrementalLiteralListener([1,1,1])
 
 var marginal1 = function(person, object, adjective) { Infer({method: 'rejection', samples:100,
