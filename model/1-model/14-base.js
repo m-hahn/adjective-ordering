@@ -19,9 +19,9 @@ var options = [[1,0,1], [0,1,1]]
 
 
 
-/////////////////////////////
+///////////////////////////////////////////////////
 
-// Numerical parameters: Parameters in this section can be changed. As long as the adjectives differ in the inter-speaker correlations and loss probability increases with distance, the effects should come out in the predicted direction.
+// Numerical parameters: Parameters in this section can be changed. As long as the adjectives differ in the inter-speaker correlations (higher correlation for the less `subjective' adjective) and loss probability increases with distance, the effects should come out in the predicted direction.
 
 // the prior marginal probability of any judgment A(s,x)
 var C = .2;
@@ -32,18 +32,19 @@ var agreement = [.3, .9]
 
 // Loss probabilities: lossProb2 should be larger than lossProb1.
 // the probability that the word two words before the end of the current prefix is lost
-var lossProb2 = .99
+var lossProb2 = .5
 // the probability that the second-to-last word in the current prefix is lost
-var lossProb1 = .00
+var lossProb1 = .0 // setting to zero to make the posterior easier to interpret. Any low value is fine though.
 // we could also allow the last word in the current prefix to be lost
 
 
-///////////////////////////////
+/////////////////////////////////////////////////////
 
-// Given an inter-speaker correlation, samples truth values for judgments A(s,x), A(s',x)
-var prior_adj = function(agree) {
-   return function(x) {    var j1 = flip(C)
-                           var j2 = agree * (j1 ? 1 : 0) + (1-agree) * C;
+// Given an inter-speaker correlation, samples truth values for judgments A(s1,x), A(s2,x)
+// The definition guarantees that the Pearson correlation between the two elements of the return value is the given correlation
+var prior_adj = function(correlation) {
+   return function(x) {    var j1 = flip(C) // A(s1,x)
+                           var j2 = correlation * (j1 ? 1 : 0) + (1-correlation) * C; // A(s2,x)
                            return [j1, flip(j2)] };
 }
 
@@ -189,73 +190,96 @@ var computeMarginalAdj = function(utterance) {
 // Inspect the posterior by looking at the coordinate-wise marginals
 //////////////////////////////////////////////////////////////////////////
 
-console.log("MARGINALS: probability that a speaker attributes a property to an object")
-console.log(options[0])
+var prettyPrint = function(utterance) {
+   var adj1 = "Adjective"+utterance[0]
+   var adj2 = "Adjective"+utterance[1]
+   var noun = "Noun"+utterance[2]
+   return adj1+" "+adj2+" "+noun 
+}
+
+//console.log("MARGINALS: probability that a speaker attributes a property to an object")
+//console.log("After hearing utterance "+options[0])
 var marginalTable = computeMarginalAdj(options[0])
-console.log("Adjective 1")
-console.log(marginalTable[0])
-console.log("Adjective 2")
-console.log(marginalTable[1])
-console.log("Adjective 3")
-console.log(marginalTable[2])
-console.log("Adjective 4")
-console.log(marginalTable[3])
-console.log("Key from outer to inner: object - person")
-
-console.log("#########################")
-console.log("MARGINALS: probability that a speaker attributes a property to an object")
-console.log(options[1])
+//console.log("Adjective 1")
+//console.log(marginalTable[0])
+//console.log("Adjective 2")
+//console.log(marginalTable[1])
+//console.log("Adjective 3")
+//console.log(marginalTable[2])
+//console.log("Adjective 4")
+//console.log(marginalTable[3])
+//console.log("Key from outer to inner: object - person")
+//
+//console.log("#########################")
+//console.log("MARGINALS: probability that a speaker attributes a property to an object")
+//console.log("After hearing utterance "+options[1])
 var marginalTable2 = computeMarginalAdj(options[1])
-console.log("Adjective 1")
-console.log(marginalTable2[0])
-console.log("Adjective 2")
-console.log(marginalTable2[1])
-console.log("Adjective 3")
-console.log(marginalTable2[2])
-console.log("Adjective 4")
-console.log(marginalTable2[3])
-console.log("Key from outer to inner: object - person")
+//console.log("Adjective 1")
+//console.log(marginalTable2[0])
+//console.log("Adjective 2")
+//console.log(marginalTable2[1])
+//console.log("Adjective 3")
+//console.log(marginalTable2[2])
+//console.log("Adjective 4")
+//console.log(marginalTable2[3])
+//console.log("Key from outer to inner: object - person")
 
+console.log("Posterior belief of the listener about the judgments of speaker and third-party speaker")
+console.log("In these simulations, Adjective0 (A0) is more subjective than Adjective1 (A1).")
+console.log("The speaker is S1, while S2 is a third-party speaker (or perhaps the listener, depending on the interpretation of the model).")
 console.log("...........")
-console.log("Marginals for the relevant dimensions")
-
-console.log("After hearing Utterance "+options[0])
+//console.log("Marginals for the relevant dimensions")
+console.log("After hearing Utterance:   "+prettyPrint(options[0]))
 console.log("Marginals for relevant dimensions (by adjective, speaker, object)")
-console.log( "A0(S0,O1) "+marginalTable[0][1][0])
-console.log( "A0(S1,O1) "+marginalTable[0][1][1])
-console.log( "A1(S0,O1) "+marginalTable[1][1][0])
-console.log( "A1(S1,O1) "+marginalTable[1][1][1])
+console.log( "A0(S1,O1)\t"+marginalTable[0][1][0]+"\t (Posterior that the speaker judges A0 to hold. Should be high because this adjective came second.)")
+console.log( "A0(S2,O1)\t"+marginalTable[0][1][1]+"\t (Posterior that third-party speaker judges A0 to hold. Low, due to low inter-speaker correlation.)")
+console.log( "A1(S1,O1)\t"+marginalTable[1][1][0]+"\t (Posterior that the speaker judges A1 to hold. Somewhat lower, since this adjective came first and was subject to loss.)")
+console.log( "A1(S2,O1)\t"+marginalTable[1][1][1]+"\t (Posterior that the third-party speaker judges A1 to hold)")
 console.log("")
 console.log("............")
-console.log("After hearing Utterance "+options[1])
+console.log("After hearing Utterance:   "+prettyPrint(options[1]))
 console.log("Marginals for relevant dimensions (by adjective, speaker, object)")
-console.log( "A0(S0,O1) "+marginalTable2[0][1][0])
-console.log( "A0(S1,O1) "+marginalTable2[0][1][1])
-console.log( "A1(S0,O1) "+marginalTable2[1][1][0])
-console.log( "A1(S1,O1) "+marginalTable2[1][1][1])
+console.log( "A0(S1,O1)\t"+marginalTable2[0][1][0]+"\t (Somewhat lower since A0 was subject to loss)")
+console.log( "A0(S2,O1)\t"+marginalTable2[0][1][1])
+console.log( "A1(S1,O1)\t"+marginalTable2[1][1][0])
+console.log( "A1(S2,O1)\t"+marginalTable2[1][1][1]+"\t (High, due to strong inter-speaker correlation)")
+
+
+
+//////////////////////////////////////////////////////////////////////////
+//  Speaker Model 
+//////////////////////////////////////////////////////////////////////////
+
 
 
 // Distribution over listener / third-party beliefs about the object
-var restrictionToObjectsAndAdjectivesForSent = cache(function(sentence) {Infer({method: 'enumerate', //samples : 100, incremental:true,
+// Given the adjectives A1, A2 and the object o given in the sentence, returns
+// the joint distribution of A1(s2, o) and A2(s2, o).
+// Here, while s1 is the speaker of the utterance, s2 is the belief of another speaker
+// (or possibly of the listener, depending on the interpretation of the model.)
+var posteriorRestrictionToObjectsAndAdjectivesForSent = cache(function(sentence) {Infer({method: 'enumerate', //samples : 100, incremental:true,
       model() {
           var model = sample(third(sentence))
           return [model[0][1][1], model[1][1][1]];
      }})})
 
-console.log(restrictionToObjectsAndAdjectivesForSent(options[0]))
-console.log(restrictionToObjectsAndAdjectivesForSent(options[1]))
+//console.log(restrictionToObjectsAndAdjectivesForSent(options[0]))
+//console.log(restrictionToObjectsAndAdjectivesForSent(options[1]))
 
 
 // The speaker chooses a sentence so a to minimize entropy of the posterior listener / third-party belief
+// I'm assuming that the rationality parameter is 1 -- any positive value would do.
 var speaker = Infer({method : 'enumerate',
                      model() {
                      var sentence = options[sample(RandomInteger({n : 2}))];
-                     factor(-entropy(restrictionToObjectsAndAdjectivesForSent(sentence)))
+                     factor(-entropy(posteriorRestrictionToObjectsAndAdjectivesForSent(sentence)))
                      return sentence;
                     }})
 
-console.log("Speaker Distribution: Subjective adjective is preferred earlier")
-console.log(speaker);
+console.log("\nSpeaker Distribution: Subjective adjective is preferred earlier.")
+console.log(prettyPrint([0,1,1])+"   "+speaker.getDist()['[0,1,1]'].prob);
+console.log(prettyPrint([1,0,1])+"   "+speaker.getDist()['[1,0,1]'].prob);
+
 
 1
 
