@@ -1,0 +1,10 @@
+workerid	language	enjoyment	gender	age	suggested_pay	comments	adjective1	asses	adjective2	condition	tutorial
+0	english	2	Female	33	2.00		croochy	Yes	glab	0	ssoo
+1	English	0	Male	35	$5.00		glab	Yes	jaundy	0	osso
+2		1	Male	40	5.00		glab	Yes	jaundy	0	osso
+3	English	1	Male	33	5.00	none	trunce	Yes	thompsy	0	soos
+4	English	2	Female	36	4.00		trunce	Yes	thompsy	0	osos
+5	english	2	Male	42	4.00	NA	trunce	Yes	thompsy	0	ssoo
+6	English	2	Male	54	3.60	fun survey	jaundy	Yes	twell	0	ssoo
+7	English	0	Male	48	5.00	This was interesting.	thompsy	Yes	glab	0	soos
+8	English	1	Male	35	5.00	NA	glab	Yes	jaundy	0	soos
