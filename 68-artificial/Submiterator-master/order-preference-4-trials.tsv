@@ -1,0 +1,685 @@
+workerid	adjective	quiz_response	relevant_adjective	adj2_subj	text	adj2_disagreement	order_questionnaires	adj1_disagreement	correct_response	adj1_subj	adj1_response	slide_number	predicate2	predicate1	response	adj2_response
+0	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	6	NA	NA	NA	NA
+0	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	7	NA	NA	NA	NA
+0	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	8	NA	NA	NA	NA
+0	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	9	NA	NA	NA	NA
+0	thompsy	second	NA	NA	NA	NA	NA	NA	first	NA	NA	10	NA	NA	NA	NA
+0	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	11	NA	NA	NA	NA
+0	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	12	NA	NA	NA	NA
+0	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	13	NA	NA	NA	NA
+0	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	14	NA	NA	NA	NA
+0	thompsy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	15	NA	NA	NA	NA
+0	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	16	NA	NA	NA	NA
+0	thompsy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	17	NA	NA	NA	NA
+0	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	18	NA	NA	NA	NA
+0	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	19	NA	NA	NA	NA
+0	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	20	NA	NA	NA	NA
+0	thompsy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	21	NA	NA	NA	NA
+0	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	22	NA	NA	NA	NA
+0	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	23	NA	NA	NA	NA
+0	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	24	NA	NA	NA	NA
+0	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	25	NA	NA	NA	NA
+0	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	26	NA	NA	NA	NA
+0	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	27	NA	NA	NA	NA
+0	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	28	NA	NA	NA	NA
+0	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	29	NA	NA	NA	NA
+0	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	30	NA	NA	NA	NA
+0	thompsy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	31	NA	NA	NA	NA
+0	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	32	NA	NA	NA	NA
+0	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	33	NA	NA	NA	NA
+0	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	34	NA	NA	NA	NA
+0	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	35	NA	NA	NA	NA
+0	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	36	NA	NA	NA	NA
+0	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	37	NA	NA	NA	NA
+0	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	38	NA	NA	NA	NA
+0	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	39	NA	NA	NA	NA
+0	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	40	NA	NA	NA	NA
+0	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	41	NA	NA	NA	NA
+0	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	42	NA	NA	NA	NA
+0	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	43	NA	NA	NA	NA
+0	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	44	NA	NA	NA	NA
+0	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	45	NA	NA	NA	NA
+0	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	46	NA	NA	NA	NA
+0	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	47	NA	NA	NA	NA
+0	thompsy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	48	NA	NA	NA	NA
+0	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	49	NA	NA	NA	NA
+0	thompsy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	50	NA	NA	NA	NA
+0	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	51	NA	NA	NA	NA
+0	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	52	NA	NA	NA	NA
+0	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	53	NA	NA	NA	NA
+0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	55	red	thompsy	0	NA
+0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	56	green	thompsy	0	NA
+0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	57	glab	blue	1	NA
+0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	58	small	thompsy	0	NA
+0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	59	blue	thompsy	0	NA
+0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	60	big	red	0	NA
+0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	61	glab	green	1	NA
+0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	62	blue	big	1	NA
+0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	63	small	glab	0	NA
+0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	64	thompsy	glab	1	NA
+0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	65	small	green	0.04	NA
+0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	66	big	glab	0.03	NA
+0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	67	red	glab	1	NA
+0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	68	thompsy	big	0.97	NA
+0	NA	NA	glab	NA	Wow -- I like this...	NA	NA	NA	NA	NA	NA	70	blue	glab	0.05	NA
+0	NA	NA	glab	NA	For long distances, I use this...	NA	NA	NA	NA	NA	NA	71	glab	thompsy	1	NA
+0	NA	NA	thompsy	NA	I like ships that have this color, like this...	NA	NA	NA	NA	NA	NA	72	thompsy	blue	1	NA
+0	NA	NA	NONE	NA	I like ships of this type. My favorite one is this...	NA	NA	NA	NA	NA	NA	73	glab	blue	0.96	NA
+0	NA	NA	green	NA	My first ship had the same shape as this...	NA	NA	NA	NA	NA	NA	74	green	thompsy	0.98	NA
+0	NA	NA	glab	NA	I really don&quotechart like ships like this...	NA	NA	NA	NA	NA	NA	75	glab	green	0.97	NA
+0	NA	NA	NONE	NA	On our planet, many aliens fly ships like this...	NA	NA	NA	NA	NA	NA	76	red	thompsy	0.99	NA
+0	NA	NA	glab	NA	Humans think all of our ships look like this...	NA	NA	NA	NA	NA	NA	77	glab	thompsy	0.98	NA
+0	NA	NA	thompsy	NA	What a nice color. I like flying this...	NA	NA	NA	NA	NA	NA	78	thompsy	blue	0.99	NA
+0	NA	NA	red	NA	Ugh, I hate flying this...	NA	NA	NA	NA	NA	NA	79	red	glab	0.99	NA
+0	NA	NA	thompsy	NA	My friend used to fly this...	NA	NA	NA	NA	NA	NA	80	thompsy	green	0.97	NA
+0	NA	NA	NA	NA	NA	1	[1, 0]	1	NA	NA	NA	81	NA	NA	NA	NA
+0	NA	NA	NA	NA	NA	NA	[1, 0]	NA	NA	NA	thin	82	NA	NA	NA	fat
+0	NA	NA	NA	0.82	NA	NA	[1, 0]	NA	NA	0.77	NA	83	NA	NA	NA	NA
+1	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	6	NA	NA	NA	NA
+1	glab	first	NA	NA	NA	NA	NA	NA	second	NA	NA	7	NA	NA	NA	NA
+1	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	8	NA	NA	NA	NA
+1	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	9	NA	NA	NA	NA
+1	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	10	NA	NA	NA	NA
+1	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	11	NA	NA	NA	NA
+1	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	12	NA	NA	NA	NA
+1	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	13	NA	NA	NA	NA
+1	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	14	NA	NA	NA	NA
+1	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	15	NA	NA	NA	NA
+1	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	16	NA	NA	NA	NA
+1	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	17	NA	NA	NA	NA
+1	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	18	NA	NA	NA	NA
+1	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	19	NA	NA	NA	NA
+1	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	20	NA	NA	NA	NA
+1	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	21	NA	NA	NA	NA
+1	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	22	NA	NA	NA	NA
+1	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	23	NA	NA	NA	NA
+1	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	24	NA	NA	NA	NA
+1	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	25	NA	NA	NA	NA
+1	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	26	NA	NA	NA	NA
+1	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	27	NA	NA	NA	NA
+1	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	28	NA	NA	NA	NA
+1	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	29	NA	NA	NA	NA
+1	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	30	NA	NA	NA	NA
+1	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	31	NA	NA	NA	NA
+1	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	32	NA	NA	NA	NA
+1	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	33	NA	NA	NA	NA
+1	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	34	NA	NA	NA	NA
+1	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	35	NA	NA	NA	NA
+1	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	36	NA	NA	NA	NA
+1	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	37	NA	NA	NA	NA
+1	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	38	NA	NA	NA	NA
+1	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	39	NA	NA	NA	NA
+1	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	40	NA	NA	NA	NA
+1	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	41	NA	NA	NA	NA
+1	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	42	NA	NA	NA	NA
+1	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	43	NA	NA	NA	NA
+1	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	44	NA	NA	NA	NA
+1	glab	first	NA	NA	NA	NA	NA	NA	second	NA	NA	45	NA	NA	NA	NA
+1	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	46	NA	NA	NA	NA
+1	jaundy	first	NA	NA	NA	NA	NA	NA	second	NA	NA	47	NA	NA	NA	NA
+1	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	48	NA	NA	NA	NA
+1	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	49	NA	NA	NA	NA
+1	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	50	NA	NA	NA	NA
+1	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	51	NA	NA	NA	NA
+1	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	52	NA	NA	NA	NA
+1	jaundy	first	NA	NA	NA	NA	NA	NA	second	NA	NA	53	NA	NA	NA	NA
+1	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	55	small	green	0.09	NA
+1	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	56	blue	glab	0.9	NA
+1	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	57	glab	big	0.92	NA
+1	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	58	red	glab	0.07	NA
+1	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	59	jaundy	big	0.94	NA
+1	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	60	jaundy	green	0.88	NA
+1	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	61	glab	jaundy	0.11	NA
+1	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	62	small	glab	0.07	NA
+1	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	63	glab	green	0.92	NA
+1	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	64	jaundy	small	0.89	NA
+1	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	65	small	red	0.06	NA
+1	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	66	red	jaundy	0.1	NA
+1	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	67	jaundy	blue	0.92	NA
+1	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	68	green	big	0.94	NA
+1	NA	NA	NONE	NA	My friend used to fly this...	NA	NA	NA	NA	NA	NA	70	red	glab	0.08	NA
+1	NA	NA	red	NA	Wow -- I like this...	NA	NA	NA	NA	NA	NA	71	glab	red	0.93	NA
+1	NA	NA	NONE	NA	I really don&quotechart like ships like this...	NA	NA	NA	NA	NA	NA	72	jaundy	green	0.01	NA
+1	NA	NA	jaundy	NA	What a nice color. I like flying this...	NA	NA	NA	NA	NA	NA	73	red	jaundy	0.05	NA
+1	NA	NA	glab	NA	For long distances, I use this...	NA	NA	NA	NA	NA	NA	74	glab	blue	0.07	NA
+1	NA	NA	glab	NA	I like ships of this type. My favorite one is this...	NA	NA	NA	NA	NA	NA	75	jaundy	glab	0.06	NA
+1	NA	NA	glab	NA	Ugh, I hate flying this...	NA	NA	NA	NA	NA	NA	76	jaundy	glab	0.04	NA
+1	NA	NA	glab	NA	I like ships that have this color, like this...	NA	NA	NA	NA	NA	NA	77	green	glab	0.09	NA
+1	NA	NA	red	NA	On our planet, many aliens fly ships like this...	NA	NA	NA	NA	NA	NA	78	red	jaundy	0.06	NA
+1	NA	NA	jaundy	NA	My first ship had the same shape as this...	NA	NA	NA	NA	NA	NA	79	red	jaundy	0.02	NA
+1	NA	NA	jaundy	NA	Humans think all of our ships look like this...	NA	NA	NA	NA	NA	NA	80	green	jaundy	0.06	NA
+1	NA	NA	NA	NA	NA	0.04	[1, 0]	0.82	NA	NA	NA	81	NA	NA	NA	NA
+1	NA	NA	NA	0.03	NA	NA	[1, 0]	NA	NA	0.87	NA	82	NA	NA	NA	NA
+1	NA	NA	NA	NA	NA	NA	[1, 0]	NA	NA	NA	having no spikes	83	NA	NA	NA	thin
+2	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	6	NA	NA	NA	NA
+2	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	7	NA	NA	NA	NA
+2	trunce	first	NA	NA	NA	NA	NA	NA	first	NA	NA	8	NA	NA	NA	NA
+2	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	9	NA	NA	NA	NA
+2	trunce	first	NA	NA	NA	NA	NA	NA	first	NA	NA	10	NA	NA	NA	NA
+2	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	11	NA	NA	NA	NA
+2	trunce	second	NA	NA	NA	NA	NA	NA	second	NA	NA	12	NA	NA	NA	NA
+2	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	13	NA	NA	NA	NA
+2	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	14	NA	NA	NA	NA
+2	trunce	second	NA	NA	NA	NA	NA	NA	second	NA	NA	15	NA	NA	NA	NA
+2	trunce	second	NA	NA	NA	NA	NA	NA	second	NA	NA	16	NA	NA	NA	NA
+2	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	17	NA	NA	NA	NA
+2	trunce	second	NA	NA	NA	NA	NA	NA	second	NA	NA	18	NA	NA	NA	NA
+2	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	19	NA	NA	NA	NA
+2	trunce	second	NA	NA	NA	NA	NA	NA	second	NA	NA	20	NA	NA	NA	NA
+2	trunce	second	NA	NA	NA	NA	NA	NA	second	NA	NA	21	NA	NA	NA	NA
+2	trunce	first	NA	NA	NA	NA	NA	NA	first	NA	NA	22	NA	NA	NA	NA
+2	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	23	NA	NA	NA	NA
+2	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	24	NA	NA	NA	NA
+2	trunce	second	NA	NA	NA	NA	NA	NA	second	NA	NA	25	NA	NA	NA	NA
+2	trunce	second	NA	NA	NA	NA	NA	NA	second	NA	NA	26	NA	NA	NA	NA
+2	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	27	NA	NA	NA	NA
+2	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	28	NA	NA	NA	NA
+2	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	29	NA	NA	NA	NA
+2	trunce	second	NA	NA	NA	NA	NA	NA	second	NA	NA	30	NA	NA	NA	NA
+2	trunce	first	NA	NA	NA	NA	NA	NA	first	NA	NA	31	NA	NA	NA	NA
+2	trunce	first	NA	NA	NA	NA	NA	NA	first	NA	NA	32	NA	NA	NA	NA
+2	trunce	first	NA	NA	NA	NA	NA	NA	first	NA	NA	33	NA	NA	NA	NA
+2	trunce	first	NA	NA	NA	NA	NA	NA	first	NA	NA	34	NA	NA	NA	NA
+2	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	35	NA	NA	NA	NA
+2	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	36	NA	NA	NA	NA
+2	trunce	second	NA	NA	NA	NA	NA	NA	second	NA	NA	37	NA	NA	NA	NA
+2	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	38	NA	NA	NA	NA
+2	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	39	NA	NA	NA	NA
+2	trunce	second	NA	NA	NA	NA	NA	NA	second	NA	NA	40	NA	NA	NA	NA
+2	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	41	NA	NA	NA	NA
+2	trunce	first	NA	NA	NA	NA	NA	NA	first	NA	NA	42	NA	NA	NA	NA
+2	trunce	second	NA	NA	NA	NA	NA	NA	second	NA	NA	43	NA	NA	NA	NA
+2	trunce	second	NA	NA	NA	NA	NA	NA	second	NA	NA	44	NA	NA	NA	NA
+2	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	45	NA	NA	NA	NA
+2	trunce	second	NA	NA	NA	NA	NA	NA	second	NA	NA	46	NA	NA	NA	NA
+2	trunce	second	NA	NA	NA	NA	NA	NA	second	NA	NA	47	NA	NA	NA	NA
+2	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	48	NA	NA	NA	NA
+2	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	49	NA	NA	NA	NA
+2	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	50	NA	NA	NA	NA
+2	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	51	NA	NA	NA	NA
+2	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	52	NA	NA	NA	NA
+2	trunce	second	NA	NA	NA	NA	NA	NA	second	NA	NA	53	NA	NA	NA	NA
+2	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	55	red	small	1	NA
+2	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	56	jaundy	blue	1	NA
+2	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	57	jaundy	red	1	NA
+2	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	58	trunce	big	1	NA
+2	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	59	small	jaundy	0	NA
+2	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	60	small	green	0	NA
+2	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	61	big	jaundy	0	NA
+2	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	62	green	small	1	NA
+2	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	63	jaundy	green	1	NA
+2	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	64	green	trunce	0	NA
+2	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	65	trunce	jaundy	0	NA
+2	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	66	trunce	blue	1	NA
+2	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	67	trunce	small	1	NA
+2	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	68	red	trunce	0	NA
+2	NA	NA	trunce	NA	I like ships that have this color, like this...	NA	NA	NA	NA	NA	NA	70	trunce	blue	1	NA
+2	NA	NA	red	NA	My friend used to fly this...	NA	NA	NA	NA	NA	NA	71	trunce	red	1	NA
+2	NA	NA	jaundy	NA	My first ship had the same shape as this...	NA	NA	NA	NA	NA	NA	72	trunce	jaundy	0	NA
+2	NA	NA	jaundy	NA	I really don&quotechart like ships like this...	NA	NA	NA	NA	NA	NA	73	trunce	jaundy	0	NA
+2	NA	NA	NONE	NA	I like ships of this type. My favorite one is this...	NA	NA	NA	NA	NA	NA	74	red	trunce	0	NA
+2	NA	NA	NONE	NA	Ugh, I hate flying this...	NA	NA	NA	NA	NA	NA	75	jaundy	red	0	NA
+2	NA	NA	jaundy	NA	Humans think all of our ships look like this...	NA	NA	NA	NA	NA	NA	76	jaundy	green	1	NA
+2	NA	NA	trunce	NA	For long distances, I use this...	NA	NA	NA	NA	NA	NA	77	trunce	red	1	NA
+2	NA	NA	blue	NA	Wow -- I like this...	NA	NA	NA	NA	NA	NA	78	jaundy	blue	0	NA
+2	NA	NA	trunce	NA	What a nice color. I like flying this...	NA	NA	NA	NA	NA	NA	79	trunce	green	1	NA
+2	NA	NA	jaundy	NA	On our planet, many aliens fly ships like this...	NA	NA	NA	NA	NA	NA	80	green	jaundy	0	NA
+2	NA	NA	NA	0.78	NA	NA	[0, 1]	NA	NA	0.76	NA	81	NA	NA	NA	NA
+2	NA	NA	NA	NA	NA	0	[0, 1]	1	NA	NA	NA	82	NA	NA	NA	NA
+2	NA	NA	NA	NA	NA	NA	[0, 1]	NA	NA	NA	footless	83	NA	NA	NA	tall
+3	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	6	NA	NA	NA	NA
+3	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	7	NA	NA	NA	NA
+3	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	8	NA	NA	NA	NA
+3	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	9	NA	NA	NA	NA
+3	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	10	NA	NA	NA	NA
+3	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	11	NA	NA	NA	NA
+3	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	12	NA	NA	NA	NA
+3	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	13	NA	NA	NA	NA
+3	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	14	NA	NA	NA	NA
+3	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	15	NA	NA	NA	NA
+3	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	16	NA	NA	NA	NA
+3	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	17	NA	NA	NA	NA
+3	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	18	NA	NA	NA	NA
+3	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	19	NA	NA	NA	NA
+3	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	20	NA	NA	NA	NA
+3	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	21	NA	NA	NA	NA
+3	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	22	NA	NA	NA	NA
+3	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	23	NA	NA	NA	NA
+3	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	24	NA	NA	NA	NA
+3	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	25	NA	NA	NA	NA
+3	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	26	NA	NA	NA	NA
+3	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	27	NA	NA	NA	NA
+3	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	28	NA	NA	NA	NA
+3	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	29	NA	NA	NA	NA
+3	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	30	NA	NA	NA	NA
+3	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	31	NA	NA	NA	NA
+3	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	32	NA	NA	NA	NA
+3	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	33	NA	NA	NA	NA
+3	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	34	NA	NA	NA	NA
+3	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	35	NA	NA	NA	NA
+3	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	36	NA	NA	NA	NA
+3	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	37	NA	NA	NA	NA
+3	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	38	NA	NA	NA	NA
+3	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	39	NA	NA	NA	NA
+3	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	40	NA	NA	NA	NA
+3	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	41	NA	NA	NA	NA
+3	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	42	NA	NA	NA	NA
+3	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	43	NA	NA	NA	NA
+3	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	44	NA	NA	NA	NA
+3	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	45	NA	NA	NA	NA
+3	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	46	NA	NA	NA	NA
+3	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	47	NA	NA	NA	NA
+3	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	48	NA	NA	NA	NA
+3	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	49	NA	NA	NA	NA
+3	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	50	NA	NA	NA	NA
+3	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	51	NA	NA	NA	NA
+3	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	52	NA	NA	NA	NA
+3	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	53	NA	NA	NA	NA
+3	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	55	jaundy	glab	0.97	NA
+3	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	56	red	jaundy	0.98	NA
+3	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	57	big	red	0.01	NA
+3	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	58	small	jaundy	0.03	NA
+3	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	59	glab	red	0.99	NA
+3	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	60	jaundy	big	0.97	NA
+3	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	61	jaundy	blue	0.97	NA
+3	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	62	small	red	0.05	NA
+3	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	63	big	red	0.06	NA
+3	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	64	glab	small	0.98	NA
+3	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	65	glab	blue	0.95	NA
+3	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	66	big	glab	0.01	NA
+3	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	67	green	glab	0.01	NA
+3	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	68	green	jaundy	0.98	NA
+3	NA	NA	NONE	NA	I like ships of this type. My favorite one is this...	NA	NA	NA	NA	NA	NA	70	blue	glab	0.97	NA
+3	NA	NA	glab	NA	Wow -- I like this...	NA	NA	NA	NA	NA	NA	71	glab	green	0.02	NA
+3	NA	NA	NONE	NA	Humans think all of our ships look like this...	NA	NA	NA	NA	NA	NA	72	green	jaundy	1	NA
+3	NA	NA	glab	NA	For long distances, I use this...	NA	NA	NA	NA	NA	NA	73	glab	jaundy	0.94	NA
+3	NA	NA	jaundy	NA	I like ships that have this color, like this...	NA	NA	NA	NA	NA	NA	74	jaundy	green	0.98	NA
+3	NA	NA	jaundy	NA	I really don&quotechart like ships like this...	NA	NA	NA	NA	NA	NA	75	red	jaundy	0.97	NA
+3	NA	NA	glab	NA	Ugh, I hate flying this...	NA	NA	NA	NA	NA	NA	76	jaundy	glab	0	NA
+3	NA	NA	jaundy	NA	What a nice color. I like flying this...	NA	NA	NA	NA	NA	NA	77	blue	jaundy	0.98	NA
+3	NA	NA	glab	NA	On our planet, many aliens fly ships like this...	NA	NA	NA	NA	NA	NA	78	green	glab	0.02	NA
+3	NA	NA	red	NA	My first ship had the same shape as this...	NA	NA	NA	NA	NA	NA	79	glab	red	1	NA
+3	NA	NA	red	NA	My friend used to fly this...	NA	NA	NA	NA	NA	NA	80	jaundy	red	0.02	NA
+3	NA	NA	NA	NA	NA	NA	[1, 0]	NA	NA	NA	large	81	NA	NA	NA	slim
+3	NA	NA	NA	0.67	NA	NA	[1, 0]	NA	NA	0.69	NA	82	NA	NA	NA	NA
+3	NA	NA	NA	NA	NA	0.66	[1, 0]	0.69	NA	NA	NA	83	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	6	NA	NA	NA	NA
+4	thompsy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	7	NA	NA	NA	NA
+4	thompsy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	8	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	9	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	10	NA	NA	NA	NA
+4	thompsy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	11	NA	NA	NA	NA
+4	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	12	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	13	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	14	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	15	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	16	NA	NA	NA	NA
+4	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	17	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	18	NA	NA	NA	NA
+4	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	19	NA	NA	NA	NA
+4	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	20	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	21	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	22	NA	NA	NA	NA
+4	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	23	NA	NA	NA	NA
+4	thompsy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	24	NA	NA	NA	NA
+4	thompsy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	25	NA	NA	NA	NA
+4	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	26	NA	NA	NA	NA
+4	thompsy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	27	NA	NA	NA	NA
+4	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	28	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	29	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	30	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	31	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	32	NA	NA	NA	NA
+4	thompsy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	33	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	34	NA	NA	NA	NA
+4	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	35	NA	NA	NA	NA
+4	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	36	NA	NA	NA	NA
+4	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	37	NA	NA	NA	NA
+4	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	38	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	39	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	40	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	41	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	42	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	43	NA	NA	NA	NA
+4	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	44	NA	NA	NA	NA
+4	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	45	NA	NA	NA	NA
+4	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	46	NA	NA	NA	NA
+4	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	47	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	48	NA	NA	NA	NA
+4	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	49	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	50	NA	NA	NA	NA
+4	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	51	NA	NA	NA	NA
+4	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	52	NA	NA	NA	NA
+4	thompsy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	53	NA	NA	NA	NA
+4	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	55	big	glab	0.13	NA
+4	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	56	red	big	0.8	NA
+4	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	57	glab	thompsy	0.85	NA
+4	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	58	green	thompsy	0.13	NA
+4	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	59	small	glab	0.14	NA
+4	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	60	big	thompsy	0.13	NA
+4	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	61	red	big	0.86	NA
+4	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	62	thompsy	blue	0.89	NA
+4	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	63	glab	green	0.88	NA
+4	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	64	blue	glab	0.1	NA
+4	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	65	small	thompsy	0.13	NA
+4	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	66	red	thompsy	0.1	NA
+4	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	67	red	big	0.9	NA
+4	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	68	red	glab	0.06	NA
+4	NA	NA	NONE	NA	What a nice color. I like flying this...	NA	NA	NA	NA	NA	NA	70	thompsy	green	1	NA
+4	NA	NA	NONE	NA	Ugh, I hate flying this...	NA	NA	NA	NA	NA	NA	71	glab	green	0.98	NA
+4	NA	NA	thompsy	NA	My friend used to fly this...	NA	NA	NA	NA	NA	NA	72	glab	thompsy	0.99	NA
+4	NA	NA	thompsy	NA	Humans think all of our ships look like this...	NA	NA	NA	NA	NA	NA	73	red	thompsy	0	NA
+4	NA	NA	glab	NA	On our planet, many aliens fly ships like this...	NA	NA	NA	NA	NA	NA	74	glab	green	0.99	NA
+4	NA	NA	red	NA	I like ships that have this color, like this...	NA	NA	NA	NA	NA	NA	75	thompsy	red	0.98	NA
+4	NA	NA	thompsy	NA	My first ship had the same shape as this...	NA	NA	NA	NA	NA	NA	76	red	thompsy	0.03	NA
+4	NA	NA	glab	NA	I like ships of this type. My favorite one is this...	NA	NA	NA	NA	NA	NA	77	glab	red	0.98	NA
+4	NA	NA	thompsy	NA	I really don&quotechart like ships like this...	NA	NA	NA	NA	NA	NA	78	glab	thompsy	0.97	NA
+4	NA	NA	glab	NA	Wow -- I like this...	NA	NA	NA	NA	NA	NA	79	glab	green	0.98	NA
+4	NA	NA	green	NA	For long distances, I use this...	NA	NA	NA	NA	NA	NA	80	green	glab	0.01	NA
+4	NA	NA	NA	NA	NA	NA	[1, 0]	NA	NA	NA	aerodynamic	81	NA	NA	NA	penile shaped
+4	NA	NA	NA	0.08	NA	NA	[1, 0]	NA	NA	0.43	NA	82	NA	NA	NA	NA
+4	NA	NA	NA	NA	NA	0.17	[1, 0]	0.94	NA	NA	NA	83	NA	NA	NA	NA
+5	twell	first	NA	NA	NA	NA	NA	NA	first	NA	NA	6	NA	NA	NA	NA
+5	twell	first	NA	NA	NA	NA	NA	NA	first	NA	NA	7	NA	NA	NA	NA
+5	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	8	NA	NA	NA	NA
+5	twell	first	NA	NA	NA	NA	NA	NA	first	NA	NA	9	NA	NA	NA	NA
+5	twell	first	NA	NA	NA	NA	NA	NA	first	NA	NA	10	NA	NA	NA	NA
+5	thompsy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	11	NA	NA	NA	NA
+5	twell	second	NA	NA	NA	NA	NA	NA	second	NA	NA	12	NA	NA	NA	NA
+5	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	13	NA	NA	NA	NA
+5	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	14	NA	NA	NA	NA
+5	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	15	NA	NA	NA	NA
+5	twell	second	NA	NA	NA	NA	NA	NA	second	NA	NA	16	NA	NA	NA	NA
+5	twell	second	NA	NA	NA	NA	NA	NA	second	NA	NA	17	NA	NA	NA	NA
+5	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	18	NA	NA	NA	NA
+5	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	19	NA	NA	NA	NA
+5	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	20	NA	NA	NA	NA
+5	twell	second	NA	NA	NA	NA	NA	NA	second	NA	NA	21	NA	NA	NA	NA
+5	twell	first	NA	NA	NA	NA	NA	NA	first	NA	NA	22	NA	NA	NA	NA
+5	thompsy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	23	NA	NA	NA	NA
+5	twell	second	NA	NA	NA	NA	NA	NA	second	NA	NA	24	NA	NA	NA	NA
+5	thompsy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	25	NA	NA	NA	NA
+5	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	26	NA	NA	NA	NA
+5	twell	first	NA	NA	NA	NA	NA	NA	first	NA	NA	27	NA	NA	NA	NA
+5	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	28	NA	NA	NA	NA
+5	thompsy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	29	NA	NA	NA	NA
+5	twell	second	NA	NA	NA	NA	NA	NA	second	NA	NA	30	NA	NA	NA	NA
+5	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	31	NA	NA	NA	NA
+5	twell	second	NA	NA	NA	NA	NA	NA	second	NA	NA	32	NA	NA	NA	NA
+5	twell	first	NA	NA	NA	NA	NA	NA	first	NA	NA	33	NA	NA	NA	NA
+5	thompsy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	34	NA	NA	NA	NA
+5	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	35	NA	NA	NA	NA
+5	thompsy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	36	NA	NA	NA	NA
+5	twell	second	NA	NA	NA	NA	NA	NA	second	NA	NA	37	NA	NA	NA	NA
+5	twell	first	NA	NA	NA	NA	NA	NA	first	NA	NA	38	NA	NA	NA	NA
+5	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	39	NA	NA	NA	NA
+5	thompsy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	40	NA	NA	NA	NA
+5	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	41	NA	NA	NA	NA
+5	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	42	NA	NA	NA	NA
+5	thompsy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	43	NA	NA	NA	NA
+5	twell	second	NA	NA	NA	NA	NA	NA	second	NA	NA	44	NA	NA	NA	NA
+5	twell	second	NA	NA	NA	NA	NA	NA	second	NA	NA	45	NA	NA	NA	NA
+5	twell	second	NA	NA	NA	NA	NA	NA	second	NA	NA	46	NA	NA	NA	NA
+5	twell	second	NA	NA	NA	NA	NA	NA	second	NA	NA	47	NA	NA	NA	NA
+5	twell	first	NA	NA	NA	NA	NA	NA	first	NA	NA	48	NA	NA	NA	NA
+5	thompsy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	49	NA	NA	NA	NA
+5	twell	second	NA	NA	NA	NA	NA	NA	second	NA	NA	50	NA	NA	NA	NA
+5	twell	second	NA	NA	NA	NA	NA	NA	second	NA	NA	51	NA	NA	NA	NA
+5	twell	first	NA	NA	NA	NA	NA	NA	first	NA	NA	52	NA	NA	NA	NA
+5	thompsy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	53	NA	NA	NA	NA
+5	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	55	green	thompsy	0.16	NA
+5	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	56	twell	blue	0.88	NA
+5	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	57	small	red	0.12	NA
+5	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	58	thompsy	small	0.88	NA
+5	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	59	red	twell	0.08	NA
+5	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	60	blue	small	0.89	NA
+5	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	61	blue	thompsy	0.12	NA
+5	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	62	twell	green	0.91	NA
+5	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	63	twell	small	0.84	NA
+5	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	64	thompsy	twell	0.85	NA
+5	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	65	red	thompsy	0.14	NA
+5	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	66	red	small	0.83	NA
+5	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	67	big	thompsy	0.1	NA
+5	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	68	twell	big	0.89	NA
+5	NA	NA	red	NA	For long distances, I use this...	NA	NA	NA	NA	NA	NA	70	red	thompsy	0.13	NA
+5	NA	NA	twell	NA	I really don&quotechart like ships like this...	NA	NA	NA	NA	NA	NA	71	red	twell	0.11	NA
+5	NA	NA	twell	NA	My first ship had the same shape as this...	NA	NA	NA	NA	NA	NA	72	twell	red	0.82	NA
+5	NA	NA	NONE	NA	Ugh, I hate flying this...	NA	NA	NA	NA	NA	NA	73	red	twell	0.15	NA
+5	NA	NA	green	NA	Wow -- I like this...	NA	NA	NA	NA	NA	NA	74	green	twell	0.14	NA
+5	NA	NA	thompsy	NA	I like ships of this type. My favorite one is this...	NA	NA	NA	NA	NA	NA	75	thompsy	green	0.87	NA
+5	NA	NA	thompsy	NA	I like ships that have this color, like this...	NA	NA	NA	NA	NA	NA	76	red	thompsy	0.1	NA
+5	NA	NA	twell	NA	On our planet, many aliens fly ships like this...	NA	NA	NA	NA	NA	NA	77	twell	thompsy	0.91	NA
+5	NA	NA	twell	NA	Humans think all of our ships look like this...	NA	NA	NA	NA	NA	NA	78	twell	thompsy	0.78	NA
+5	NA	NA	NONE	NA	My friend used to fly this...	NA	NA	NA	NA	NA	NA	79	thompsy	blue	0.84	NA
+5	NA	NA	thompsy	NA	What a nice color. I like flying this...	NA	NA	NA	NA	NA	NA	80	thompsy	blue	0.85	NA
+5	NA	NA	NA	0.12	NA	NA	[1, 0]	NA	NA	0.86	NA	81	NA	NA	NA	NA
+5	NA	NA	NA	NA	NA	0.17	[1, 0]	0.8	NA	NA	NA	82	NA	NA	NA	NA
+5	NA	NA	NA	NA	NA	NA	[1, 0]	NA	NA	NA	legged	83	NA	NA	NA	tall and thin
+6	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	6	NA	NA	NA	NA
+6	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	7	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	8	NA	NA	NA	NA
+6	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	9	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	10	NA	NA	NA	NA
+6	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	11	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	12	NA	NA	NA	NA
+6	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	13	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	14	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	15	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	16	NA	NA	NA	NA
+6	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	17	NA	NA	NA	NA
+6	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	18	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	19	NA	NA	NA	NA
+6	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	20	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	21	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	22	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	23	NA	NA	NA	NA
+6	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	24	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	25	NA	NA	NA	NA
+6	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	26	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	27	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	28	NA	NA	NA	NA
+6	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	29	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	30	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	31	NA	NA	NA	NA
+6	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	32	NA	NA	NA	NA
+6	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	33	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	34	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	35	NA	NA	NA	NA
+6	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	36	NA	NA	NA	NA
+6	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	37	NA	NA	NA	NA
+6	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	38	NA	NA	NA	NA
+6	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	39	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	40	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	41	NA	NA	NA	NA
+6	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	42	NA	NA	NA	NA
+6	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	43	NA	NA	NA	NA
+6	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	44	NA	NA	NA	NA
+6	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	45	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	46	NA	NA	NA	NA
+6	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	47	NA	NA	NA	NA
+6	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	48	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	49	NA	NA	NA	NA
+6	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	50	NA	NA	NA	NA
+6	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	51	NA	NA	NA	NA
+6	jaundy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	52	NA	NA	NA	NA
+6	jaundy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	53	NA	NA	NA	NA
+6	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	55	small	glab	0.03	NA
+6	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	56	glab	red	0.99	NA
+6	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	57	big	red	0	NA
+6	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	58	glab	big	0.94	NA
+6	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	59	green	jaundy	0.03	NA
+6	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	60	glab	blue	0.95	NA
+6	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	61	jaundy	glab	0.01	NA
+6	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	62	jaundy	red	0.97	NA
+6	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	63	big	green	0	NA
+6	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	64	red	small	0.98	NA
+6	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	65	blue	jaundy	0.03	NA
+6	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	66	jaundy	big	0.95	NA
+6	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	67	jaundy	small	0.93	NA
+6	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	68	green	glab	0	NA
+6	NA	NA	jaundy	NA	I like ships that have this color, like this...	NA	NA	NA	NA	NA	NA	70	blue	jaundy	0	NA
+6	NA	NA	NONE	NA	What a nice color. I like flying this...	NA	NA	NA	NA	NA	NA	71	red	glab	0	NA
+6	NA	NA	jaundy	NA	Humans think all of our ships look like this...	NA	NA	NA	NA	NA	NA	72	red	jaundy	0.02	NA
+6	NA	NA	glab	NA	I like ships of this type. My favorite one is this...	NA	NA	NA	NA	NA	NA	73	red	glab	0	NA
+6	NA	NA	glab	NA	Ugh, I hate flying this...	NA	NA	NA	NA	NA	NA	74	jaundy	glab	0.01	NA
+6	NA	NA	NONE	NA	Wow -- I like this...	NA	NA	NA	NA	NA	NA	75	jaundy	blue	0.96	NA
+6	NA	NA	green	NA	For long distances, I use this...	NA	NA	NA	NA	NA	NA	76	jaundy	green	0.96	NA
+6	NA	NA	glab	NA	My first ship had the same shape as this...	NA	NA	NA	NA	NA	NA	77	jaundy	glab	0.03	NA
+6	NA	NA	jaundy	NA	On our planet, many aliens fly ships like this...	NA	NA	NA	NA	NA	NA	78	jaundy	blue	0.95	NA
+6	NA	NA	green	NA	I really don&quotechart like ships like this...	NA	NA	NA	NA	NA	NA	79	green	glab	0	NA
+6	NA	NA	glab	NA	My friend used to fly this...	NA	NA	NA	NA	NA	NA	80	glab	red	0.95	NA
+6	NA	NA	NA	0.21	NA	NA	[1, 0]	NA	NA	0.46	NA	81	NA	NA	NA	NA
+6	NA	NA	NA	NA	NA	0	[1, 0]	0.64	NA	NA	NA	82	NA	NA	NA	NA
+6	NA	NA	NA	NA	NA	NA	[1, 0]	NA	NA	NA	legs	83	NA	NA	NA	upright
+7	croochy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	6	NA	NA	NA	NA
+7	croochy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	7	NA	NA	NA	NA
+7	croochy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	8	NA	NA	NA	NA
+7	croochy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	9	NA	NA	NA	NA
+7	croochy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	10	NA	NA	NA	NA
+7	glab	second	NA	NA	NA	NA	NA	NA	first	NA	NA	11	NA	NA	NA	NA
+7	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	12	NA	NA	NA	NA
+7	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	13	NA	NA	NA	NA
+7	croochy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	14	NA	NA	NA	NA
+7	glab	second	NA	NA	NA	NA	NA	NA	first	NA	NA	15	NA	NA	NA	NA
+7	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	16	NA	NA	NA	NA
+7	croochy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	17	NA	NA	NA	NA
+7	glab	second	NA	NA	NA	NA	NA	NA	first	NA	NA	18	NA	NA	NA	NA
+7	croochy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	19	NA	NA	NA	NA
+7	croochy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	20	NA	NA	NA	NA
+7	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	21	NA	NA	NA	NA
+7	croochy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	22	NA	NA	NA	NA
+7	croochy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	23	NA	NA	NA	NA
+7	croochy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	24	NA	NA	NA	NA
+7	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	25	NA	NA	NA	NA
+7	croochy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	26	NA	NA	NA	NA
+7	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	27	NA	NA	NA	NA
+7	croochy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	28	NA	NA	NA	NA
+7	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	29	NA	NA	NA	NA
+7	croochy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	30	NA	NA	NA	NA
+7	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	31	NA	NA	NA	NA
+7	croochy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	32	NA	NA	NA	NA
+7	croochy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	33	NA	NA	NA	NA
+7	croochy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	34	NA	NA	NA	NA
+7	croochy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	35	NA	NA	NA	NA
+7	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	36	NA	NA	NA	NA
+7	glab	second	NA	NA	NA	NA	NA	NA	first	NA	NA	37	NA	NA	NA	NA
+7	croochy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	38	NA	NA	NA	NA
+7	glab	first	NA	NA	NA	NA	NA	NA	first	NA	NA	39	NA	NA	NA	NA
+7	croochy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	40	NA	NA	NA	NA
+7	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	41	NA	NA	NA	NA
+7	glab	first	NA	NA	NA	NA	NA	NA	second	NA	NA	42	NA	NA	NA	NA
+7	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	43	NA	NA	NA	NA
+7	croochy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	44	NA	NA	NA	NA
+7	glab	first	NA	NA	NA	NA	NA	NA	second	NA	NA	45	NA	NA	NA	NA
+7	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	46	NA	NA	NA	NA
+7	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	47	NA	NA	NA	NA
+7	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	48	NA	NA	NA	NA
+7	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	49	NA	NA	NA	NA
+7	croochy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	50	NA	NA	NA	NA
+7	glab	second	NA	NA	NA	NA	NA	NA	second	NA	NA	51	NA	NA	NA	NA
+7	glab	first	NA	NA	NA	NA	NA	NA	second	NA	NA	52	NA	NA	NA	NA
+7	croochy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	53	NA	NA	NA	NA
+7	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	55	blue	croochy	0	NA
+7	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	56	glab	red	0.96	NA
+7	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	57	big	green	0	NA
+7	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	58	small	croochy	0	NA
+7	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	59	glab	green	0.02	NA
+7	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	60	croochy	glab	0.04	NA
+7	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	61	red	croochy	1	NA
+7	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	62	green	croochy	0.98	NA
+7	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	63	blue	glab	0	NA
+7	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	64	croochy	big	0.99	NA
+7	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	65	small	glab	0.01	NA
+7	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	66	small	green	0	NA
+7	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	67	red	big	0.96	NA
+7	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	68	glab	big	0.97	NA
+7	NA	NA	glab	NA	Humans think all of our ships look like this...	NA	NA	NA	NA	NA	NA	70	red	glab	0	NA
+7	NA	NA	green	NA	Wow -- I like this...	NA	NA	NA	NA	NA	NA	71	glab	green	0.99	NA
+7	NA	NA	croochy	NA	My friend used to fly this...	NA	NA	NA	NA	NA	NA	72	red	croochy	0	NA
+7	NA	NA	glab	NA	I like ships of this type. My favorite one is this...	NA	NA	NA	NA	NA	NA	73	green	glab	0.01	NA
+7	NA	NA	NONE	NA	My first ship had the same shape as this...	NA	NA	NA	NA	NA	NA	74	glab	blue	0.98	NA
+7	NA	NA	blue	NA	For long distances, I use this...	NA	NA	NA	NA	NA	NA	75	blue	croochy	0.98	NA
+7	NA	NA	glab	NA	On our planet, many aliens fly ships like this...	NA	NA	NA	NA	NA	NA	76	croochy	glab	0.02	NA
+7	NA	NA	croochy	NA	I like ships that have this color, like this...	NA	NA	NA	NA	NA	NA	77	croochy	blue	0	NA
+7	NA	NA	croochy	NA	Ugh, I hate flying this...	NA	NA	NA	NA	NA	NA	78	croochy	blue	0.99	NA
+7	NA	NA	NONE	NA	I really don&quotechart like ships like this...	NA	NA	NA	NA	NA	NA	79	green	croochy	0.01	NA
+7	NA	NA	glab	NA	What a nice color. I like flying this...	NA	NA	NA	NA	NA	NA	80	glab	croochy	0.97	NA
+7	NA	NA	NA	NA	NA	NA	[0, 1]	NA	NA	NA	Large and tall	81	NA	NA	NA	Tall and thin
+7	NA	NA	NA	0.5	NA	NA	[0, 1]	NA	NA	0.49	NA	82	NA	NA	NA	NA
+7	NA	NA	NA	NA	NA	0.01	[0, 1]	0.01	NA	NA	NA	83	NA	NA	NA	NA
+8	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	6	NA	NA	NA	NA
+8	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	7	NA	NA	NA	NA
+8	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	8	NA	NA	NA	NA
+8	twell	first	NA	NA	NA	NA	NA	NA	first	NA	NA	9	NA	NA	NA	NA
+8	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	10	NA	NA	NA	NA
+8	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	11	NA	NA	NA	NA
+8	twell	second	NA	NA	NA	NA	NA	NA	second	NA	NA	12	NA	NA	NA	NA
+8	twell	first	NA	NA	NA	NA	NA	NA	first	NA	NA	13	NA	NA	NA	NA
+8	thompsy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	14	NA	NA	NA	NA
+8	thompsy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	15	NA	NA	NA	NA
+8	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	16	NA	NA	NA	NA
+8	thompsy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	17	NA	NA	NA	NA
+8	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	18	NA	NA	NA	NA
+8	twell	first	NA	NA	NA	NA	NA	NA	first	NA	NA	19	NA	NA	NA	NA
+8	twell	first	NA	NA	NA	NA	NA	NA	first	NA	NA	20	NA	NA	NA	NA
+8	twell	second	NA	NA	NA	NA	NA	NA	second	NA	NA	21	NA	NA	NA	NA
+8	twell	second	NA	NA	NA	NA	NA	NA	second	NA	NA	22	NA	NA	NA	NA
+8	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	23	NA	NA	NA	NA
+8	twell	second	NA	NA	NA	NA	NA	NA	second	NA	NA	24	NA	NA	NA	NA
+8	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	25	NA	NA	NA	NA
+8	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	26	NA	NA	NA	NA
+8	thompsy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	27	NA	NA	NA	NA
+8	twell	second	NA	NA	NA	NA	NA	NA	second	NA	NA	28	NA	NA	NA	NA
+8	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	29	NA	NA	NA	NA
+8	twell	first	NA	NA	NA	NA	NA	NA	first	NA	NA	30	NA	NA	NA	NA
+8	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	31	NA	NA	NA	NA
+8	twell	second	NA	NA	NA	NA	NA	NA	second	NA	NA	32	NA	NA	NA	NA
+8	twell	first	NA	NA	NA	NA	NA	NA	first	NA	NA	33	NA	NA	NA	NA
+8	twell	first	NA	NA	NA	NA	NA	NA	first	NA	NA	34	NA	NA	NA	NA
+8	twell	first	NA	NA	NA	NA	NA	NA	first	NA	NA	35	NA	NA	NA	NA
+8	thompsy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	36	NA	NA	NA	NA
+8	twell	second	NA	NA	NA	NA	NA	NA	second	NA	NA	37	NA	NA	NA	NA
+8	twell	second	NA	NA	NA	NA	NA	NA	second	NA	NA	38	NA	NA	NA	NA
+8	twell	first	NA	NA	NA	NA	NA	NA	first	NA	NA	39	NA	NA	NA	NA
+8	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	40	NA	NA	NA	NA
+8	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	41	NA	NA	NA	NA
+8	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	42	NA	NA	NA	NA
+8	twell	first	NA	NA	NA	NA	NA	NA	first	NA	NA	43	NA	NA	NA	NA
+8	thompsy	second	NA	NA	NA	NA	NA	NA	second	NA	NA	44	NA	NA	NA	NA
+8	twell	first	NA	NA	NA	NA	NA	NA	first	NA	NA	45	NA	NA	NA	NA
+8	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	46	NA	NA	NA	NA
+8	twell	first	NA	NA	NA	NA	NA	NA	first	NA	NA	47	NA	NA	NA	NA
+8	twell	second	NA	NA	NA	NA	NA	NA	second	NA	NA	48	NA	NA	NA	NA
+8	twell	first	NA	NA	NA	NA	NA	NA	first	NA	NA	49	NA	NA	NA	NA
+8	twell	first	NA	NA	NA	NA	NA	NA	first	NA	NA	50	NA	NA	NA	NA
+8	twell	second	NA	NA	NA	NA	NA	NA	second	NA	NA	51	NA	NA	NA	NA
+8	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	52	NA	NA	NA	NA
+8	thompsy	first	NA	NA	NA	NA	NA	NA	first	NA	NA	53	NA	NA	NA	NA
+8	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	55	green	thompsy	0.78	NA
+8	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	56	thompsy	blue	0.19	NA
+8	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	57	big	thompsy	0.76	NA
+8	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	58	big	blue	0.13	NA
+8	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	59	thompsy	small	0.8	NA
+8	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	60	big	twell	0.13	NA
+8	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	61	thompsy	red	0.13	NA
+8	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	62	blue	small	0.82	NA
+8	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	63	twell	green	0.86	NA
+8	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	64	blue	twell	0.07	NA
+8	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	65	small	red	0.12	NA
+8	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	66	twell	red	0.85	NA
+8	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	67	thompsy	twell	0.14	NA
+8	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	68	small	twell	0.1	NA
+8	NA	NA	twell	NA	Wow -- I like this...	NA	NA	NA	NA	NA	NA	70	green	twell	0.13	NA
+8	NA	NA	thompsy	NA	Humans think all of our ships look like this...	NA	NA	NA	NA	NA	NA	71	blue	thompsy	0.15	NA
+8	NA	NA	red	NA	For long distances, I use this...	NA	NA	NA	NA	NA	NA	72	red	thompsy	0.1	NA
+8	NA	NA	green	NA	What a nice color. I like flying this...	NA	NA	NA	NA	NA	NA	73	green	twell	0.06	NA
+8	NA	NA	twell	NA	I like ships of this type. My favorite one is this...	NA	NA	NA	NA	NA	NA	74	green	twell	0.08	NA
+8	NA	NA	twell	NA	My first ship had the same shape as this...	NA	NA	NA	NA	NA	NA	75	thompsy	twell	0.07	NA
+8	NA	NA	NONE	NA	I like ships that have this color, like this...	NA	NA	NA	NA	NA	NA	76	red	twell	0.13	NA
+8	NA	NA	thompsy	NA	My friend used to fly this...	NA	NA	NA	NA	NA	NA	77	thompsy	red	0.15	NA
+8	NA	NA	NONE	NA	I really don&quotechart like ships like this...	NA	NA	NA	NA	NA	NA	78	thompsy	green	0.87	NA
+8	NA	NA	thompsy	NA	On our planet, many aliens fly ships like this...	NA	NA	NA	NA	NA	NA	79	thompsy	red	0.09	NA
+8	NA	NA	twell	NA	Ugh, I hate flying this...	NA	NA	NA	NA	NA	NA	80	twell	thompsy	0.89	NA
+8	NA	NA	NA	0.46	NA	NA	[0, 1]	NA	NA	0.46	NA	81	NA	NA	NA	NA
+8	NA	NA	NA	NA	NA	NA	[0, 1]	NA	NA	NA	pointy	82	NA	NA	NA	tall
+8	NA	NA	NA	NA	NA	0.44	[0, 1]	0.51	NA	NA	NA	83	NA	NA	NA	NA

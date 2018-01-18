@@ -4,12 +4,12 @@ library(ggplot2)
 
 # Read trial and subjects data
 
-data = read.csv("../Submiterator-master/order-preference-trials-postprocessed.tsv", sep="\t")
+data = read.csv("../Submiterator-master/order-preference-trials.tsv", sep="\t")
 dataS = read.csv("../Submiterator-master/order-preference-subject_information.tsv", sep="\t")
 
 
-for(i in c(2:8)) {
-  dataNew = read.csv(paste("../Submiterator-master/order-preference-",i,"-trials-postprocessed.tsv",sep=""), sep="\t")
+for(i in c(2:5)) {
+  dataNew = read.csv(paste("../Submiterator-master/order-preference-",i,"-trials.tsv",sep=""), sep="\t")
   dataNew$workerid = as.numeric(as.character(dataNew$workerid)) + i*9
   data = rbind(data, dataNew)
 
@@ -131,8 +131,6 @@ dataAA = centerColumn(dataAA, "subjDiff")
 dataAA = centerColumn(dataAA, "disagrDiff")
 m = lmer(response ~ subjectiveFirst.Centered*subjDiff.Centered +(subjectiveFirst|workerid) + (1|workerid) + (1|predicate1) + (1|predicate2), data=dataAA)
 summary(m)
-
-
 
 
 library('tidyverse')
@@ -394,7 +392,7 @@ dev.off()
 
 agr = data5 %>%
   group_by(containsSubjectiveAdjective.Label, nonAlienAdjectiveIsColor.Label, tutorial) %>%
-  summarise(Mean = mean(responseAlienFirst), CILow = ci(responseAlienFirst), CIHigh = ci(responseAlienFirst))
+  summarise(Mean = mean(responseAlienFirst), CILow = ci.low(responseAlienFirst), CIHigh = ci.low(responseAlienFirst))
 dodge = position_dodge(.9)
 
 pdf('plots/order-ratings-by-tutorial.pdf')
@@ -669,17 +667,6 @@ plot = ggplot(agr, aes(x=AdjType, y=MeanFaultlessDisagreement)) +
 pdf('plots/faultless-disagreement-by-subject.pdf')
 print(plot)
 dev.off()
-
-
-# analyzing correlation between production and ratings:
-m = (glmer(ADJ2OrADJ1First.Transformed ~ (1|workerid), family="binomial", data=data.free))
-mR = lmer(response ~ subjectiveFirst + preference1 + preference2 + (subjectiveFirst|workerid) + (1|workerid) + (1|predicate1) + (1|predicate2), data=dataAA)
-u1 = coef(mR)$workerid
-u2 = coef(m)$workerid
-u1 = cbind(Row.Names = rownames(u1), u1)
-u2 = cbind(Row.Names = rownames(u2), u2)
-a = merge(u1, u2, by=c("Row.Names"))
-cor.test(a$"(Intercept).y", a$subjectiveFirstTRUE)
 
 
 
