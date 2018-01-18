@@ -1,4 +1,6 @@
-// CONTINUED BY 12 
+// CONTINUATION OF 10
+
+// CURRENTLY this version is in use
 
 // A variant could be:
 // - nouns are like (very objective) adjectives, so there is only fuzzy referent identification
@@ -11,7 +13,7 @@
 // for KL, consider https://github.com/mhtess/webppl-oed/blob/master/src/oed.wppl
 
 
-// webppl 10-base.js --require webppl-viz underscore
+// webppl 12-base.js --require webppl-viz underscore
 
 
 var n_adj = 4;
@@ -165,13 +167,6 @@ var marginal1Enum = cache(function(person, object, adjective) { Infer({method: '
          var world = sample(listenerPosterior)
          return world[adjective][object][person] ? 1 : 0
       }})})
-//cache(function(person, object, adjective) {
-//        console.log(Object.keys(listenerPosterior.getDist()))
-//        var listenerPosteriorDistribution = listenerPosterior.getDist()
-//        var result = listMean(map(function(world) { console.log(world);
-//                                                    console.log( listenerPosteriorDistribution[world]);
-//                                                    return listenerPosteriorDistribution[world] * world[adjective][object][person] ? 1 : 0 }, listenerPosterior.supp))
-//     })
 
 var marginal1 = cache(function(person, object, adjective) { Infer({method: 'rejection', samples:1000,
       model() {
@@ -195,7 +190,7 @@ var listenerAboutObject = Infer({method: 'enumerate', //samples : 100, increment
           }
      }})
 console.log("Listener's belief about person 1's judgment about the object:")
-console.log(listenerAboutObject)
+console.log(listenerAboutObject.getDist()['1'].prob)
 
 
 
@@ -261,13 +256,32 @@ console.log(marginalTable[2])
 console.log("Adjective 4")
 console.log(marginalTable[3])
 console.log("Key from outer to inner: object - person")
+
+// the distribution specifically for the specific object and two adjectives and two speakers
+
+
+var restrictionToObjectsAndAdjectives = cache(function(speaker) {Infer({method: 'enumerate', //samples : 100, incremental:true,
+      model() {
+          var model = sample(listenerPosterior)
+          return [model[0][0][speaker], model[0][1][speaker], model[1][0][speaker], model[1][1][speaker]];
+     }})})
+
+//console.log(restrictionToObjectsAndAdjectives)
+console.log(entropy(restrictionToObjectsAndAdjectives(0)))
+console.log(entropy(restrictionToObjectsAndAdjectives(1)))
+
+var generalMarginalEntropy =-sum(map(function(x) { return sum(map(function(x) { return sum(map(function(x) { return (x == 1 || x == 0) ? 0 : x*Math.log(x) + (1-x)*Math.log(1-x) }, x)) }, x))},marginalTable   ))
+console.log("Sum of the Marginal Entropies")
+console.log(generalMarginalEntropy);
+
+
 1
 
 // success measures
 // - entropy of marginal (not well motivated?)
 // - log prob assigned to the meaning of full utterance. but then other speakers not taken into account
 // - probability that correct referent will be picked
-// - entropy about the specific object and two adjectives, but across speaker and listener
+// - entropy about the specific object and two adjectives, but across speaker and listener (no need to factorize)
 
 
 

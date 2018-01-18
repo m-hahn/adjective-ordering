@@ -1,4 +1,5 @@
-// CURRENTLY this version is in use
+// Referent identification. In this setting, no predictions about ordering is made.
+
 
 // Different from 10:
 // nouns are a type of adjectives, do not point to referents
@@ -10,7 +11,7 @@
 // for KL, consider https://github.com/mhtess/webppl-oed/blob/master/src/oed.wppl
 
 
-// webppl 10-base.js --require webppl-viz underscore
+// webppl 11-base.js --require webppl-viz underscore
 
 
 var n_adj = 4;
@@ -97,81 +98,10 @@ var compatible_utterances = function(partial_utterance) {
    return filter(function(x) { is_compatible(x, partial_utterance) }, utterances)
 }
 
-var literalListener = cache(function(utterance) {
-   Infer({method: 'rejection',
-      model() {
-      var world = world_prior()
-      var corruption = corrupt(utterance)
-      var compatible = compatible_utterances(corruption)
-      var index = sample(RandomInteger({n : compatible.length}));
-      var full_utterance = compatible[index]
-      var m = meaning(full_utterance, world, 0)
-      factor(m ? 0 : -Infinity)
-      return world;
-   }})
-})
 
-//console.log(literalListener(utterances[2]));
-
-
-var first = cache(function(prefix) {
-   Infer({method : 'rejection', samples:1000, incremental:true,
-       model() {
-       var world = world_prior()
-      var corruption1 = corrupt([prefix[0]])
-      var compatible1 = compatible_utterances(corruption1)
-      var compatibleSatisfying = any(function(x) { return meaning(x, world, 0) }, compatible1)
-      factor(compatibleSatisfying ? 0 : -Infinity)
-      return world;
-     }})})
-
-
-var second = cache(function(prefix) {
-   Infer({method : 'rejection', samples:1000, incremental:true,
-       model() {
-       var world = sample(first([prefix[0]]))
-      var corruption2 = corrupt([prefix[0], prefix[1]])
-      var compatible2 = compatible_utterances(corruption2)
-      var compatibleSatisfying = any(function(x) { return meaning(x, world, 0) }, compatible2)
-      factor(compatibleSatisfying ? 0 : -Infinity)
-      return world;
-     }})})
-
-
-
-var third = cache(function(utterance) {
-   Infer({method : 'rejection', samples:1000, incremental:true,
-       model() {
-       var world = sample(second([utterance[0], utterance[1]]))
-      var corruption3 = corrupt([utterance[0], utterance[1], utterance[2]])
-      var compatible3 = compatible_utterances(corruption3)
-      var compatibleSatisfying = any(function(x) { return meaning(x, world, 0) }, compatible3)
-      factor(compatibleSatisfying ? 0 : -Infinity)
-      return world;
-     }})})
-
-var sentence = [1,0,1]
-var listenerPosterior = third(sentence) //incrementalLiteralListener([1,1,1])
-
-var marginal1 = function(person, object, adjective) { Infer({method: 'rejection', samples:100,
-      model() {
-         var world = sample(listenerPosterior)
-         return world[adjective][object][person] ? 1 : 0
-      }})}
-
-console.log(listenerPosterior);
-
-// this is the setting where speaker and listener have a common referent set and referents can be identified. The speaker wants to communicate knowledge about the object. The interpretation of person 1 might be third persons.
-var listenerAboutObject = Infer({method: 'rejection', samples : 100, incremental:true,
-      model() {
-          var model = sample(listenerPosterior)
-          if(meaning(sentence, model, 1)) {
-             return 1
-          } else {
-             return 0
-          }
-     }})
-console.log(listenerAboutObject)
+var is_named = function(utterance, world, person, entity) {
+   return world[utterance[0]][entity][person] && world[utterance[1]][entity][person] && world[utterance[2]][entity][person]
+}
 
 // The other setting. Here, speaker and listener each have their picture of the world, and they only partially correlate.
 // Listener tries to identify object named by the speaker
@@ -187,42 +117,36 @@ console.log(listenerAboutObject)
 // Then: listener obtains a distribution over entities: look at posterior distribution over speaker attitudes
 console.log("..............::")
 var real_world = world_prior()
-var compatible_utterances = filter(function(x) { meaning(x, real_world, 0) }, utterances)
+var speaker_entity = sample(RandomInteger({n : n_obj}))
+var compatible_utterances_for_entity = filter(function(x) { is_named(x, real_world, 0, speaker_entity) }, utterances)
+console.log("World")
 console.log(real_world)
-console.log(compatible_utterances)
-var utterance = compatible_utterances[sample(RandomInteger({n : compatible_utterances.length}))]
+console.log("Possible utterances")
+console.log(compatible_utterances_for_entity)
+var utterance = compatible_utterances_for_entity[sample(RandomInteger({n : compatible_utterances_for_entity.length}))]
 console.log(utterance)
-
-
-var worldIsCompatible = function(world, real_word) {
-    return all(function(x) { return all(...), zip(world, real_word)  TODO )
-}
-
 
 var firstL = cache(function(prefix) {
    Infer({method : 'rejection', samples:1000, incremental:true,
        model() {
-       // this is probably extremely inefficient, will probably need to be replaced with something directly generating compatible worlds by simulating what the world prior does
-       var world = world_prior()
-       factor(worldIsCompatible(world, real_world) ? 0 : -Infinity)       
-
+      var entity = sample(RandomInteger({n : n_obj}))
       var corruption1 = corrupt([prefix[0]])
       var compatible1 = compatible_utterances(corruption1)
-      var compatibleSatisfying = any(function(x) { return meaning(x, world, 0) }, compatible1)
+      var compatibleSatisfying = any(function(x) { return is_named(x, real_world, 1, entity) }, compatible1)
       factor(compatibleSatisfying ? 0 : -Infinity)
-      return world;
+      return entity;
      }})})
 
 
 var secondL = cache(function(prefix) {
    Infer({method : 'rejection', samples:1000, incremental:true,
        model() {
-       var world = sample(first([prefix[0]]))
+      var entity = sample(firstL([prefix[0]]))
       var corruption2 = corrupt([prefix[0], prefix[1]])
       var compatible2 = compatible_utterances(corruption2)
-      var compatibleSatisfying = any(function(x) { return meaning(x, world, 0) }, compatible2)
+      var compatibleSatisfying = any(function(x) { return is_named(x, real_world, 1, entity) }, compatible2)
       factor(compatibleSatisfying ? 0 : -Infinity)
-      return world;
+      return entity;
      }})})
 
 
@@ -230,56 +154,24 @@ var secondL = cache(function(prefix) {
 var thirdL = cache(function(utterance) {
    Infer({method : 'rejection', samples:1000, incremental:true,
        model() {
-       var world = sample(second([utterance[0], utterance[1]]))
+      var entity = sample(secondL([utterance[0], utterance[1]]))
       var corruption3 = corrupt([utterance[0], utterance[1], utterance[2]])
       var compatible3 = compatible_utterances(corruption3)
-      var compatibleSatisfying = any(function(x) { return meaning(x, world, 0) }, compatible3)
+      var compatibleSatisfying = any(function(x) { return is_named(x, real_world, 1, entity) }, compatible3)
       factor(compatibleSatisfying ? 0 : -Infinity)
-      return world;
+      return entity;
      }})})
 
+var listenerObjects = thirdL(utterance)
+console.log("Speaker intended")
+console.log(speaker_entity)
+console.log("Listener identified")
+console.log(listenerObjects)
 
 
 
-
-var listenerChoosesCorrectObject = Infer({method : 'rejection', samples : 100, incremental:true,
-    model() {
-        var model = sample(listenerPosterior)
-        var object = sample(RandomInteger({n : n_obj}))
-        factor(meaning([sentence[0], sentence[1], object], model, 1) ? 0 : -Infinity)
-        return (object == sentence[2])
-    }})
-console.log(listenerChoosesCorrectObject)
-var computeMarginalPerson = function(adj, obj, person) {
-   var result = listMean(map(function(x) { return x.value }, marginal1(person, obj, adj).samples))
-   return result
-}
-
-var computeMarginalObj = function(adj, obj) {
-  if(obj == n_obj) {
-    return [];
-  } else {
-    var first = map(function(person) { return computeMarginalPerson(adj, obj, person) }, _.range(n_speaker))
-    var result = [first].concat(computeMarginalObj(adj,obj+1))
-    return result
-  }
-}
-
-var computeMarginalAdj = function(adj) {
-  return map(function(adj) { return computeMarginalObj(adj, 0)}, _.range(n_adj))
-}
-
-console.log("MARGINALS")
-console.log(computeMarginalAdj(0))
 
 1
-
-// success measures
-// - entropy of marginal (not well motivated?)
-// - log prob assigned to the meaning of full utterance. but then other speakers not taken into account
-// - probability that correct referent will be picked
-// - entropy about the specific object and two adjectives, but across speaker and listener
-
 
 
 

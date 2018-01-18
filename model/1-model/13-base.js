@@ -1,4 +1,6 @@
-// CONTINUED BY 12 
+//BASED ON 12, TURNED INTO SPEAKER MODEL 
+
+// CURRENTLY this version is in use
 
 // A variant could be:
 // - nouns are like (very objective) adjectives, so there is only fuzzy referent identification
@@ -11,7 +13,7 @@
 // for KL, consider https://github.com/mhtess/webppl-oed/blob/master/src/oed.wppl
 
 
-// webppl 10-base.js --require webppl-viz underscore
+// webppl 13-base.js --require webppl-viz underscore
 
 
 var n_adj = 4;
@@ -74,9 +76,19 @@ var meaning = function(utterance, world, person) {
 
 var corrupt = function(utterance) {
    if(utterance.length == 3) {
-       if(flip(.9)) {
-           return [-1, utterance[1], utterance[2]]
-       }
+       var corruptFirst = flip(.9)
+       var corruptSecond = flip(.1)
+       var entry1 = (corruptFirst ? -1 : utterance[0])
+       var entry2 = (corruptSecond ? -1 : utterance[1])
+       return [entry1, entry2, utterance[2]]
+//       if(flip(.9)) {
+//           return [-1, utterance[1], utterance[2]]
+//       }
+   }
+   else if(utterance.length == 2) {
+       var corruptFirst = flip(.1)
+       var entry1 = (corruptFirst ? -1 : utterance[0])
+       return [entry1, utterance[1]]
    }
    return utterance
 }
@@ -88,7 +100,7 @@ var is_compatible = function(full, partial) {
    if(partial.length == 1) {
       return true
    }
-   if(partial[1] != full[1]) {
+   if(partial[1] != -1 && partial[1] != full[1]) {
       return false;
    }
    if(partial.length == 2) {
@@ -100,26 +112,9 @@ var is_compatible = function(full, partial) {
    return true;
 }
 
-var compatible_utterances = function(partial_utterance) {
+var compatible_utterances = cache(function(partial_utterance) {
    return filter(function(x) { is_compatible(x, partial_utterance) }, utterances)
-}
-
-var literalListener = cache(function(utterance) {
-   Infer({method: 'rejection',
-      model() {
-      var world = world_prior()
-      var corruption = corrupt(utterance)
-      var compatible = compatible_utterances(corruption)
-      var index = sample(RandomInteger({n : compatible.length}));
-      var full_utterance = compatible[index]
-      var m = meaning(full_utterance, world, 0)
-      factor(m ? 0 : -Infinity)
-      return world;
-   }})
 })
-
-//console.log(literalListener(utterances[2]));
-
 
 var first = cache(function(prefix) {
    Infer({method : 'rejection', samples:1000, incremental:true,
@@ -157,21 +152,17 @@ var third = cache(function(utterance) {
       return world;
      }})})
 
-var sentence = [1,0,1]
-var listenerPosterior = third(sentence) //incrementalLiteralListener([1,1,1])
+//var sentence = [1,0,1]
+//var listenerPosterior = third(sentence) //incrementalLiteralListener([1,1,1])
 
-var marginal1Enum = cache(function(person, object, adjective) { Infer({method: 'enumerate',
+
+
+
+var marginal1Enum = cache(function(utterance, person, object, adjective) { Infer({method: 'enumerate',
       model() {
-         var world = sample(listenerPosterior)
+         var world = sample(third(utterance))
          return world[adjective][object][person] ? 1 : 0
       }})})
-//cache(function(person, object, adjective) {
-//        console.log(Object.keys(listenerPosterior.getDist()))
-//        var listenerPosteriorDistribution = listenerPosterior.getDist()
-//        var result = listMean(map(function(world) { console.log(world);
-//                                                    console.log( listenerPosteriorDistribution[world]);
-//                                                    return listenerPosteriorDistribution[world] * world[adjective][object][person] ? 1 : 0 }, listenerPosterior.supp))
-//     })
 
 var marginal1 = cache(function(person, object, adjective) { Infer({method: 'rejection', samples:1000,
       model() {
@@ -185,17 +176,18 @@ var marginal1 = cache(function(person, object, adjective) { Infer({method: 'reje
 //console.log(listenerPosterior);
 
 // this is the setting where speaker and listener have a common referent set and referents can be identified. The speaker wants to communicate knowledge about the object. The interpretation of person 1 might be third persons.
-var listenerAboutObject = Infer({method: 'enumerate', //samples : 100, incremental:true,
+var listenerAboutObject = function(sentence) {
+      Infer({method: 'enumerate', //samples : 100, incremental:true,
       model() {
-          var model = sample(listenerPosterior)
+          var model = sample(third(sentence))
           if(meaning(sentence, model, 1)) {
              return 1
           } else {
              return 0
           }
-     }})
-console.log("Listener's belief about person 1's judgment about the object:")
-console.log(listenerAboutObject)
+     }})}
+//console.log("Listener's belief about person 1's judgment about the object:")
+//console.log(listenerAboutObject.getDist()['1'].prob)
 
 
 
@@ -215,19 +207,9 @@ console.log(listenerAboutObject)
 // Inspect the posterior by looking at the coordinate-wise marginals
 //////////////////////////////////////////////////////////////////////////
 
-var computeMarginalPerson = function(adj, obj, person) {
+var computeMarginalPerson = function(utterance, adj, obj, person) {
    //var result = listMean(map(function(x) { return x.value }, marginal1(person, obj, adj).samples))
-   var distribution = marginal1Enum(person, obj, adj).getDist()
-//   console.log(distribution)
-//   console.log(distribution['0'])
-//   console.log(distribution['0']['val'])
-//   console.log(distribution['0'].val)
-//   console.log(distribution['0']['prob'])
-//   console.log(distribution['0'].prob)
-
-
-
-
+   var distribution = marginal1Enum(utterance, person, obj, adj).getDist()
    if(distribution['0'] != undefined && distribution['0']['val'] == 1) {
       return distribution['0']['prob']
    } else {
@@ -236,22 +218,27 @@ var computeMarginalPerson = function(adj, obj, person) {
    return result
 }
 
-var computeMarginalObj = function(adj, obj) {
+var computeMarginalObj = function(utterance, adj, obj) {
   if(obj == n_obj) {
     return [];
   } else {
-    var first = map(function(person) { return computeMarginalPerson(adj, obj, person) }, _.range(n_speaker))
-    var result = [first].concat(computeMarginalObj(adj,obj+1))
+    var first = map(function(person) { return computeMarginalPerson(utterance, adj, obj, person) }, _.range(n_speaker))
+    var result = [first].concat(computeMarginalObj(utterance, adj,obj+1))
     return result
   }
 }
 
-var computeMarginalAdj = function() {
-  return map(function(adj) { return computeMarginalObj(adj, 0)}, _.range(n_adj))
+var computeMarginalAdj = function(utterance) {
+  return map(function(adj) { return computeMarginalObj(utterance, adj, 0)}, _.range(n_adj))
 }
 
+var options = [[1,0,1], [0,1,1]]
+
+
+
 console.log("MARGINALS: probability that a speaker attributes a property to an object")
-var marginalTable = computeMarginalAdj()
+console.log(options[0])
+var marginalTable = computeMarginalAdj(options[0])
 console.log("Adjective 1")
 console.log(marginalTable[0])
 console.log("Adjective 2")
@@ -261,13 +248,66 @@ console.log(marginalTable[2])
 console.log("Adjective 4")
 console.log(marginalTable[3])
 console.log("Key from outer to inner: object - person")
+
+
+console.log("#########################")
+console.log("MARGINALS: probability that a speaker attributes a property to an object")
+console.log(options[1])
+var marginalTable2 = computeMarginalAdj(options[1])
+console.log("Adjective 1")
+console.log(marginalTable2[0])
+console.log("Adjective 2")
+console.log(marginalTable2[1])
+console.log("Adjective 3")
+console.log(marginalTable2[2])
+console.log("Adjective 4")
+console.log(marginalTable2[3])
+console.log("Key from outer to inner: object - person")
+
+
+
+// the distribution specifically for the specific object and two adjectives and two speakers
+
+// TODO there seems to be a problem in the definition, why does it make reference to object zero?
+var restrictionToObjectsAndAdjectives = cache(function(speaker) {Infer({method: 'enumerate', //samples : 100, incremental:true,
+      model() {
+          var model = sample(listenerPosterior)
+          return [model[0][0][speaker], model[0][1][speaker], model[1][0][speaker], model[1][1][speaker]];
+     }})})
+
+//console.log(restrictionToObjectsAndAdjectives)
+//console.log(entropy(restrictionToObjectsAndAdjectives(0)))
+//console.log(entropy(restrictionToObjectsAndAdjectives(1)))
+
+//var generalMarginalEntropy =-sum(map(function(x) { return sum(map(function(x) { return sum(map(function(x) { return (x == 1 || x == 0) ? 0 : x*Math.log(x) + (1-x)*Math.log(1-x) }, x)) }, x))},marginalTable   ))
+//console.log("Sum of the Marginal Entropies")
+//console.log(generalMarginalEntropy);
+
+
+var restrictionToObjectsAndAdjectivesForSent = cache(function(sentence,speaker) {Infer({method: 'enumerate', //samples : 100, incremental:true,
+      model() {
+          var model = sample(third(sentence))
+          return [model[0][0][speaker], model[0][1][speaker], model[1][0][speaker], model[1][1][speaker]];
+     }})})
+
+var speaker = Infer({method : 'enumerate',
+                     model() {
+                     var sentence = options[sample(RandomInteger({n : 2}))];
+                     //var listenerPosterior = third(sentence);
+                     factor(-entropy(restrictionToObjectsAndAdjectivesForSent(sentence, 0)))
+                     factor(-entropy(restrictionToObjectsAndAdjectivesForSent(sentence, 1)))
+                     return sentence;
+                    }})
+
+console.log(speaker);
+
 1
 
 // success measures
 // - entropy of marginal (not well motivated?)
 // - log prob assigned to the meaning of full utterance. but then other speakers not taken into account
 // - probability that correct referent will be picked
-// - entropy about the specific object and two adjectives, but across speaker and listener
+// - entropy about the specific object and two adjectives, but across speaker and listener (no need to factorize)
 
 
 
