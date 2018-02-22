@@ -1,0 +1,10 @@
+> library(simr)
+
+> doTest(m, fixed("containsSubjectiveAdjective.Centered"))
+
+> fixef(m)["containsSubjectiveAdjective.Centered"] <- 0.031
+> powerSim(m, fixed("containsSubjectiveAdjective.Centered"),nsim=50)
+
+> doTest(m, fixed("subjectiveFirst"))
+
+
